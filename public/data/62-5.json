@@ -1,0 +1,8685 @@
+{
+ "map": "62-5",
+ "ranks": "SAB",
+ "difficulties": {
+  "4": {
+   "name": "甲",
+   "nodes": [
+    {
+     "node": "A",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "2",
+      "12",
+      "21"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A1",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "1"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "3"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "4",
+      "25"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "5"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "6"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "7"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "D",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "11"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "13"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E1",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "14",
+      "16"
+     ],
+     "samples": 148,
+     "drops": [
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 3,
+       "total": 148,
+       "pct": 2.03,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 2,
+       "total": 148,
+       "pct": 1.35,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 2,
+       "total": 148,
+       "pct": 1.35,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 2,
+       "total": 148,
+       "pct": 1.35,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 148,
+       "pct": 0.68,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 1,
+       "total": 148,
+       "pct": 0.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "E2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "15"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "G",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "18"
+     ],
+     "samples": 145,
+     "drops": [
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 4,
+       "total": 145,
+       "pct": 2.76,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 4,
+       "total": 145,
+       "pct": 2.76,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 4,
+       "total": 145,
+       "pct": 2.76,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 3,
+       "total": 145,
+       "pct": 2.07,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 3,
+       "total": 145,
+       "pct": 2.07,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 3,
+       "total": 145,
+       "pct": 2.07,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 3,
+       "total": 145,
+       "pct": 2.07,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 3,
+       "total": 145,
+       "pct": 2.07,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 134,
+       "name": "巻雲",
+       "nameEn": "Makigumo",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 2,
+       "total": 145,
+       "pct": 1.38,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 527,
+       "name": "岸波",
+       "nameEn": "Kishinami",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 1,
+       "total": 145,
+       "pct": 0.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "H",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "19",
+      "22"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "I",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "20",
+      "23"
+     ],
+     "samples": 83,
+     "drops": [
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 2,
+       "total": 83,
+       "pct": 2.41,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 1,
+       "total": 83,
+       "pct": 1.2,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "J",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "27"
+     ],
+     "samples": 82,
+     "drops": [
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 3,
+       "total": 82,
+       "pct": 3.66,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 2,
+       "total": 82,
+       "pct": 2.44,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 1,
+       "total": 82,
+       "pct": 1.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "J2",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "29"
+     ],
+     "samples": 69,
+     "drops": [
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 5,
+       "total": 69,
+       "pct": 7.25,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 3,
+       "total": 69,
+       "pct": 4.35,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 2,
+       "total": 69,
+       "pct": 2.9,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 527,
+       "name": "岸波",
+       "nameEn": "Kishinami",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 113,
+       "name": "鬼怒",
+       "nameEn": "Kinu",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1065,
+       "name": "日枝丸",
+       "nameEn": "Hie Maru",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 69,
+       "pct": 1.45,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "K",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "30",
+      "39"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K1",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "31"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "32",
+      "37"
+     ],
+     "samples": 247,
+     "drops": [
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 14,
+       "total": 247,
+       "pct": 5.67,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 8,
+       "total": 247,
+       "pct": 3.24,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 8,
+       "total": 247,
+       "pct": 3.24,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 7,
+       "total": 247,
+       "pct": 2.83,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 5,
+       "total": 247,
+       "pct": 2.02,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 5,
+       "total": 247,
+       "pct": 2.02,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 4,
+       "total": 247,
+       "pct": 1.62,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 3,
+       "total": 247,
+       "pct": 1.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 3,
+       "total": 247,
+       "pct": 1.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 3,
+       "total": 247,
+       "pct": 1.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 3,
+       "total": 247,
+       "pct": 1.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 3,
+       "total": 247,
+       "pct": 1.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 2,
+       "total": 247,
+       "pct": 0.81,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 2,
+       "total": 247,
+       "pct": 0.81,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 2,
+       "total": 247,
+       "pct": 0.81,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 2,
+       "total": 247,
+       "pct": 0.81,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 2,
+       "total": 247,
+       "pct": 0.81,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 247,
+       "pct": 0.4,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 247,
+       "pct": 0.4,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "L",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "35"
+     ],
+     "samples": 208,
+     "drops": [
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 7,
+       "total": 208,
+       "pct": 3.37,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 7,
+       "total": 208,
+       "pct": 3.37,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 7,
+       "total": 208,
+       "pct": 3.37,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 7,
+       "total": 208,
+       "pct": 3.37,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 6,
+       "total": 208,
+       "pct": 2.88,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 5,
+       "total": 208,
+       "pct": 2.4,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 5,
+       "total": 208,
+       "pct": 2.4,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 527,
+       "name": "岸波",
+       "nameEn": "Kishinami",
+       "drops": 5,
+       "total": 208,
+       "pct": 2.4,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 4,
+       "total": 208,
+       "pct": 1.92,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 4,
+       "total": 208,
+       "pct": 1.92,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 4,
+       "total": 208,
+       "pct": 1.92,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 4,
+       "total": 208,
+       "pct": 1.92,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 3,
+       "total": 208,
+       "pct": 1.44,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 134,
+       "name": "巻雲",
+       "nameEn": "Makigumo",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 2,
+       "total": 208,
+       "pct": 0.96,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 1,
+       "total": 208,
+       "pct": 0.48,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 1,
+       "total": 208,
+       "pct": 0.48,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 574,
+       "name": "Gotland",
+       "nameEn": "Gotland",
+       "drops": 1,
+       "total": 208,
+       "pct": 0.48,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 1,
+       "total": 208,
+       "pct": 0.48,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "L1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "34",
+      "38"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "36"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "41",
+      "49"
+     ],
+     "samples": 119,
+     "drops": [
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 7,
+       "total": 119,
+       "pct": 5.88,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 5,
+       "total": 119,
+       "pct": 4.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 5,
+       "total": 119,
+       "pct": 4.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 4,
+       "total": 119,
+       "pct": 3.36,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 4,
+       "total": 119,
+       "pct": 3.36,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 3,
+       "total": 119,
+       "pct": 2.52,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 2,
+       "total": 119,
+       "pct": 1.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 2,
+       "total": 119,
+       "pct": 1.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 2,
+       "total": 119,
+       "pct": 1.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 2,
+       "total": 119,
+       "pct": 1.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 2,
+       "total": 119,
+       "pct": 1.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 2,
+       "total": 119,
+       "pct": 1.68,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 175,
+       "name": "Z3",
+       "nameEn": "Z3",
+       "drops": 1,
+       "total": 119,
+       "pct": 0.84,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "M2",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "42",
+      "69"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "N",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "43"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "45"
+     ],
+     "samples": 59,
+     "drops": [
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 4,
+       "total": 59,
+       "pct": 6.78,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 3,
+       "total": 59,
+       "pct": 5.08,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 3,
+       "total": 59,
+       "pct": 5.08,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 2,
+       "total": 59,
+       "pct": 3.39,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 2,
+       "total": 59,
+       "pct": 3.39,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 2,
+       "total": 59,
+       "pct": 3.39,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 113,
+       "name": "鬼怒",
+       "nameEn": "Kinu",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 174,
+       "name": "Z1",
+       "nameEn": "Z1",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "P1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "46"
+     ],
+     "samples": 47,
+     "drops": [
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 3,
+       "total": 47,
+       "pct": 6.38,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 2,
+       "total": 47,
+       "pct": 4.26,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 2,
+       "total": 47,
+       "pct": 4.26,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "P2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "47"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "48",
+      "51"
+     ],
+     "samples": 44,
+     "drops": [
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 6,
+       "total": 44,
+       "pct": 13.64,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 2,
+       "total": 44,
+       "pct": 4.55,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 2,
+       "total": 44,
+       "pct": 4.55,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 2,
+       "total": 44,
+       "pct": 4.55,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 2,
+       "total": 44,
+       "pct": 4.55,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 2,
+       "total": 44,
+       "pct": 4.55,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 134,
+       "name": "巻雲",
+       "nameEn": "Makigumo",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 174,
+       "name": "Z1",
+       "nameEn": "Z1",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 1,
+       "total": 44,
+       "pct": 2.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "R",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "54"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "S",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "55",
+      "56"
+     ],
+     "samples": 155,
+     "drops": [
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 7,
+       "total": 155,
+       "pct": 4.52,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 7,
+       "total": 155,
+       "pct": 4.52,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 5,
+       "total": 155,
+       "pct": 3.23,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 460,
+       "name": "速吸",
+       "nameEn": "Hayasui",
+       "drops": 5,
+       "total": 155,
+       "pct": 3.23,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 5,
+       "total": 155,
+       "pct": 3.23,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 5,
+       "total": 155,
+       "pct": 3.23,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 965,
+       "name": "Gloire",
+       "nameEn": "Gloire",
+       "drops": 4,
+       "total": 155,
+       "pct": 2.58,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 4,
+       "total": 155,
+       "pct": 2.58,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1065,
+       "name": "日枝丸",
+       "nameEn": "Hie Maru",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 113,
+       "name": "鬼怒",
+       "nameEn": "Kinu",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 527,
+       "name": "岸波",
+       "nameEn": "Kishinami",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 3,
+       "total": 155,
+       "pct": 1.94,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 79,
+       "name": "榛名",
+       "nameEn": "Haruna",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1062,
+       "name": "Visby",
+       "nameEn": "Visby",
+       "drops": 2,
+       "total": 155,
+       "pct": 1.29,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 439,
+       "name": "Warspite",
+       "nameEn": "Warspite",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 25,
+       "name": "北上",
+       "nameEn": "Kitakami",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 574,
+       "name": "Gotland",
+       "nameEn": "Gotland",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 2,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 24,
+       "name": "大井",
+       "nameEn": "Ooi",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 87,
+       "name": "日向",
+       "nameEn": "Hyuuga",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 134,
+       "name": "巻雲",
+       "nameEn": "Makigumo",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 927,
+       "name": "Valiant",
+       "nameEn": "Valiant",
+       "drops": 1,
+       "total": 155,
+       "pct": 0.65,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "T",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "57",
+      "70"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "V",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "59"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "W",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "60"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "X",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "61",
+      "73"
+     ],
+     "samples": 406,
+     "drops": [
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 18,
+       "total": 406,
+       "pct": 4.43,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 16,
+       "total": 406,
+       "pct": 3.94,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 14,
+       "total": 406,
+       "pct": 3.45,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 13,
+       "total": 406,
+       "pct": 3.2,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 12,
+       "total": 406,
+       "pct": 2.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 12,
+       "total": 406,
+       "pct": 2.96,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 10,
+       "total": 406,
+       "pct": 2.46,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 10,
+       "total": 406,
+       "pct": 2.46,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 9,
+       "total": 406,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 8,
+       "total": 406,
+       "pct": 1.97,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 8,
+       "total": 406,
+       "pct": 1.97,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 8,
+       "total": 406,
+       "pct": 1.97,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 7,
+       "total": 406,
+       "pct": 1.72,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 6,
+       "total": 406,
+       "pct": 1.48,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 6,
+       "total": 406,
+       "pct": 1.48,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 6,
+       "total": 406,
+       "pct": 1.48,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 6,
+       "total": 406,
+       "pct": 1.48,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 5,
+       "total": 406,
+       "pct": 1.23,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 5,
+       "total": 406,
+       "pct": 1.23,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 5,
+       "total": 406,
+       "pct": 1.23,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 4,
+       "total": 406,
+       "pct": 0.99,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 134,
+       "name": "巻雲",
+       "nameEn": "Makigumo",
+       "drops": 4,
+       "total": 406,
+       "pct": 0.99,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 527,
+       "name": "岸波",
+       "nameEn": "Kishinami",
+       "drops": 3,
+       "total": 406,
+       "pct": 0.74,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 2,
+       "total": 406,
+       "pct": 0.49,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
+       "drops": 1,
+       "total": 406,
+       "pct": 0.25,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 1,
+       "total": 406,
+       "pct": 0.25,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "Y1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "63"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Y2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "64"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Z",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "65",
+      "74"
+     ],
+     "samples": 373,
+     "drops": [
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 14,
+       "total": 373,
+       "pct": 3.75,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 13,
+       "total": 373,
+       "pct": 3.49,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 9,
+       "total": 373,
+       "pct": 2.41,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 8,
+       "total": 373,
+       "pct": 2.14,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 8,
+       "total": 373,
+       "pct": 2.14,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 7,
+       "total": 373,
+       "pct": 1.88,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 7,
+       "total": 373,
+       "pct": 1.88,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 7,
+       "total": 373,
+       "pct": 1.88,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 7,
+       "total": 373,
+       "pct": 1.88,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 113,
+       "name": "鬼怒",
+       "nameEn": "Kinu",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 6,
+       "total": 373,
+       "pct": 1.61,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 5,
+       "total": 373,
+       "pct": 1.34,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 5,
+       "total": 373,
+       "pct": 1.34,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 5,
+       "total": 373,
+       "pct": 1.34,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 4,
+       "total": 373,
+       "pct": 1.07,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 4,
+       "total": 373,
+       "pct": 1.07,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 4,
+       "total": 373,
+       "pct": 1.07,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 3,
+       "total": 373,
+       "pct": 0.8,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 3,
+       "total": 373,
+       "pct": 0.8,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 3,
+       "total": 373,
+       "pct": 0.8,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 25,
+       "name": "北上",
+       "nameEn": "Kitakami",
+       "drops": 3,
+       "total": 373,
+       "pct": 0.8,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 527,
+       "name": "岸波",
+       "nameEn": "Kishinami",
+       "drops": 3,
+       "total": 373,
+       "pct": 0.8,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 2,
+       "total": 373,
+       "pct": 0.54,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
+       "drops": 2,
+       "total": 373,
+       "pct": 0.54,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 134,
+       "name": "巻雲",
+       "nameEn": "Makigumo",
+       "drops": 2,
+       "total": 373,
+       "pct": 0.54,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 965,
+       "name": "Gloire",
+       "nameEn": "Gloire",
+       "drops": 1,
+       "total": 373,
+       "pct": 0.27,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 373,
+       "pct": 0.27,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 373,
+       "pct": 0.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 1,
+       "total": 373,
+       "pct": 0.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 1,
+       "total": 373,
+       "pct": 0.27,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 1,
+       "total": 373,
+       "pct": 0.27,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "Z2",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "67",
+      "75"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "ZZ",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "68",
+      "76"
+     ],
+     "samples": 317,
+     "drops": [
+      {
+       "id": 77,
+       "name": "伊勢",
+       "nameEn": "Ise",
+       "drops": 19,
+       "total": 317,
+       "pct": 5.99,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 16,
+       "total": 317,
+       "pct": 5.05,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 80,
+       "name": "長門",
+       "nameEn": "Nagato",
+       "drops": 13,
+       "total": 317,
+       "pct": 4.1,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 12,
+       "total": 317,
+       "pct": 3.79,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 1065,
+       "name": "日枝丸",
+       "nameEn": "Hie Maru",
+       "drops": 12,
+       "total": 317,
+       "pct": 3.79,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 27,
+       "name": "山城",
+       "nameEn": "Yamashiro",
+       "drops": 12,
+       "total": 317,
+       "pct": 3.79,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 11,
+       "total": 317,
+       "pct": 3.47,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 81,
+       "name": "陸奥",
+       "nameEn": "Mutsu",
+       "drops": 10,
+       "total": 317,
+       "pct": 3.15,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 1062,
+       "name": "Visby",
+       "nameEn": "Visby",
+       "drops": 10,
+       "total": 317,
+       "pct": 3.15,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 154,
+       "name": "香取",
+       "nameEn": "Katori",
+       "drops": 9,
+       "total": 317,
+       "pct": 2.84,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 460,
+       "name": "速吸",
+       "nameEn": "Hayasui",
+       "drops": 9,
+       "total": 317,
+       "pct": 2.84,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 110,
+       "name": "翔鶴",
+       "nameEn": "Shoukaku",
+       "drops": 8,
+       "total": 317,
+       "pct": 2.52,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 534,
+       "name": "神鷹",
+       "nameEn": "Shinyou",
+       "drops": 8,
+       "total": 317,
+       "pct": 2.52,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 7,
+       "total": 317,
+       "pct": 2.21,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 111,
+       "name": "瑞鶴",
+       "nameEn": "Zuikaku",
+       "drops": 7,
+       "total": 317,
+       "pct": 2.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 62,
+       "name": "妙高",
+       "nameEn": "Myoukou",
+       "drops": 7,
+       "total": 317,
+       "pct": 2.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 26,
+       "name": "扶桑",
+       "nameEn": "Fusou",
+       "drops": 7,
+       "total": 317,
+       "pct": 2.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 7,
+       "total": 317,
+       "pct": 2.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 7,
+       "total": 317,
+       "pct": 2.21,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 79,
+       "name": "榛名",
+       "nameEn": "Haruna",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 1022,
+       "name": "Glorious",
+       "nameEn": "Glorious",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 20,
+       "name": "雪風",
+       "nameEn": "Yukikaze",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 24,
+       "name": "大井",
+       "nameEn": "Ooi",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 163,
+       "name": "まるゆ",
+       "nameEn": "Maruyu",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 50,
+       "name": "島風",
+       "nameEn": "Shimakaze",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 72,
+       "name": "筑摩",
+       "nameEn": "Chikuma",
+       "drops": 6,
+       "total": 317,
+       "pct": 1.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 11,
+       "name": "深雪",
+       "nameEn": "Miyuki",
+       "drops": 5,
+       "total": 317,
+       "pct": 1.58,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 87,
+       "name": "日向",
+       "nameEn": "Hyuuga",
+       "drops": 5,
+       "total": 317,
+       "pct": 1.58,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 64,
+       "name": "足柄",
+       "nameEn": "Ashigara",
+       "drops": 5,
+       "total": 317,
+       "pct": 1.58,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 12,
+       "name": "磯波",
+       "nameEn": "Isonami",
+       "drops": 5,
+       "total": 317,
+       "pct": 1.58,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 67,
+       "name": "愛宕",
+       "nameEn": "Atago",
+       "drops": 5,
+       "total": 317,
+       "pct": 1.58,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 4,
+       "total": 317,
+       "pct": 1.26,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 66,
+       "name": "高雄",
+       "nameEn": "Takao",
+       "drops": 4,
+       "total": 317,
+       "pct": 1.26,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 70,
+       "name": "最上",
+       "nameEn": "Mogami",
+       "drops": 4,
+       "total": 317,
+       "pct": 1.26,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 71,
+       "name": "利根",
+       "nameEn": "Tone",
+       "drops": 4,
+       "total": 317,
+       "pct": 1.26,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 4,
+       "total": 317,
+       "pct": 1.26,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 965,
+       "name": "Gloire",
+       "nameEn": "Gloire",
+       "drops": 3,
+       "total": 317,
+       "pct": 0.95,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 68,
+       "name": "摩耶",
+       "nameEn": "Maya",
+       "drops": 3,
+       "total": 317,
+       "pct": 0.95,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 3,
+       "total": 317,
+       "pct": 0.95,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 113,
+       "name": "鬼怒",
+       "nameEn": "Kinu",
+       "drops": 3,
+       "total": 317,
+       "pct": 0.95,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 25,
+       "name": "北上",
+       "nameEn": "Kitakami",
+       "drops": 3,
+       "total": 317,
+       "pct": 0.95,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 32,
+       "name": "初雪",
+       "nameEn": "Hatsuyuki",
+       "drops": 2,
+       "total": 317,
+       "pct": 0.63,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 13,
+       "name": "綾波",
+       "nameEn": "Ayanami",
+       "drops": 2,
+       "total": 317,
+       "pct": 0.63,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 431,
+       "name": "U-511",
+       "nameEn": "U-511",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 2,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 439,
+       "name": "Warspite",
+       "nameEn": "Warspite",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 574,
+       "name": "Gotland",
+       "nameEn": "Gotland",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 885,
+       "name": "Victorious",
+       "nameEn": "Victorious",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 10,
+       "name": "白雪",
+       "nameEn": "Shirayuki",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1,
+       "name": "睦月",
+       "nameEn": "Mutsuki",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 95,
+       "name": "朝潮",
+       "nameEn": "Asashio",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 69,
+       "name": "鳥海",
+       "nameEn": "Choukai",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 7,
+       "name": "三日月",
+       "nameEn": "Mikazuki",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": false,
+        "b": true
+       }
+      },
+      {
+       "id": 123,
+       "name": "衣笠",
+       "nameEn": "Kinugasa",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 1,
+       "total": 317,
+       "pct": 0.32,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "3": {
+   "name": "乙",
+   "nodes": [
+    {
+     "node": "A",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "2",
+      "12",
+      "21"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A1",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "1"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "3"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "4",
+      "25"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "5"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "6"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "7"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "D",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "11"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "13"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E1",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "14",
+      "16"
+     ],
+     "samples": 1,
+     "drops": []
+    },
+    {
+     "node": "E2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "15"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "G",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "18"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "H",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "19",
+      "22"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "I",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "20",
+      "23"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "J",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "27"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "J2",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "29"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "30",
+      "39"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K1",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "31"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "32",
+      "37"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "35"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "34",
+      "38"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "36"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "41",
+      "49"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M2",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "42",
+      "69"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "N",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "43"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "45"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "46"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "47"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "48",
+      "51"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "R",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "54"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "S",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "55",
+      "56"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "T",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "57",
+      "70"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "V",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "59"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "W",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "60"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "X",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "61",
+      "73"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Y1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "63"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Y2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "64"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Z",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "65",
+      "74"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Z2",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "67",
+      "75"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "ZZ",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "68",
+      "76"
+     ],
+     "samples": 0,
+     "drops": []
+    }
+   ]
+  },
+  "2": {
+   "name": "丙",
+   "nodes": [
+    {
+     "node": "A",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "2",
+      "12",
+      "21"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A1",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "1"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "3"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "4",
+      "25"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "5"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "6"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "7"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "D",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "11"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "13"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E1",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "14",
+      "16"
+     ],
+     "samples": 6,
+     "drops": [
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 1,
+       "total": 6,
+       "pct": 16.67,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 1,
+       "total": 6,
+       "pct": 16.67,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 6,
+       "pct": 16.67,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "E2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "15"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "G",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "18"
+     ],
+     "samples": 3,
+     "drops": [
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 3,
+       "pct": 33.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 3,
+       "pct": 33.33,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "H",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "19",
+      "22"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "I",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "20",
+      "23"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "J",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "27"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "J2",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "29"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "30",
+      "39"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K1",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "31"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "32",
+      "37"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "35"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "34",
+      "38"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "36"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "41",
+      "49"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M2",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "42",
+      "69"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "N",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "43"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "45"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "46"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "47"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "48",
+      "51"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "R",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "54"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "S",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "55",
+      "56"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "T",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "57",
+      "70"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "V",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "59"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "W",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "60"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "X",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "61",
+      "73"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Y1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "63"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Y2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "64"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Z",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "65",
+      "74"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Z2",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "67",
+      "75"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "ZZ",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "68",
+      "76"
+     ],
+     "samples": 0,
+     "drops": []
+    }
+   ]
+  },
+  "1": {
+   "name": "丁",
+   "nodes": [
+    {
+     "node": "A",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "2",
+      "12",
+      "21"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A1",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "1"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "3"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "A3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "4",
+      "25"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "5"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "6"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "B2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "7"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "D",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "11"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "13"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "E1",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "14",
+      "16"
+     ],
+     "samples": 45,
+     "drops": [
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 3,
+       "total": 45,
+       "pct": 6.67,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "E2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "15"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "G",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "18"
+     ],
+     "samples": 26,
+     "drops": [
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 2,
+       "total": 26,
+       "pct": 7.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 2,
+       "total": 26,
+       "pct": 7.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 2,
+       "total": 26,
+       "pct": 7.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 2,
+       "total": 26,
+       "pct": 7.69,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
+       "drops": 1,
+       "total": 26,
+       "pct": 3.85,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 26,
+       "pct": 3.85,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 1,
+       "total": 26,
+       "pct": 3.85,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 26,
+       "pct": 3.85,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "H",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "19",
+      "22"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "I",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "20",
+      "23"
+     ],
+     "samples": 9,
+     "drops": [
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 9,
+       "pct": 11.11,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 1,
+       "total": 9,
+       "pct": 11.11,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 9,
+       "pct": 11.11,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "J",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "27"
+     ],
+     "samples": 12,
+     "drops": [
+      {
+       "id": 41,
+       "name": "初霜",
+       "nameEn": "Hatsushimo",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 1,
+       "total": 12,
+       "pct": 8.33,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "J2",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "29"
+     ],
+     "samples": 10,
+     "drops": [
+      {
+       "id": 23,
+       "name": "由良",
+       "nameEn": "Yura",
+       "drops": 1,
+       "total": 10,
+       "pct": 10.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 1,
+       "total": 10,
+       "pct": 10.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 10,
+       "pct": 10.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 1,
+       "total": 10,
+       "pct": 10.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 574,
+       "name": "Gotland",
+       "nameEn": "Gotland",
+       "drops": 1,
+       "total": 10,
+       "pct": 10.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "K",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "30",
+      "39"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K1",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "31"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "K2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "32",
+      "37"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "35"
+     ],
+     "samples": 20,
+     "drops": [
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 2,
+       "total": 20,
+       "pct": 10.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 2,
+       "total": 20,
+       "pct": 10.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 1,
+       "total": 20,
+       "pct": 5.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 99,
+       "name": "球磨",
+       "nameEn": "Kuma",
+       "drops": 1,
+       "total": 20,
+       "pct": 5.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 20,
+       "pct": 5.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 20,
+       "pct": 5.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 1,
+       "total": 20,
+       "pct": 5.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 20,
+       "pct": 5.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "L1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "34",
+      "38"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "L2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "36"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "41",
+      "49"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "M2",
+     "typeId": 15,
+     "boss": false,
+     "edges": [
+      "42",
+      "69"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "N",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "43"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "45"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "46"
+     ],
+     "samples": 5,
+     "drops": [
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 5,
+       "pct": 20.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 5,
+       "pct": 20.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "P2",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "47"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "P3",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "48",
+      "51"
+     ],
+     "samples": 5,
+     "drops": [
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 1,
+       "total": 5,
+       "pct": 20.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "R",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "54"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "S",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "55",
+      "56"
+     ],
+     "samples": 18,
+     "drops": [
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 2,
+       "total": 18,
+       "pct": 11.11,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 45,
+       "name": "夕立",
+       "nameEn": "Yuudachi",
+       "drops": 2,
+       "total": 18,
+       "pct": 11.11,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 2,
+       "total": 18,
+       "pct": 11.11,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 42,
+       "name": "白露",
+       "nameEn": "Shiratsuyu",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 1,
+       "total": 18,
+       "pct": 5.56,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "T",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "57",
+      "70"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "V",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "59"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "W",
+     "typeId": 10,
+     "boss": false,
+     "edges": [
+      "60"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "X",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "61",
+      "73"
+     ],
+     "samples": 45,
+     "drops": [
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 4,
+       "total": 45,
+       "pct": 8.89,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 3,
+       "total": 45,
+       "pct": 6.67,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 2,
+       "total": 45,
+       "pct": 4.44,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 38,
+       "name": "初春",
+       "nameEn": "Hatsuharu",
+       "drops": 2,
+       "total": 45,
+       "pct": 4.44,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 2,
+       "total": 45,
+       "pct": 4.44,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 2,
+       "total": 45,
+       "pct": 4.44,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 47,
+       "name": "涼風",
+       "nameEn": "Suzukaze",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 55,
+       "name": "神通",
+       "nameEn": "Jintsuu",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "Y1",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "63"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Y2",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "64"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "Z",
+     "typeId": 4,
+     "boss": false,
+     "edges": [
+      "65",
+      "74"
+     ],
+     "samples": 43,
+     "drops": [
+      {
+       "id": 46,
+       "name": "五月雨",
+       "nameEn": "Samidare",
+       "drops": 3,
+       "total": 43,
+       "pct": 6.98,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 19,
+       "name": "黒潮",
+       "nameEn": "Kuroshio",
+       "drops": 3,
+       "total": 43,
+       "pct": 6.98,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 44,
+       "name": "村雨",
+       "nameEn": "Murasame",
+       "drops": 3,
+       "total": 43,
+       "pct": 6.98,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 2,
+       "total": 43,
+       "pct": 4.65,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 2,
+       "total": 43,
+       "pct": 4.65,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 17,
+       "name": "陽炎",
+       "nameEn": "Kagerou",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 18,
+       "name": "不知火",
+       "nameEn": "Shiranui",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 43,
+       "name": "時雨",
+       "nameEn": "Shigure",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 1,
+       "total": 43,
+       "pct": 2.33,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    },
+    {
+     "node": "Z2",
+     "typeId": -1,
+     "boss": false,
+     "edges": [
+      "67",
+      "75"
+     ],
+     "samples": 0,
+     "drops": []
+    },
+    {
+     "node": "ZZ",
+     "typeId": 5,
+     "boss": true,
+     "edges": [
+      "68",
+      "76"
+     ],
+     "samples": 50,
+     "drops": [
+      {
+       "id": 79,
+       "name": "榛名",
+       "nameEn": "Haruna",
+       "drops": 4,
+       "total": 50,
+       "pct": 8.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 56,
+       "name": "那珂",
+       "nameEn": "Naka",
+       "drops": 3,
+       "total": 50,
+       "pct": 6.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 62,
+       "name": "妙高",
+       "nameEn": "Myoukou",
+       "drops": 3,
+       "total": 50,
+       "pct": 6.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1065,
+       "name": "日枝丸",
+       "nameEn": "Hie Maru",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 50,
+       "name": "島風",
+       "nameEn": "Shimakaze",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 54,
+       "name": "川内",
+       "nameEn": "Sendai",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 64,
+       "name": "足柄",
+       "nameEn": "Ashigara",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 66,
+       "name": "高雄",
+       "nameEn": "Takao",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 70,
+       "name": "最上",
+       "nameEn": "Mogami",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 78,
+       "name": "金剛",
+       "nameEn": "Kongou",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 87,
+       "name": "日向",
+       "nameEn": "Hyuuga",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 101,
+       "name": "木曾",
+       "nameEn": "Kiso",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 154,
+       "name": "香取",
+       "nameEn": "Katori",
+       "drops": 2,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 965,
+       "name": "Gloire",
+       "nameEn": "Gloire",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 25,
+       "name": "北上",
+       "nameEn": "Kitakami",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 80,
+       "name": "長門",
+       "nameEn": "Nagato",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1022,
+       "name": "Glorious",
+       "nameEn": "Glorious",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 100,
+       "name": "多摩",
+       "nameEn": "Tama",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1062,
+       "name": "Visby",
+       "nameEn": "Visby",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 123,
+       "name": "衣笠",
+       "nameEn": "Kinugasa",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 20,
+       "name": "雪風",
+       "nameEn": "Yukikaze",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 163,
+       "name": "まるゆ",
+       "nameEn": "Maruyu",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 431,
+       "name": "U-511",
+       "nameEn": "U-511",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 515,
+       "name": "Ark Royal",
+       "nameEn": "Ark Royal",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 27,
+       "name": "山城",
+       "nameEn": "Yamashiro",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 26,
+       "name": "扶桑",
+       "nameEn": "Fusou",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 534,
+       "name": "神鷹",
+       "nameEn": "Shinyou",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 572,
+       "name": "Rodney",
+       "nameEn": "Rodney",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 935,
+       "name": "Jean Bart",
+       "nameEn": "Jean Bart",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 71,
+       "name": "利根",
+       "nameEn": "Tone",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 72,
+       "name": "筑摩",
+       "nameEn": "Chikuma",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
+       "rarity": 0,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,95 @@
+:root {
+  /* 配色 — ライト */
+  --bg: #eef1f5;
+  --surface: #ffffff;
+  --surface-2: #f4f6f9;
+  --text: #5a6472;
+  --text-h: #12161d;
+  --border: #e2e6ec;
+  --border-strong: #cfd5de;
+  --accent: #3b5bdb;
+  --accent-hover: #2f4bc4;
+  --accent-bg: rgba(59, 91, 219, 0.1);
+  --accent-fg: #ffffff;
+
+  /* レア度・種別カラー(意味を持つため統一) */
+  --rarity-2: #c9932a;
+  --rarity-1: #4a90d9;
+  --new-ship: #e0533f;
+
+  /* 影 */
+  --shadow-sm: 0 1px 2px rgba(16, 22, 34, 0.06);
+  --shadow: 0 1px 3px rgba(16, 22, 34, 0.08), 0 4px 12px rgba(16, 22, 34, 0.05);
+  --shadow-lg: 0 8px 28px rgba(16, 22, 34, 0.12);
+
+  --radius: 14px;
+  --radius-sm: 8px;
+
+  --sans:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans',
+    'Noto Sans JP', Meiryo, Roboto, sans-serif;
+
+  font: 16px/1.6 var(--sans);
+  color-scheme: light dark;
+  color: var(--text-h);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1014;
+    --surface: #171a21;
+    --surface-2: #1e222b;
+    --text: #98a2b3;
+    --text-h: #eef1f6;
+    --border: #282d38;
+    --border-strong: #3a404d;
+    --accent: #6b8afd;
+    --accent-hover: #7f9aff;
+    --accent-bg: rgba(107, 138, 253, 0.16);
+    --accent-fg: #0e1014;
+
+    --rarity-2: #d9ad4a;
+    --rarity-1: #6aa9e9;
+    --new-ship: #f0715e;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.55);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      1200px 600px at 50% -10%,
+      var(--accent-bg),
+      transparent 60%
+    ),
+    var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* キーボード操作時のフォーカスを明示する */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

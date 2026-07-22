@@ -1,0 +1,8507 @@
+{
+ "updated": "2026-07-22T12:20:43.894119+00:00",
+ "ships": {
+  "120": {
+   "id": 120,
+   "name": "三隈",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 11,
+     "total": 558,
+     "pct": 1.97,
+     "dupes": 7
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 12,
+     "total": 625,
+     "pct": 1.92,
+     "dupes": 7
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 43,
+     "pct": 2.33,
+     "dupes": 6
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 30,
+     "pct": 3.33,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 55,
+     "pct": 3.64,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 9,
+     "total": 584,
+     "pct": 1.54,
+     "dupes": 7
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 5,
+     "total": 329,
+     "pct": 1.52,
+     "dupes": 23
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 2,
+     "total": 90,
+     "pct": 2.22,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 10,
+     "total": 589,
+     "pct": 1.7,
+     "dupes": 13
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 188,
+     "pct": 1.6,
+     "dupes": 9
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 7,
+     "total": 346,
+     "pct": 2.02,
+     "dupes": 7
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 60,
+     "pct": 1.67,
+     "dupes": 12
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 62,
+     "pct": 4.84,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 20,
+     "pct": 5.0,
+     "dupes": 6
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 93,
+     "pct": 1.08,
+     "dupes": 6
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "G",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 16
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "J",
+     "rank": "S",
+     "drops": 1,
+     "total": 48,
+     "pct": 2.08,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 208,
+     "pct": 0.96,
+     "dupes": 8
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P1",
+     "rank": "S",
+     "drops": 1,
+     "total": 26,
+     "pct": 3.85,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 150,
+     "pct": 1.33,
+     "dupes": 6
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 10,
+     "total": 406,
+     "pct": 2.46,
+     "dupes": 8
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 6,
+     "total": 271,
+     "pct": 2.21,
+     "dupes": 17
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 4,
+     "total": 234,
+     "pct": 1.71,
+     "dupes": 6
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "J",
+     "rank": "S",
+     "drops": 1,
+     "total": 10,
+     "pct": 10.0,
+     "dupes": 4
+    }
+   ]
+  },
+  "122": {
+   "id": 122,
+   "name": "舞風",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "C2",
+     "rank": "S",
+     "drops": 17,
+     "total": 1216,
+     "pct": 1.4,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 16,
+     "total": 1176,
+     "pct": 1.36,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 19,
+     "total": 1221,
+     "pct": 1.56,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 10,
+     "total": 999,
+     "pct": 1.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 98,
+     "total": 6737,
+     "pct": 1.45,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 18,
+     "total": 1588,
+     "pct": 1.13,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "A",
+     "drops": 8,
+     "total": 612,
+     "pct": 1.31,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 43,
+     "total": 3221,
+     "pct": 1.33,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "H",
+     "rank": "S",
+     "drops": 5,
+     "total": 328,
+     "pct": 1.52,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 14,
+     "total": 894,
+     "pct": 1.57,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 6,
+     "total": 432,
+     "pct": 1.39,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 38,
+     "total": 2731,
+     "pct": 1.39,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 15,
+     "total": 731,
+     "pct": 2.05,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 20,
+     "total": 1210,
+     "pct": 1.65,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "H",
+     "rank": "S",
+     "drops": 7,
+     "total": 161,
+     "pct": 4.35,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 4,
+     "total": 777,
+     "pct": 0.51,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 272,
+     "pct": 1.1,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 17,
+     "total": 1279,
+     "pct": 1.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 363,
+     "pct": 1.93,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 9,
+     "total": 526,
+     "pct": 1.71,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "H",
+     "rank": "S",
+     "drops": 2,
+     "total": 65,
+     "pct": 3.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 454,
+     "pct": 0.44,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 5,
+     "total": 185,
+     "pct": 2.7,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 22,
+     "total": 1008,
+     "pct": 2.18,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 10,
+     "total": 432,
+     "pct": 2.31,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 521,
+     "pct": 1.54,
+     "dupes": 3
+    }
+   ]
+  },
+  "138": {
+   "id": 138,
+   "name": "能代",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "C2",
+     "rank": "S",
+     "drops": 18,
+     "total": 1216,
+     "pct": 1.48,
+     "dupes": 8
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 19,
+     "total": 1176,
+     "pct": 1.62,
+     "dupes": 8
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 18,
+     "total": 1221,
+     "pct": 1.47,
+     "dupes": 12
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 17,
+     "total": 999,
+     "pct": 1.7,
+     "dupes": 9
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 116,
+     "total": 6737,
+     "pct": 1.72,
+     "dupes": 25
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 15,
+     "total": 1588,
+     "pct": 0.94,
+     "dupes": 11
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "A",
+     "drops": 16,
+     "total": 612,
+     "pct": 2.61,
+     "dupes": 12
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 53,
+     "total": 3221,
+     "pct": 1.65,
+     "dupes": 29
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "C2",
+     "rank": "S",
+     "drops": 4,
+     "total": 301,
+     "pct": 1.33,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "H",
+     "rank": "S",
+     "drops": 5,
+     "total": 328,
+     "pct": 1.52,
+     "dupes": 9
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 18,
+     "total": 894,
+     "pct": 2.01,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 9,
+     "total": 432,
+     "pct": 2.08,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 46,
+     "total": 2731,
+     "pct": 1.68,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 10,
+     "total": 731,
+     "pct": 1.37,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "A",
+     "drops": 4,
+     "total": 300,
+     "pct": 1.33,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 13,
+     "total": 1210,
+     "pct": 1.07,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "H",
+     "rank": "S",
+     "drops": 4,
+     "total": 161,
+     "pct": 2.48,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 14,
+     "total": 777,
+     "pct": 1.8,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 5,
+     "total": 272,
+     "pct": 1.84,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 19,
+     "total": 1279,
+     "pct": 1.49,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 9,
+     "total": 363,
+     "pct": 2.48,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 15,
+     "total": 526,
+     "pct": 2.85,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 5,
+     "total": 454,
+     "pct": 1.1,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 185,
+     "pct": 1.62,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 19,
+     "total": 1008,
+     "pct": 1.88,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 9,
+     "total": 432,
+     "pct": 2.08,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 12,
+     "total": 521,
+     "pct": 2.3,
+     "dupes": 2
+    }
+   ]
+  },
+  "139": {
+   "id": 139,
+   "name": "矢矧",
+   "entries": [
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 9,
+     "total": 1446,
+     "pct": 0.62,
+     "dupes": 11
+    },
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 20,
+     "total": 2820,
+     "pct": 0.71,
+     "dupes": 11
+    },
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 44,
+     "total": 8658,
+     "pct": 0.51,
+     "dupes": 16
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 5,
+     "total": 492,
+     "pct": 1.02,
+     "dupes": 2
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 11,
+     "total": 1134,
+     "pct": 0.97,
+     "dupes": 8
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 303,
+     "pct": 0.66,
+     "dupes": 2
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 3,
+     "total": 514,
+     "pct": 0.58,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 9,
+     "total": 1445,
+     "pct": 0.62,
+     "dupes": 3
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 8,
+     "total": 288,
+     "pct": 2.78,
+     "dupes": 3
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 13,
+     "total": 1362,
+     "pct": 0.95,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 1221,
+     "pct": 0.08,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 18,
+     "total": 6737,
+     "pct": 0.27,
+     "dupes": 14
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 4,
+     "total": 1588,
+     "pct": 0.25,
+     "dupes": 7
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 9,
+     "total": 3221,
+     "pct": 0.28,
+     "dupes": 8
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 4,
+     "total": 894,
+     "pct": 0.45,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 2,
+     "total": 432,
+     "pct": 0.46,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 19,
+     "total": 2731,
+     "pct": 0.7,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 2,
+     "total": 731,
+     "pct": 0.27,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 5,
+     "total": 1210,
+     "pct": 0.41,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 2,
+     "total": 272,
+     "pct": 0.74,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 6,
+     "total": 1279,
+     "pct": 0.47,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 3,
+     "total": 363,
+     "pct": 0.83,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 526,
+     "pct": 1.14,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 4,
+     "total": 1008,
+     "pct": 0.4,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 5,
+     "total": 432,
+     "pct": 1.16,
+     "dupes": 14
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 521,
+     "pct": 1.15,
+     "dupes": 1
+    }
+   ]
+  },
+  "140": {
+   "id": 140,
+   "name": "酒匂",
+   "entries": [
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 10,
+     "total": 1446,
+     "pct": 0.69,
+     "dupes": 5
+    },
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 22,
+     "total": 2820,
+     "pct": 0.78,
+     "dupes": 4
+    },
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 43,
+     "total": 8658,
+     "pct": 0.5,
+     "dupes": 6
+    },
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 15,
+     "total": 1962,
+     "pct": 0.76,
+     "dupes": 2
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 7,
+     "total": 492,
+     "pct": 1.42,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 11,
+     "total": 1134,
+     "pct": 0.97,
+     "dupes": 4
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 303,
+     "pct": 0.66,
+     "dupes": 2
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 2,
+     "total": 514,
+     "pct": 0.39,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 1445,
+     "pct": 0.42,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "A",
+     "drops": 1,
+     "total": 21,
+     "pct": 4.76,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "I",
+     "rank": "S",
+     "drops": 3,
+     "total": 173,
+     "pct": 1.73,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 3,
+     "total": 288,
+     "pct": 1.04,
+     "dupes": 1
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 14,
+     "total": 1362,
+     "pct": 1.03,
+     "dupes": 2
+    }
+   ]
+  },
+  "154": {
+   "id": 154,
+   "name": "香取",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 9,
+     "total": 234,
+     "pct": 3.85,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 2,
+     "total": 50,
+     "pct": 4.0,
+     "dupes": 1
+    }
+   ]
+  },
+  "163": {
+   "id": 163,
+   "name": "まるゆ",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 6,
+     "total": 234,
+     "pct": 2.56,
+     "dupes": 14
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 1,
+     "total": 50,
+     "pct": 2.0,
+     "dupes": 1
+    }
+   ]
+  },
+  "167": {
+   "id": 167,
+   "name": "磯風",
+   "entries": [
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 168,
+     "total": 8658,
+     "pct": 1.94,
+     "dupes": 4
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 33,
+     "total": 1134,
+     "pct": 2.91,
+     "dupes": 4
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 31,
+     "total": 1445,
+     "pct": 2.15,
+     "dupes": 4
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 19,
+     "total": 1362,
+     "pct": 1.4,
+     "dupes": 2
+    }
+   ]
+  },
+  "169": {
+   "id": 169,
+   "name": "谷風",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 16,
+     "total": 1176,
+     "pct": 1.36,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 22,
+     "total": 1221,
+     "pct": 1.8,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 13,
+     "total": 999,
+     "pct": 1.3,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 90,
+     "total": 6737,
+     "pct": 1.34,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 23,
+     "total": 1588,
+     "pct": 1.45,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "A",
+     "drops": 11,
+     "total": 612,
+     "pct": 1.8,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 49,
+     "total": 3221,
+     "pct": 1.52,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "H",
+     "rank": "S",
+     "drops": 4,
+     "total": 328,
+     "pct": 1.22,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 11,
+     "total": 894,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 4,
+     "total": 432,
+     "pct": 0.93,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 44,
+     "total": 2731,
+     "pct": 1.61,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 9,
+     "total": 731,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 16,
+     "total": 1210,
+     "pct": 1.32,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "H",
+     "rank": "S",
+     "drops": 5,
+     "total": 161,
+     "pct": 3.11,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 12,
+     "total": 777,
+     "pct": 1.54,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 6,
+     "total": 272,
+     "pct": 2.21,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 16,
+     "total": 1279,
+     "pct": 1.25,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 363,
+     "pct": 1.93,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 11,
+     "total": 526,
+     "pct": 2.09,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "H",
+     "rank": "S",
+     "drops": 2,
+     "total": 65,
+     "pct": 3.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 9,
+     "total": 454,
+     "pct": 1.98,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 185,
+     "pct": 0.54,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 7,
+     "total": 1008,
+     "pct": 0.69,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 12,
+     "total": 432,
+     "pct": 2.78,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 521,
+     "pct": 1.15,
+     "dupes": 2
+    }
+   ]
+  },
+  "174": {
+   "id": 174,
+   "name": "Z1",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 57,
+     "pct": 1.75,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P3",
+     "rank": "S",
+     "drops": 1,
+     "total": 40,
+     "pct": 2.5,
+     "dupes": 4
+    }
+   ]
+  },
+  "175": {
+   "id": 175,
+   "name": "Z3",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "M1",
+     "rank": "S",
+     "drops": 1,
+     "total": 119,
+     "pct": 0.84,
+     "dupes": 1
+    }
+   ]
+  },
+  "181": {
+   "id": 181,
+   "name": "天津風",
+   "entries": [
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 188,
+     "pct": 1.6,
+     "dupes": 11
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 5,
+     "total": 346,
+     "pct": 1.45,
+     "dupes": 15
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 2,
+     "total": 20,
+     "pct": 10.0,
+     "dupes": 9
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 93,
+     "pct": 3.23,
+     "dupes": 5
+    }
+   ]
+  },
+  "182": {
+   "id": 182,
+   "name": "明石",
+   "entries": [
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 13,
+     "total": 8658,
+     "pct": 0.15,
+     "dupes": 3
+    },
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 3,
+     "total": 1962,
+     "pct": 0.15,
+     "dupes": 2
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 3,
+     "total": 1134,
+     "pct": 0.26,
+     "dupes": 2
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 1445,
+     "pct": 0.28,
+     "dupes": 5
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 7,
+     "total": 1362,
+     "pct": 0.51,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 20,
+     "total": 1588,
+     "pct": 1.26,
+     "dupes": 9
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 10,
+     "total": 731,
+     "pct": 1.37,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 3,
+     "total": 363,
+     "pct": 0.83,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 6,
+     "total": 432,
+     "pct": 1.39,
+     "dupes": 5
+    }
+   ]
+  },
+  "183": {
+   "id": 183,
+   "name": "大淀",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 27,
+     "total": 999,
+     "pct": 2.7,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 73,
+     "total": 6737,
+     "pct": 1.08,
+     "dupes": 8
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 28,
+     "total": 1588,
+     "pct": 1.76,
+     "dupes": 8
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 51,
+     "total": 3221,
+     "pct": 1.58,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 432,
+     "pct": 0.69,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 731,
+     "pct": 0.96,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 21,
+     "total": 1210,
+     "pct": 1.74,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 272,
+     "pct": 1.1,
+     "dupes": 0
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 2,
+     "total": 363,
+     "pct": 0.55,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 7,
+     "total": 526,
+     "pct": 1.33,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 432,
+     "pct": 1.62,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 521,
+     "pct": 1.54,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 28,
+     "total": 1613,
+     "pct": 1.74,
+     "dupes": 8
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 12,
+     "total": 838,
+     "pct": 1.43,
+     "dupes": 9
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 11,
+     "total": 804,
+     "pct": 1.37,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 21,
+     "total": 1382,
+     "pct": 1.52,
+     "dupes": 9
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 24,
+     "total": 1643,
+     "pct": 1.46,
+     "dupes": 7
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 13,
+     "total": 558,
+     "pct": 2.33,
+     "dupes": 9
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 17,
+     "total": 625,
+     "pct": 2.72,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 4,
+     "total": 117,
+     "pct": 3.42,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "O",
+     "rank": "S",
+     "drops": 2,
+     "total": 68,
+     "pct": 2.94,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Q",
+     "rank": "S",
+     "drops": 1,
+     "total": 55,
+     "pct": 1.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 7,
+     "total": 365,
+     "pct": 1.92,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 43,
+     "pct": 4.65,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 165,
+     "pct": 1.21,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "O",
+     "rank": "S",
+     "drops": 2,
+     "total": 103,
+     "pct": 1.94,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Q",
+     "rank": "S",
+     "drops": 2,
+     "total": 84,
+     "pct": 2.38,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 121,
+     "pct": 3.31,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 4,
+     "total": 116,
+     "pct": 3.45,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 51,
+     "pct": 1.96,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "O",
+     "rank": "S",
+     "drops": 5,
+     "total": 245,
+     "pct": 2.04,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Q",
+     "rank": "S",
+     "drops": 4,
+     "total": 261,
+     "pct": 1.53,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 5,
+     "total": 776,
+     "pct": 0.64,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 7,
+     "total": 584,
+     "pct": 1.2,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 16,
+     "pct": 6.25,
+     "dupes": 1
+    }
+   ]
+  },
+  "184": {
+   "id": 184,
+   "name": "大鯨",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 9,
+     "total": 371,
+     "pct": 2.43,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 29,
+     "total": 2031,
+     "pct": 1.43,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 7,
+     "total": 156,
+     "pct": 4.49,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 11,
+     "total": 777,
+     "pct": 1.42,
+     "dupes": 7
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 123,
+     "pct": 0.81,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 4,
+     "total": 340,
+     "pct": 1.18,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 7,
+     "total": 457,
+     "pct": 1.53,
+     "dupes": 2
+    }
+   ]
+  },
+  "186": {
+   "id": 186,
+   "name": "時津風",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 29,
+     "total": 1742,
+     "pct": 1.66,
+     "dupes": 6
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 27,
+     "total": 1613,
+     "pct": 1.67,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 9,
+     "total": 838,
+     "pct": 1.07,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 15,
+     "total": 804,
+     "pct": 1.87,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 5,
+     "total": 1051,
+     "pct": 0.48,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "W",
+     "rank": "S",
+     "drops": 1,
+     "total": 78,
+     "pct": 1.28,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 14,
+     "total": 1382,
+     "pct": 1.01,
+     "dupes": 9
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 4,
+     "total": 473,
+     "pct": 0.85,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 31,
+     "total": 1643,
+     "pct": 1.89,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 13,
+     "total": 558,
+     "pct": 2.33,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 7,
+     "total": 625,
+     "pct": 1.12,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 125,
+     "pct": 1.6,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 3,
+     "total": 117,
+     "pct": 2.56,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Q",
+     "rank": "S",
+     "drops": 2,
+     "total": 55,
+     "pct": 3.64,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 3,
+     "total": 365,
+     "pct": 0.82,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "A",
+     "drops": 1,
+     "total": 42,
+     "pct": 2.38,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 80,
+     "pct": 1.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 43,
+     "pct": 2.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 7,
+     "total": 182,
+     "pct": 3.85,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 165,
+     "pct": 0.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Q",
+     "rank": "S",
+     "drops": 4,
+     "total": 84,
+     "pct": 4.76,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 121,
+     "pct": 0.83,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 55,
+     "pct": 1.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 4,
+     "total": 253,
+     "pct": 1.58,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "O",
+     "rank": "S",
+     "drops": 4,
+     "total": 245,
+     "pct": 1.63,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Q",
+     "rank": "S",
+     "drops": 6,
+     "total": 261,
+     "pct": 2.3,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 776,
+     "pct": 1.03,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 8,
+     "total": 550,
+     "pct": 1.45,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 10,
+     "total": 584,
+     "pct": 1.71,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "C",
+     "rank": "S",
+     "drops": 1,
+     "total": 63,
+     "pct": 1.59,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 5,
+     "total": 267,
+     "pct": 1.87,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "K",
+     "rank": "S",
+     "drops": 1,
+     "total": 180,
+     "pct": 0.56,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 5,
+     "total": 222,
+     "pct": 2.25,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 4,
+     "total": 551,
+     "pct": 0.73,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 5,
+     "total": 329,
+     "pct": 1.52,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "T2",
+     "rank": "S",
+     "drops": 2,
+     "total": 156,
+     "pct": 1.28,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 3,
+     "total": 174,
+     "pct": 1.72,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 2,
+     "total": 90,
+     "pct": 2.22,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 7,
+     "total": 276,
+     "pct": 2.54,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 7,
+     "total": 589,
+     "pct": 1.19,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 8,
+     "total": 188,
+     "pct": 4.26,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 8,
+     "total": 346,
+     "pct": 2.31,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 12,
+     "pct": 8.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "D",
+     "rank": "S",
+     "drops": 2,
+     "total": 41,
+     "pct": 4.88,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 85,
+     "pct": 1.18,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 2,
+     "total": 20,
+     "pct": 10.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "K",
+     "rank": "S",
+     "drops": 2,
+     "total": 49,
+     "pct": 4.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "R",
+     "rank": "S",
+     "drops": 1,
+     "total": 80,
+     "pct": 1.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 80,
+     "pct": 1.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 55,
+     "pct": 1.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 66,
+     "pct": 1.52,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 97,
+     "pct": 1.03,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 93,
+     "pct": 1.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "J2",
+     "rank": "S",
+     "drops": 2,
+     "total": 46,
+     "pct": 4.35,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 150,
+     "pct": 1.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 3,
+     "total": 234,
+     "pct": 1.28,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "A",
+     "drops": 4,
+     "total": 82,
+     "pct": 4.88,
+     "dupes": 1
+    }
+   ]
+  },
+  "190": {
+   "id": 190,
+   "name": "初風",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 23,
+     "total": 1176,
+     "pct": 1.96,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 15,
+     "total": 1221,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 16,
+     "total": 999,
+     "pct": 1.6,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 107,
+     "total": 6737,
+     "pct": 1.59,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 18,
+     "total": 1588,
+     "pct": 1.13,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 54,
+     "total": 3221,
+     "pct": 1.68,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "H",
+     "rank": "S",
+     "drops": 6,
+     "total": 328,
+     "pct": 1.83,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 20,
+     "total": 894,
+     "pct": 2.24,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 7,
+     "total": 432,
+     "pct": 1.62,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 42,
+     "total": 2731,
+     "pct": 1.54,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 14,
+     "total": 731,
+     "pct": 1.92,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 21,
+     "total": 1210,
+     "pct": 1.74,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 13,
+     "total": 777,
+     "pct": 1.67,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 272,
+     "pct": 1.1,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 16,
+     "total": 1279,
+     "pct": 1.25,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 4,
+     "total": 363,
+     "pct": 1.1,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 526,
+     "pct": 1.52,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 6,
+     "total": 454,
+     "pct": 1.32,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 185,
+     "pct": 0.54,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 13,
+     "total": 1008,
+     "pct": 1.29,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 432,
+     "pct": 1.62,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 13,
+     "total": 521,
+     "pct": 2.5,
+     "dupes": 2
+    }
+   ]
+  },
+  "405": {
+   "id": 405,
+   "name": "春雨",
+   "entries": [
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 1,
+     "total": 267,
+     "pct": 0.37,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "K",
+     "rank": "S",
+     "drops": 6,
+     "total": 180,
+     "pct": 3.33,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 2,
+     "total": 222,
+     "pct": 0.9,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 5,
+     "total": 551,
+     "pct": 0.91,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 329,
+     "pct": 0.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 3,
+     "total": 174,
+     "pct": 1.72,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 2,
+     "total": 90,
+     "pct": 2.22,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 6,
+     "total": 589,
+     "pct": 1.02,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 4,
+     "total": 188,
+     "pct": 2.13,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 5,
+     "total": 346,
+     "pct": 1.45,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 2,
+     "total": 13,
+     "pct": 15.38,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 85,
+     "pct": 1.18,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 20,
+     "pct": 5.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "D",
+     "rank": "S",
+     "drops": 3,
+     "total": 104,
+     "pct": 2.88,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 55,
+     "pct": 1.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 97,
+     "pct": 1.03,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 93,
+     "pct": 2.15,
+     "dupes": 2
+    }
+   ]
+  },
+  "409": {
+   "id": 409,
+   "name": "早霜",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 11,
+     "total": 371,
+     "pct": 2.96,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 42,
+     "total": 2031,
+     "pct": 2.07,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 4,
+     "total": 156,
+     "pct": 2.56,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 15,
+     "total": 777,
+     "pct": 1.93,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 123,
+     "pct": 1.63,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 5,
+     "total": 340,
+     "pct": 1.47,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 10,
+     "total": 457,
+     "pct": 2.19,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "A",
+     "drops": 1,
+     "total": 66,
+     "pct": 1.52,
+     "dupes": 0
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 1,
+     "total": 35,
+     "pct": 2.86,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "J2",
+     "rank": "S",
+     "drops": 1,
+     "total": 46,
+     "pct": 2.17,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 208,
+     "pct": 0.96,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 57,
+     "pct": 1.75,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 150,
+     "pct": 0.67,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 406,
+     "pct": 0.99,
+     "dupes": 5
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 271,
+     "pct": 0.37,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "E1",
+     "rank": "S",
+     "drops": 1,
+     "total": 29,
+     "pct": 3.45,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 20,
+     "pct": 5.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 43,
+     "pct": 4.65,
+     "dupes": 1
+    }
+   ]
+  },
+  "410": {
+   "id": 410,
+   "name": "清霜",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 6,
+     "total": 371,
+     "pct": 1.62,
+     "dupes": 5
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 46,
+     "total": 2031,
+     "pct": 2.26,
+     "dupes": 8
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 3,
+     "total": 156,
+     "pct": 1.92,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 15,
+     "total": 777,
+     "pct": 1.93,
+     "dupes": 9
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 123,
+     "pct": 0.81,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 7,
+     "total": 340,
+     "pct": 2.06,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 8,
+     "total": 457,
+     "pct": 1.75,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "A",
+     "drops": 2,
+     "total": 66,
+     "pct": 3.03,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 1,
+     "total": 35,
+     "pct": 2.86,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "J2",
+     "rank": "S",
+     "drops": 2,
+     "total": 46,
+     "pct": 4.35,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "K2",
+     "rank": "S",
+     "drops": 2,
+     "total": 246,
+     "pct": 0.81,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "M1",
+     "rank": "S",
+     "drops": 1,
+     "total": 119,
+     "pct": 0.84,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 57,
+     "pct": 1.75,
+     "dupes": 4
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 150,
+     "pct": 1.33,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 3,
+     "total": 406,
+     "pct": 0.74,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 4,
+     "total": 271,
+     "pct": 1.48,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "I",
+     "rank": "S",
+     "drops": 1,
+     "total": 5,
+     "pct": 20.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 18,
+     "pct": 5.56,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 45,
+     "pct": 2.22,
+     "dupes": 3
+    }
+   ]
+  },
+  "413": {
+   "id": 413,
+   "name": "朝雲",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "C2",
+     "rank": "S",
+     "drops": 13,
+     "total": 1216,
+     "pct": 1.07,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 11,
+     "total": 1176,
+     "pct": 0.94,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 15,
+     "total": 1221,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 21,
+     "total": 999,
+     "pct": 2.1,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 101,
+     "total": 6737,
+     "pct": 1.5,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 32,
+     "total": 1588,
+     "pct": 2.02,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "A",
+     "drops": 3,
+     "total": 612,
+     "pct": 0.49,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 54,
+     "total": 3221,
+     "pct": 1.68,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 6,
+     "total": 371,
+     "pct": 1.62,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 39,
+     "total": 2031,
+     "pct": 1.92,
+     "dupes": 7
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "C2",
+     "rank": "S",
+     "drops": 6,
+     "total": 301,
+     "pct": 1.99,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "H",
+     "rank": "S",
+     "drops": 4,
+     "total": 328,
+     "pct": 1.22,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 16,
+     "total": 894,
+     "pct": 1.79,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 6,
+     "total": 432,
+     "pct": 1.39,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 47,
+     "total": 2731,
+     "pct": 1.72,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 9,
+     "total": 731,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "A",
+     "drops": 5,
+     "total": 300,
+     "pct": 1.67,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 20,
+     "total": 1210,
+     "pct": 1.65,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 156,
+     "pct": 1.28,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 15,
+     "total": 777,
+     "pct": 1.93,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "C2",
+     "rank": "S",
+     "drops": 1,
+     "total": 143,
+     "pct": 0.7,
+     "dupes": 0
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "H",
+     "rank": "S",
+     "drops": 4,
+     "total": 161,
+     "pct": 2.48,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 10,
+     "total": 777,
+     "pct": 1.29,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 4,
+     "total": 272,
+     "pct": 1.47,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 13,
+     "total": 1279,
+     "pct": 1.02,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 5,
+     "total": 363,
+     "pct": 1.38,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "A",
+     "drops": 3,
+     "total": 201,
+     "pct": 1.49,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 526,
+     "pct": 1.14,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 123,
+     "pct": 0.81,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 9,
+     "total": 340,
+     "pct": 2.65,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "C2",
+     "rank": "S",
+     "drops": 3,
+     "total": 66,
+     "pct": 4.55,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 8,
+     "total": 454,
+     "pct": 1.76,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 4,
+     "total": 185,
+     "pct": 2.16,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 12,
+     "total": 1008,
+     "pct": 1.19,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 4,
+     "total": 432,
+     "pct": 0.93,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 521,
+     "pct": 0.77,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 9,
+     "total": 457,
+     "pct": 1.97,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "A",
+     "drops": 2,
+     "total": 66,
+     "pct": 3.03,
+     "dupes": 1
+    }
+   ]
+  },
+  "415": {
+   "id": 415,
+   "name": "野分",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 8,
+     "total": 1176,
+     "pct": 0.68,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 20,
+     "total": 1221,
+     "pct": 1.64,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 14,
+     "total": 999,
+     "pct": 1.4,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 99,
+     "total": 6737,
+     "pct": 1.47,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 22,
+     "total": 1588,
+     "pct": 1.39,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 47,
+     "total": 3221,
+     "pct": 1.46,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 18,
+     "total": 894,
+     "pct": 2.01,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 7,
+     "total": 432,
+     "pct": 1.62,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 52,
+     "total": 2731,
+     "pct": 1.9,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 9,
+     "total": 731,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 16,
+     "total": 1210,
+     "pct": 1.32,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 6,
+     "total": 777,
+     "pct": 0.77,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 272,
+     "pct": 1.1,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 16,
+     "total": 1279,
+     "pct": 1.25,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 363,
+     "pct": 1.93,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 15,
+     "total": 526,
+     "pct": 2.85,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 185,
+     "pct": 1.62,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 9,
+     "total": 1008,
+     "pct": 0.89,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 13,
+     "total": 432,
+     "pct": 3.01,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 7,
+     "total": 521,
+     "pct": 1.34,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "C",
+     "rank": "S",
+     "drops": 1,
+     "total": 63,
+     "pct": 1.59,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 2,
+     "total": 267,
+     "pct": 0.75,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "K",
+     "rank": "S",
+     "drops": 1,
+     "total": 180,
+     "pct": 0.56,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 4,
+     "total": 222,
+     "pct": 1.8,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 7,
+     "total": 551,
+     "pct": 1.27,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 329,
+     "pct": 0.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 174,
+     "pct": 0.57,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 1,
+     "total": 276,
+     "pct": 0.36,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 5,
+     "total": 589,
+     "pct": 0.85,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "T2",
+     "rank": "S",
+     "drops": 1,
+     "total": 24,
+     "pct": 4.17,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 80,
+     "pct": 1.25,
+     "dupes": 1
+    }
+   ]
+  },
+  "424": {
+   "id": 424,
+   "name": "高波",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "G",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 1,
+     "total": 35,
+     "pct": 2.86,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 208,
+     "pct": 0.48,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 57,
+     "pct": 5.26,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P3",
+     "rank": "S",
+     "drops": 1,
+     "total": 40,
+     "pct": 2.5,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 150,
+     "pct": 0.67,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 406,
+     "pct": 1.97,
+     "dupes": 4
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 5,
+     "total": 271,
+     "pct": 1.85,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "G",
+     "rank": "S",
+     "drops": 2,
+     "total": 26,
+     "pct": 7.69,
+     "dupes": 5
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 20,
+     "pct": 5.0,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 2,
+     "total": 45,
+     "pct": 4.44,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 43,
+     "pct": 4.65,
+     "dupes": 5
+    }
+   ]
+  },
+  "425": {
+   "id": 425,
+   "name": "朝霜",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 13,
+     "total": 999,
+     "pct": 1.3,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 28,
+     "total": 1588,
+     "pct": 1.76,
+     "dupes": 10
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 27,
+     "total": 3221,
+     "pct": 0.84,
+     "dupes": 9
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 11,
+     "total": 371,
+     "pct": 2.96,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 29,
+     "total": 2031,
+     "pct": 1.43,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 4,
+     "total": 432,
+     "pct": 0.93,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 2,
+     "total": 731,
+     "pct": 0.27,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 10,
+     "total": 1210,
+     "pct": 0.83,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 156,
+     "pct": 1.28,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 11,
+     "total": 777,
+     "pct": 1.42,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 5,
+     "total": 363,
+     "pct": 1.38,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 526,
+     "pct": 0.19,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 123,
+     "pct": 1.63,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 4,
+     "total": 340,
+     "pct": 1.18,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 4,
+     "total": 432,
+     "pct": 0.93,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 7,
+     "total": 457,
+     "pct": 1.53,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "A",
+     "drops": 1,
+     "total": 66,
+     "pct": 1.52,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 208,
+     "pct": 0.96,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 3,
+     "total": 150,
+     "pct": 2.0,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 3,
+     "total": 406,
+     "pct": 0.74,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 6,
+     "total": 271,
+     "pct": 2.21,
+     "dupes": 4
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "E1",
+     "rank": "S",
+     "drops": 1,
+     "total": 29,
+     "pct": 3.45,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "J2",
+     "rank": "S",
+     "drops": 1,
+     "total": 10,
+     "pct": 10.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "P3",
+     "rank": "S",
+     "drops": 1,
+     "total": 5,
+     "pct": 20.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 45,
+     "pct": 2.22,
+     "dupes": 1
+    }
+   ]
+  },
+  "443": {
+   "id": 443,
+   "name": "Libeccio",
+   "entries": [
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 4,
+     "total": 267,
+     "pct": 1.5,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "K",
+     "rank": "S",
+     "drops": 1,
+     "total": 180,
+     "pct": 0.56,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 4,
+     "total": 222,
+     "pct": 1.8,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 4,
+     "total": 551,
+     "pct": 0.73,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 329,
+     "pct": 0.61,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "T2",
+     "rank": "S",
+     "drops": 1,
+     "total": 156,
+     "pct": 0.64,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 2,
+     "total": 174,
+     "pct": 1.15,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 2,
+     "total": 90,
+     "pct": 2.22,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 6,
+     "total": 589,
+     "pct": 1.02,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 188,
+     "pct": 1.6,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 5,
+     "total": 346,
+     "pct": 1.45,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "D",
+     "rank": "S",
+     "drops": 1,
+     "total": 41,
+     "pct": 2.44,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "R",
+     "rank": "S",
+     "drops": 1,
+     "total": 64,
+     "pct": 1.56,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 85,
+     "pct": 1.18,
+     "dupes": 0
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "D",
+     "rank": "S",
+     "drops": 1,
+     "total": 104,
+     "pct": 0.96,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "K",
+     "rank": "S",
+     "drops": 1,
+     "total": 49,
+     "pct": 2.04,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "N",
+     "rank": "S",
+     "drops": 1,
+     "total": 51,
+     "pct": 1.96,
+     "dupes": 0
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 66,
+     "pct": 1.52,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 97,
+     "pct": 2.06,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 93,
+     "pct": 1.08,
+     "dupes": 1
+    }
+   ]
+  },
+  "445": {
+   "id": 445,
+   "name": "秋津洲",
+   "entries": [
+    {
+     "map": "62-1",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 172,
+     "total": 8658,
+     "pct": 1.99,
+     "dupes": 9
+    },
+    {
+     "map": "62-1",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 18,
+     "total": 1134,
+     "pct": 1.59,
+     "dupes": 3
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 33,
+     "total": 1445,
+     "pct": 2.28,
+     "dupes": 5
+    },
+    {
+     "map": "62-1",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 22,
+     "total": 1362,
+     "pct": 1.62,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 1,
+     "total": 222,
+     "pct": 0.45,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 6,
+     "total": 551,
+     "pct": 1.09,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 329,
+     "pct": 0.3,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 3,
+     "total": 589,
+     "pct": 0.51,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 188,
+     "pct": 1.06,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 7,
+     "total": 346,
+     "pct": 2.02,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 34,
+     "pct": 2.94,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 80,
+     "pct": 2.5,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 93,
+     "pct": 2.15,
+     "dupes": 1
+    }
+   ]
+  },
+  "451": {
+   "id": 451,
+   "name": "瑞穂",
+   "entries": [
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 188,
+     "pct": 1.6,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 19,
+     "pct": 5.26,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 93,
+     "pct": 2.15,
+     "dupes": 3
+    }
+   ]
+  },
+  "452": {
+   "id": 452,
+   "name": "沖波",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 5,
+     "total": 371,
+     "pct": 1.35,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 37,
+     "total": 2031,
+     "pct": 1.82,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 3,
+     "total": 156,
+     "pct": 1.92,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 14,
+     "total": 777,
+     "pct": 1.8,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 4,
+     "total": 123,
+     "pct": 3.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 2,
+     "total": 340,
+     "pct": 0.59,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 7,
+     "total": 457,
+     "pct": 1.53,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "A",
+     "drops": 1,
+     "total": 66,
+     "pct": 1.52,
+     "dupes": 0
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "G",
+     "rank": "S",
+     "drops": 2,
+     "total": 62,
+     "pct": 3.23,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 1,
+     "total": 35,
+     "pct": 2.86,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 208,
+     "pct": 0.96,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 2,
+     "total": 57,
+     "pct": 3.51,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 3,
+     "total": 150,
+     "pct": 2.0,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 2,
+     "total": 406,
+     "pct": 0.49,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 271,
+     "pct": 0.37,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 18,
+     "pct": 5.56,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 45,
+     "pct": 2.22,
+     "dupes": 1
+    }
+   ]
+  },
+  "453": {
+   "id": 453,
+   "name": "風雲",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "G",
+     "rank": "S",
+     "drops": 2,
+     "total": 62,
+     "pct": 3.23,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "J2",
+     "rank": "S",
+     "drops": 2,
+     "total": 46,
+     "pct": 4.35,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 208,
+     "pct": 0.96,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 57,
+     "pct": 1.75,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P1",
+     "rank": "S",
+     "drops": 1,
+     "total": 26,
+     "pct": 3.85,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P3",
+     "rank": "S",
+     "drops": 1,
+     "total": 40,
+     "pct": 2.5,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 150,
+     "pct": 1.33,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 406,
+     "pct": 1.48,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 4,
+     "total": 271,
+     "pct": 1.48,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丙",
+     "node": "G",
+     "rank": "S",
+     "drops": 1,
+     "total": 3,
+     "pct": 33.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 20,
+     "pct": 5.0,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "P1",
+     "rank": "S",
+     "drops": 1,
+     "total": 3,
+     "pct": 33.33,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 18,
+     "pct": 11.11,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 45,
+     "pct": 2.22,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 43,
+     "pct": 2.33,
+     "dupes": 3
+    }
+   ]
+  },
+  "454": {
+   "id": 454,
+   "name": "嵐",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 11,
+     "total": 999,
+     "pct": 1.1,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 97,
+     "total": 6737,
+     "pct": 1.44,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 29,
+     "total": 1588,
+     "pct": 1.83,
+     "dupes": 6
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 44,
+     "total": 3221,
+     "pct": 1.37,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 6,
+     "total": 432,
+     "pct": 1.39,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 27,
+     "total": 2731,
+     "pct": 0.99,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 17,
+     "total": 731,
+     "pct": 2.33,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 16,
+     "total": 1210,
+     "pct": 1.32,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 2,
+     "total": 272,
+     "pct": 0.74,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 6,
+     "total": 363,
+     "pct": 1.65,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 9,
+     "total": 526,
+     "pct": 1.71,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 5,
+     "total": 185,
+     "pct": 2.7,
+     "dupes": 0
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 9,
+     "total": 432,
+     "pct": 2.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 7,
+     "total": 521,
+     "pct": 1.34,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 5,
+     "total": 222,
+     "pct": 2.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 7,
+     "total": 329,
+     "pct": 2.13,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 3,
+     "total": 90,
+     "pct": 3.33,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 6,
+     "total": 188,
+     "pct": 3.19,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 8,
+     "total": 346,
+     "pct": 2.31,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 13,
+     "pct": 7.69,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 62,
+     "pct": 3.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 93,
+     "pct": 1.08,
+     "dupes": 1
+    }
+   ]
+  },
+  "455": {
+   "id": 455,
+   "name": "萩風",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 23,
+     "total": 1221,
+     "pct": 1.88,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 12,
+     "total": 999,
+     "pct": 1.2,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 83,
+     "total": 6737,
+     "pct": 1.23,
+     "dupes": 13
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 19,
+     "total": 1588,
+     "pct": 1.2,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 46,
+     "total": 3221,
+     "pct": 1.43,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 4,
+     "total": 432,
+     "pct": 0.93,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 32,
+     "total": 2731,
+     "pct": 1.17,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 14,
+     "total": 731,
+     "pct": 1.92,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 20,
+     "total": 1210,
+     "pct": 1.65,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "P",
+     "rank": "S",
+     "drops": 4,
+     "total": 272,
+     "pct": 1.47,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 11,
+     "total": 1279,
+     "pct": 0.86,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 6,
+     "total": 363,
+     "pct": 1.65,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 12,
+     "total": 526,
+     "pct": 2.28,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 2,
+     "total": 185,
+     "pct": 1.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 7,
+     "total": 432,
+     "pct": 1.62,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 521,
+     "pct": 1.15,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "C",
+     "rank": "S",
+     "drops": 3,
+     "total": 63,
+     "pct": 4.76,
+     "dupes": 13
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 5,
+     "total": 267,
+     "pct": 1.87,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 4,
+     "total": 222,
+     "pct": 1.8,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "P1",
+     "rank": "S",
+     "drops": 27,
+     "total": 1495,
+     "pct": 1.81,
+     "dupes": 15
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 6,
+     "total": 507,
+     "pct": 1.18,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 7,
+     "total": 551,
+     "pct": 1.27,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 6,
+     "total": 329,
+     "pct": 1.82,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "T2",
+     "rank": "S",
+     "drops": 2,
+     "total": 156,
+     "pct": 1.28,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 2,
+     "total": 174,
+     "pct": 1.15,
+     "dupes": 14
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 90,
+     "pct": 1.11,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 5,
+     "total": 276,
+     "pct": 1.81,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 6,
+     "total": 589,
+     "pct": 1.02,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 24,
+     "pct": 4.17,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "D",
+     "rank": "S",
+     "drops": 1,
+     "total": 41,
+     "pct": 2.44,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "T2",
+     "rank": "S",
+     "drops": 1,
+     "total": 24,
+     "pct": 4.17,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 34,
+     "pct": 2.94,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 97,
+     "pct": 1.03,
+     "dupes": 1
+    }
+   ]
+  },
+  "458": {
+   "id": 458,
+   "name": "海風",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 26,
+     "total": 1742,
+     "pct": 1.49,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 24,
+     "total": 1613,
+     "pct": 1.49,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 15,
+     "total": 838,
+     "pct": 1.79,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 12,
+     "total": 804,
+     "pct": 1.49,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 22,
+     "total": 1051,
+     "pct": 2.09,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "W",
+     "rank": "S",
+     "drops": 1,
+     "total": 78,
+     "pct": 1.28,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 16,
+     "total": 1382,
+     "pct": 1.16,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 4,
+     "total": 473,
+     "pct": 0.85,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 24,
+     "total": 1643,
+     "pct": 1.46,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "I",
+     "rank": "S",
+     "drops": 3,
+     "total": 125,
+     "pct": 2.4,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 3,
+     "total": 117,
+     "pct": 2.56,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 263,
+     "pct": 0.38,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 7,
+     "total": 365,
+     "pct": 1.92,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "A",
+     "drops": 1,
+     "total": 42,
+     "pct": 2.38,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 3,
+     "total": 80,
+     "pct": 3.75,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 182,
+     "pct": 1.1,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 3,
+     "total": 165,
+     "pct": 1.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "A",
+     "drops": 2,
+     "total": 70,
+     "pct": 2.86,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 116,
+     "pct": 0.86,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "I",
+     "rank": "S",
+     "drops": 7,
+     "total": 269,
+     "pct": 2.6,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 7,
+     "total": 253,
+     "pct": 2.77,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "O",
+     "rank": "S",
+     "drops": 3,
+     "total": 245,
+     "pct": 1.22,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 776,
+     "pct": 1.03,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 12,
+     "total": 550,
+     "pct": 2.18,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 1,
+     "total": 267,
+     "pct": 0.37,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 2,
+     "total": 222,
+     "pct": 0.9,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 5,
+     "total": 551,
+     "pct": 0.91,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 3,
+     "total": 329,
+     "pct": 0.91,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 2,
+     "total": 174,
+     "pct": 1.15,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 10,
+     "total": 589,
+     "pct": 1.7,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 188,
+     "pct": 1.06,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 4,
+     "total": 346,
+     "pct": 1.16,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 24,
+     "pct": 4.17,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "K",
+     "rank": "S",
+     "drops": 1,
+     "total": 33,
+     "pct": 3.03,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 60,
+     "pct": 1.67,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 55,
+     "pct": 1.82,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 66,
+     "pct": 1.52,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 97,
+     "pct": 1.03,
+     "dupes": 2
+    }
+   ]
+  },
+  "459": {
+   "id": 459,
+   "name": "江風",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 22,
+     "total": 1742,
+     "pct": 1.26,
+     "dupes": 10
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 24,
+     "total": 1613,
+     "pct": 1.49,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 13,
+     "total": 838,
+     "pct": 1.55,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "A",
+     "drops": 8,
+     "total": 487,
+     "pct": 1.64,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 16,
+     "total": 804,
+     "pct": 1.99,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 14,
+     "total": 1051,
+     "pct": 1.33,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "W",
+     "rank": "S",
+     "drops": 2,
+     "total": 78,
+     "pct": 2.56,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 23,
+     "total": 1382,
+     "pct": 1.66,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 8,
+     "total": 473,
+     "pct": 1.69,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 28,
+     "total": 1643,
+     "pct": 1.7,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 117,
+     "pct": 1.71,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 4,
+     "total": 263,
+     "pct": 1.52,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 365,
+     "pct": 1.1,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "A",
+     "drops": 1,
+     "total": 42,
+     "pct": 2.38,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 5,
+     "total": 182,
+     "pct": 2.75,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 165,
+     "pct": 1.21,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "O",
+     "rank": "S",
+     "drops": 2,
+     "total": 103,
+     "pct": 1.94,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 1,
+     "total": 121,
+     "pct": 0.83,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "A",
+     "drops": 1,
+     "total": 70,
+     "pct": 1.43,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 3,
+     "total": 253,
+     "pct": 1.19,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "O",
+     "rank": "S",
+     "drops": 4,
+     "total": 245,
+     "pct": 1.63,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Q",
+     "rank": "S",
+     "drops": 5,
+     "total": 261,
+     "pct": 1.92,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "W",
+     "rank": "S",
+     "drops": 1,
+     "total": 8,
+     "pct": 12.5,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 9,
+     "total": 776,
+     "pct": 1.16,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 9,
+     "total": 550,
+     "pct": 1.64,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "D",
+     "rank": "S",
+     "drops": 4,
+     "total": 267,
+     "pct": 1.5,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "N",
+     "rank": "S",
+     "drops": 1,
+     "total": 222,
+     "pct": 0.45,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "R",
+     "rank": "S",
+     "drops": 4,
+     "total": 551,
+     "pct": 0.73,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 4,
+     "total": 329,
+     "pct": 1.22,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "T2",
+     "rank": "S",
+     "drops": 2,
+     "total": 156,
+     "pct": 1.28,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 174,
+     "pct": 0.57,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 589,
+     "pct": 0.34,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 188,
+     "pct": 0.53,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 8,
+     "total": 346,
+     "pct": 2.31,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "乙",
+     "node": "R",
+     "rank": "S",
+     "drops": 1,
+     "total": 28,
+     "pct": 3.57,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "R",
+     "rank": "S",
+     "drops": 1,
+     "total": 64,
+     "pct": 1.56,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 85,
+     "pct": 1.18,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "D",
+     "rank": "S",
+     "drops": 2,
+     "total": 104,
+     "pct": 1.92,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "R",
+     "rank": "S",
+     "drops": 1,
+     "total": 80,
+     "pct": 1.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 97,
+     "pct": 1.03,
+     "dupes": 1
+    }
+   ]
+  },
+  "460": {
+   "id": 460,
+   "name": "速吸",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 9,
+     "total": 558,
+     "pct": 1.61,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 13,
+     "total": 625,
+     "pct": 2.08,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 30,
+     "pct": 3.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 2,
+     "total": 51,
+     "pct": 3.92,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 10,
+     "total": 584,
+     "pct": 1.71,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 16,
+     "pct": 6.25,
+     "dupes": 0
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 5,
+     "total": 150,
+     "pct": 3.33,
+     "dupes": 5
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 6,
+     "total": 234,
+     "pct": 2.56,
+     "dupes": 4
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "A",
+     "drops": 3,
+     "total": 82,
+     "pct": 3.66,
+     "dupes": 2
+    }
+   ]
+  },
+  "465": {
+   "id": 465,
+   "name": "鹿島",
+   "entries": [
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "G",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 2,
+     "total": 150,
+     "pct": 1.33,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 6,
+     "total": 271,
+     "pct": 2.21,
+     "dupes": 4
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 14,
+     "total": 234,
+     "pct": 5.98,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "A",
+     "drops": 2,
+     "total": 82,
+     "pct": 2.44,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "S",
+     "rank": "S",
+     "drops": 1,
+     "total": 18,
+     "pct": 5.56,
+     "dupes": 1
+    }
+   ]
+  },
+  "479": {
+   "id": 479,
+   "name": "天霧",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 40,
+     "total": 1742,
+     "pct": 2.3,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 21,
+     "total": 1613,
+     "pct": 1.3,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 12,
+     "total": 838,
+     "pct": 1.43,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "A",
+     "drops": 6,
+     "total": 487,
+     "pct": 1.23,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 12,
+     "total": 804,
+     "pct": 1.49,
+     "dupes": 11
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "A",
+     "drops": 23,
+     "total": 1022,
+     "pct": 2.25,
+     "dupes": 7
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 10,
+     "total": 1051,
+     "pct": 0.95,
+     "dupes": 8
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "W",
+     "rank": "S",
+     "drops": 2,
+     "total": 78,
+     "pct": 2.56,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 17,
+     "total": 1382,
+     "pct": 1.23,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 4,
+     "total": 473,
+     "pct": 0.85,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 20,
+     "total": 1643,
+     "pct": 1.22,
+     "dupes": 6
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 125,
+     "pct": 1.6,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 117,
+     "pct": 1.71,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 4,
+     "total": 263,
+     "pct": 1.52,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 365,
+     "pct": 1.64,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 80,
+     "pct": 2.5,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 4,
+     "total": 182,
+     "pct": 2.2,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 7,
+     "total": 165,
+     "pct": 4.24,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "O",
+     "rank": "S",
+     "drops": 2,
+     "total": 103,
+     "pct": 1.94,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Q",
+     "rank": "S",
+     "drops": 1,
+     "total": 84,
+     "pct": 1.19,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 3,
+     "total": 161,
+     "pct": 1.86,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "W",
+     "rank": "S",
+     "drops": 1,
+     "total": 6,
+     "pct": 16.67,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 121,
+     "pct": 3.31,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 5,
+     "total": 116,
+     "pct": 4.31,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "I",
+     "rank": "S",
+     "drops": 4,
+     "total": 269,
+     "pct": 1.49,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 5,
+     "total": 253,
+     "pct": 1.98,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "O",
+     "rank": "S",
+     "drops": 5,
+     "total": 245,
+     "pct": 2.04,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Q",
+     "rank": "S",
+     "drops": 4,
+     "total": 261,
+     "pct": 1.53,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 8,
+     "total": 670,
+     "pct": 1.19,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 12,
+     "total": 776,
+     "pct": 1.55,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "A",
+     "drops": 2,
+     "total": 65,
+     "pct": 3.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 6,
+     "total": 550,
+     "pct": 1.09,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 4,
+     "total": 188,
+     "pct": 2.13,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 5,
+     "total": 346,
+     "pct": 1.45,
+     "dupes": 5
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 93,
+     "pct": 2.15,
+     "dupes": 1
+    }
+   ]
+  },
+  "480": {
+   "id": 480,
+   "name": "狭霧",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "C2",
+     "rank": "S",
+     "drops": 5,
+     "total": 298,
+     "pct": 1.68,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 21,
+     "total": 1742,
+     "pct": 1.21,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 19,
+     "total": 1613,
+     "pct": 1.18,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 14,
+     "total": 838,
+     "pct": 1.67,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "A",
+     "drops": 12,
+     "total": 487,
+     "pct": 2.46,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 13,
+     "total": 804,
+     "pct": 1.62,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "A",
+     "drops": 20,
+     "total": 1022,
+     "pct": 1.96,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 12,
+     "total": 1051,
+     "pct": 1.14,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 23,
+     "total": 1382,
+     "pct": 1.66,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 9,
+     "total": 473,
+     "pct": 1.9,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 32,
+     "total": 1643,
+     "pct": 1.95,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "I",
+     "rank": "S",
+     "drops": 4,
+     "total": 125,
+     "pct": 3.2,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 117,
+     "pct": 0.85,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "O",
+     "rank": "A",
+     "drops": 1,
+     "total": 38,
+     "pct": 2.63,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Q",
+     "rank": "S",
+     "drops": 1,
+     "total": 55,
+     "pct": 1.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Q",
+     "rank": "A",
+     "drops": 2,
+     "total": 43,
+     "pct": 4.65,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 6,
+     "total": 263,
+     "pct": 2.28,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 365,
+     "pct": 2.19,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 80,
+     "pct": 1.25,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 182,
+     "pct": 1.1,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 165,
+     "pct": 0.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "V",
+     "rank": "S",
+     "drops": 1,
+     "total": 161,
+     "pct": 0.62,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 116,
+     "pct": 1.72,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "I",
+     "rank": "S",
+     "drops": 6,
+     "total": 269,
+     "pct": 2.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 3,
+     "total": 253,
+     "pct": 1.19,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "O",
+     "rank": "S",
+     "drops": 4,
+     "total": 245,
+     "pct": 1.63,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Q",
+     "rank": "S",
+     "drops": 2,
+     "total": 261,
+     "pct": 0.77,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "V",
+     "rank": "S",
+     "drops": 10,
+     "total": 670,
+     "pct": 1.49,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 11,
+     "total": 776,
+     "pct": 1.42,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "A",
+     "drops": 2,
+     "total": 65,
+     "pct": 3.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 5,
+     "total": 550,
+     "pct": 0.91,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 8,
+     "total": 188,
+     "pct": 4.26,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 10,
+     "total": 346,
+     "pct": 2.89,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 62,
+     "pct": 4.84,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 20,
+     "pct": 5.0,
+     "dupes": 1
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 93,
+     "pct": 3.23,
+     "dupes": 1
+    }
+   ]
+  },
+  "486": {
+   "id": 486,
+   "name": "浦波",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "I",
+     "rank": "S",
+     "drops": 38,
+     "total": 1742,
+     "pct": 2.18,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 28,
+     "total": 1613,
+     "pct": 1.74,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "O",
+     "rank": "S",
+     "drops": 12,
+     "total": 838,
+     "pct": 1.43,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Q",
+     "rank": "S",
+     "drops": 9,
+     "total": 804,
+     "pct": 1.12,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 12,
+     "total": 1051,
+     "pct": 1.14,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "W",
+     "rank": "S",
+     "drops": 1,
+     "total": 78,
+     "pct": 1.28,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 25,
+     "total": 1382,
+     "pct": 1.81,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "A",
+     "drops": 4,
+     "total": 473,
+     "pct": 0.85,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 26,
+     "total": 1643,
+     "pct": 1.58,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "I",
+     "rank": "S",
+     "drops": 2,
+     "total": 125,
+     "pct": 1.6,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 117,
+     "pct": 0.85,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "O",
+     "rank": "S",
+     "drops": 2,
+     "total": 68,
+     "pct": 2.94,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 3,
+     "total": 365,
+     "pct": 0.82,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "A",
+     "drops": 2,
+     "total": 42,
+     "pct": 4.76,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 2,
+     "total": 80,
+     "pct": 2.5,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "I",
+     "rank": "S",
+     "drops": 3,
+     "total": 182,
+     "pct": 1.65,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 2,
+     "total": 165,
+     "pct": 1.21,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "O",
+     "rank": "S",
+     "drops": 2,
+     "total": 103,
+     "pct": 1.94,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 3,
+     "total": 116,
+     "pct": 2.59,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "I",
+     "rank": "S",
+     "drops": 4,
+     "total": 269,
+     "pct": 1.49,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 5,
+     "total": 253,
+     "pct": 1.98,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Q",
+     "rank": "S",
+     "drops": 4,
+     "total": 261,
+     "pct": 1.53,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 8,
+     "total": 776,
+     "pct": 1.03,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 8,
+     "total": 550,
+     "pct": 1.45,
+     "dupes": 2
+    }
+   ]
+  },
+  "524": {
+   "id": 524,
+   "name": "択捉",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 12,
+     "total": 558,
+     "pct": 2.15,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 13,
+     "total": 625,
+     "pct": 2.08,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 30,
+     "pct": 3.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 55,
+     "pct": 3.64,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 4,
+     "total": 51,
+     "pct": 7.84,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 6,
+     "total": 584,
+     "pct": 1.03,
+     "dupes": 1
+    }
+   ]
+  },
+  "565": {
+   "id": 565,
+   "name": "福江",
+   "entries": [
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 12,
+     "total": 558,
+     "pct": 2.15,
+     "dupes": 4
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 15,
+     "total": 625,
+     "pct": 2.4,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 43,
+     "pct": 2.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 30,
+     "pct": 3.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 55,
+     "pct": 3.64,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 9,
+     "total": 584,
+     "pct": 1.54,
+     "dupes": 1
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "A",
+     "drops": 1,
+     "total": 16,
+     "pct": 6.25,
+     "dupes": 0
+    }
+   ]
+  },
+  "625": {
+   "id": 625,
+   "name": "秋霜",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "H",
+     "rank": "S",
+     "drops": 11,
+     "total": 1176,
+     "pct": 0.94,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 15,
+     "total": 1221,
+     "pct": 1.23,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 12,
+     "total": 999,
+     "pct": 1.2,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "T",
+     "rank": "S",
+     "drops": 77,
+     "total": 6737,
+     "pct": 1.14,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "V",
+     "rank": "S",
+     "drops": 20,
+     "total": 1588,
+     "pct": 1.26,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 37,
+     "total": 3221,
+     "pct": 1.15,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 9,
+     "total": 371,
+     "pct": 2.43,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 24,
+     "total": 2031,
+     "pct": 1.18,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "H",
+     "rank": "S",
+     "drops": 6,
+     "total": 328,
+     "pct": 1.83,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "L",
+     "rank": "S",
+     "drops": 9,
+     "total": 894,
+     "pct": 1.01,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "P",
+     "rank": "S",
+     "drops": 3,
+     "total": 432,
+     "pct": 0.69,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "T",
+     "rank": "S",
+     "drops": 30,
+     "total": 2731,
+     "pct": 1.1,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "V",
+     "rank": "S",
+     "drops": 3,
+     "total": 731,
+     "pct": 0.41,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "X",
+     "rank": "S",
+     "drops": 13,
+     "total": 1210,
+     "pct": 1.07,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 14,
+     "total": 777,
+     "pct": 1.8,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "H",
+     "rank": "S",
+     "drops": 1,
+     "total": 161,
+     "pct": 0.62,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "L",
+     "rank": "S",
+     "drops": 1,
+     "total": 777,
+     "pct": 0.13,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "T",
+     "rank": "S",
+     "drops": 8,
+     "total": 1279,
+     "pct": 0.63,
+     "dupes": 2
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "X",
+     "rank": "S",
+     "drops": 5,
+     "total": 526,
+     "pct": 0.95,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 123,
+     "pct": 0.81,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 3,
+     "total": 340,
+     "pct": 0.88,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "L",
+     "rank": "S",
+     "drops": 3,
+     "total": 454,
+     "pct": 0.66,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "P",
+     "rank": "S",
+     "drops": 2,
+     "total": 185,
+     "pct": 1.08,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "T",
+     "rank": "S",
+     "drops": 7,
+     "total": 1008,
+     "pct": 0.69,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "X",
+     "rank": "S",
+     "drops": 4,
+     "total": 521,
+     "pct": 0.77,
+     "dupes": 1
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 8,
+     "total": 457,
+     "pct": 1.75,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "G",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "L",
+     "rank": "S",
+     "drops": 4,
+     "total": 208,
+     "pct": 1.92,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "P",
+     "rank": "S",
+     "drops": 1,
+     "total": 57,
+     "pct": 1.75,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "S",
+     "rank": "S",
+     "drops": 5,
+     "total": 150,
+     "pct": 3.33,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 6,
+     "total": 406,
+     "pct": 1.48,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 5,
+     "total": 271,
+     "pct": 1.85,
+     "dupes": 2
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 43,
+     "pct": 2.33,
+     "dupes": 1
+    }
+   ]
+  },
+  "80": {
+   "id": 80,
+   "name": "長門",
+   "entries": [
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "S",
+     "drops": 10,
+     "total": 371,
+     "pct": 2.7,
+     "dupes": 12
+    },
+    {
+     "map": "62-2",
+     "difficulty": "甲",
+     "node": "Y",
+     "rank": "A",
+     "drops": 33,
+     "total": 2031,
+     "pct": 1.62,
+     "dupes": 13
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 8,
+     "total": 156,
+     "pct": 5.13,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "乙",
+     "node": "Y",
+     "rank": "A",
+     "drops": 8,
+     "total": 777,
+     "pct": 1.03,
+     "dupes": 4
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丙",
+     "node": "Y",
+     "rank": "S",
+     "drops": 1,
+     "total": 123,
+     "pct": 0.81,
+     "dupes": 3
+    },
+    {
+     "map": "62-2",
+     "difficulty": "丁",
+     "node": "Y",
+     "rank": "S",
+     "drops": 4,
+     "total": 457,
+     "pct": 0.88,
+     "dupes": 5
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "X",
+     "rank": "S",
+     "drops": 5,
+     "total": 1382,
+     "pct": 0.36,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 31,
+     "total": 558,
+     "pct": 5.56,
+     "dupes": 18
+    },
+    {
+     "map": "62-3",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 5,
+     "total": 625,
+     "pct": 0.8,
+     "dupes": 3
+    },
+    {
+     "map": "62-3",
+     "difficulty": "乙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 3,
+     "total": 43,
+     "pct": 6.98,
+     "dupes": 2
+    },
+    {
+     "map": "62-3",
+     "difficulty": "丁",
+     "node": "Z",
+     "rank": "S",
+     "drops": 11,
+     "total": 584,
+     "pct": 1.88,
+     "dupes": 2
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "S",
+     "drops": 2,
+     "total": 188,
+     "pct": 1.06,
+     "dupes": 3
+    },
+    {
+     "map": "62-4",
+     "difficulty": "甲",
+     "node": "Z",
+     "rank": "A",
+     "drops": 5,
+     "total": 346,
+     "pct": 1.45,
+     "dupes": 4
+    },
+    {
+     "map": "62-4",
+     "difficulty": "丙",
+     "node": "Z",
+     "rank": "S",
+     "drops": 1,
+     "total": 62,
+     "pct": 1.61,
+     "dupes": 1
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 11,
+     "total": 234,
+     "pct": 4.7,
+     "dupes": 4
+    },
+    {
+     "map": "62-5",
+     "difficulty": "甲",
+     "node": "ZZ",
+     "rank": "A",
+     "drops": 2,
+     "total": 82,
+     "pct": 2.44,
+     "dupes": 3
+    },
+    {
+     "map": "62-5",
+     "difficulty": "丁",
+     "node": "ZZ",
+     "rank": "S",
+     "drops": 1,
+     "total": 50,
+     "pct": 2.0,
+     "dupes": 5
+    }
+   ]
+  }
+ }
+}
