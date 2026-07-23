@@ -1,5 +1,7 @@
 .app {
-  max-width: 1120px;
+  /* 所持数別ドロップ率の表(最大 517px)が横スクロールなしで収まる幅。
+     マス表カードは固定幅なので、広げた分はすべて右カラムに回る */
+  max-width: 1160px;
   margin: 0 auto;
   padding: 16px 20px 28px;
   text-align: left;
@@ -12,7 +14,7 @@ header {
 }
 
 header h1 {
-  font-size: 22px;
+  font-size: var(--fs-h1);
   font-weight: 700;
   letter-spacing: -0.02em;
   margin: 0 0 8px;
@@ -20,7 +22,7 @@ header h1 {
 }
 
 .description {
-  font-size: 13px;
+  font-size: var(--fs-md);
   line-height: 1.5;
   color: var(--text);
   margin: 0 0 8px;
@@ -29,21 +31,40 @@ header h1 {
 /* --- フッタ(取得日・出典) --- */
 
 .footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 16px;
   margin-top: 16px;
   padding-top: 10px;
   border-top: 1px solid var(--border);
-  font-size: 12px;
+  font-size: var(--fs-sm);
   line-height: 1.5;
   color: var(--text);
   text-align: left;
 }
 
+/* GitHub リンクとバージョン(右下) */
+.footer-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.footer-version {
+  font-size: var(--fs-xs);
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
 .legend {
   display: inline-flex;
   align-items: center;
-  font-size: 11px;
+  font-size: var(--fs-xs);
   border: 1px solid var(--border-strong);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   padding: 1px 9px;
   background: var(--surface);
   color: var(--text-h);
@@ -96,7 +117,7 @@ header h1 {
 }
 
 .difficulty-all-label {
-  font-size: 12px;
+  font-size: var(--fs-sm);
   font-weight: 600;
   color: var(--text);
 }
@@ -104,7 +125,7 @@ header h1 {
 /* セグメント型コントロール。艦選択(塗りつぶしピル)と役割が違うことが
    見た目で分かるよう、連結ボタン+薄い青の選択表示にする */
 .difficulty-all button {
-  font-size: 12px;
+  font-size: var(--fs-sm);
   font-weight: 600;
   padding: 3px 14px;
   border: 1px solid var(--border-strong);
@@ -120,12 +141,12 @@ header h1 {
 }
 
 .difficulty-all button:first-of-type {
-  border-radius: 6px 0 0 6px;
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
   margin-left: 0;
 }
 
 .difficulty-all button:last-of-type {
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
 .difficulty-all button:hover {
@@ -163,7 +184,7 @@ header h1 {
 }
 
 .ship-groups-title {
-  font-size: 14px;
+  font-size: var(--fs-lg);
   font-weight: 700;
   color: var(--text-h);
 }
@@ -173,7 +194,7 @@ header h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: var(--fs-xs);
   color: var(--text);
 }
 
@@ -192,7 +213,7 @@ header h1 {
 .group-label {
   flex-shrink: 0;
   min-width: 82px;
-  font-size: 12px;
+  font-size: var(--fs-sm);
   font-weight: 600;
   color: var(--text);
   padding-top: 4px;
@@ -208,11 +229,11 @@ header h1 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  font-size: 12.5px;
+  font-size: var(--fs-md);
   font-weight: 400;
   padding: 3px 11px;
   border: 1px solid var(--border-strong);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--surface);
   color: var(--text-h);
   cursor: pointer;
@@ -279,9 +300,9 @@ header h1 {
   font-weight: 700;
 }
 
+/* 地は他の艦ボタンと同じ。レア度と同様、区別は枠線色だけで示す */
 .ship-group.new-ships button {
   border-color: var(--new-ship);
-  background: color-mix(in srgb, var(--new-ship) 10%, var(--surface));
 }
 
 .ship-group.new-ships button.disabled {
@@ -291,13 +312,14 @@ header h1 {
   color: var(--text);
 }
 
+/* 選択時の塗りは他の艦と同じアクセント色にし、枠線は新規実装の赤を残す。
+   ユニーク艦・レア艦も選択中はレア度の枠線色を保つため、それに揃える */
 .ship-group.new-ships button.active {
-  background: var(--new-ship);
-  border-color: var(--new-ship);
-  color: #fff;
+  background: var(--accent);
+  color: var(--accent-fg);
   font-weight: 700;
   box-shadow:
-    0 0 0 3px color-mix(in srgb, var(--new-ship) 25%, transparent),
+    0 0 0 3px var(--accent-bg),
     var(--shadow-sm);
 }
 
@@ -331,17 +353,17 @@ header h1 {
 }
 
 .map-grid-map-inner span {
-  font-size: 15px;
+  font-size: var(--fs-lg);
   font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--text-h);
 }
 
 .map-grid-map-inner select {
-  font-size: 12px;
+  font-size: var(--fs-sm);
   padding: 3px 2px;
   border: 1px solid var(--border-strong);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--surface-2);
   color: var(--text-h);
   width: 42px;
@@ -374,7 +396,7 @@ header h1 {
 }
 
 .map-grid-node {
-  font-size: 13px;
+  font-size: var(--fs-md);
   font-weight: 400;
   padding: 0 4px;
   background: var(--surface-2);
@@ -382,16 +404,16 @@ header h1 {
 }
 
 .map-grid-table tr:first-child td:first-of-type {
-  border-top-left-radius: 6px;
+  border-top-left-radius: var(--radius-sm);
 }
 .map-grid-table tr:first-child td:last-child {
-  border-top-right-radius: 6px;
+  border-top-right-radius: var(--radius-sm);
 }
 .map-grid-table tr:last-child td:first-of-type {
-  border-bottom-left-radius: 6px;
+  border-bottom-left-radius: var(--radius-sm);
 }
 .map-grid-table tr:last-child td:last-child {
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: var(--radius-sm);
 }
 
 .map-grid-node.boss {
@@ -400,27 +422,27 @@ header h1 {
 }
 
 .map-grid-rank {
-  font-size: 12px;
+  font-size: var(--fs-sm);
   padding: 0 2px;
   color: var(--text-h);
   border-top: none;
 }
 
 .map-grid-rank.rank-S {
-  background: rgba(255, 193, 7, 0.85);
-  color: #3a2c00;
+  background: var(--rank-s-bg);
+  color: var(--rank-s-fg);
   font-weight: 700;
 }
 
 .map-grid-rank.rank-A {
-  background: rgba(229, 57, 53, 0.85);
-  color: #fff;
+  background: var(--rank-a-bg);
+  color: var(--rank-a-fg);
   font-weight: 700;
 }
 
 .map-grid-rank.rank-B {
-  background: rgba(255, 138, 0, 0.85);
-  color: #3a1e00;
+  background: var(--rank-b-bg);
+  color: var(--rank-b-fg);
   font-weight: 700;
 }
 
@@ -486,9 +508,16 @@ header h1 {
   margin-bottom: 8px;
 }
 
+/* 艦名ラベル(.title-ship)の有無で行の高さが変わらないよう、
+   flex + 行送り分の min-height で固定する。
+   inline-block をベースライン配置のまま置くと、ディセンダ分だけ行が伸びて
+   下のマス表・ドロップ率表が 1px ずれる */
 .dupes-title,
 .grid-title {
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  min-height: calc(var(--fs-lg) * 1.6);
+  font-size: var(--fs-lg);
   font-weight: 700;
   color: var(--text-h);
 }
@@ -505,9 +534,9 @@ header h1 {
   color: var(--accent);
   border-left: 3px solid var(--accent);
   padding: 2px 8px;
-  border-radius: 4px;
+  border-radius: 0;
   margin-right: 8px;
-  font-size: 12px;
+  font-size: var(--fs-sm);
   font-weight: 700;
 }
 
@@ -515,11 +544,11 @@ header h1 {
    難度セグメントと同じ角丸+薄い青のON表示にする */
 .dupes-toggle {
   flex-shrink: 0;
-  font-size: 12px;
+  font-size: var(--fs-sm);
   font-weight: 600;
   padding: 3px 12px;
   border: 1px solid var(--border-strong);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--surface);
   color: var(--text);
   cursor: pointer;
@@ -552,11 +581,11 @@ header h1 {
 }
 
 .rank-filter-btn {
-  font-size: 12px;
+  font-size: var(--fs-sm);
   font-weight: 700;
   padding: 3px 11px;
   border: 1px solid var(--border-strong);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--surface);
   color: var(--text);
   cursor: pointer;
@@ -571,15 +600,15 @@ header h1 {
 }
 
 .rank-filter-btn.rank-S.active {
-  background: rgba(255, 193, 7, 0.85);
-  border-color: rgba(255, 193, 7, 0.85);
-  color: #3a2c00;
+  background: var(--rank-s-bg);
+  border-color: var(--rank-s-bg);
+  color: var(--rank-s-fg);
 }
 
 .rank-filter-btn.rank-A.active {
-  background: rgba(229, 57, 53, 0.85);
-  border-color: rgba(229, 57, 53, 0.85);
-  color: #fff;
+  background: var(--rank-a-bg);
+  border-color: var(--rank-a-bg);
+  color: var(--rank-a-fg);
 }
 
 .dupes-scroll {
@@ -590,7 +619,83 @@ header h1 {
 .dupes-table {
   border-collapse: separate;
   border-spacing: 0;
-  font-size: 12.5px;
+  font-size: var(--fs-md);
+}
+
+/* 所持数別ドロップ率(艦選択時)は列幅を固定し、艦を切り替えても表が動かないようにする。
+   min-width は全列が潰れずに収まる下限で、これを下回る幅では横スクロールする */
+.dupes-table-fixed {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 516px;
+}
+
+.dupes-col-diff {
+  width: 8.5%;
+}
+
+.dupes-col-map {
+  width: 9.5%;
+}
+
+.dupes-col-node,
+.dupes-col-rank {
+  width: 8.5%;
+}
+
+.dupes-col-bucket {
+  width: 12.5%;
+}
+
+.dupes-col-bucket-plus {
+  width: 15%;
+}
+
+/* マス選択時(新規実装・ユニーク艦)。艦名列は「第二十二号海防艦」のような
+   長い艦名が入るため広めに取る */
+.node-dupes-table-fixed {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 520px;
+}
+
+.node-dupes-table-fixed .dupes-col-ship {
+  width: 23%;
+}
+
+.node-dupes-table-fixed .dupes-col-rank {
+  width: 9.5%;
+}
+
+.node-dupes-table-fixed .dupes-col-bucket {
+  width: 13%;
+}
+
+.node-dupes-table-fixed .dupes-col-bucket-plus {
+  width: 15.5%;
+}
+
+/* マス選択時(レア艦) */
+.node-rank-table-fixed {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 360px;
+}
+
+.node-rank-table-fixed .dupes-col-ship {
+  width: 34%;
+}
+
+.node-rank-table-fixed .dupes-col-rank {
+  width: 14%;
+}
+
+.node-rank-table-fixed .dupes-col-pct {
+  width: 28%;
+}
+
+.node-rank-table-fixed .dupes-col-limit {
+  width: 24%;
 }
 
 .dupes-table th,
@@ -632,7 +737,7 @@ header h1 {
 /* 未ソート列に薄く表示する並び替え可能ヒント */
 .sort-hint {
   opacity: 0.35;
-  font-size: 10px;
+  font-size: var(--fs-xs);
 }
 
 .dupes-table tbody tr:hover td {
@@ -653,25 +758,25 @@ header h1 {
 }
 
 .dupes-rank.rank-S {
-  color: #b8860b;
+  color: var(--rank-s-text);
 }
 .dupes-rank.rank-A {
-  color: #d32f2f;
+  color: var(--rank-a-text);
 }
 .dupes-rank.rank-B {
-  color: #e07000;
+  color: var(--rank-b-text);
 }
 
 /* マス視点テーブルで新規実装艦の艦名をボタン風のバッジで強調(艦選択ボタンの未選択状態と同じ配色) */
 .dupes-ship-new {
   display: inline-block;
   border: 1px solid var(--new-ship);
-  background: color-mix(in srgb, var(--new-ship) 10%, var(--surface));
+  background: var(--surface);
   color: var(--text-h);
   font-weight: 400;
-  font-size: 11.5px;
+  font-size: var(--fs-sm);
   padding: 1px 9px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   line-height: 1.5;
 }
 
@@ -686,7 +791,7 @@ header h1 {
 
 .dupes-pct-sub {
   display: block;
-  font-size: 10px;
+  font-size: var(--fs-xs);
   line-height: 1.3;
   color: var(--text);
   font-variant-numeric: tabular-nums;
@@ -694,13 +799,13 @@ header h1 {
 }
 
 .dupes-note {
-  font-size: 11px;
+  font-size: var(--fs-sm);
   color: var(--text);
   margin: 8px 0 0;
 }
 
 .dupes-empty {
-  font-size: 12.5px;
+  font-size: var(--fs-md);
   color: var(--text);
   padding: 16px 0;
 }
@@ -738,7 +843,6 @@ header h1 {
   /* タップしやすいようボタンを少し大きく */
   .ship-group button {
     padding: 5px 12px;
-    font-size: 13px;
   }
 
   .map-grid,

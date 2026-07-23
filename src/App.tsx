@@ -30,6 +30,9 @@ function loadSavedDifficulties(): Record<string, number> {
   }
 }
 
+// フッタに表示するバージョン。package.json の version と揃える
+const APP_VERSION = 'v0.1.0'
+
 const DIFF_ORDER = ['甲', '乙', '丙', '丁']
 const RANK_ORDER = ['S', 'A', 'B']
 const OWNED_BUCKETS = [0, 1, 2, 3]
@@ -381,11 +384,67 @@ function sortWithFallback<T, K>(
 }
 
 // 横スクロール付きテーブルのラッパー(全テーブルで共用)
-function ScrollTable({ children }: { children: ReactNode }) {
+function ScrollTable({
+  children,
+  className,
+}: {
+  children: ReactNode
+  className?: string
+}) {
   return (
     <div className="dupes-scroll">
-      <table className="dupes-table">{children}</table>
+      <table className={`dupes-table${className ? ` ${className}` : ''}`}>
+        {children}
+      </table>
     </div>
+  )
+}
+
+// 列幅を固定するための colgroup 一式。
+// 内容依存(table-layout: auto)のままにすると、艦やマスを切り替えるたびに
+// 分母の桁数・艦名やマス名の長さで列幅が変わって表がずれる
+
+// 艦選択時: 難度・海域・マス・勝利 + 所持数5列
+function DupesColGroup() {
+  return (
+    <colgroup>
+      <col className="dupes-col-diff" />
+      <col className="dupes-col-map" />
+      <col className="dupes-col-node" />
+      <col className="dupes-col-rank" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket-plus" />
+    </colgroup>
+  )
+}
+
+// マス選択時(新規実装・ユニーク艦): 艦名・勝利 + 所持数5列
+function NodeDupesColGroup() {
+  return (
+    <colgroup>
+      <col className="dupes-col-ship" />
+      <col className="dupes-col-rank" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket" />
+      <col className="dupes-col-bucket-plus" />
+    </colgroup>
+  )
+}
+
+// マス選択時(レア艦): 艦名・勝利・ドロップ率・所持制限
+function NodeRankColGroup() {
+  return (
+    <colgroup>
+      <col className="dupes-col-ship" />
+      <col className="dupes-col-rank" />
+      <col className="dupes-col-pct" />
+      <col className="dupes-col-limit" />
+    </colgroup>
   )
 }
 
@@ -451,7 +510,8 @@ function DupesTable({
       </div>
       {ship ? (
         <>
-          <ScrollTable>
+          <ScrollTable className="dupes-table-fixed">
+            <DupesColGroup />
             <thead>
               <tr>
                 <EntryHeaderCells rowSpan={2} toggleSort={toggleSort} sortIndicator={sortIndicator} />
@@ -607,10 +667,13 @@ function NodeDupesTable({
     return compareBucket(a.dupes, b.dupes, key)
   }
 
-  // 既定の並び順(新規実装艦を優先→艦の sortId 順→勝利ランク)。列ソート時はタイブレークに使う。
+  // 既定の並び順(新規実装艦を優先→艦の sortId 順→艦ID順→勝利ランク)。列ソート時はタイブレークに使う。
+  // 新規実装艦は ships.json 未収録で sortId が全員同値になるため、艦IDでもう一段揃えないと
+  // 勝利ランクが先に効いて同じ艦の行が離れてしまう。
   const defaultCompare = (a: NodeDupeRow, b: NodeDupeRow): number =>
     Number(a.rarity != null) - Number(b.rarity != null) ||
     a.sortId - b.sortId ||
+    a.shipId - b.shipId ||
     compareRank(a.rank, b.rank)
 
   const rows_ = sortWithFallback(
@@ -633,7 +696,8 @@ function NodeDupesTable({
       </div>
       {rows_.length > 0 ? (
         <>
-          <ScrollTable>
+          <ScrollTable className="node-dupes-table-fixed">
+            <NodeDupesColGroup />
             <thead>
               <tr>
                 <th
@@ -725,9 +789,10 @@ function NodeRankDropsTable({
     return compareRankPct(a, b, key)
   }
 
-  // 既定の並び順(艦の sortId 順→勝利ランク)。列ソート時はタイブレークに使う。
+  // 既定の並び順(艦の sortId 順→艦ID順→勝利ランク)。列ソート時はタイブレークに使う。
+  // 艦IDを挟むのは NodeDupesTable と同じ理由(sortId 同値時に同じ艦の行が離れるのを防ぐ)。
   const defaultCompare = (a: NodeRankRow, b: NodeRankRow): number =>
-    a.sortId - b.sortId || compareRank(a.rank, b.rank)
+    a.sortId - b.sortId || a.shipId - b.shipId || compareRank(a.rank, b.rank)
 
   const rows_ = sortWithFallback(
     filterNodeRows(rows, difficultyName, rankFilter),
@@ -749,7 +814,8 @@ function NodeRankDropsTable({
       </div>
       {rows_.length > 0 ? (
         <>
-          <ScrollTable>
+          <ScrollTable className="node-rank-table-fixed">
+            <NodeRankColGroup />
             <thead>
               <tr>
                 <th
@@ -797,6 +863,10 @@ interface Ship {
   rarity: number | null
   typeName: string
   sortId: number
+  /** その艦がドロップする最も早い海域の並び順(新規実装艦の表示順に使用) */
+  firstMapOrder: number
+  /** 上記の海域内で最も早いマスの並び順(マスグリッドの列順に対応) */
+  firstNodeOrder: number
 }
 
 // 最低勝利ランク(B > A > S の順で緩い方を優先)
@@ -1074,12 +1144,30 @@ function App() {
       shipTypes.map((t) => [t.id, typeNameMerge[t.name] ?? t.name]),
     )
     const byId = new Map<number, Ship>()
-    for (const mapData of Object.values(maps)) {
+    // Object.entries の順は index.maps の順と一致する保証がないため、
+    // 海域の早さは mapOrder で判定する
+    for (const [mapId, mapData] of Object.entries(maps)) {
+      const order = mapOrder(mapId)
+      // マスの早さはマスグリッドの列順(mapAllNodes)に合わせる
+      const nodeIdx = new Map(
+        (mapAllNodes[mapId] ?? []).map((n, i) => [n.node, i]),
+      )
       for (const diffData of Object.values(mapData.difficulties)) {
         for (const node of diffData.nodes) {
+          const nodeOrder = nodeIdx.get(node.node) ?? Number.MAX_SAFE_INTEGER
           for (const d of node.drops) {
             if (d.rarity === 1 || d.rarity === 2 || d.rarity == null) {
-              if (!byId.has(d.id)) {
+              const cur = byId.get(d.id)
+              if (cur) {
+                if (
+                  order < cur.firstMapOrder ||
+                  (order === cur.firstMapOrder &&
+                    nodeOrder < cur.firstNodeOrder)
+                ) {
+                  cur.firstMapOrder = order
+                  cur.firstNodeOrder = nodeOrder
+                }
+              } else {
                 const master = masterById.get(d.id)
                 byId.set(d.id, {
                   id: d.id,
@@ -1090,6 +1178,8 @@ function App() {
                     ? typeNameById.get(master.shipType) ?? '艦種不明'
                     : '艦種不明',
                   sortId: master?.sortId ?? Number.MAX_SAFE_INTEGER,
+                  firstMapOrder: order,
+                  firstNodeOrder: nodeOrder,
                 })
               }
             }
@@ -1098,7 +1188,7 @@ function App() {
       }
     }
     return [...byId.values()]
-  }, [maps, masterShips, shipTypes])
+  }, [maps, masterShips, shipTypes, mapOrder, mapAllNodes])
 
   // 艦ID -> 艦情報(rarity・sortId)の対応(マス選択時の表の並び順に使用)
   const shipInfoById = useMemo(() => new Map(ships.map((s) => [s.id, s])), [ships])
@@ -1181,9 +1271,19 @@ function App() {
     return groups
   }, [ships, shipTypes])
 
+  // 新規実装艦はドロップする海域→マスの早い順に並べる(掘る順序に合わせる)。
+  // 以降は艦の sortId 順、sortId は ships.json 未収録だと同値になるため艦IDで確定させる
   const unknownRarityShips = useMemo(
     () =>
-      ships.filter((s) => s.rarity == null).sort((a, b) => a.sortId - b.sortId),
+      ships
+        .filter((s) => s.rarity == null)
+        .sort(
+          (a, b) =>
+            a.firstMapOrder - b.firstMapOrder ||
+            a.firstNodeOrder - b.firstNodeOrder ||
+            a.sortId - b.sortId ||
+            a.id - b.id,
+        ),
     [ships],
   )
 
@@ -1253,7 +1353,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>艦これ　海域ドロップ検索ツール</h1>
+        <h1>艦これ　ドロップ検索ツール</h1>
         <p className="description">各艦の難易度によるドロップマス、ドロップ率を表示します。</p>
       </header>
 
@@ -1355,19 +1455,32 @@ function App() {
       </div>
 
       <footer className="footer">
-        データ取得: {new Date(index.updated).toLocaleDateString('ja-JP')} / 出典:{' '}
-        <a href="https://tsunkit.net/nav/" target="_blank" rel="noreferrer">
-          KCNav (TsunKit)
-        </a>
-        <br />
-        ご意見ご要望はこちらに：
-        <a
-          href="https://marshmallow-qa.com/lmingitwavpu1ou?t=OFjHMa&utm_medium=url_text&utm_source=promotion"
-          target="_blank"
-          rel="noreferrer"
-        >
-          マシュマロ（匿名メッセージ）
-        </a>
+        <div>
+          データ取得: {new Date(index.updated).toLocaleDateString('ja-JP')} /
+          出典:{' '}
+          <a href="https://tsunkit.net/nav/" target="_blank" rel="noreferrer">
+            KCNav (TsunKit)
+          </a>
+          <br />
+          ご意見ご要望はこちらに：
+          <a
+            href="https://marshmallow-qa.com/lmingitwavpu1ou?t=OFjHMa&utm_medium=url_text&utm_source=promotion"
+            target="_blank"
+            rel="noreferrer"
+          >
+            マシュマロ（匿名メッセージ）
+          </a>
+        </div>
+        <div className="footer-meta">
+          <a
+            href="https://github.com/iora339/kc-drop-srch"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          <span className="footer-version">{APP_VERSION}</span>
+        </div>
       </footer>
     </div>
   )

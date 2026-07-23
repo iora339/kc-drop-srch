@@ -4998,6 +4998,20 @@
     "sortId": 16297
   },
   {
+    "id": 746,
+    "name": "桐改",
+    "shipType": 2,
+    "afterId": null,
+    "sortId": 19062
+  },
+  {
+    "id": 747,
+    "name": "Reno改",
+    "shipType": 3,
+    "afterId": null,
+    "sortId": 32482
+  },
+  {
     "id": 877,
     "name": "Conte di Cavour",
     "shipType": 9,
@@ -5327,6 +5341,13 @@
     "sortId": 32131
   },
   {
+    "id": 932,
+    "name": "Indiana",
+    "shipType": 8,
+    "afterId": 937,
+    "sortId": 32071
+  },
+  {
     "id": 933,
     "name": "Massachusetts",
     "shipType": 8,
@@ -5353,6 +5374,13 @@
     "shipType": 9,
     "afterId": null,
     "sortId": 32003
+  },
+  {
+    "id": 937,
+    "name": "Indiana改",
+    "shipType": 8,
+    "afterId": null,
+    "sortId": 32072
   },
   {
     "id": 938,
@@ -5506,7 +5534,7 @@
     "name": "Mogador",
     "shipType": 2,
     "afterId": 967,
-    "sortId": 34511
+    "sortId": 34591
   },
   {
     "id": 963,
@@ -5541,7 +5569,7 @@
     "name": "Mogador改",
     "shipType": 2,
     "afterId": null,
-    "sortId": 34512
+    "sortId": 34592
   },
   {
     "id": 968,
@@ -5691,6 +5719,13 @@
     "sortId": 32762
   },
   {
+    "id": 991,
+    "name": "Reno",
+    "shipType": 3,
+    "afterId": 747,
+    "sortId": 32481
+  },
+  {
     "id": 992,
     "name": "杉",
     "shipType": 2,
@@ -5817,6 +5852,13 @@
     "sortId": 33101
   },
   {
+    "id": 1023,
+    "name": "Independence",
+    "shipType": 7,
+    "afterId": 1028,
+    "sortId": 32211
+  },
+  {
     "id": 1025,
     "name": "Wasp",
     "shipType": 11,
@@ -5829,6 +5871,13 @@
     "shipType": 11,
     "afterId": 741,
     "sortId": 33102
+  },
+  {
+    "id": 1028,
+    "name": "Independence改",
+    "shipType": 7,
+    "afterId": 1036,
+    "sortId": 32212
   },
   {
     "id": 1030,
@@ -5866,11 +5915,116 @@
     "sortId": 14017
   },
   {
+    "id": 1036,
+    "name": "Independence Flight II",
+    "shipType": 7,
+    "afterId": null,
+    "sortId": 32213
+  },
+  {
     "id": 1040,
     "name": "吹雪改三護(六式)",
     "shipType": 2,
     "afterId": null,
     "sortId": 14018
+  },
+  {
+    "id": 1041,
+    "name": "花月",
+    "shipType": 2,
+    "afterId": 1046,
+    "sortId": 17071
+  },
+  {
+    "id": 1044,
+    "name": "桐",
+    "shipType": 2,
+    "afterId": 746,
+    "sortId": 19061
+  },
+  {
+    "id": 1046,
+    "name": "花月改",
+    "shipType": 2,
+    "afterId": null,
+    "sortId": 17072
+  },
+  {
+    "id": 1051,
+    "name": "Algérie",
+    "shipType": 5,
+    "afterId": 1056,
+    "sortId": 34351
+  },
+  {
+    "id": 1053,
+    "name": "Vautour",
+    "shipType": 2,
+    "afterId": 1058,
+    "sortId": 34551
+  },
+  {
+    "id": 1055,
+    "name": "Béarn",
+    "shipType": 11,
+    "afterId": 1060,
+    "sortId": 34111
+  },
+  {
+    "id": 1056,
+    "name": "Algérie改",
+    "shipType": 5,
+    "afterId": null,
+    "sortId": 34352
+  },
+  {
+    "id": 1058,
+    "name": "Vautour改",
+    "shipType": 2,
+    "afterId": null,
+    "sortId": 34552
+  },
+  {
+    "id": 1060,
+    "name": "Béarn改",
+    "shipType": 11,
+    "afterId": 1061,
+    "sortId": 34112
+  },
+  {
+    "id": 1061,
+    "name": "Béarn amélioration",
+    "shipType": 11,
+    "afterId": null,
+    "sortId": 34114
+  },
+  {
+    "id": 1062,
+    "name": "Visby",
+    "shipType": 2,
+    "afterId": 1067,
+    "sortId": 36551
+  },
+  {
+    "id": 1065,
+    "name": "日枝丸",
+    "shipType": 20,
+    "afterId": 1070,
+    "sortId": 7031
+  },
+  {
+    "id": 1067,
+    "name": "Visby改",
+    "shipType": 2,
+    "afterId": null,
+    "sortId": 36552
+  },
+  {
+    "id": 1070,
+    "name": "日枝丸改",
+    "shipType": 20,
+    "afterId": null,
+    "sortId": 7032
   },
   {
     "id": 1496,

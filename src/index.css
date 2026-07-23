@@ -17,13 +17,35 @@
   --rarity-1: #4a90d9;
   --new-ship: #e0533f;
 
+  /* 勝利ランク。ライトは明るい塗り+濃い文字、ダークは濃い塗り+淡い文字にして
+     どちらのモードでも面が浮かず文字が読めるようにする。
+     -text はドロップ率表の文字色(塗りなし) */
+  --rank-s-bg: rgba(255, 193, 7, 0.85);
+  --rank-s-fg: #3a2c00;
+  --rank-s-text: #b8860b;
+  --rank-a-bg: rgba(229, 57, 53, 0.85);
+  --rank-a-fg: #ffffff;
+  --rank-a-text: #d32f2f;
+  --rank-b-bg: rgba(255, 138, 0, 0.85);
+  --rank-b-fg: #3a1e00;
+  --rank-b-text: #e07000;
+
   /* 影 */
   --shadow-sm: 0 1px 2px rgba(16, 22, 34, 0.06);
   --shadow: 0 1px 3px rgba(16, 22, 34, 0.08), 0 4px 12px rgba(16, 22, 34, 0.05);
   --shadow-lg: 0 8px 28px rgba(16, 22, 34, 0.12);
 
+  /* 文字サイズ — 5段に統一 */
+  --fs-xs: 10.5px;
+  --fs-sm: 11.5px;
+  --fs-md: 12.5px;
+  --fs-lg: 14px;
+  --fs-h1: 22px;
+
+  /* 角丸 — カード / コントロール / ピル の3種のみ */
   --radius: 14px;
-  --radius-sm: 8px;
+  --radius-sm: 6px;
+  --radius-pill: 999px;
 
   --sans:
     -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans',
@@ -56,6 +78,16 @@
     --rarity-2: #d9ad4a;
     --rarity-1: #6aa9e9;
     --new-ship: #f0715e;
+
+    --rank-s-bg: #4a3a12;
+    --rank-s-fg: #f0cd77;
+    --rank-s-text: #d9b45c;
+    --rank-a-bg: #4a201d;
+    --rank-a-fg: #eda49e;
+    --rank-a-text: #dd8b84;
+    --rank-b-bg: #4a3113;
+    --rank-b-fg: #edb680;
+    --rank-b-text: #d99f68;
 
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(0, 0, 0, 0.35);
