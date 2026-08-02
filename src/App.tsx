@@ -9,10 +9,7 @@ import type {
   MapData,
   MasterShip,
   NodeData,
-  RankDropEntry,
-  RankDropsData,
   ShipDupes,
-  ShipRankDrops,
   ShipType,
 } from './types'
 import './App.css'
@@ -35,13 +32,13 @@ const APP_VERSION = 'v0.1.0'
 
 const DIFF_ORDER = ['甲', '乙', '丙', '丁']
 const RANK_ORDER = ['S', 'A', 'B']
-const OWNED_BUCKETS = [0, 1, 2, 3]
+// 所持数の内訳。元データが持つのは 0/1/2隻ちょうどまでで、
+// それ以上は合計との差から求めるため最終バケットは「3隻以上」になる
+const OWNED_BUCKETS = [0, 1, 2]
+const OWNED_PLUS = 3
 
 const DUPES_CAVEAT =
   '「-」はドロップ実績なし。所持数が多い箇所は母数が小さくブレやすい点に注意してください。'
-const RANK_DROPS_NOTE =
-  'レア艦は所持数を区別せず合算したドロップ率を確認できます。' +
-  '所持制限はドロップが確認できた最大の既所持数です。数字よりも多く所持している場合はドロップしない可能性があります。'
 
 const compareDifficulty = (a: string, b: string) =>
   DIFF_ORDER.indexOf(a) - DIFF_ORDER.indexOf(b)
@@ -62,7 +59,7 @@ function compareEntryDefault(
 }
 
 // 所持数バケットのドロップ率を集計。実績0・母数0は表示「-」。
-// plus=true のとき owned>=count を合算(4隻以上用)。
+// plus=true のとき owned>=count を合算(3隻以上用)。
 // text: セル表示、title: ドロップ数/母数(母数0なら空)、value: ソート用の数値(母数0は-1)。
 function bucketPct(
   dupes: DupeSample[],
@@ -159,9 +156,9 @@ function PctCell({ text, title }: { text: string; title: string }) {
   )
 }
 
-// 所持数 0〜3隻 + 4隻以上のドロップ率セル一式(DupesTable/NodeDupesTable で共用)
+// 所持数 0〜2隻 + 3隻以上のドロップ率セル一式(DupesTable/NodeDupesTable で共用)
 function OwnedBucketCells({ dupes }: { dupes: DupeSample[] }) {
-  const plus = bucketPct(dupes, 4, true)
+  const plus = bucketPct(dupes, OWNED_PLUS, true)
   return (
     <>
       {OWNED_BUCKETS.map((n) => {
@@ -173,7 +170,7 @@ function OwnedBucketCells({ dupes }: { dupes: DupeSample[] }) {
   )
 }
 
-// 所持数バケット列のヘッダー(n隻/4隻以上のソートボタン行)。
+// 所持数バケット列のヘッダー(n隻/3隻以上のソートボタン行)。
 // key の型は呼び出し元の SortKey/NodeSortKey が number | 'plus' を包含するため共用できる。
 function OwnedBucketHeaderCells({
   toggleSort,
@@ -190,7 +187,7 @@ function OwnedBucketHeaderCells({
         </th>
       ))}
       <th className="dupes-sortable" onClick={() => toggleSort('plus', 'desc')}>
-        4隻以上{sortIndicator('plus')}
+        {OWNED_PLUS}隻以上{sortIndicator('plus')}
       </th>
     </tr>
   )
@@ -292,64 +289,13 @@ function ShipRankCells({
   )
 }
 
-// レア艦向けドロップ率のヘッダー(RankDropsTable/NodeRankDropsTable で共用)
-function RankPctHeaderCells({
-  toggleSort,
-  sortIndicator,
-}: {
-  toggleSort: (key: 'pct' | 'dupes', dir: SortDir) => void
-  sortIndicator: (key: 'pct' | 'dupes') => ReactNode
-}) {
-  return (
-    <>
-      <th className="dupes-sortable" onClick={() => toggleSort('pct', 'desc')}>
-        ドロップ率{sortIndicator('pct')}
-      </th>
-      <th className="dupes-sortable" onClick={() => toggleSort('dupes', 'desc')}>
-        所持制限{sortIndicator('dupes')}
-      </th>
-    </>
-  )
-}
-
-// レア艦向けドロップ率のセル(ドロップ率+所持制限)。RankDropsTable/NodeRankDropsTable で共用。
-function RankPctCells({
-  drops,
-  total,
-  pct,
-  dupesLimit,
-}: {
-  drops: number
-  total: number
-  pct: number | null
-  dupesLimit: number | null
-}) {
-  const noData = total === 0 || drops === 0
-  return (
-    <>
-      <PctCell text={noData ? '-' : `${pct}%`} title={total > 0 ? `${drops}/${total}` : ''} />
-      <td className="dupes-pct">{dupesLimit ?? '-'}</td>
-    </>
-  )
-}
-
 // 所持数バケットのソートキー(隻数 or 'plus')比較。DupesTable/NodeDupesTable で共用。
 const compareBucket = (a: DupeSample[], b: DupeSample[], key: number | 'plus'): number =>
   key === 'plus'
-    ? bucketPct(a, 4, true).value - bucketPct(b, 4, true).value
+    ? bucketPct(a, OWNED_PLUS, true).value - bucketPct(b, OWNED_PLUS, true).value
     : bucketPct(a, key).value - bucketPct(b, key).value
 
-// レア艦のドロップ率/所持制限の比較。RankDropsTable/NodeRankDropsTable で共用。
-const compareRankPct = (
-  a: { total: number; pct: number | null; dupes: number | null },
-  b: { total: number; pct: number | null; dupes: number | null },
-  key: 'pct' | 'dupes',
-): number =>
-  key === 'dupes'
-    ? (a.dupes ?? -1) - (b.dupes ?? -1)
-    : (a.total > 0 ? (a.pct ?? 0) : -1) - (b.total > 0 ? (b.pct ?? 0) : -1)
-
-// 選択中の難易度の行のみ表示(全難度モード時は絞らない)。DupesTable/RankDropsTable で共用。
+// 選択中の難易度の行のみ表示(全難度モード時は絞らない)。
 function filterByDifficulty<T extends { map: string; difficulty: string }>(
   entries: T[],
   showAll: boolean,
@@ -358,7 +304,7 @@ function filterByDifficulty<T extends { map: string; difficulty: string }>(
   return entries.filter((e) => showAll || mapDiffName[e.map] === e.difficulty)
 }
 
-// マス選択表向け: 難度を確定させた上でランクフィルタを適用。NodeDupesTable/NodeRankDropsTable で共用。
+// マス選択表向け: 難度を確定させた上でランクフィルタを適用。
 function filterNodeRows<T extends { difficulty: string; rank: string }>(
   rows: T[],
   difficultyName: string,
@@ -369,7 +315,7 @@ function filterNodeRows<T extends { difficulty: string; rank: string }>(
     .filter((r) => rankFilter.size === 0 || rankFilter.has(r.rank))
 }
 
-// クリックソート未指定時は既定順、指定時はキー比較→既定順でタイブレーク。4テーブル共通のソート適用処理。
+// クリックソート未指定時は既定順、指定時はキー比較→既定順でタイブレーク。両テーブル共通のソート適用処理。
 function sortWithFallback<T, K>(
   items: T[],
   sort: { key: K; dir: SortDir } | null,
@@ -404,7 +350,7 @@ function ScrollTable({
 // 内容依存(table-layout: auto)のままにすると、艦やマスを切り替えるたびに
 // 分母の桁数・艦名やマス名の長さで列幅が変わって表がずれる
 
-// 艦選択時: 難度・海域・マス・勝利 + 所持数5列
+// 艦選択時: 難度・海域・マス・勝利 + 所持数4列
 function DupesColGroup() {
   return (
     <colgroup>
@@ -415,13 +361,12 @@ function DupesColGroup() {
       <col className="dupes-col-bucket" />
       <col className="dupes-col-bucket" />
       <col className="dupes-col-bucket" />
-      <col className="dupes-col-bucket" />
       <col className="dupes-col-bucket-plus" />
     </colgroup>
   )
 }
 
-// マス選択時(新規実装・ユニーク艦): 艦名・勝利 + 所持数5列
+// マス選択時: 艦名・勝利 + 所持数4列
 function NodeDupesColGroup() {
   return (
     <colgroup>
@@ -430,20 +375,7 @@ function NodeDupesColGroup() {
       <col className="dupes-col-bucket" />
       <col className="dupes-col-bucket" />
       <col className="dupes-col-bucket" />
-      <col className="dupes-col-bucket" />
       <col className="dupes-col-bucket-plus" />
-    </colgroup>
-  )
-}
-
-// マス選択時(レア艦): 艦名・勝利・ドロップ率・所持制限
-function NodeRankColGroup() {
-  return (
-    <colgroup>
-      <col className="dupes-col-ship" />
-      <col className="dupes-col-rank" />
-      <col className="dupes-col-pct" />
-      <col className="dupes-col-limit" />
     </colgroup>
   )
 }
@@ -515,7 +447,7 @@ function DupesTable({
             <thead>
               <tr>
                 <EntryHeaderCells rowSpan={2} toggleSort={toggleSort} sortIndicator={sortIndicator} />
-                <th colSpan={5} className="dupes-owned-head">
+                <th colSpan={4} className="dupes-owned-head">
                   所持数毎のドロップ率
                 </th>
               </tr>
@@ -531,7 +463,7 @@ function DupesTable({
             </tbody>
           </ScrollTable>
           <p className="dupes-note">
-            新規実装艦・ユニーク艦は所持数別のドロップ率を確認できます。
+            所持数別のドロップ率を確認できます。3隻以上はまとめて集計しています。
             {DUPES_CAVEAT}
           </p>
         </>
@@ -542,88 +474,6 @@ function DupesTable({
             : '艦やマスを選択すると、所持数別ドロップ率を表示します。'}
         </p>
       )}
-    </div>
-  )
-}
-
-type RankSortKey = 'difficulty' | 'map' | 'node' | 'rank' | 'pct' | 'dupes'
-
-// レア艦向け: 所持数別の内訳を持たない、マス単位のそのままのドロップ率を表示。
-function RankDropsTable({
-  ship,
-  selectedShipName,
-  mapLabels,
-  mapOrder,
-  mapDiffName,
-  showAll,
-  onToggleShowAll,
-  onSelectNode,
-}: {
-  ship: ShipRankDrops
-  selectedShipName: string | null
-  mapLabels: Record<string, string>
-  mapOrder: (mapId: string) => number
-  mapDiffName: Record<string, string>
-  showAll: boolean
-  onToggleShowAll: () => void
-  onSelectNode: (mapId: string, node: string) => void
-}) {
-  const { sort, toggleSort, sortIndicator } = useSortState<RankSortKey>()
-
-  const compareByKey = (
-    a: RankDropEntry,
-    b: RankDropEntry,
-    key: RankSortKey,
-  ): number => {
-    if (key === 'node') return a.node.localeCompare(b.node)
-    if (key === 'difficulty') return compareDifficulty(a.difficulty, b.difficulty)
-    if (key === 'map') return mapOrder(a.map) - mapOrder(b.map)
-    if (key === 'rank') return compareRank(a.rank, b.rank)
-    return compareRankPct(a, b, key)
-  }
-
-  const rows = sortWithFallback(
-    filterByDifficulty(ship.entries, showAll, mapDiffName),
-    sort,
-    compareByKey,
-    (a, b) => compareEntryDefault(a, b, mapOrder),
-  )
-
-  return (
-    <div className="dupes card">
-      <div className="dupes-head">
-        <div className="dupes-title">
-          {selectedShipName && (
-            <span className="title-ship">{selectedShipName}</span>
-          )}
-          ドロップ率
-        </div>
-        <button
-          type="button"
-          className={'dupes-toggle' + (showAll ? ' active' : '')}
-          aria-pressed={showAll}
-          onClick={onToggleShowAll}
-        >
-          全難度のドロップ率を表示
-        </button>
-      </div>
-      <ScrollTable>
-        <thead>
-          <tr>
-            <EntryHeaderCells toggleSort={toggleSort} sortIndicator={sortIndicator} />
-            <RankPctHeaderCells toggleSort={toggleSort} sortIndicator={sortIndicator} />
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((e, i) => (
-            <tr key={i}>
-              <EntryBodyCells entry={e} mapLabels={mapLabels} onSelectNode={onSelectNode} />
-              <RankPctCells drops={e.drops} total={e.total} pct={e.pct} dupesLimit={e.dupes} />
-            </tr>
-          ))}
-        </tbody>
-      </ScrollTable>
-      <p className="dupes-note">{RANK_DROPS_NOTE}</p>
     </div>
   )
 }
@@ -640,7 +490,7 @@ interface NodeDupeRow {
   dupes: DupeSample[]
 }
 
-// マス視点: 選択中マス(海域+難度+マス)にドロップ実績のある新規実装・ユニーク艦を一覧表示。
+// マス視点: 選択中マス(海域+難度+マス)にドロップ実績のある艦を一覧表示。
 // 所持数別ドロップ率テーブルと同じ集計・列構成で、海域/マスの代わりに艦名を並べる。
 // 難度はマス選択時点で1つに確定するためタイトルに含め、列としては持たない。
 function NodeDupesTable({
@@ -714,7 +564,7 @@ function NodeDupesTable({
                 >
                   勝利{sortIndicator('rank')}
                 </th>
-                <th colSpan={5} className="dupes-owned-head">
+                <th colSpan={4} className="dupes-owned-head">
                   所持数毎のドロップ率
                 </th>
               </tr>
@@ -736,121 +586,12 @@ function NodeDupesTable({
             </tbody>
           </ScrollTable>
           <p className="dupes-note">
-            新規実装艦・ユニーク艦のうち、このマスにドロップ実績がある艦を表示しています。
+            このマスにドロップ実績がある艦を表示しています。3隻以上はまとめて集計しています。
             {DUPES_CAVEAT}
           </p>
         </>
       ) : (
-        <p className="dupes-empty">
-          このマスには新規実装艦・ユニーク艦のドロップ実績がありません。
-        </p>
-      )}
-    </div>
-  )
-}
-
-type NodeRankSortKey = 'ship' | 'rank' | 'pct' | 'dupes'
-
-interface NodeRankRow {
-  shipId: number
-  shipName: string
-  sortId: number
-  difficulty: string
-  rank: string
-  drops: number
-  total: number
-  pct: number | null
-  dupes: number | null
-}
-
-// マス視点: 選択中マスにドロップ実績があるレア艦を一覧表示。所持数の内訳を持たないため
-// NodeDupesTable とは別テーブルにし、RankDropsTable と同じ列構成(艦名・勝利・ドロップ率・所持制限)にする。
-function NodeRankDropsTable({
-  mapId,
-  node,
-  difficultyName,
-  mapLabels,
-  rows,
-  onSelectShip,
-}: {
-  mapId: string
-  node: string
-  difficultyName: string
-  mapLabels: Record<string, string>
-  rows: NodeRankRow[]
-  onSelectShip: (shipId: number) => void
-}) {
-  const { sort, toggleSort, sortIndicator } = useSortState<NodeRankSortKey>()
-  const { rankFilter, toggleRankFilter } = useRankFilter()
-
-  const compareByKey = (a: NodeRankRow, b: NodeRankRow, key: NodeRankSortKey): number => {
-    if (key === 'ship') return a.sortId - b.sortId
-    if (key === 'rank') return compareRank(a.rank, b.rank)
-    return compareRankPct(a, b, key)
-  }
-
-  // 既定の並び順(艦の sortId 順→艦ID順→勝利ランク)。列ソート時はタイブレークに使う。
-  // 艦IDを挟むのは NodeDupesTable と同じ理由(sortId 同値時に同じ艦の行が離れるのを防ぐ)。
-  const defaultCompare = (a: NodeRankRow, b: NodeRankRow): number =>
-    a.sortId - b.sortId || a.shipId - b.shipId || compareRank(a.rank, b.rank)
-
-  const rows_ = sortWithFallback(
-    filterNodeRows(rows, difficultyName, rankFilter),
-    sort,
-    compareByKey,
-    defaultCompare,
-  )
-
-  return (
-    <div className="dupes card">
-      <div className="dupes-head">
-        <div className="dupes-title">
-          <span className="title-ship">
-            {mapLabels[mapId] ?? mapId}-{node} {difficultyName}
-          </span>
-          レア艦のドロップ率
-        </div>
-        <RankFilterButtons rankFilter={rankFilter} onToggle={toggleRankFilter} />
-      </div>
-      {rows_.length > 0 ? (
-        <>
-          <ScrollTable className="node-rank-table-fixed">
-            <NodeRankColGroup />
-            <thead>
-              <tr>
-                <th
-                  className="dupes-sortable dupes-col-narrow"
-                  onClick={() => toggleSort('ship', 'asc')}
-                >
-                  艦名{sortIndicator('ship')}
-                </th>
-                <th
-                  className="dupes-sortable dupes-col-narrow"
-                  onClick={() => toggleSort('rank', 'asc')}
-                >
-                  勝利{sortIndicator('rank')}
-                </th>
-                <RankPctHeaderCells toggleSort={toggleSort} sortIndicator={sortIndicator} />
-              </tr>
-            </thead>
-            <tbody>
-              {rows_.map((r, i) => (
-                <tr key={i}>
-                  <ShipRankCells
-                    shipId={r.shipId}
-                    shipName={r.shipName}
-                    rank={r.rank}
-                    onSelectShip={onSelectShip}
-                  />
-                  <RankPctCells drops={r.drops} total={r.total} pct={r.pct} dupesLimit={r.dupes} />
-                </tr>
-              ))}
-            </tbody>
-          </ScrollTable>
-          <p className="dupes-note">{RANK_DROPS_NOTE}</p>
-        </>
-      ) : (
-        <p className="dupes-empty">このマスにはレア艦のドロップ実績がありません。</p>
+        <p className="dupes-empty">このマスにはドロップ実績がありません。</p>
       )}
     </div>
   )
@@ -1006,7 +747,6 @@ function App() {
   const [masterShips, setMasterShips] = useState<MasterShip[]>([])
   const [shipTypes, setShipTypes] = useState<ShipType[]>([])
   const [dupes, setDupes] = useState<DupesData | null>(null)
-  const [rankDrops, setRankDrops] = useState<RankDropsData | null>(null)
   const [selectedDifficulties, setSelectedDifficulties] = useState<
     Record<string, number>
   >({})
@@ -1021,22 +761,18 @@ function App() {
   useEffect(() => {
     ;(async () => {
       try {
-        const [idx, master, types, dupesData, rankDropsData] = await Promise.all([
+        const [idx, master, types, dupesData] = await Promise.all([
           fetch(`${DATA_BASE}index.json`).then((r) => r.json() as Promise<IndexData>),
           fetch(`${DATA_BASE}ships.json`).then((r) => r.json() as Promise<MasterShip[]>),
           fetch(`${DATA_BASE}ship-type.json`).then((r) => r.json() as Promise<ShipType[]>),
           fetch(`${DATA_BASE}dupes.json`)
             .then((r) => (r.ok ? (r.json() as Promise<DupesData>) : null))
             .catch(() => null),
-          fetch(`${DATA_BASE}rank_drops.json`)
-            .then((r) => (r.ok ? (r.json() as Promise<RankDropsData>) : null))
-            .catch(() => null),
         ])
         setIndex(idx)
         setMasterShips(master)
         setShipTypes(types)
         setDupes(dupesData)
-        setRankDrops(rankDropsData)
         // 各海域とも最も高い難易度(甲)をデフォルト選択。保存済みの選択があれば復元する
         const maxDiff = idx.difficulties.reduce(
           (max, d) => (d.id > max ? d.id : max),
@@ -1216,30 +952,6 @@ function App() {
     return rows
   }, [selectedNode, dupes, shipInfoById])
 
-  // マス選択時: そのマス(海域+マス)にドロップ実績があるレア艦の行一覧
-  const selectedNodeRankRows = useMemo(() => {
-    if (!selectedNode || !rankDrops) return []
-    const rows: NodeRankRow[] = []
-    for (const ship of Object.values(rankDrops.ships)) {
-      for (const e of ship.entries) {
-        if (e.map === selectedNode.map && e.node === selectedNode.node) {
-          rows.push({
-            shipId: ship.id,
-            shipName: ship.name,
-            sortId: shipInfoById.get(ship.id)?.sortId ?? Number.MAX_SAFE_INTEGER,
-            difficulty: e.difficulty,
-            rank: e.rank,
-            drops: e.drops,
-            total: e.total,
-            pct: e.pct,
-            dupes: e.dupes,
-          })
-        }
-      }
-    }
-    return rows
-  }, [selectedNode, rankDrops, shipInfoById])
-
   // 現在選択中の難易度の組み合わせでドロップ実績がある艦ID(非活性判定に使用)
   const availableShipIds = useMemo(() => {
     const ids = new Set<number>()
@@ -1303,11 +1015,9 @@ function App() {
     setSelectedShipId(null)
   }
 
-  // 選択中の艦のドロップ率データ。dupes(所持数別)が優先、なければ rankDrops(マス単位)
+  // 選択中の艦のドロップ率データ(所持数別)
   const selectedDupesShip =
     selectedShipId != null ? (dupes?.ships[String(selectedShipId)] ?? null) : null
-  const selectedRankShip =
-    selectedShipId != null ? (rankDrops?.ships[String(selectedShipId)] ?? null) : null
   const selectedShipName =
     selectedShipId != null
       ? (ships.find((s) => s.id === selectedShipId)?.name ?? null)
@@ -1409,40 +1119,10 @@ function App() {
               rows={selectedNodeRows}
               onSelectShip={toggleShip}
             />
-            <NodeRankDropsTable
-              mapId={selectedNode.map}
-              node={selectedNode.node}
-              difficultyName={mapDiffName[selectedNode.map] ?? ''}
-              mapLabels={mapLabels}
-              rows={selectedNodeRankRows}
-              onSelectShip={toggleShip}
-            />
           </div>
-        ) : selectedDupesShip ? (
-          <DupesTable
-            ship={selectedDupesShip}
-            selectedShipName={selectedShipName}
-            mapLabels={mapLabels}
-            mapOrder={mapOrder}
-            mapDiffName={mapDiffName}
-            showAll={showAllRates}
-            onToggleShowAll={() => setShowAllRates((v) => !v)}
-            onSelectNode={selectNode}
-          />
-        ) : selectedRankShip ? (
-          <RankDropsTable
-            ship={selectedRankShip}
-            selectedShipName={selectedShipName}
-            mapLabels={mapLabels}
-            mapOrder={mapOrder}
-            mapDiffName={mapDiffName}
-            showAll={showAllRates}
-            onToggleShowAll={() => setShowAllRates((v) => !v)}
-            onSelectNode={selectNode}
-          />
         ) : (
           <DupesTable
-            ship={null}
+            ship={selectedDupesShip}
             selectedShipName={selectedShipName}
             mapLabels={mapLabels}
             mapOrder={mapOrder}

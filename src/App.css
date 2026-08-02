@@ -480,7 +480,7 @@ header h1 {
   }
 }
 
-/* --- マス視点(所持数別 + レア艦)の2テーブル縦積み --- */
+/* --- マス視点(所持数別)のテーブル領域 --- */
 
 .node-tables {
   display: flex;
@@ -627,7 +627,7 @@ header h1 {
 .dupes-table-fixed {
   table-layout: fixed;
   width: 100%;
-  min-width: 516px;
+  min-width: 460px;
 }
 
 .dupes-col-diff {
@@ -644,19 +644,18 @@ header h1 {
 }
 
 .dupes-col-bucket {
-  width: 12.5%;
-}
-
-.dupes-col-bucket-plus {
   width: 15%;
 }
 
-/* マス選択時(新規実装・ユニーク艦)。艦名列は「第二十二号海防艦」のような
-   長い艦名が入るため広めに取る */
+.dupes-col-bucket-plus {
+  width: 20%;
+}
+
+/* マス選択時。艦名列は「第二十二号海防艦」のような長い艦名が入るため広めに取る */
 .node-dupes-table-fixed {
   table-layout: fixed;
   width: 100%;
-  min-width: 520px;
+  min-width: 465px;
 }
 
 .node-dupes-table-fixed .dupes-col-ship {
@@ -668,34 +667,11 @@ header h1 {
 }
 
 .node-dupes-table-fixed .dupes-col-bucket {
-  width: 13%;
+  width: 16.5%;
 }
 
 .node-dupes-table-fixed .dupes-col-bucket-plus {
-  width: 15.5%;
-}
-
-/* マス選択時(レア艦) */
-.node-rank-table-fixed {
-  table-layout: fixed;
-  width: 100%;
-  min-width: 360px;
-}
-
-.node-rank-table-fixed .dupes-col-ship {
-  width: 34%;
-}
-
-.node-rank-table-fixed .dupes-col-rank {
-  width: 14%;
-}
-
-.node-rank-table-fixed .dupes-col-pct {
-  width: 28%;
-}
-
-.node-rank-table-fixed .dupes-col-limit {
-  width: 24%;
+  width: 18%;
 }
 
 .dupes-table th,

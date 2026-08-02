@@ -57,6 +57,10 @@ export interface DupeSample {
   pct: number | null
 }
 
+/**
+ * 所持数別ドロップ率の1行。dupes は所持 0/1/2隻 と owned=3(「3隻以上」の合算)の4要素。
+ * 元データが 2隻ちょうどまでしか持たないため、3隻以上は合計との差で求めている。
+ */
 export interface DupeEntry {
   map: string
   difficulty: string
@@ -75,26 +79,4 @@ export interface ShipDupes {
 export interface DupesData {
   updated: string
   ships: Record<string, ShipDupes>
-}
-
-export interface RankDropEntry {
-  map: string
-  difficulty: string
-  node: string
-  rank: string
-  drops: number
-  total: number
-  pct: number | null
-  dupes: number | null
-}
-
-export interface ShipRankDrops {
-  id: number
-  name: string
-  entries: RankDropEntry[]
-}
-
-export interface RankDropsData {
-  updated: string
-  ships: Record<string, ShipRankDrops>
 }

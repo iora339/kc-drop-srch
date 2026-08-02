@@ -15,7 +15,7 @@ npm run lint     # oxlint
 
 - `public/data/index.json` … 海域一覧・難易度・更新日時
 - `public/data/<map>.json` … 海域ごとのマス × 難易度 × ドロップ
-- `public/data/dupes.json` / `rank_drops.json` … 艦ごとのドロップ率詳細
+- `public/data/dupes.json` … 艦ごとの所持数別ドロップ率（0/1/2/3隻以上）
 - `public/data/ships.json` / `ship-type.json` … 艦娘・艦種マスタ
 
 ## デプロイ
