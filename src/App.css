@@ -540,8 +540,16 @@ header h1 {
   font-weight: 700;
 }
 
+/* ヘッダ右側のボタンは艦選択時(トグル)とマス選択時(ランクフィルタ)で入れ替わる。
+   日本語ラベルと半角英字(S/A)では既定の行高が違い、そのままだとヘッダの高さが
+   変わって表の開始位置が 2px ずれるため、両者の line-height を明示して揃える */
+.dupes-toggle,
+.rank-filter-btn {
+  line-height: 1.35;
+}
+
 /* 表示切替トグル。艦選択(塗りつぶしピル)と混同しないよう、
-   難度セグメントと同じ角丸+薄い青のON表示にする */
+   難易度セグメントと同じ角丸+薄い青のON表示にする */
 .dupes-toggle {
   flex-shrink: 0;
   font-size: var(--fs-sm);
@@ -627,11 +635,12 @@ header h1 {
 .dupes-table-fixed {
   table-layout: fixed;
   width: 100%;
-  min-width: 460px;
+  min-width: 520px;
 }
 
+/* 「難易度」3文字 + ソート矢印が折り返さない幅を確保する */
 .dupes-col-diff {
-  width: 8.5%;
+  width: 12%;
 }
 
 .dupes-col-map {
@@ -644,34 +653,38 @@ header h1 {
 }
 
 .dupes-col-bucket {
-  width: 15%;
+  width: 13.5%;
 }
 
 .dupes-col-bucket-plus {
-  width: 20%;
+  width: 21%;
 }
 
-/* マス選択時。艦名列は「第二十二号海防艦」のような長い艦名が入るため広めに取る */
+/* マス選択時。艦名列は「第二十二号海防艦」のような長い艦名が入るため広めに取る。
+   艦選択時と「勝利」列・所持数4列を同じ位置に置きたいので、min-width と
+   所持数側の幅(13.5% × 3 + 21%)・勝利列(8.5%)を .dupes-table-fixed と揃え、
+   左端の艦名列で差分(30%)を吸収する。数値列が横にずれないため、
+   艦選択とマス選択を行き来しても表が動いて見えない */
 .node-dupes-table-fixed {
   table-layout: fixed;
   width: 100%;
-  min-width: 465px;
+  min-width: 520px;
 }
 
 .node-dupes-table-fixed .dupes-col-ship {
-  width: 23%;
+  width: 30%;
 }
 
 .node-dupes-table-fixed .dupes-col-rank {
-  width: 9.5%;
+  width: 8.5%;
 }
 
 .node-dupes-table-fixed .dupes-col-bucket {
-  width: 16.5%;
+  width: 13.5%;
 }
 
 .node-dupes-table-fixed .dupes-col-bucket-plus {
-  width: 18%;
+  width: 21%;
 }
 
 .dupes-table th,

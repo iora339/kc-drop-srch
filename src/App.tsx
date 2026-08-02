@@ -38,7 +38,7 @@ const OWNED_BUCKETS = [0, 1, 2]
 const OWNED_PLUS = 3
 
 const DUPES_CAVEAT =
-  '「-」はドロップ実績なし。所持数が多い箇所は母数が小さくブレやすい点に注意してください。'
+  '「-」はドロップ実績なし。母数が小さい箇所は確率がブレやすい点に注意してください。'
 
 const compareDifficulty = (a: string, b: string) =>
   DIFF_ORDER.indexOf(a) - DIFF_ORDER.indexOf(b)
@@ -210,7 +210,7 @@ function EntryHeaderCells({
         className="dupes-sortable dupes-col-narrow"
         onClick={() => toggleSort('difficulty', 'asc')}
       >
-        難度{sortIndicator('difficulty')}
+        難易度{sortIndicator('difficulty')}
       </th>
       <th
         rowSpan={rowSpan}
@@ -424,7 +424,7 @@ function DupesTable({
           {selectedShipName && (
             <span className="title-ship">{selectedShipName}</span>
           )}
-          所持数別ドロップ率
+          所持数毎のドロップ率
         </div>
         <button
           type="button"
@@ -437,7 +437,7 @@ function DupesTable({
           disabled={!ship}
           onClick={onToggleShowAll}
         >
-          全難度のドロップ率を表示
+          全難易度のドロップ率を表示
         </button>
       </div>
       {ship ? (
@@ -448,7 +448,7 @@ function DupesTable({
               <tr>
                 <EntryHeaderCells rowSpan={2} toggleSort={toggleSort} sortIndicator={sortIndicator} />
                 <th colSpan={4} className="dupes-owned-head">
-                  所持数毎のドロップ率
+                  所持数
                 </th>
               </tr>
               <OwnedBucketHeaderCells toggleSort={toggleSort} sortIndicator={sortIndicator} />
@@ -463,15 +463,15 @@ function DupesTable({
             </tbody>
           </ScrollTable>
           <p className="dupes-note">
-            所持数別のドロップ率を確認できます。3隻以上はまとめて集計しています。
+            選択した艦の全海域でのドロップ率を表示しています。
             {DUPES_CAVEAT}
           </p>
         </>
       ) : (
         <p className="dupes-empty">
           {selectedShipName
-            ? `${selectedShipName} の所持数別ドロップ率データはありません。`
-            : '艦やマスを選択すると、所持数別ドロップ率を表示します。'}
+            ? `${selectedShipName}の所持数毎のドロップ率データはありません。`
+            : '艦または各海域のマスを選択すると、所持数毎のドロップ率を表示します。'}
         </p>
       )}
     </div>
@@ -540,7 +540,7 @@ function NodeDupesTable({
           <span className="title-ship">
             {mapLabels[mapId] ?? mapId}-{node} {difficultyName}
           </span>
-          所持数別ドロップ率
+          所持数毎のドロップ率
         </div>
         <RankFilterButtons rankFilter={rankFilter} onToggle={toggleRankFilter} />
       </div>
@@ -565,7 +565,7 @@ function NodeDupesTable({
                   勝利{sortIndicator('rank')}
                 </th>
                 <th colSpan={4} className="dupes-owned-head">
-                  所持数毎のドロップ率
+                  所持数
                 </th>
               </tr>
               <OwnedBucketHeaderCells toggleSort={toggleSort} sortIndicator={sortIndicator} />
@@ -586,7 +586,7 @@ function NodeDupesTable({
             </tbody>
           </ScrollTable>
           <p className="dupes-note">
-            このマスにドロップ実績がある艦を表示しています。3隻以上はまとめて集計しています。
+            選択したマスでドロップ実績がある艦を表示しています。
             {DUPES_CAVEAT}
           </p>
         </>
@@ -651,10 +651,10 @@ function MapGrid({
         {selectedShipName && (
           <span className="title-ship">{selectedShipName}</span>
         )}
-        海域別ドロップ条件
+        海域・マス別のドロップ状況
       </div>
       <nav className="difficulty-all">
-        <span className="difficulty-all-label">全海域一括:</span>
+        <span className="difficulty-all-label">全海域一括：</span>
         {difficulties.map((d) => (
           <button
             key={d.id}
@@ -795,7 +795,7 @@ function App() {
         )
         setMaps(Object.fromEntries(mapEntries))
       } catch {
-        setError('データの読み込みに失敗しました')
+        setError('データの読み込みに失敗しました。')
       }
     })()
   }, [])
@@ -1001,7 +1001,7 @@ function App() {
 
   if (error) return <p className="no-data">{error}</p>
   if (!index || Object.keys(selectedDifficulties).length === 0)
-    return <p className="no-data">読み込み中...</p>
+    return <p className="no-data">読み込み中…</p>
 
   const toggleShip = (id: number) => {
     setSelectedShipId(id === selectedShipId ? null : id)
@@ -1064,14 +1064,14 @@ function App() {
     <div className="app">
       <header>
         <h1>艦これ　ドロップ検索ツール</h1>
-        <p className="description">各艦の難易度によるドロップマス、ドロップ率を表示します。</p>
+        <p className="description">艦ごと・マスごとの難易度によるドロップ率を表示します。</p>
       </header>
 
       <div className="ship-groups">
         <div className="ship-groups-head">
-          <span className="ship-groups-title">艦を選択してください</span>
+          <span className="ship-groups-title">艦または各海域のマスを選択してください</span>
           <span className="ship-legend">
-            枠色:{' '}
+            枠色：{' '}
             <span className="legend new-ship">新規実装</span>{' '}
             <span className="legend rarity-2">ユニーク</span>{' '}
             <span className="legend rarity-1">レア</span>
@@ -1136,8 +1136,8 @@ function App() {
 
       <footer className="footer">
         <div>
-          データ取得: {new Date(index.updated).toLocaleDateString('ja-JP')} /
-          出典:{' '}
+          データ取得：{new Date(index.updated).toLocaleDateString('ja-JP')} /
+          出典：
           <a href="https://tsunkit.net/nav/" target="_blank" rel="noreferrer">
             KCNav (TsunKit)
           </a>
