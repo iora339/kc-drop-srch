@@ -4,10 +4,34 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>艦これ　ドロップ検索ツール</title>
+    <title>艦これ　ドロップ率検索ツール</title>
+    <meta
+      name="description"
+      content="艦これのイベント海域・通常海域のドロップ率を、艦ごと・マスごとに検索できるツールです。難易度別のドロップマスと、所持数別のドロップ率を確認できます。"
+    />
+    <link rel="canonical" href="https://iora339.github.io/kc-drop-srch/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="艦これ　ドロップ率検索ツール" />
+    <meta
+      property="og:description"
+      content="艦これのイベント海域・通常海域のドロップ率を、艦ごと・マスごとに検索できるツールです。難易度別のドロップマスと、所持数別のドロップ率を確認できます。"
+    />
+    <meta property="og:url" content="https://iora339.github.io/kc-drop-srch/" />
+    <meta name="twitter:card" content="summary" />
   </head>
   <body>
     <div id="root"></div>
+    <!-- JavaScript 無効時のための最低限の説明。
+         描画は React が行うため、初期 HTML には本文が無い -->
+    <noscript>
+      <h1>艦これ　ドロップ率検索ツール</h1>
+      <p>
+        艦これのイベント海域・通常海域のドロップ率を、艦ごと・マスごとに検索できるツールです。
+        難易度別のドロップマスと、所持数別のドロップ率を確認できます。
+      </p>
+      <p>表示には JavaScript が必要です。</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

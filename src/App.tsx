@@ -1233,7 +1233,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>艦これ　ドロップ検索ツール</h1>
+        <h1>艦これ　ドロップ率検索ツール</h1>
         {/* マス単位の表示はイベント海域だけなので、イベントが無い期間は触れない */}
         <p className="description">
           {availableKinds.some((k) => k.id === 'event')

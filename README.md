@@ -1,4 +1,4 @@
-# kc-drop-srch — 艦これ ドロップ検索ツール
+# kc-drop-srch — 艦これ ドロップ率検索ツール
 
 `public/data/*.json` を読み込み、海域グリッド上に艦のドロップ有無を勝利ランク（S/A/B）で表示する静的サイト。React 19 + TypeScript + Vite 構成。
 
