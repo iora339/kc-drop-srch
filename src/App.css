@@ -70,16 +70,6 @@ header h1 {
   color: var(--text-h);
 }
 
-.legend.rarity-2 {
-  border-color: var(--rarity-2);
-  color: var(--rarity-2);
-}
-
-.legend.rarity-1 {
-  border-color: var(--rarity-1);
-  color: var(--rarity-1);
-}
-
 .legend.new-ship {
   border-color: var(--new-ship);
   color: var(--new-ship);
@@ -279,14 +269,6 @@ header h1 {
   color: var(--accent-fg);
 }
 
-.ship-group button.rarity-2 {
-  border-color: var(--rarity-2);
-}
-
-.ship-group button.rarity-1 {
-  border-color: var(--rarity-1);
-}
-
 .ship-group button.disabled {
   opacity: 0.35;
   border-color: var(--border);
@@ -300,7 +282,7 @@ header h1 {
   font-weight: 700;
 }
 
-/* 地は他の艦ボタンと同じ。レア度と同様、区別は枠線色だけで示す */
+/* 地は他の艦ボタンと同じ。区別は枠線色だけで示す */
 .ship-group.new-ships button {
   border-color: var(--new-ship);
 }

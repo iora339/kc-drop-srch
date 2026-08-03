@@ -424,7 +424,7 @@ function DupesTable({
           {selectedShipName && (
             <span className="title-ship">{selectedShipName}</span>
           )}
-          所持数毎のドロップ率
+          所持数別のドロップ率
         </div>
         <button
           type="button"
@@ -463,15 +463,16 @@ function DupesTable({
             </tbody>
           </ScrollTable>
           <p className="dupes-note">
-            選択した艦の全海域でのドロップ率を表示しています。
+            選択した艦の各海域でのドロップ率を表示しています。
             {DUPES_CAVEAT}
+            所持数3隻以上は所持数制限がある可能性があります。必要に応じてKCNavで確認してください。
           </p>
         </>
       ) : (
         <p className="dupes-empty">
           {selectedShipName
-            ? `${selectedShipName}の所持数毎のドロップ率データはありません。`
-            : '艦または各海域のマスを選択すると、所持数毎のドロップ率を表示します。'}
+            ? `${selectedShipName}の所持数別のドロップ率データはありません。`
+            : '艦または各海域のマスを選択すると、所持数別のドロップ率を表示します。'}
         </p>
       )}
     </div>
@@ -540,7 +541,7 @@ function NodeDupesTable({
           <span className="title-ship">
             {mapLabels[mapId] ?? mapId}-{node} {difficultyName}
           </span>
-          所持数毎のドロップ率
+          所持数別のドロップ率
         </div>
         <RankFilterButtons rankFilter={rankFilter} onToggle={toggleRankFilter} />
       </div>
@@ -588,6 +589,7 @@ function NodeDupesTable({
           <p className="dupes-note">
             選択したマスでドロップ実績がある艦を表示しています。
             {DUPES_CAVEAT}
+            所持数3隻以上は所持数制限がある可能性があります。必要に応じてKCNavで確認してください。
           </p>
         </>
       ) : (
@@ -963,7 +965,8 @@ function App() {
     return ids
   }, [mapNodes])
 
-  // 艦種グループ(rarity 1・2 のみ)。ship-type.json の定義順、同名艦種は統合
+  // 艦種グループ(新規実装艦を除く)。ship-type.json の定義順、同名艦種は統合。
+  // レア度(1=レア/2=ユニーク)は表示上の区別がないため、並び順も艦これ本来の sortId のみ
   const typeGroups = useMemo(() => {
     const knownRarity = ships.filter((s) => s.rarity === 1 || s.rarity === 2)
     const order: string[] = []
@@ -975,9 +978,7 @@ function App() {
     for (const typeName of order) {
       const group = knownRarity
         .filter((s) => s.typeName === typeName)
-        .sort(
-          (a, b) => (b.rarity ?? 0) - (a.rarity ?? 0) || a.sortId - b.sortId,
-        )
+        .sort((a, b) => a.sortId - b.sortId || a.id - b.id)
       if (group.length > 0) groups.push({ typeName, ships: group })
     }
     return groups
@@ -1046,8 +1047,7 @@ function App() {
       <button
         key={s.id}
         className={
-          `rarity-${s.rarity ?? 'u'}` +
-          (s.id === selectedShipId ? ' active' : '') +
+          (s.id === selectedShipId ? 'active' : '') +
           (available ? '' : ' disabled')
         }
         disabled={!available}
@@ -1071,10 +1071,7 @@ function App() {
         <div className="ship-groups-head">
           <span className="ship-groups-title">艦または各海域のマスを選択してください</span>
           <span className="ship-legend">
-            枠色：{' '}
-            <span className="legend new-ship">新規実装</span>{' '}
-            <span className="legend rarity-2">ユニーク</span>{' '}
-            <span className="legend rarity-1">レア</span>
+            枠色：<span className="legend new-ship">新規実装</span>
           </span>
         </div>
         {unknownRarityShips.length > 0 && (
