@@ -94,6 +94,55 @@ header h1 {
   box-shadow: var(--shadow-sm);
 }
 
+/* --- 海域種別のタブ(イベント / 通常) --- */
+
+/* 枠線付きのカード型タブ。選択中は下辺の境界線を背景色で塗って線を「切り」、
+   下のカードとつながって見せる。難易度切替(連結セグメント)とは役割が違う
+   —— こちらは表示範囲そのものを切り替える大分類なので、見た目も分ける */
+.kind-tabs {
+  display: flex;
+  gap: 4px;
+  /* 直下のカードの上枠線にタブの下辺を重ね、選択中のタブを本体と地続きに見せる */
+  margin-bottom: -1px;
+  position: relative;
+  z-index: 1;
+}
+
+.kind-tabs button {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 7px 20px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  background: var(--surface-2);
+  color: var(--text);
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.kind-tabs button:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.kind-tabs button.active {
+  background: var(--surface);
+  color: var(--accent);
+  border-color: var(--border-strong);
+  /* 選択中だけ下辺を背景色で塗り、カードとの間の線を消す */
+  border-bottom-color: var(--surface);
+  font-weight: 700;
+}
+
+/* タブがあるときはカード左上の角丸を落とし、タブの下端とぴったり合わせる */
+.ship-groups.has-tabs {
+  border-top-left-radius: 0;
+}
+
 /* --- 全海域一括難易度切替(マス表カードの内側に配置) --- */
 
 .difficulty-all {
@@ -177,6 +226,21 @@ header h1 {
   font-size: var(--fs-lg);
   font-weight: 700;
   color: var(--text-h);
+}
+
+/* 集計期間(通常海域はメンテ以降に限定しているため見出しの横に出す) */
+.ship-groups-period {
+  margin-left: 10px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* 艦リストの読み込み中(通常海域はタブを開いたときに読む) */
+.ship-groups-empty {
+  padding: 10px 0;
+  font-size: var(--fs-sm);
+  color: var(--text);
 }
 
 .ship-legend {
@@ -632,6 +696,17 @@ header h1 {
 .dupes-col-node,
 .dupes-col-rank {
   width: 8.5%;
+}
+
+/* 難易度列が無い表(通常海域)。左側3列で 38.5% を分け合い、難易度列がある場合と
+   所持数4列の位置を一致させる。タブを切り替えても数値列が横に動かない */
+.dupes-table-fixed:not(:has(.dupes-col-diff)) .dupes-col-map {
+  width: 13.5%;
+}
+
+.dupes-table-fixed:not(:has(.dupes-col-diff)) .dupes-col-node,
+.dupes-table-fixed:not(:has(.dupes-col-diff)) .dupes-col-rank {
+  width: 12.5%;
 }
 
 .dupes-col-bucket {

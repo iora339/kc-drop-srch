@@ -1,5 +1,6 @@
 {
  "map": "62-5",
+ "kind": "event",
  "ranks": "SAB",
  "difficulties": {
   "4": {
@@ -106,15 +107,29 @@
       "14",
       "16"
      ],
-     "samples": 158,
+     "samples": 183,
      "drops": [
       {
        "id": 452,
        "name": "沖波",
        "nameEn": "Okinami",
-       "drops": 6,
-       "total": 158,
-       "pct": 3.8,
+       "drops": 7,
+       "total": 183,
+       "pct": 3.83,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 3,
+       "total": 183,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -127,8 +142,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 3,
-       "total": 158,
-       "pct": 1.9,
+       "total": 183,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -141,8 +156,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 3,
-       "total": 158,
-       "pct": 1.9,
+       "total": 183,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -151,12 +166,12 @@
        }
       },
       {
-       "id": 425,
-       "name": "朝霜",
-       "nameEn": "Asashimo",
-       "drops": 2,
-       "total": 158,
-       "pct": 1.27,
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 3,
+       "total": 183,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -169,23 +184,9 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 2,
-       "total": 158,
-       "pct": 1.27,
+       "total": 183,
+       "pct": 1.09,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 424,
-       "name": "高波",
-       "nameEn": "Takanami",
-       "drops": 2,
-       "total": 158,
-       "pct": 1.27,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -211,15 +212,15 @@
      "edges": [
       "18"
      ],
-     "samples": 809,
+     "samples": 913,
      "drops": [
       {
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 21,
-       "total": 807,
-       "pct": 2.6,
+       "drops": 25,
+       "total": 913,
+       "pct": 2.74,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -231,9 +232,9 @@
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 14,
-       "total": 806,
-       "pct": 1.74,
+       "drops": 16,
+       "total": 913,
+       "pct": 1.75,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -245,9 +246,9 @@
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
-       "drops": 13,
-       "total": 804,
-       "pct": 1.62,
+       "drops": 14,
+       "total": 913,
+       "pct": 1.53,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -259,9 +260,9 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 13,
-       "total": 804,
-       "pct": 1.62,
+       "drops": 14,
+       "total": 913,
+       "pct": 1.53,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -273,9 +274,9 @@
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 12,
-       "total": 806,
-       "pct": 1.49,
+       "drops": 14,
+       "total": 913,
+       "pct": 1.53,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -288,8 +289,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 12,
-       "total": 807,
-       "pct": 1.49,
+       "total": 913,
+       "pct": 1.31,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -301,9 +302,9 @@
        "id": 410,
        "name": "清霜",
        "nameEn": "Kiyoshimo",
-       "drops": 10,
-       "total": 806,
-       "pct": 1.24,
+       "drops": 11,
+       "total": 913,
+       "pct": 1.2,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -315,10 +316,24 @@
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 9,
-       "total": 805,
-       "pct": 1.12,
+       "drops": 10,
+       "total": 913,
+       "pct": 1.1,
        "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 9,
+       "total": 913,
+       "pct": 0.99,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -329,8 +344,8 @@
        "id": 514,
        "name": "Sheffield",
        "nameEn": "Sheffield",
-       "drops": 8,
-       "total": 809,
+       "drops": 9,
+       "total": 913,
        "pct": 0.99,
        "rarity": 2,
        "ranks": {
@@ -343,8 +358,8 @@
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
-       "drops": 8,
-       "total": 809,
+       "drops": 9,
+       "total": 913,
        "pct": 0.99,
        "rarity": 1,
        "ranks": {
@@ -357,52 +372,10 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 7,
-       "total": 805,
-       "pct": 0.87,
+       "drops": 8,
+       "total": 913,
+       "pct": 0.88,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 465,
-       "name": "鹿島",
-       "nameEn": "Kashima",
-       "drops": 7,
-       "total": 806,
-       "pct": 0.87,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 7,
-       "total": 809,
-       "pct": 0.87,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 901,
-       "name": "Javelin",
-       "nameEn": "Javelin",
-       "drops": 5,
-       "total": 806,
-       "pct": 0.62,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -413,10 +386,24 @@
        "id": 935,
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
-       "drops": 5,
-       "total": 806,
-       "pct": 0.62,
+       "drops": 8,
+       "total": 913,
+       "pct": 0.88,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 8,
+       "total": 913,
+       "pct": 0.88,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -427,9 +414,9 @@
        "id": 671,
        "name": "巻波",
        "nameEn": "Makinami",
-       "drops": 5,
-       "total": 807,
-       "pct": 0.62,
+       "drops": 6,
+       "total": 913,
+       "pct": 0.66,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -441,9 +428,23 @@
        "id": 520,
        "name": "Janus",
        "nameEn": "Janus",
-       "drops": 4,
-       "total": 805,
-       "pct": 0.5,
+       "drops": 5,
+       "total": 913,
+       "pct": 0.55,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
+       "drops": 5,
+       "total": 913,
+       "pct": 0.55,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -455,9 +456,9 @@
        "id": 965,
        "name": "Gloire",
        "nameEn": "Gloire",
-       "drops": 3,
-       "total": 805,
-       "pct": 0.37,
+       "drops": 4,
+       "total": 913,
+       "pct": 0.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -470,8 +471,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 2,
-       "total": 805,
-       "pct": 0.25,
+       "total": 913,
+       "pct": 0.22,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -484,8 +485,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 2,
-       "total": 806,
-       "pct": 0.25,
+       "total": 913,
+       "pct": 0.22,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -498,9 +499,23 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 2,
-       "total": 809,
-       "pct": 0.25,
+       "total": 913,
+       "pct": 0.22,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 175,
+       "name": "Z3",
+       "nameEn": "Z3",
+       "drops": 2,
+       "total": 913,
+       "pct": 0.22,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -512,8 +527,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 809,
-       "pct": 0.12,
+       "total": 913,
+       "pct": 0.11,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -542,29 +557,15 @@
       "20",
       "23"
      ],
-     "samples": 811,
+     "samples": 943,
      "drops": [
       {
        "id": 452,
        "name": "沖波",
        "nameEn": "Okinami",
-       "drops": 20,
-       "total": 810,
-       "pct": 2.47,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 410,
-       "name": "清霜",
-       "nameEn": "Kiyoshimo",
-       "drops": 15,
-       "total": 810,
-       "pct": 1.85,
+       "drops": 21,
+       "total": 943,
+       "pct": 2.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -576,9 +577,23 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 13,
-       "total": 808,
-       "pct": 1.61,
+       "drops": 16,
+       "total": 943,
+       "pct": 1.7,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 16,
+       "total": 943,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -590,9 +605,9 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 7,
-       "total": 808,
-       "pct": 0.87,
+       "drops": 9,
+       "total": 943,
+       "pct": 0.95,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -604,9 +619,9 @@
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
-       "drops": 6,
-       "total": 811,
-       "pct": 0.74,
+       "drops": 8,
+       "total": 943,
+       "pct": 0.85,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -619,8 +634,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 640,
-       "pct": 0.16,
+       "total": 760,
+       "pct": 0.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -633,8 +648,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 640,
-       "pct": 0.16,
+       "total": 760,
+       "pct": 0.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -651,29 +666,15 @@
      "edges": [
       "27"
      ],
-     "samples": 806,
+     "samples": 900,
      "drops": [
-      {
-       "id": 409,
-       "name": "早霜",
-       "nameEn": "Hayashimo",
-       "drops": 18,
-       "total": 805,
-       "pct": 2.24,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
       {
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
-       "drops": 17,
-       "total": 806,
-       "pct": 2.11,
+       "drops": 22,
+       "total": 900,
+       "pct": 2.44,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -682,12 +683,12 @@
        }
       },
       {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 12,
-       "total": 805,
-       "pct": 1.49,
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 21,
+       "total": 899,
+       "pct": 2.34,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -699,9 +700,23 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 11,
-       "total": 804,
-       "pct": 1.37,
+       "drops": 15,
+       "total": 899,
+       "pct": 1.67,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 14,
+       "total": 900,
+       "pct": 1.56,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -713,9 +728,9 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 11,
-       "total": 805,
-       "pct": 1.37,
+       "drops": 12,
+       "total": 900,
+       "pct": 1.33,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -727,9 +742,9 @@
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 10,
-       "total": 805,
-       "pct": 1.24,
+       "drops": 11,
+       "total": 900,
+       "pct": 1.22,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -742,8 +757,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 9,
-       "total": 805,
-       "pct": 1.12,
+       "total": 900,
+       "pct": 1.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -755,9 +770,9 @@
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
-       "drops": 5,
-       "total": 805,
-       "pct": 0.62,
+       "drops": 6,
+       "total": 900,
+       "pct": 0.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -770,8 +785,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 4,
-       "total": 805,
-       "pct": 0.5,
+       "total": 900,
+       "pct": 0.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -784,8 +799,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 2,
-       "total": 805,
-       "pct": 0.25,
+       "total": 900,
+       "pct": 0.22,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -798,8 +813,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 2,
-       "total": 806,
-       "pct": 0.25,
+       "total": 900,
+       "pct": 0.22,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -812,8 +827,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 2,
-       "total": 806,
-       "pct": 0.25,
+       "total": 900,
+       "pct": 0.22,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -826,8 +841,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 805,
-       "pct": 0.12,
+       "total": 899,
+       "pct": 0.11,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -844,15 +859,15 @@
      "edges": [
       "29"
      ],
-     "samples": 948,
+     "samples": 1061,
      "drops": [
       {
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 23,
-       "total": 754,
-       "pct": 3.05,
+       "drops": 25,
+       "total": 844,
+       "pct": 2.96,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -864,9 +879,9 @@
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 14,
-       "total": 754,
-       "pct": 1.86,
+       "drops": 15,
+       "total": 844,
+       "pct": 1.78,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -879,8 +894,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 14,
-       "total": 754,
-       "pct": 1.86,
+       "total": 844,
+       "pct": 1.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -892,9 +907,37 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
+       "drops": 13,
+       "total": 843,
+       "pct": 1.54,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 13,
+       "total": 844,
+       "pct": 1.54,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
        "drops": 12,
-       "total": 752,
-       "pct": 1.6,
+       "total": 843,
+       "pct": 1.42,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -907,8 +950,8 @@
        "name": "時津風",
        "nameEn": "Tokitsukaze",
        "drops": 12,
-       "total": 754,
-       "pct": 1.59,
+       "total": 844,
+       "pct": 1.42,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -921,22 +964,8 @@
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 10,
-       "total": 752,
-       "pct": 1.33,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 10,
-       "total": 754,
-       "pct": 1.33,
+       "total": 843,
+       "pct": 1.19,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -949,8 +978,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 12,
-       "total": 948,
-       "pct": 1.27,
+       "total": 1061,
+       "pct": 1.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -959,26 +988,12 @@
        }
       },
       {
-       "id": 425,
-       "name": "朝霜",
-       "nameEn": "Asashimo",
-       "drops": 9,
-       "total": 752,
-       "pct": 1.2,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 8,
-       "total": 752,
-       "pct": 1.06,
+       "drops": 9,
+       "total": 844,
+       "pct": 1.07,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -990,9 +1005,9 @@
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 7,
-       "total": 754,
-       "pct": 0.93,
+       "drops": 8,
+       "total": 844,
+       "pct": 0.95,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1005,9 +1020,23 @@
        "name": "速吸",
        "nameEn": "Hayasui",
        "drops": 5,
-       "total": 752,
-       "pct": 0.66,
+       "total": 843,
+       "pct": 0.59,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
+       "drops": 5,
+       "total": 844,
+       "pct": 0.59,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -1019,8 +1048,22 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 5,
-       "total": 753,
-       "pct": 0.66,
+       "total": 844,
+       "pct": 0.59,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 5,
+       "total": 844,
+       "pct": 0.59,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1033,8 +1076,8 @@
        "name": "Bismarck",
        "nameEn": "Bismarck",
        "drops": 4,
-       "total": 752,
-       "pct": 0.53,
+       "total": 843,
+       "pct": 0.47,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1043,12 +1086,12 @@
        }
       },
       {
-       "id": 520,
-       "name": "Janus",
-       "nameEn": "Janus",
+       "id": 901,
+       "name": "Javelin",
+       "nameEn": "Javelin",
        "drops": 4,
-       "total": 753,
-       "pct": 0.53,
+       "total": 844,
+       "pct": 0.47,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1061,23 +1104,9 @@
        "name": "鹿島",
        "nameEn": "Kashima",
        "drops": 4,
-       "total": 753,
-       "pct": 0.53,
+       "total": 844,
+       "pct": 0.47,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 671,
-       "name": "巻波",
-       "nameEn": "Makinami",
-       "drops": 4,
-       "total": 754,
-       "pct": 0.53,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -1089,8 +1118,8 @@
        "name": "Visby",
        "nameEn": "Visby",
        "drops": 4,
-       "total": 754,
-       "pct": 0.53,
+       "total": 844,
+       "pct": 0.47,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1103,8 +1132,8 @@
        "name": "Gloire",
        "nameEn": "Gloire",
        "drops": 3,
-       "total": 752,
-       "pct": 0.4,
+       "total": 843,
+       "pct": 0.36,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1117,8 +1146,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 3,
-       "total": 753,
-       "pct": 0.4,
+       "total": 844,
+       "pct": 0.36,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1127,12 +1156,12 @@
        }
       },
       {
-       "id": 901,
-       "name": "Javelin",
-       "nameEn": "Javelin",
-       "drops": 2,
-       "total": 753,
-       "pct": 0.27,
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 3,
+       "total": 844,
+       "pct": 0.36,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1145,8 +1174,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 2,
-       "total": 754,
-       "pct": 0.27,
+       "total": 844,
+       "pct": 0.24,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1158,27 +1187,13 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
-       "drops": 1,
-       "total": 752,
-       "pct": 0.13,
+       "drops": 2,
+       "total": 1060,
+       "pct": 0.19,
        "rarity": 2,
        "ranks": {
         "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 514,
-       "name": "Sheffield",
-       "nameEn": "Sheffield",
-       "drops": 1,
-       "total": 754,
-       "pct": 0.13,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
+        "a": true,
         "b": false
        }
       },
@@ -1187,8 +1202,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 754,
-       "pct": 0.13,
+       "total": 844,
+       "pct": 0.12,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1227,15 +1242,15 @@
       "32",
       "37"
      ],
-     "samples": 2690,
+     "samples": 2961,
      "drops": [
       {
        "id": 410,
        "name": "清霜",
        "nameEn": "Kiyoshimo",
-       "drops": 18,
-       "total": 2470,
-       "pct": 0.73,
+       "drops": 23,
+       "total": 2961,
+       "pct": 0.78,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1248,8 +1263,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 4,
-       "total": 2690,
-       "pct": 0.15,
+       "total": 2961,
+       "pct": 0.14,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1262,7 +1277,7 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 2475,
+       "total": 2724,
        "pct": 0.04,
        "rarity": 1,
        "ranks": {
@@ -1280,15 +1295,15 @@
      "edges": [
       "35"
      ],
-     "samples": 2300,
+     "samples": 2517,
      "drops": [
       {
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
-       "drops": 45,
-       "total": 2293,
-       "pct": 1.96,
+       "drops": 48,
+       "total": 2517,
+       "pct": 1.91,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1300,9 +1315,9 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 38,
-       "total": 2294,
-       "pct": 1.66,
+       "drops": 42,
+       "total": 2517,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1311,12 +1326,12 @@
        }
       },
       {
-       "id": 120,
-       "name": "三隈",
-       "nameEn": "Mikuma",
-       "drops": 36,
-       "total": 2294,
-       "pct": 1.57,
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 40,
+       "total": 2517,
+       "pct": 1.59,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1328,9 +1343,9 @@
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 35,
-       "total": 2294,
-       "pct": 1.53,
+       "drops": 39,
+       "total": 2517,
+       "pct": 1.55,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1339,12 +1354,12 @@
        }
       },
       {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 35,
-       "total": 2295,
-       "pct": 1.53,
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 39,
+       "total": 2517,
+       "pct": 1.55,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1356,9 +1371,9 @@
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 33,
-       "total": 2294,
-       "pct": 1.44,
+       "drops": 34,
+       "total": 2517,
+       "pct": 1.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1370,9 +1385,9 @@
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
-       "drops": 32,
-       "total": 2299,
-       "pct": 1.39,
+       "drops": 34,
+       "total": 2517,
+       "pct": 1.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1384,9 +1399,9 @@
        "id": 410,
        "name": "清霜",
        "nameEn": "Kiyoshimo",
-       "drops": 29,
-       "total": 2294,
-       "pct": 1.26,
+       "drops": 32,
+       "total": 2517,
+       "pct": 1.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1398,9 +1413,9 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 25,
-       "total": 2294,
-       "pct": 1.09,
+       "drops": 29,
+       "total": 2517,
+       "pct": 1.15,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1412,9 +1427,9 @@
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
-       "drops": 18,
-       "total": 2294,
-       "pct": 0.78,
+       "drops": 19,
+       "total": 2517,
+       "pct": 0.75,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1426,9 +1441,37 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
-       "drops": 9,
-       "total": 2294,
-       "pct": 0.39,
+       "drops": 10,
+       "total": 2517,
+       "pct": 0.4,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 7,
+       "total": 2517,
+       "pct": 0.28,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 6,
+       "total": 2517,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1441,8 +1484,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 6,
-       "total": 2300,
-       "pct": 0.26,
+       "total": 2517,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1455,36 +1498,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 5,
-       "total": 2294,
-       "pct": 0.22,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 519,
-       "name": "Jervis",
-       "nameEn": "Jervis",
-       "drops": 5,
-       "total": 2294,
-       "pct": 0.22,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 514,
-       "name": "Sheffield",
-       "nameEn": "Sheffield",
-       "drops": 4,
-       "total": 2297,
-       "pct": 0.17,
+       "total": 2517,
+       "pct": 0.2,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1497,8 +1512,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 4,
-       "total": 2300,
-       "pct": 0.17,
+       "total": 2517,
+       "pct": 0.16,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1511,8 +1526,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 2,
-       "total": 2300,
-       "pct": 0.09,
+       "total": 2517,
+       "pct": 0.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1551,15 +1566,15 @@
       "41",
       "49"
      ],
-     "samples": 1105,
+     "samples": 1201,
      "drops": [
       {
        "id": 410,
        "name": "清霜",
        "nameEn": "Kiyoshimo",
-       "drops": 12,
-       "total": 1105,
-       "pct": 1.09,
+       "drops": 17,
+       "total": 1201,
+       "pct": 1.42,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1572,8 +1587,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 4,
-       "total": 1104,
-       "pct": 0.36,
+       "total": 1201,
+       "pct": 0.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1586,8 +1601,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 1105,
-       "pct": 0.09,
+       "total": 1201,
+       "pct": 0.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1625,15 +1640,15 @@
      "edges": [
       "45"
      ],
-     "samples": 599,
+     "samples": 648,
      "drops": [
       {
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 14,
-       "total": 598,
-       "pct": 2.34,
+       "total": 648,
+       "pct": 2.16,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1646,8 +1661,8 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 13,
-       "total": 598,
-       "pct": 2.17,
+       "total": 648,
+       "pct": 2.01,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1660,9 +1675,23 @@
        "name": "巻波",
        "nameEn": "Makinami",
        "drops": 12,
-       "total": 598,
-       "pct": 2.01,
+       "total": 648,
+       "pct": 1.85,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 11,
+       "total": 648,
+       "pct": 1.7,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -1674,22 +1703,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 11,
-       "total": 598,
-       "pct": 1.84,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 625,
-       "name": "秋霜",
-       "nameEn": "Akishimo",
-       "drops": 10,
-       "total": 597,
-       "pct": 1.68,
+       "total": 648,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1702,8 +1717,22 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 9,
-       "total": 599,
-       "pct": 1.5,
+       "total": 648,
+       "pct": 1.39,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 8,
+       "total": 648,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1716,8 +1745,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 8,
-       "total": 598,
-       "pct": 1.34,
+       "total": 648,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1730,22 +1759,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 8,
-       "total": 598,
-       "pct": 1.34,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 425,
-       "name": "朝霜",
-       "nameEn": "Asashimo",
-       "drops": 7,
-       "total": 597,
-       "pct": 1.17,
+       "total": 648,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1757,9 +1772,9 @@
        "id": 965,
        "name": "Gloire",
        "nameEn": "Gloire",
-       "drops": 6,
-       "total": 597,
-       "pct": 1.01,
+       "drops": 7,
+       "total": 648,
+       "pct": 1.08,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1771,9 +1786,9 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 6,
-       "total": 597,
-       "pct": 1.01,
+       "drops": 7,
+       "total": 648,
+       "pct": 1.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1786,8 +1801,8 @@
        "name": "鹿島",
        "nameEn": "Kashima",
        "drops": 4,
-       "total": 598,
-       "pct": 0.67,
+       "total": 648,
+       "pct": 0.62,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1800,8 +1815,8 @@
        "name": "日枝丸",
        "nameEn": "Hie Maru",
        "drops": 3,
-       "total": 598,
-       "pct": 0.5,
+       "total": 648,
+       "pct": 0.46,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1814,8 +1829,22 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 2,
-       "total": 598,
-       "pct": 0.33,
+       "total": 648,
+       "pct": 0.31,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 2,
+       "total": 648,
+       "pct": 0.31,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1828,8 +1857,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 2,
-       "total": 599,
-       "pct": 0.33,
+       "total": 648,
+       "pct": 0.31,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1842,22 +1871,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 1,
-       "total": 598,
-       "pct": 0.17,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 519,
-       "name": "Jervis",
-       "nameEn": "Jervis",
-       "drops": 1,
-       "total": 598,
-       "pct": 0.17,
+       "total": 648,
+       "pct": 0.15,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1874,15 +1889,15 @@
      "edges": [
       "46"
      ],
-     "samples": 148,
+     "samples": 163,
      "drops": [
       {
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 4,
-       "total": 148,
-       "pct": 2.7,
+       "total": 163,
+       "pct": 2.45,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1895,8 +1910,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 2,
-       "total": 148,
-       "pct": 1.35,
+       "total": 163,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1909,8 +1924,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 2,
-       "total": 148,
-       "pct": 1.35,
+       "total": 163,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1923,8 +1938,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1937,8 +1952,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1951,8 +1966,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1965,8 +1980,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1979,8 +1994,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1993,8 +2008,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2007,8 +2022,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 148,
-       "pct": 0.68,
+       "total": 163,
+       "pct": 0.61,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2036,15 +2051,15 @@
       "48",
       "51"
      ],
-     "samples": 292,
+     "samples": 314,
      "drops": [
       {
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 5,
-       "total": 283,
-       "pct": 1.77,
+       "total": 305,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2057,8 +2072,22 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 4,
-       "total": 283,
-       "pct": 1.41,
+       "total": 305,
+       "pct": 1.31,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 3,
+       "total": 305,
+       "pct": 0.98,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2071,8 +2100,22 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 3,
-       "total": 283,
-       "pct": 1.06,
+       "total": 305,
+       "pct": 0.98,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 3,
+       "total": 314,
+       "pct": 0.96,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2085,22 +2128,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 2,
-       "total": 283,
-       "pct": 0.71,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 453,
-       "name": "風雲",
-       "nameEn": "Kazagumo",
-       "drops": 2,
-       "total": 283,
-       "pct": 0.71,
+       "total": 305,
+       "pct": 0.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2113,8 +2142,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 2,
-       "total": 283,
-       "pct": 0.71,
+       "total": 305,
+       "pct": 0.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2127,23 +2156,9 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 2,
-       "total": 283,
-       "pct": 0.71,
+       "total": 305,
+       "pct": 0.66,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 410,
-       "name": "清霜",
-       "nameEn": "Kiyoshimo",
-       "drops": 2,
-       "total": 292,
-       "pct": 0.68,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -2155,8 +2170,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 283,
-       "pct": 0.35,
+       "total": 305,
+       "pct": 0.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2169,8 +2184,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 283,
-       "pct": 0.35,
+       "total": 305,
+       "pct": 0.33,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2188,15 +2203,15 @@
       "55",
       "56"
      ],
-     "samples": 1809,
+     "samples": 1972,
      "drops": [
       {
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 51,
-       "total": 1694,
-       "pct": 3.01,
+       "drops": 55,
+       "total": 1847,
+       "pct": 2.98,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2208,9 +2223,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 41,
-       "total": 1694,
-       "pct": 2.42,
+       "drops": 46,
+       "total": 1847,
+       "pct": 2.49,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2222,9 +2237,9 @@
        "id": 465,
        "name": "鹿島",
        "nameEn": "Kashima",
-       "drops": 39,
-       "total": 1694,
-       "pct": 2.3,
+       "drops": 40,
+       "total": 1847,
+       "pct": 2.17,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2236,10 +2251,24 @@
        "id": 460,
        "name": "速吸",
        "nameEn": "Hayasui",
-       "drops": 31,
-       "total": 1694,
-       "pct": 1.83,
+       "drops": 32,
+       "total": 1847,
+       "pct": 1.73,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 32,
+       "total": 1847,
+       "pct": 1.73,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -2250,9 +2279,9 @@
        "id": 410,
        "name": "清霜",
        "nameEn": "Kiyoshimo",
-       "drops": 32,
-       "total": 1808,
-       "pct": 1.77,
+       "drops": 34,
+       "total": 1972,
+       "pct": 1.72,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2261,40 +2290,12 @@
        }
       },
       {
-       "id": 671,
-       "name": "巻波",
-       "nameEn": "Makinami",
-       "drops": 29,
-       "total": 1694,
-       "pct": 1.71,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
        "id": 452,
        "name": "沖波",
        "nameEn": "Okinami",
-       "drops": 28,
-       "total": 1694,
-       "pct": 1.65,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 625,
-       "name": "秋霜",
-       "nameEn": "Akishimo",
-       "drops": 26,
-       "total": 1693,
-       "pct": 1.54,
+       "drops": 31,
+       "total": 1847,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2306,9 +2307,9 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 27,
-       "total": 1807,
-       "pct": 1.49,
+       "drops": 31,
+       "total": 1972,
+       "pct": 1.57,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2320,9 +2321,37 @@
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
+       "drops": 29,
+       "total": 1972,
+       "pct": 1.47,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
        "drops": 27,
-       "total": 1809,
-       "pct": 1.49,
+       "total": 1847,
+       "pct": 1.46,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 27,
+       "total": 1972,
+       "pct": 1.37,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2334,9 +2363,9 @@
        "id": 965,
        "name": "Gloire",
        "nameEn": "Gloire",
-       "drops": 23,
-       "total": 1693,
-       "pct": 1.36,
+       "drops": 25,
+       "total": 1847,
+       "pct": 1.35,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2348,23 +2377,9 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 22,
-       "total": 1808,
-       "pct": 1.22,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 453,
-       "name": "風雲",
-       "nameEn": "Kazagumo",
-       "drops": 22,
-       "total": 1808,
-       "pct": 1.22,
+       "drops": 25,
+       "total": 1972,
+       "pct": 1.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2376,9 +2391,23 @@
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 15,
-       "total": 1694,
-       "pct": 0.89,
+       "drops": 18,
+       "total": 1847,
+       "pct": 0.97,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1062,
+       "name": "Visby",
+       "nameEn": "Visby",
+       "drops": 18,
+       "total": 1847,
+       "pct": 0.97,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -2390,24 +2419,10 @@
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 15,
-       "total": 1694,
-       "pct": 0.89,
+       "drops": 17,
+       "total": 1847,
+       "pct": 0.92,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 1062,
-       "name": "Visby",
-       "nameEn": "Visby",
-       "drops": 15,
-       "total": 1694,
-       "pct": 0.89,
-       "rarity": null,
        "ranks": {
         "s": true,
         "a": false,
@@ -2418,9 +2433,9 @@
        "id": 935,
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
-       "drops": 13,
-       "total": 1694,
-       "pct": 0.77,
+       "drops": 14,
+       "total": 1847,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2432,8 +2447,8 @@
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
-       "drops": 11,
-       "total": 1694,
+       "drops": 12,
+       "total": 1847,
        "pct": 0.65,
        "rarity": 2,
        "ranks": {
@@ -2447,8 +2462,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 10,
-       "total": 1694,
-       "pct": 0.59,
+       "total": 1847,
+       "pct": 0.54,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2461,8 +2476,8 @@
        "name": "Graf Zeppelin",
        "nameEn": "Graf Zeppelin",
        "drops": 9,
-       "total": 1693,
-       "pct": 0.53,
+       "total": 1847,
+       "pct": 0.49,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2475,8 +2490,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 9,
-       "total": 1694,
-       "pct": 0.53,
+       "total": 1847,
+       "pct": 0.49,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2488,9 +2503,9 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
-       "drops": 5,
-       "total": 1807,
-       "pct": 0.28,
+       "drops": 6,
+       "total": 1972,
+       "pct": 0.3,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2499,40 +2514,12 @@
        }
       },
       {
-       "id": 431,
-       "name": "U-511",
-       "nameEn": "U-511",
-       "drops": 3,
-       "total": 1694,
-       "pct": 0.18,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
        "id": 927,
        "name": "Valiant",
        "nameEn": "Valiant",
-       "drops": 3,
-       "total": 1694,
-       "pct": 0.18,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 171,
-       "name": "Bismarck",
-       "nameEn": "Bismarck",
-       "drops": 2,
-       "total": 1693,
-       "pct": 0.12,
+       "drops": 4,
+       "total": 1847,
+       "pct": 0.22,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2544,9 +2531,51 @@
        "id": 519,
        "name": "Jervis",
        "nameEn": "Jervis",
+       "drops": 3,
+       "total": 1847,
+       "pct": 0.16,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 431,
+       "name": "U-511",
+       "nameEn": "U-511",
+       "drops": 3,
+       "total": 1847,
+       "pct": 0.16,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 175,
+       "name": "Z3",
+       "nameEn": "Z3",
+       "drops": 3,
+       "total": 1847,
+       "pct": 0.16,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 171,
+       "name": "Bismarck",
+       "nameEn": "Bismarck",
        "drops": 2,
-       "total": 1694,
-       "pct": 0.12,
+       "total": 1847,
+       "pct": 0.11,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2559,23 +2588,9 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 1694,
-       "pct": 0.06,
+       "total": 1847,
+       "pct": 0.05,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 175,
-       "name": "Z3",
-       "nameEn": "Z3",
-       "drops": 1,
-       "total": 1694,
-       "pct": 0.06,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -2623,15 +2638,15 @@
       "61",
       "73"
      ],
-     "samples": 6507,
+     "samples": 7132,
      "drops": [
       {
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
-       "drops": 128,
-       "total": 6494,
-       "pct": 1.97,
+       "drops": 133,
+       "total": 7127,
+       "pct": 1.87,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2643,23 +2658,9 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 99,
-       "total": 6451,
-       "pct": 1.53,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 409,
-       "name": "早霜",
-       "nameEn": "Hayashimo",
-       "drops": 99,
-       "total": 6452,
-       "pct": 1.53,
+       "drops": 107,
+       "total": 7083,
+       "pct": 1.51,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2671,9 +2672,9 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 95,
-       "total": 6499,
-       "pct": 1.46,
+       "drops": 107,
+       "total": 7132,
+       "pct": 1.5,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2685,9 +2686,9 @@
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 92,
-       "total": 6498,
-       "pct": 1.42,
+       "drops": 106,
+       "total": 7132,
+       "pct": 1.49,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2699,9 +2700,23 @@
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 91,
-       "total": 6454,
-       "pct": 1.41,
+       "drops": 105,
+       "total": 7088,
+       "pct": 1.48,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 102,
+       "total": 7083,
+       "pct": 1.44,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2713,9 +2728,9 @@
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
-       "drops": 88,
-       "total": 6502,
-       "pct": 1.35,
+       "drops": 97,
+       "total": 7132,
+       "pct": 1.36,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2727,9 +2742,9 @@
        "id": 410,
        "name": "清霜",
        "nameEn": "Kiyoshimo",
-       "drops": 81,
-       "total": 6454,
-       "pct": 1.26,
+       "drops": 91,
+       "total": 7088,
+       "pct": 1.28,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2741,9 +2756,9 @@
        "id": 452,
        "name": "沖波",
        "nameEn": "Okinami",
-       "drops": 82,
-       "total": 6500,
-       "pct": 1.26,
+       "drops": 88,
+       "total": 7132,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2755,9 +2770,9 @@
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
-       "drops": 35,
-       "total": 6497,
-       "pct": 0.54,
+       "drops": 39,
+       "total": 7132,
+       "pct": 0.55,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2769,9 +2784,9 @@
        "id": 520,
        "name": "Janus",
        "nameEn": "Janus",
-       "drops": 23,
-       "total": 6453,
-       "pct": 0.36,
+       "drops": 25,
+       "total": 7088,
+       "pct": 0.35,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2783,9 +2798,9 @@
        "id": 439,
        "name": "Warspite",
        "nameEn": "Warspite",
-       "drops": 14,
-       "total": 6463,
-       "pct": 0.22,
+       "drops": 17,
+       "total": 7088,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2797,8 +2812,8 @@
        "id": 519,
        "name": "Jervis",
        "nameEn": "Jervis",
-       "drops": 12,
-       "total": 6497,
+       "drops": 13,
+       "total": 7132,
        "pct": 0.18,
        "rarity": 2,
        "ranks": {
@@ -2811,9 +2826,9 @@
        "id": 514,
        "name": "Sheffield",
        "nameEn": "Sheffield",
-       "drops": 10,
-       "total": 6458,
-       "pct": 0.15,
+       "drops": 11,
+       "total": 7088,
+       "pct": 0.16,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2825,8 +2840,8 @@
        "id": 174,
        "name": "Z1",
        "nameEn": "Z1",
-       "drops": 9,
-       "total": 6507,
+       "drops": 10,
+       "total": 7132,
        "pct": 0.14,
        "rarity": 1,
        "ranks": {
@@ -2839,8 +2854,8 @@
        "id": 175,
        "name": "Z3",
        "nameEn": "Z3",
-       "drops": 5,
-       "total": 6463,
+       "drops": 6,
+       "total": 7088,
        "pct": 0.08,
        "rarity": 1,
        "ranks": {
@@ -2853,9 +2868,9 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
-       "drops": 4,
-       "total": 6452,
-       "pct": 0.06,
+       "drops": 5,
+       "total": 7083,
+       "pct": 0.07,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2893,15 +2908,15 @@
       "65",
       "74"
      ],
-     "samples": 5360,
+     "samples": 5903,
      "drops": [
       {
-       "id": 453,
-       "name": "風雲",
-       "nameEn": "Kazagumo",
-       "drops": 96,
-       "total": 5357,
-       "pct": 1.79,
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 108,
+       "total": 5903,
+       "pct": 1.83,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2913,10 +2928,24 @@
        "id": 671,
        "name": "巻波",
        "nameEn": "Makinami",
-       "drops": 95,
-       "total": 5357,
-       "pct": 1.77,
+       "drops": 105,
+       "total": 5903,
+       "pct": 1.78,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 104,
+       "total": 5903,
+       "pct": 1.76,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -2927,37 +2956,9 @@
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
-       "drops": 93,
-       "total": 5351,
-       "pct": 1.74,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 424,
-       "name": "高波",
-       "nameEn": "Takanami",
-       "drops": 90,
-       "total": 5360,
-       "pct": 1.68,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 410,
-       "name": "清霜",
-       "nameEn": "Kiyoshimo",
-       "drops": 81,
-       "total": 5357,
-       "pct": 1.51,
+       "drops": 100,
+       "total": 5898,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2969,8 +2970,8 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 80,
-       "total": 5357,
+       "drops": 88,
+       "total": 5903,
        "pct": 1.49,
        "rarity": 1,
        "ranks": {
@@ -2980,12 +2981,12 @@
        }
       },
       {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 76,
-       "total": 5359,
-       "pct": 1.42,
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 87,
+       "total": 5903,
+       "pct": 1.47,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2997,9 +2998,9 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 74,
-       "total": 5352,
-       "pct": 1.38,
+       "drops": 83,
+       "total": 5898,
+       "pct": 1.41,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3008,12 +3009,12 @@
        }
       },
       {
-       "id": 465,
-       "name": "鹿島",
-       "nameEn": "Kashima",
-       "drops": 67,
-       "total": 5220,
-       "pct": 1.28,
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 82,
+       "total": 5903,
+       "pct": 1.39,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3025,9 +3026,23 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 66,
-       "total": 5219,
-       "pct": 1.26,
+       "drops": 77,
+       "total": 5762,
+       "pct": 1.34,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 77,
+       "total": 5767,
+       "pct": 1.34,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3039,9 +3054,9 @@
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 65,
-       "total": 5357,
-       "pct": 1.21,
+       "drops": 74,
+       "total": 5903,
+       "pct": 1.25,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3053,9 +3068,9 @@
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
-       "drops": 24,
-       "total": 5220,
-       "pct": 0.46,
+       "drops": 25,
+       "total": 5767,
+       "pct": 0.43,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3067,9 +3082,9 @@
        "id": 965,
        "name": "Gloire",
        "nameEn": "Gloire",
-       "drops": 23,
-       "total": 5354,
-       "pct": 0.43,
+       "drops": 24,
+       "total": 5898,
+       "pct": 0.41,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3081,24 +3096,10 @@
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 18,
-       "total": 5355,
-       "pct": 0.34,
+       "drops": 19,
+       "total": 5903,
+       "pct": 0.32,
        "rarity": null,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 519,
-       "name": "Jervis",
-       "nameEn": "Jervis",
-       "drops": 16,
-       "total": 5356,
-       "pct": 0.3,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -3109,9 +3110,23 @@
        "id": 520,
        "name": "Janus",
        "nameEn": "Janus",
-       "drops": 15,
-       "total": 5356,
-       "pct": 0.28,
+       "drops": 17,
+       "total": 5903,
+       "pct": 0.29,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 17,
+       "total": 5903,
+       "pct": 0.29,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3123,9 +3138,9 @@
        "id": 171,
        "name": "Bismarck",
        "nameEn": "Bismarck",
-       "drops": 14,
-       "total": 5352,
-       "pct": 0.26,
+       "drops": 15,
+       "total": 5898,
+       "pct": 0.25,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3137,8 +3152,8 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
-       "drops": 9,
-       "total": 5354,
+       "drops": 10,
+       "total": 5898,
        "pct": 0.17,
        "rarity": 2,
        "ranks": {
@@ -3151,8 +3166,8 @@
        "id": 514,
        "name": "Sheffield",
        "nameEn": "Sheffield",
-       "drops": 9,
-       "total": 5360,
+       "drops": 10,
+       "total": 5903,
        "pct": 0.17,
        "rarity": 2,
        "ranks": {
@@ -3166,8 +3181,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 7,
-       "total": 5226,
-       "pct": 0.13,
+       "total": 5767,
+       "pct": 0.12,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3180,8 +3195,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 6,
-       "total": 5226,
-       "pct": 0.11,
+       "total": 5767,
+       "pct": 0.1,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3194,8 +3209,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 4,
-       "total": 5226,
-       "pct": 0.08,
+       "total": 5767,
+       "pct": 0.07,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3223,15 +3238,15 @@
       "68",
       "76"
      ],
-     "samples": 5560,
+     "samples": 6099,
      "drops": [
       {
        "id": 154,
        "name": "香取",
        "nameEn": "Katori",
-       "drops": 215,
-       "total": 4446,
-       "pct": 4.84,
+       "drops": 232,
+       "total": 4885,
+       "pct": 4.75,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3243,9 +3258,9 @@
        "id": 465,
        "name": "鹿島",
        "nameEn": "Kashima",
-       "drops": 259,
-       "total": 5555,
-       "pct": 4.66,
+       "drops": 286,
+       "total": 6099,
+       "pct": 4.69,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3257,9 +3272,9 @@
        "id": 534,
        "name": "神鷹",
        "nameEn": "Shinyou",
-       "drops": 204,
-       "total": 4450,
-       "pct": 4.58,
+       "drops": 219,
+       "total": 4885,
+       "pct": 4.48,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3271,9 +3286,9 @@
        "id": 460,
        "name": "速吸",
        "nameEn": "Hayasui",
-       "drops": 230,
-       "total": 5552,
-       "pct": 4.14,
+       "drops": 247,
+       "total": 6094,
+       "pct": 4.05,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3285,9 +3300,9 @@
        "id": 80,
        "name": "長門",
        "nameEn": "Nagato",
-       "drops": 197,
-       "total": 5558,
-       "pct": 3.54,
+       "drops": 210,
+       "total": 6099,
+       "pct": 3.44,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3299,9 +3314,9 @@
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 142,
-       "total": 5552,
-       "pct": 2.56,
+       "drops": 152,
+       "total": 6099,
+       "pct": 2.49,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -3313,9 +3328,9 @@
        "id": 1062,
        "name": "Visby",
        "nameEn": "Visby",
-       "drops": 136,
-       "total": 5560,
-       "pct": 2.45,
+       "drops": 148,
+       "total": 6099,
+       "pct": 2.43,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -3327,9 +3342,9 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 103,
-       "total": 5558,
-       "pct": 1.85,
+       "drops": 111,
+       "total": 6099,
+       "pct": 1.82,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3341,9 +3356,9 @@
        "id": 163,
        "name": "まるゆ",
        "nameEn": "Maruyu",
-       "drops": 80,
-       "total": 4449,
-       "pct": 1.8,
+       "drops": 87,
+       "total": 4885,
+       "pct": 1.78,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3355,9 +3370,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 98,
-       "total": 5560,
-       "pct": 1.76,
+       "drops": 108,
+       "total": 6099,
+       "pct": 1.77,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3369,9 +3384,9 @@
        "id": 1022,
        "name": "Glorious",
        "nameEn": "Glorious",
-       "drops": 72,
-       "total": 4444,
-       "pct": 1.62,
+       "drops": 80,
+       "total": 4880,
+       "pct": 1.64,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3383,9 +3398,9 @@
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
-       "drops": 46,
-       "total": 5554,
-       "pct": 0.83,
+       "drops": 49,
+       "total": 6099,
+       "pct": 0.8,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3397,8 +3412,8 @@
        "id": 965,
        "name": "Gloire",
        "nameEn": "Gloire",
-       "drops": 26,
-       "total": 4444,
+       "drops": 29,
+       "total": 4880,
        "pct": 0.59,
        "rarity": 2,
        "ranks": {
@@ -3412,8 +3427,8 @@
        "name": "Nelson",
        "nameEn": "Nelson",
        "drops": 31,
-       "total": 5558,
-       "pct": 0.56,
+       "total": 6099,
+       "pct": 0.51,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3425,9 +3440,9 @@
        "id": 572,
        "name": "Rodney",
        "nameEn": "Rodney",
-       "drops": 25,
-       "total": 5559,
-       "pct": 0.45,
+       "drops": 26,
+       "total": 6099,
+       "pct": 0.43,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3440,8 +3455,78 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 24,
-       "total": 5554,
-       "pct": 0.43,
+       "total": 6099,
+       "pct": 0.39,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 18,
+       "total": 6099,
+       "pct": 0.3,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
+       "drops": 18,
+       "total": 6099,
+       "pct": 0.3,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 439,
+       "name": "Warspite",
+       "nameEn": "Warspite",
+       "drops": 18,
+       "total": 6099,
+       "pct": 0.3,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 927,
+       "name": "Valiant",
+       "nameEn": "Valiant",
+       "drops": 17,
+       "total": 6099,
+       "pct": 0.28,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 574,
+       "name": "Gotland",
+       "nameEn": "Gotland",
+       "drops": 16,
+       "total": 6094,
+       "pct": 0.26,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3454,50 +3539,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 15,
-       "total": 5554,
-       "pct": 0.27,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 514,
-       "name": "Sheffield",
-       "nameEn": "Sheffield",
-       "drops": 15,
-       "total": 5559,
-       "pct": 0.27,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 927,
-       "name": "Valiant",
-       "nameEn": "Valiant",
-       "drops": 15,
-       "total": 5560,
-       "pct": 0.27,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 439,
-       "name": "Warspite",
-       "nameEn": "Warspite",
-       "drops": 15,
-       "total": 5560,
-       "pct": 0.27,
+       "total": 6099,
+       "pct": 0.25,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3510,35 +3553,7 @@
        "name": "Ark Royal",
        "nameEn": "Ark Royal",
        "drops": 14,
-       "total": 5549,
-       "pct": 0.25,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 574,
-       "name": "Gotland",
-       "nameEn": "Gotland",
-       "drops": 14,
-       "total": 5551,
-       "pct": 0.25,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 519,
-       "name": "Jervis",
-       "nameEn": "Jervis",
-       "drops": 13,
-       "total": 5554,
+       "total": 6094,
        "pct": 0.23,
        "rarity": 2,
        "ranks": {
@@ -3551,8 +3566,8 @@
        "id": 431,
        "name": "U-511",
        "nameEn": "U-511",
-       "drops": 10,
-       "total": 5560,
+       "drops": 11,
+       "total": 6099,
        "pct": 0.18,
        "rarity": 2,
        "ranks": {
@@ -3566,8 +3581,8 @@
        "name": "Victorious",
        "nameEn": "Victorious",
        "drops": 10,
-       "total": 5560,
-       "pct": 0.18,
+       "total": 6099,
+       "pct": 0.16,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3683,15 +3698,15 @@
       "14",
       "16"
      ],
-     "samples": 11,
+     "samples": 12,
      "drops": [
       {
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 1,
-       "total": 11,
-       "pct": 9.09,
+       "total": 12,
+       "pct": 8.33,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3718,15 +3733,15 @@
      "edges": [
       "18"
      ],
-     "samples": 33,
+     "samples": 38,
      "drops": [
       {
        "id": 465,
        "name": "鹿島",
        "nameEn": "Kashima",
        "drops": 2,
-       "total": 33,
-       "pct": 6.06,
+       "total": 38,
+       "pct": 5.26,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3739,8 +3754,8 @@
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 1,
-       "total": 33,
-       "pct": 3.03,
+       "total": 38,
+       "pct": 2.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3753,8 +3768,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 33,
-       "pct": 3.03,
+       "total": 38,
+       "pct": 2.63,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3767,8 +3782,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 33,
-       "pct": 3.03,
+       "total": 38,
+       "pct": 2.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3781,9 +3796,23 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 33,
-       "pct": 3.03,
+       "total": 38,
+       "pct": 2.63,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 175,
+       "name": "Z3",
+       "nameEn": "Z3",
+       "drops": 1,
+       "total": 38,
+       "pct": 2.63,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -4030,15 +4059,15 @@
      "edges": [
       "35"
      ],
-     "samples": 52,
+     "samples": 61,
      "drops": [
       {
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 2,
-       "total": 52,
-       "pct": 3.85,
+       "total": 61,
+       "pct": 3.28,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4051,8 +4080,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 2,
-       "total": 52,
-       "pct": 3.85,
+       "total": 61,
+       "pct": 3.28,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4065,8 +4094,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 2,
-       "total": 52,
-       "pct": 3.85,
+       "total": 61,
+       "pct": 3.28,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4079,8 +4108,8 @@
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 61,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4093,8 +4122,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 61,
+       "pct": 1.64,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4107,8 +4136,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 61,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4121,8 +4150,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 61,
+       "pct": 1.64,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4161,15 +4190,15 @@
       "41",
       "49"
      ],
-     "samples": 29,
+     "samples": 33,
      "drops": [
       {
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 29,
-       "pct": 3.45,
+       "total": 33,
+       "pct": 3.03,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4207,15 +4236,15 @@
      "edges": [
       "45"
      ],
-     "samples": 13,
+     "samples": 15,
      "drops": [
       {
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 1,
-       "total": 13,
-       "pct": 7.69,
+       "total": 15,
+       "pct": 6.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4228,8 +4257,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 13,
-       "pct": 7.69,
+       "total": 15,
+       "pct": 6.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4246,15 +4275,15 @@
      "edges": [
       "46"
      ],
-     "samples": 9,
+     "samples": 10,
      "drops": [
       {
        "id": 901,
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 9,
-       "pct": 11.11,
+       "total": 10,
+       "pct": 10.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4267,8 +4296,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 1,
-       "total": 9,
-       "pct": 11.11,
+       "total": 10,
+       "pct": 10.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4281,8 +4310,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 9,
-       "pct": 11.11,
+       "total": 10,
+       "pct": 10.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4310,7 +4339,7 @@
       "48",
       "51"
      ],
-     "samples": 9,
+     "samples": 11,
      "drops": [
       {
        "id": 425,
@@ -4345,8 +4374,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 9,
-       "pct": 11.11,
+       "total": 11,
+       "pct": 9.09,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4364,15 +4393,15 @@
       "55",
       "56"
      ],
-     "samples": 43,
+     "samples": 50,
      "drops": [
       {
        "id": 460,
        "name": "速吸",
        "nameEn": "Hayasui",
        "drops": 2,
-       "total": 43,
-       "pct": 4.65,
+       "total": 50,
+       "pct": 4.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4385,8 +4414,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 2,
-       "total": 43,
-       "pct": 4.65,
+       "total": 50,
+       "pct": 4.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4399,8 +4428,8 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 2,
-       "total": 43,
-       "pct": 4.65,
+       "total": 50,
+       "pct": 4.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4413,8 +4442,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 2,
-       "total": 43,
-       "pct": 4.65,
+       "total": 50,
+       "pct": 4.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4427,8 +4456,22 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 2,
-       "total": 43,
-       "pct": 4.65,
+       "total": 50,
+       "pct": 4.0,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 625,
+       "name": "秋霜",
+       "nameEn": "Akishimo",
+       "drops": 1,
+       "total": 50,
+       "pct": 2.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4441,8 +4484,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 1,
-       "total": 43,
-       "pct": 2.33,
+       "total": 50,
+       "pct": 2.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4455,8 +4498,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 1,
-       "total": 43,
-       "pct": 2.33,
+       "total": 50,
+       "pct": 2.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4469,8 +4512,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 43,
-       "pct": 2.33,
+       "total": 50,
+       "pct": 2.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4483,8 +4526,8 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 1,
-       "total": 43,
-       "pct": 2.33,
+       "total": 50,
+       "pct": 2.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4497,8 +4540,8 @@
        "name": "巻波",
        "nameEn": "Makinami",
        "drops": 1,
-       "total": 43,
-       "pct": 2.33,
+       "total": 50,
+       "pct": 2.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4511,8 +4554,8 @@
        "name": "Visby",
        "nameEn": "Visby",
        "drops": 1,
-       "total": 43,
-       "pct": 2.33,
+       "total": 50,
+       "pct": 2.0,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -4561,15 +4604,15 @@
       "61",
       "73"
      ],
-     "samples": 232,
+     "samples": 249,
      "drops": [
       {
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 7,
-       "total": 231,
-       "pct": 3.03,
+       "total": 249,
+       "pct": 2.81,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4582,8 +4625,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 7,
-       "total": 231,
-       "pct": 3.03,
+       "total": 249,
+       "pct": 2.81,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4596,8 +4639,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 6,
-       "total": 231,
-       "pct": 2.6,
+       "total": 249,
+       "pct": 2.41,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4610,8 +4653,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 5,
-       "total": 231,
-       "pct": 2.16,
+       "total": 249,
+       "pct": 2.01,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4624,8 +4667,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 2,
-       "total": 231,
-       "pct": 0.87,
+       "total": 249,
+       "pct": 0.8,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4638,8 +4681,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 2,
-       "total": 231,
-       "pct": 0.87,
+       "total": 249,
+       "pct": 0.8,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4652,8 +4695,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 2,
-       "total": 231,
-       "pct": 0.87,
+       "total": 249,
+       "pct": 0.8,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4666,8 +4709,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 2,
-       "total": 232,
-       "pct": 0.86,
+       "total": 249,
+       "pct": 0.8,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4680,8 +4723,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 2,
-       "total": 232,
-       "pct": 0.86,
+       "total": 249,
+       "pct": 0.8,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4694,8 +4737,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 1,
-       "total": 231,
-       "pct": 0.43,
+       "total": 249,
+       "pct": 0.4,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4708,8 +4751,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 231,
-       "pct": 0.43,
+       "total": 249,
+       "pct": 0.4,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4722,8 +4765,22 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 232,
-       "pct": 0.43,
+       "total": 249,
+       "pct": 0.4,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 175,
+       "name": "Z3",
+       "nameEn": "Z3",
+       "drops": 1,
+       "total": 249,
+       "pct": 0.4,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4761,15 +4818,15 @@
       "65",
       "74"
      ],
-     "samples": 211,
+     "samples": 228,
      "drops": [
       {
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
-       "drops": 6,
-       "total": 209,
-       "pct": 2.87,
+       "drops": 7,
+       "total": 226,
+       "pct": 3.1,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4782,8 +4839,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 5,
-       "total": 209,
-       "pct": 2.39,
+       "total": 226,
+       "pct": 2.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4796,8 +4853,8 @@
        "name": "巻波",
        "nameEn": "Makinami",
        "drops": 4,
-       "total": 211,
-       "pct": 1.9,
+       "total": 228,
+       "pct": 1.75,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4810,8 +4867,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 3,
-       "total": 209,
-       "pct": 1.44,
+       "total": 226,
+       "pct": 1.33,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4824,8 +4881,22 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 3,
-       "total": 209,
-       "pct": 1.44,
+       "total": 226,
+       "pct": 1.33,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 3,
+       "total": 226,
+       "pct": 1.33,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4838,8 +4909,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 2,
-       "total": 209,
-       "pct": 0.96,
+       "total": 226,
+       "pct": 0.88,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4852,8 +4923,8 @@
        "name": "鹿島",
        "nameEn": "Kashima",
        "drops": 2,
-       "total": 209,
-       "pct": 0.96,
+       "total": 226,
+       "pct": 0.88,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4866,8 +4937,8 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 2,
-       "total": 209,
-       "pct": 0.96,
+       "total": 226,
+       "pct": 0.88,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4880,8 +4951,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 2,
-       "total": 209,
-       "pct": 0.96,
+       "total": 226,
+       "pct": 0.88,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4894,9 +4965,23 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 2,
-       "total": 209,
-       "pct": 0.96,
+       "total": 226,
+       "pct": 0.88,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 1065,
+       "name": "日枝丸",
+       "nameEn": "Hie Maru",
+       "drops": 1,
+       "total": 226,
+       "pct": 0.44,
+       "rarity": null,
        "ranks": {
         "s": true,
         "a": false,
@@ -4908,8 +4993,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 1,
-       "total": 209,
-       "pct": 0.48,
+       "total": 226,
+       "pct": 0.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4918,13 +5003,13 @@
        }
       },
       {
-       "id": 424,
-       "name": "高波",
-       "nameEn": "Takanami",
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
        "drops": 1,
-       "total": 209,
-       "pct": 0.48,
-       "rarity": 1,
+       "total": 226,
+       "pct": 0.44,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -4936,8 +5021,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 209,
-       "pct": 0.48,
+       "total": 226,
+       "pct": 0.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4950,8 +5035,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 209,
-       "pct": 0.48,
+       "total": 226,
+       "pct": 0.44,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4979,15 +5064,29 @@
       "68",
       "76"
      ],
-     "samples": 199,
+     "samples": 215,
      "drops": [
       {
        "id": 154,
        "name": "香取",
        "nameEn": "Katori",
-       "drops": 12,
-       "total": 164,
-       "pct": 7.32,
+       "drops": 13,
+       "total": 179,
+       "pct": 7.26,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 80,
+       "name": "長門",
+       "nameEn": "Nagato",
+       "drops": 7,
+       "total": 179,
+       "pct": 3.91,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5000,8 +5099,8 @@
        "name": "鹿島",
        "nameEn": "Kashima",
        "drops": 7,
-       "total": 199,
-       "pct": 3.52,
+       "total": 215,
+       "pct": 3.26,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5014,8 +5113,8 @@
        "name": "Nelson",
        "nameEn": "Nelson",
        "drops": 1,
-       "total": 35,
-       "pct": 2.86,
+       "total": 36,
+       "pct": 2.78,
        "rarity": 2,
        "ranks": {
         "s": false,
@@ -5028,8 +5127,8 @@
        "name": "日枝丸",
        "nameEn": "Hie Maru",
        "drops": 5,
-       "total": 199,
-       "pct": 2.51,
+       "total": 215,
+       "pct": 2.33,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -5042,8 +5141,8 @@
        "name": "Visby",
        "nameEn": "Visby",
        "drops": 4,
-       "total": 164,
-       "pct": 2.44,
+       "total": 179,
+       "pct": 2.23,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -5056,8 +5155,8 @@
        "name": "Ark Royal",
        "nameEn": "Ark Royal",
        "drops": 3,
-       "total": 163,
-       "pct": 1.84,
+       "total": 179,
+       "pct": 1.68,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5070,22 +5169,8 @@
        "name": "速吸",
        "nameEn": "Hayasui",
        "drops": 3,
-       "total": 164,
-       "pct": 1.83,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 80,
-       "name": "長門",
-       "nameEn": "Nagato",
-       "drops": 3,
-       "total": 164,
-       "pct": 1.83,
+       "total": 179,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5098,8 +5183,8 @@
        "name": "Glorious",
        "nameEn": "Glorious",
        "drops": 2,
-       "total": 163,
-       "pct": 1.23,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5112,8 +5197,8 @@
        "name": "まるゆ",
        "nameEn": "Maruyu",
        "drops": 2,
-       "total": 164,
-       "pct": 1.22,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5126,8 +5211,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 2,
-       "total": 164,
-       "pct": 1.22,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5140,8 +5225,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 2,
-       "total": 164,
-       "pct": 1.22,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5154,8 +5239,8 @@
        "name": "時津風",
        "nameEn": "Tokitsukaze",
        "drops": 2,
-       "total": 164,
-       "pct": 1.22,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5168,8 +5253,8 @@
        "name": "U-511",
        "nameEn": "U-511",
        "drops": 2,
-       "total": 164,
-       "pct": 1.22,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5182,8 +5267,8 @@
        "name": "Victorious",
        "nameEn": "Victorious",
        "drops": 2,
-       "total": 164,
-       "pct": 1.22,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5196,8 +5281,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 1,
-       "total": 164,
-       "pct": 0.61,
+       "total": 179,
+       "pct": 0.56,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5210,8 +5295,8 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 1,
-       "total": 164,
-       "pct": 0.61,
+       "total": 179,
+       "pct": 0.56,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5224,8 +5309,8 @@
        "name": "神鷹",
        "nameEn": "Shinyou",
        "drops": 1,
-       "total": 164,
-       "pct": 0.61,
+       "total": 179,
+       "pct": 0.56,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5341,15 +5426,29 @@
       "14",
       "16"
      ],
-     "samples": 54,
+     "samples": 60,
      "drops": [
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 1,
+       "total": 60,
+       "pct": 1.67,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
       {
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 1,
-       "total": 54,
-       "pct": 1.85,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5362,8 +5461,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 54,
-       "pct": 1.85,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5390,15 +5489,15 @@
      "edges": [
       "18"
      ],
-     "samples": 53,
+     "samples": 58,
      "drops": [
       {
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 2,
-       "total": 53,
-       "pct": 3.77,
+       "drops": 3,
+       "total": 58,
+       "pct": 5.17,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5411,8 +5510,22 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 2,
-       "total": 53,
-       "pct": 3.77,
+       "total": 58,
+       "pct": 3.45,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 1,
+       "total": 58,
+       "pct": 1.72,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5425,8 +5538,8 @@
        "name": "Gloire",
        "nameEn": "Gloire",
        "drops": 1,
-       "total": 53,
-       "pct": 1.89,
+       "total": 58,
+       "pct": 1.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5439,8 +5552,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 1,
-       "total": 53,
-       "pct": 1.89,
+       "total": 58,
+       "pct": 1.72,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5453,8 +5566,8 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 1,
-       "total": 53,
-       "pct": 1.89,
+       "total": 58,
+       "pct": 1.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5467,8 +5580,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 1,
-       "total": 53,
-       "pct": 1.89,
+       "total": 58,
+       "pct": 1.72,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5497,15 +5610,15 @@
       "20",
       "23"
      ],
-     "samples": 47,
+     "samples": 55,
      "drops": [
       {
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 3,
-       "total": 41,
-       "pct": 7.32,
+       "drops": 4,
+       "total": 49,
+       "pct": 8.16,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5518,8 +5631,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 2,
-       "total": 47,
-       "pct": 4.26,
+       "total": 55,
+       "pct": 3.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5532,8 +5645,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 1,
-       "total": 41,
-       "pct": 2.44,
+       "total": 49,
+       "pct": 2.04,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5546,8 +5659,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 41,
-       "pct": 2.44,
+       "total": 49,
+       "pct": 2.04,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5564,15 +5677,15 @@
      "edges": [
       "27"
      ],
-     "samples": 51,
+     "samples": 59,
      "drops": [
       {
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 3,
-       "total": 51,
-       "pct": 5.88,
+       "total": 59,
+       "pct": 5.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5584,9 +5697,9 @@
        "id": 409,
        "name": "早霜",
        "nameEn": "Hayashimo",
-       "drops": 1,
-       "total": 51,
-       "pct": 1.96,
+       "drops": 2,
+       "total": 59,
+       "pct": 3.39,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5599,8 +5712,22 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 1,
-       "total": 51,
-       "pct": 1.96,
+       "total": 59,
+       "pct": 1.69,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 1,
+       "total": 59,
+       "pct": 1.69,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5617,15 +5744,15 @@
      "edges": [
       "29"
      ],
-     "samples": 52,
+     "samples": 60,
      "drops": [
       {
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 4,
-       "total": 52,
-       "pct": 7.69,
+       "total": 60,
+       "pct": 6.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5638,8 +5765,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 2,
-       "total": 52,
-       "pct": 3.85,
+       "total": 60,
+       "pct": 3.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5652,8 +5779,8 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 2,
-       "total": 52,
-       "pct": 3.85,
+       "total": 60,
+       "pct": 3.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5666,8 +5793,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 2,
-       "total": 52,
-       "pct": 3.85,
+       "total": 60,
+       "pct": 3.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5680,8 +5807,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5694,8 +5821,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5708,8 +5835,8 @@
        "name": "巻波",
        "nameEn": "Makinami",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5722,8 +5849,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5736,8 +5863,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5750,8 +5877,8 @@
        "name": "時津風",
        "nameEn": "Tokitsukaze",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5764,8 +5891,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 52,
-       "pct": 1.92,
+       "total": 60,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5814,15 +5941,15 @@
      "edges": [
       "35"
      ],
-     "samples": 88,
+     "samples": 108,
      "drops": [
       {
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 4,
-       "total": 88,
-       "pct": 4.55,
+       "total": 108,
+       "pct": 3.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5835,8 +5962,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 2,
-       "total": 88,
-       "pct": 2.27,
+       "total": 108,
+       "pct": 1.85,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5849,8 +5976,22 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 2,
-       "total": 88,
-       "pct": 2.27,
+       "total": 108,
+       "pct": 1.85,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 2,
+       "total": 108,
+       "pct": 1.85,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5863,8 +6004,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 2,
-       "total": 88,
-       "pct": 2.27,
+       "total": 108,
+       "pct": 1.85,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5877,8 +6018,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 88,
-       "pct": 1.14,
+       "total": 108,
+       "pct": 0.93,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5891,22 +6032,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 1,
-       "total": 88,
-       "pct": 1.14,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 1,
-       "total": 88,
-       "pct": 1.14,
+       "total": 108,
+       "pct": 0.93,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5919,8 +6046,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 1,
-       "total": 88,
-       "pct": 1.14,
+       "total": 108,
+       "pct": 0.93,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5933,8 +6060,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 88,
-       "pct": 1.14,
+       "total": 108,
+       "pct": 0.93,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6004,16 +6131,30 @@
      "edges": [
       "45"
      ],
-     "samples": 18,
+     "samples": 22,
      "drops": [
       {
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 18,
-       "pct": 5.56,
+       "total": 22,
+       "pct": 4.55,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 1,
+       "total": 22,
+       "pct": 4.55,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6025,8 +6166,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 18,
-       "pct": 5.56,
+       "total": 22,
+       "pct": 4.55,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6043,15 +6184,15 @@
      "edges": [
       "46"
      ],
-     "samples": 11,
+     "samples": 15,
      "drops": [
       {
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 1,
-       "total": 11,
-       "pct": 9.09,
+       "total": 15,
+       "pct": 6.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6079,15 +6220,15 @@
       "48",
       "51"
      ],
-     "samples": 16,
+     "samples": 20,
      "drops": [
       {
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 2,
-       "total": 16,
-       "pct": 12.5,
+       "total": 20,
+       "pct": 10.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6100,8 +6241,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 1,
-       "total": 16,
-       "pct": 6.25,
+       "total": 20,
+       "pct": 5.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6119,15 +6260,15 @@
       "55",
       "56"
      ],
-     "samples": 62,
+     "samples": 76,
      "drops": [
       {
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 3,
-       "total": 62,
-       "pct": 4.84,
+       "total": 76,
+       "pct": 3.95,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6140,8 +6281,22 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 3,
-       "total": 62,
-       "pct": 4.84,
+       "total": 76,
+       "pct": 3.95,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 2,
+       "total": 76,
+       "pct": 2.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6154,8 +6309,36 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 2,
-       "total": 62,
-       "pct": 3.23,
+       "total": 76,
+       "pct": 2.63,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 519,
+       "name": "Jervis",
+       "nameEn": "Jervis",
+       "drops": 2,
+       "total": 76,
+       "pct": 2.63,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 2,
+       "total": 76,
+       "pct": 2.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6168,23 +6351,9 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 2,
-       "total": 62,
-       "pct": 3.23,
+       "total": 76,
+       "pct": 2.63,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 425,
-       "name": "朝霜",
-       "nameEn": "Asashimo",
-       "drops": 1,
-       "total": 62,
-       "pct": 1.61,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6196,8 +6365,8 @@
        "name": "速吸",
        "nameEn": "Hayasui",
        "drops": 1,
-       "total": 62,
-       "pct": 1.61,
+       "total": 76,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6210,8 +6379,8 @@
        "name": "鹿島",
        "nameEn": "Kashima",
        "drops": 1,
-       "total": 62,
-       "pct": 1.61,
+       "total": 76,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6220,12 +6389,26 @@
        }
       },
       {
-       "id": 410,
-       "name": "清霜",
-       "nameEn": "Kiyoshimo",
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
        "drops": 1,
-       "total": 62,
-       "pct": 1.61,
+       "total": 76,
+       "pct": 1.32,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 1,
+       "total": 76,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6238,8 +6421,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 62,
-       "pct": 1.61,
+       "total": 76,
+       "pct": 1.32,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6252,8 +6435,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 62,
-       "pct": 1.61,
+       "total": 76,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6302,15 +6485,29 @@
       "61",
       "73"
      ],
-     "samples": 120,
+     "samples": 179,
      "drops": [
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 5,
+       "total": 179,
+       "pct": 2.79,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
       {
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 1,
-       "total": 29,
-       "pct": 3.45,
+       "total": 47,
+       "pct": 2.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6323,22 +6520,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 29,
-       "pct": 3.45,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 4,
-       "total": 120,
-       "pct": 3.33,
+       "total": 47,
+       "pct": 2.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6351,8 +6534,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 2,
-       "total": 120,
-       "pct": 1.67,
+       "total": 132,
+       "pct": 1.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6365,8 +6548,22 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 2,
-       "total": 120,
-       "pct": 1.67,
+       "total": 132,
+       "pct": 1.52,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 410,
+       "name": "清霜",
+       "nameEn": "Kiyoshimo",
+       "drops": 2,
+       "total": 179,
+       "pct": 1.12,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6379,8 +6576,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 120,
-       "pct": 0.83,
+       "total": 132,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6393,23 +6590,9 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 1,
-       "total": 120,
-       "pct": 0.83,
+       "total": 132,
+       "pct": 0.76,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 410,
-       "name": "清霜",
-       "nameEn": "Kiyoshimo",
-       "drops": 1,
-       "total": 120,
-       "pct": 0.83,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6421,8 +6604,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 1,
-       "total": 120,
-       "pct": 0.83,
+       "total": 132,
+       "pct": 0.76,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6435,8 +6618,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 120,
-       "pct": 0.83,
+       "total": 132,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6474,15 +6657,15 @@
       "65",
       "74"
      ],
-     "samples": 133,
+     "samples": 159,
      "drops": [
       {
        "id": 527,
        "name": "岸波",
        "nameEn": "Kishinami",
-       "drops": 4,
-       "total": 126,
-       "pct": 3.17,
+       "drops": 6,
+       "total": 152,
+       "pct": 3.95,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6495,8 +6678,8 @@
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 4,
-       "total": 133,
-       "pct": 3.01,
+       "total": 159,
+       "pct": 2.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6509,8 +6692,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 3,
-       "total": 126,
-       "pct": 2.38,
+       "total": 152,
+       "pct": 1.97,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6523,8 +6706,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 3,
-       "total": 126,
-       "pct": 2.38,
+       "total": 152,
+       "pct": 1.97,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6537,8 +6720,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 2,
-       "total": 126,
-       "pct": 1.59,
+       "total": 152,
+       "pct": 1.32,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6551,8 +6734,22 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 2,
-       "total": 126,
-       "pct": 1.59,
+       "total": 152,
+       "pct": 1.32,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 2,
+       "total": 152,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6565,8 +6762,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 1,
-       "total": 126,
-       "pct": 0.79,
+       "total": 152,
+       "pct": 0.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6579,9 +6776,37 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 126,
-       "pct": 0.79,
+       "total": 152,
+       "pct": 0.66,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 1,
+       "total": 152,
+       "pct": 0.66,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 1,
+       "total": 152,
+       "pct": 0.66,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6593,8 +6818,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 1,
-       "total": 126,
-       "pct": 0.79,
+       "total": 152,
+       "pct": 0.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6603,13 +6828,13 @@
        }
       },
       {
-       "id": 424,
-       "name": "高波",
-       "nameEn": "Takanami",
+       "id": 514,
+       "name": "Sheffield",
+       "nameEn": "Sheffield",
        "drops": 1,
-       "total": 126,
-       "pct": 0.79,
-       "rarity": 1,
+       "total": 152,
+       "pct": 0.66,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -6621,8 +6846,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 126,
-       "pct": 0.79,
+       "total": 152,
+       "pct": 0.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6650,7 +6875,7 @@
       "68",
       "76"
      ],
-     "samples": 110,
+     "samples": 131,
      "drops": [
       {
        "id": 519,
@@ -6667,13 +6892,13 @@
        }
       },
       {
-       "id": 534,
-       "name": "神鷹",
-       "nameEn": "Shinyou",
-       "drops": 7,
-       "total": 110,
-       "pct": 6.36,
-       "rarity": 2,
+       "id": 460,
+       "name": "速吸",
+       "nameEn": "Hayasui",
+       "drops": 9,
+       "total": 131,
+       "pct": 6.87,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6681,13 +6906,13 @@
        }
       },
       {
-       "id": 460,
-       "name": "速吸",
-       "nameEn": "Hayasui",
-       "drops": 6,
-       "total": 110,
-       "pct": 5.45,
-       "rarity": 1,
+       "id": 534,
+       "name": "神鷹",
+       "nameEn": "Shinyou",
+       "drops": 7,
+       "total": 131,
+       "pct": 5.34,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -6699,22 +6924,8 @@
        "name": "香取",
        "nameEn": "Katori",
        "drops": 5,
-       "total": 110,
-       "pct": 4.55,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 465,
-       "name": "鹿島",
-       "nameEn": "Kashima",
-       "drops": 4,
-       "total": 110,
-       "pct": 3.64,
+       "total": 131,
+       "pct": 3.82,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6726,10 +6937,24 @@
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 3,
-       "total": 110,
-       "pct": 2.73,
+       "drops": 4,
+       "total": 131,
+       "pct": 3.05,
        "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 4,
+       "total": 131,
+       "pct": 3.05,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6740,9 +6965,9 @@
        "id": 80,
        "name": "長門",
        "nameEn": "Nagato",
-       "drops": 3,
-       "total": 110,
-       "pct": 2.73,
+       "drops": 4,
+       "total": 131,
+       "pct": 3.05,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6755,8 +6980,22 @@
        "name": "Nelson",
        "nameEn": "Nelson",
        "drops": 3,
-       "total": 110,
-       "pct": 2.73,
+       "total": 131,
+       "pct": 2.29,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 439,
+       "name": "Warspite",
+       "nameEn": "Warspite",
+       "drops": 3,
+       "total": 131,
+       "pct": 2.29,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6769,8 +7008,8 @@
        "name": "Gloire",
        "nameEn": "Gloire",
        "drops": 2,
-       "total": 110,
-       "pct": 1.82,
+       "total": 131,
+       "pct": 1.53,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6783,8 +7022,36 @@
        "name": "Rodney",
        "nameEn": "Rodney",
        "drops": 2,
-       "total": 110,
-       "pct": 1.82,
+       "total": 131,
+       "pct": 1.53,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 2,
+       "total": 131,
+       "pct": 1.53,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 885,
+       "name": "Victorious",
+       "nameEn": "Victorious",
+       "drops": 2,
+       "total": 131,
+       "pct": 1.53,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6797,8 +7064,8 @@
        "name": "Visby",
        "nameEn": "Visby",
        "drops": 2,
-       "total": 110,
-       "pct": 1.82,
+       "total": 131,
+       "pct": 1.53,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -6811,8 +7078,8 @@
        "name": "Ark Royal",
        "nameEn": "Ark Royal",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6825,8 +7092,8 @@
        "name": "Glorious",
        "nameEn": "Glorious",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6839,8 +7106,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6853,8 +7120,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6867,8 +7134,8 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6881,8 +7148,22 @@
        "name": "まるゆ",
        "nameEn": "Maruyu",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 1,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6895,50 +7176,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 110,
-       "pct": 0.91,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 1,
-       "total": 110,
-       "pct": 0.91,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 885,
-       "name": "Victorious",
-       "nameEn": "Victorious",
-       "drops": 1,
-       "total": 110,
-       "pct": 0.91,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 439,
-       "name": "Warspite",
-       "nameEn": "Warspite",
-       "drops": 1,
-       "total": 110,
-       "pct": 0.91,
+       "total": 131,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7054,15 +7293,15 @@
       "14",
       "16"
      ],
-     "samples": 213,
+     "samples": 216,
      "drops": [
       {
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 3,
-       "total": 213,
-       "pct": 1.41,
+       "total": 216,
+       "pct": 1.39,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7075,8 +7314,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 3,
-       "total": 213,
-       "pct": 1.41,
+       "total": 216,
+       "pct": 1.39,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7089,8 +7328,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 2,
-       "total": 213,
-       "pct": 0.94,
+       "total": 216,
+       "pct": 0.93,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7103,8 +7342,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 213,
-       "pct": 0.47,
+       "total": 216,
+       "pct": 0.46,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7131,15 +7370,15 @@
      "edges": [
       "18"
      ],
-     "samples": 221,
+     "samples": 223,
      "drops": [
       {
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 6,
-       "total": 221,
-       "pct": 2.71,
+       "total": 223,
+       "pct": 2.69,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7152,8 +7391,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 5,
-       "total": 221,
-       "pct": 2.26,
+       "total": 223,
+       "pct": 2.24,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7166,8 +7405,8 @@
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 4,
-       "total": 221,
-       "pct": 1.81,
+       "total": 223,
+       "pct": 1.79,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7180,8 +7419,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 4,
-       "total": 221,
-       "pct": 1.81,
+       "total": 223,
+       "pct": 1.79,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7194,8 +7433,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 3,
-       "total": 221,
-       "pct": 1.36,
+       "total": 223,
+       "pct": 1.35,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7208,8 +7447,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 3,
-       "total": 221,
-       "pct": 1.36,
+       "total": 223,
+       "pct": 1.35,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7222,8 +7461,8 @@
        "name": "巻波",
        "nameEn": "Makinami",
        "drops": 3,
-       "total": 221,
-       "pct": 1.36,
+       "total": 223,
+       "pct": 1.35,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7236,7 +7475,7 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 2,
-       "total": 221,
+       "total": 223,
        "pct": 0.9,
        "rarity": 1,
        "ranks": {
@@ -7250,7 +7489,7 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 2,
-       "total": 221,
+       "total": 223,
        "pct": 0.9,
        "rarity": 2,
        "ranks": {
@@ -7264,7 +7503,7 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 2,
-       "total": 221,
+       "total": 223,
        "pct": 0.9,
        "rarity": 2,
        "ranks": {
@@ -7278,7 +7517,7 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 2,
-       "total": 221,
+       "total": 223,
        "pct": 0.9,
        "rarity": 1,
        "ranks": {
@@ -7292,7 +7531,7 @@
        "name": "Bismarck",
        "nameEn": "Bismarck",
        "drops": 1,
-       "total": 221,
+       "total": 223,
        "pct": 0.45,
        "rarity": 2,
        "ranks": {
@@ -7306,7 +7545,7 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 1,
-       "total": 221,
+       "total": 223,
        "pct": 0.45,
        "rarity": 2,
        "ranks": {
@@ -7320,7 +7559,7 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 221,
+       "total": 223,
        "pct": 0.45,
        "rarity": 1,
        "ranks": {
@@ -7334,7 +7573,7 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 221,
+       "total": 223,
        "pct": 0.45,
        "rarity": 2,
        "ranks": {
@@ -7348,7 +7587,7 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 221,
+       "total": 223,
        "pct": 0.45,
        "rarity": 1,
        "ranks": {
@@ -7905,15 +8144,15 @@
      "edges": [
       "35"
      ],
-     "samples": 452,
+     "samples": 477,
      "drops": [
       {
        "id": 452,
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 9,
-       "total": 452,
-       "pct": 1.99,
+       "total": 477,
+       "pct": 1.89,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7926,8 +8165,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 8,
-       "total": 452,
-       "pct": 1.77,
+       "total": 476,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7940,8 +8179,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 8,
-       "total": 452,
-       "pct": 1.77,
+       "total": 476,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7954,8 +8193,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 8,
-       "total": 452,
-       "pct": 1.77,
+       "total": 477,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7968,8 +8207,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 5,
-       "total": 452,
-       "pct": 1.11,
+       "total": 477,
+       "pct": 1.05,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7982,8 +8221,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 5,
-       "total": 452,
-       "pct": 1.11,
+       "total": 477,
+       "pct": 1.05,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7996,8 +8235,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 4,
-       "total": 452,
-       "pct": 0.88,
+       "total": 477,
+       "pct": 0.84,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8009,9 +8248,9 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
-       "drops": 2,
-       "total": 452,
-       "pct": 0.44,
+       "drops": 3,
+       "total": 476,
+       "pct": 0.63,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8024,8 +8263,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 2,
-       "total": 452,
-       "pct": 0.44,
+       "total": 477,
+       "pct": 0.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8038,8 +8277,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 2,
-       "total": 452,
-       "pct": 0.44,
+       "total": 477,
+       "pct": 0.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8052,8 +8291,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 1,
-       "total": 452,
-       "pct": 0.22,
+       "total": 477,
+       "pct": 0.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8066,8 +8305,8 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 1,
-       "total": 452,
-       "pct": 0.22,
+       "total": 477,
+       "pct": 0.21,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8316,15 +8555,15 @@
      "edges": [
       "46"
      ],
-     "samples": 45,
+     "samples": 52,
      "drops": [
       {
-       "id": 425,
-       "name": "朝霜",
-       "nameEn": "Asashimo",
-       "drops": 1,
-       "total": 45,
-       "pct": 2.22,
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 2,
+       "total": 52,
+       "pct": 3.85,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8333,12 +8572,12 @@
        }
       },
       {
-       "id": 453,
-       "name": "風雲",
-       "nameEn": "Kazagumo",
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
        "drops": 1,
-       "total": 45,
-       "pct": 2.22,
+       "total": 52,
+       "pct": 1.92,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8351,8 +8590,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 45,
-       "pct": 2.22,
+       "total": 52,
+       "pct": 1.92,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8365,8 +8604,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 45,
-       "pct": 2.22,
+       "total": 52,
+       "pct": 1.92,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8394,15 +8633,15 @@
       "48",
       "51"
      ],
-     "samples": 84,
+     "samples": 97,
      "drops": [
       {
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 3,
-       "total": 84,
-       "pct": 3.57,
+       "total": 97,
+       "pct": 3.09,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8415,8 +8654,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 2,
-       "total": 75,
-       "pct": 2.67,
+       "total": 88,
+       "pct": 2.27,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8429,8 +8668,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 2,
-       "total": 75,
-       "pct": 2.67,
+       "total": 88,
+       "pct": 2.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8443,8 +8682,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 1,
-       "total": 75,
-       "pct": 1.33,
+       "total": 88,
+       "pct": 1.14,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8457,8 +8696,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 1,
-       "total": 75,
-       "pct": 1.33,
+       "total": 88,
+       "pct": 1.14,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8471,8 +8710,8 @@
        "name": "高波",
        "nameEn": "Takanami",
        "drops": 1,
-       "total": 75,
-       "pct": 1.33,
+       "total": 88,
+       "pct": 1.14,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8490,15 +8729,15 @@
       "55",
       "56"
      ],
-     "samples": 400,
+     "samples": 424,
      "drops": [
       {
        "id": 625,
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 9,
-       "total": 396,
-       "pct": 2.27,
+       "total": 418,
+       "pct": 2.15,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8511,8 +8750,50 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 8,
-       "total": 396,
-       "pct": 2.02,
+       "total": 419,
+       "pct": 1.91,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 8,
+       "total": 419,
+       "pct": 1.91,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 8,
+       "total": 419,
+       "pct": 1.91,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 465,
+       "name": "鹿島",
+       "nameEn": "Kashima",
+       "drops": 7,
+       "total": 419,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8525,8 +8806,8 @@
        "name": "風雲",
        "nameEn": "Kazagumo",
        "drops": 7,
-       "total": 396,
-       "pct": 1.77,
+       "total": 419,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8539,50 +8820,8 @@
        "name": "沖波",
        "nameEn": "Okinami",
        "drops": 7,
-       "total": 396,
-       "pct": 1.77,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 424,
-       "name": "高波",
-       "nameEn": "Takanami",
-       "drops": 7,
-       "total": 396,
-       "pct": 1.77,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 7,
-       "total": 396,
-       "pct": 1.77,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 465,
-       "name": "鹿島",
-       "nameEn": "Kashima",
-       "drops": 6,
-       "total": 396,
-       "pct": 1.52,
+       "total": 419,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8595,8 +8834,22 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 5,
-       "total": 396,
-       "pct": 1.26,
+       "total": 418,
+       "pct": 1.2,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 671,
+       "name": "巻波",
+       "nameEn": "Makinami",
+       "drops": 5,
+       "total": 419,
+       "pct": 1.19,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8609,8 +8862,8 @@
        "name": "朝霜",
        "nameEn": "Asashimo",
        "drops": 4,
-       "total": 396,
-       "pct": 1.01,
+       "total": 418,
+       "pct": 0.96,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8623,23 +8876,9 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 4,
-       "total": 396,
-       "pct": 1.01,
+       "total": 419,
+       "pct": 0.95,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 671,
-       "name": "巻波",
-       "nameEn": "Makinami",
-       "drops": 4,
-       "total": 396,
-       "pct": 1.01,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -8651,8 +8890,8 @@
        "name": "Gloire",
        "nameEn": "Gloire",
        "drops": 3,
-       "total": 396,
-       "pct": 0.76,
+       "total": 418,
+       "pct": 0.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8665,8 +8904,8 @@
        "name": "Graf Zeppelin",
        "nameEn": "Graf Zeppelin",
        "drops": 3,
-       "total": 396,
-       "pct": 0.76,
+       "total": 418,
+       "pct": 0.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8679,8 +8918,8 @@
        "name": "岸波",
        "nameEn": "Kishinami",
        "drops": 3,
-       "total": 396,
-       "pct": 0.76,
+       "total": 419,
+       "pct": 0.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8693,8 +8932,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 3,
-       "total": 400,
-       "pct": 0.75,
+       "total": 424,
+       "pct": 0.71,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8707,9 +8946,23 @@
        "name": "Bismarck",
        "nameEn": "Bismarck",
        "drops": 2,
-       "total": 396,
-       "pct": 0.51,
+       "total": 418,
+       "pct": 0.48,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 409,
+       "name": "早霜",
+       "nameEn": "Hayashimo",
+       "drops": 2,
+       "total": 418,
+       "pct": 0.48,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -8721,8 +8974,8 @@
        "name": "速吸",
        "nameEn": "Hayasui",
        "drops": 2,
-       "total": 396,
-       "pct": 0.51,
+       "total": 418,
+       "pct": 0.48,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8735,8 +8988,8 @@
        "name": "日枝丸",
        "nameEn": "Hie Maru",
        "drops": 2,
-       "total": 396,
-       "pct": 0.51,
+       "total": 419,
+       "pct": 0.48,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -8749,8 +9002,8 @@
        "name": "Visby",
        "nameEn": "Visby",
        "drops": 2,
-       "total": 396,
-       "pct": 0.51,
+       "total": 419,
+       "pct": 0.48,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -8759,13 +9012,13 @@
        }
       },
       {
-       "id": 409,
-       "name": "早霜",
-       "nameEn": "Hayashimo",
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
        "drops": 1,
-       "total": 396,
-       "pct": 0.25,
-       "rarity": 1,
+       "total": 419,
+       "pct": 0.24,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -8777,8 +9030,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 1,
-       "total": 396,
-       "pct": 0.25,
+       "total": 419,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8791,8 +9044,8 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 1,
-       "total": 396,
-       "pct": 0.25,
+       "total": 419,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8805,8 +9058,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 1,
-       "total": 396,
-       "pct": 0.25,
+       "total": 419,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8819,8 +9072,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 1,
-       "total": 396,
-       "pct": 0.25,
+       "total": 419,
+       "pct": 0.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -8833,8 +9086,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 1,
-       "total": 396,
-       "pct": 0.25,
+       "total": 419,
+       "pct": 0.24,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8883,15 +9136,15 @@
       "61",
       "73"
      ],
-     "samples": 813,
+     "samples": 867,
      "drops": [
       {
-       "id": 425,
-       "name": "朝霜",
-       "nameEn": "Asashimo",
-       "drops": 15,
-       "total": 812,
-       "pct": 1.85,
+       "id": 424,
+       "name": "高波",
+       "nameEn": "Takanami",
+       "drops": 18,
+       "total": 867,
+       "pct": 2.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8900,12 +9153,12 @@
        }
       },
       {
-       "id": 424,
-       "name": "高波",
-       "nameEn": "Takanami",
-       "drops": 15,
-       "total": 813,
-       "pct": 1.85,
+       "id": 425,
+       "name": "朝霜",
+       "nameEn": "Asashimo",
+       "drops": 17,
+       "total": 867,
+       "pct": 1.96,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8917,9 +9170,9 @@
        "id": 453,
        "name": "風雲",
        "nameEn": "Kazagumo",
-       "drops": 10,
-       "total": 734,
-       "pct": 1.36,
+       "drops": 11,
+       "total": 784,
+       "pct": 1.4,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8932,8 +9185,8 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 10,
-       "total": 812,
-       "pct": 1.23,
+       "total": 867,
+       "pct": 1.15,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8946,22 +9199,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 9,
-       "total": 734,
-       "pct": 1.23,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
-       "drops": 9,
-       "total": 813,
-       "pct": 1.11,
+       "total": 784,
+       "pct": 1.15,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8973,9 +9212,23 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 8,
-       "total": 734,
-       "pct": 1.09,
+       "drops": 9,
+       "total": 784,
+       "pct": 1.15,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 10,
+       "total": 867,
+       "pct": 1.15,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -8987,9 +9240,9 @@
        "id": 520,
        "name": "Janus",
        "nameEn": "Janus",
-       "drops": 7,
-       "total": 812,
-       "pct": 0.86,
+       "drops": 8,
+       "total": 867,
+       "pct": 0.92,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9002,9 +9255,23 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 5,
-       "total": 734,
-       "pct": 0.68,
+       "total": 784,
+       "pct": 0.64,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 175,
+       "name": "Z3",
+       "nameEn": "Z3",
+       "drops": 5,
+       "total": 784,
+       "pct": 0.64,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -9016,8 +9283,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 5,
-       "total": 813,
-       "pct": 0.62,
+       "total": 867,
+       "pct": 0.58,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9030,23 +9297,9 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 4,
-       "total": 734,
-       "pct": 0.54,
+       "total": 784,
+       "pct": 0.51,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 175,
-       "name": "Z3",
-       "nameEn": "Z3",
-       "drops": 4,
-       "total": 734,
-       "pct": 0.54,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -9058,8 +9311,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 4,
-       "total": 812,
-       "pct": 0.49,
+       "total": 867,
+       "pct": 0.46,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9072,8 +9325,8 @@
        "name": "Z1",
        "nameEn": "Z1",
        "drops": 1,
-       "total": 734,
-       "pct": 0.14,
+       "total": 784,
+       "pct": 0.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9111,28 +9364,14 @@
       "65",
       "74"
      ],
-     "samples": 761,
+     "samples": 814,
      "drops": [
       {
        "id": 424,
        "name": "高波",
        "nameEn": "Takanami",
-       "drops": 15,
-       "total": 710,
-       "pct": 2.11,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 452,
-       "name": "沖波",
-       "nameEn": "Okinami",
        "drops": 16,
-       "total": 761,
+       "total": 763,
        "pct": 2.1,
        "rarity": 1,
        "ranks": {
@@ -9145,8 +9384,22 @@
        "id": 425,
        "name": "朝霜",
        "nameEn": "Asashimo",
-       "drops": 15,
-       "total": 760,
+       "drops": 17,
+       "total": 814,
+       "pct": 2.09,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 452,
+       "name": "沖波",
+       "nameEn": "Okinami",
+       "drops": 16,
+       "total": 814,
        "pct": 1.97,
        "rarity": 1,
        "ranks": {
@@ -9160,8 +9413,8 @@
        "name": "秋霜",
        "nameEn": "Akishimo",
        "drops": 13,
-       "total": 709,
-       "pct": 1.83,
+       "total": 763,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9174,8 +9427,8 @@
        "name": "清霜",
        "nameEn": "Kiyoshimo",
        "drops": 13,
-       "total": 710,
-       "pct": 1.83,
+       "total": 763,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9188,8 +9441,22 @@
        "name": "早霜",
        "nameEn": "Hayashimo",
        "drops": 11,
-       "total": 761,
-       "pct": 1.45,
+       "total": 814,
+       "pct": 1.35,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 453,
+       "name": "風雲",
+       "nameEn": "Kazagumo",
+       "drops": 11,
+       "total": 814,
+       "pct": 1.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9202,21 +9469,7 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 10,
-       "total": 710,
-       "pct": 1.41,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 453,
-       "name": "風雲",
-       "nameEn": "Kazagumo",
-       "drops": 10,
-       "total": 761,
+       "total": 763,
        "pct": 1.31,
        "rarity": 1,
        "ranks": {
@@ -9230,8 +9483,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 10,
-       "total": 761,
-       "pct": 1.31,
+       "total": 814,
+       "pct": 1.23,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9244,8 +9497,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 5,
-       "total": 710,
-       "pct": 0.7,
+       "total": 763,
+       "pct": 0.66,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9258,8 +9511,8 @@
        "name": "Gotland",
        "nameEn": "Gotland",
        "drops": 3,
-       "total": 710,
-       "pct": 0.42,
+       "total": 763,
+       "pct": 0.39,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9272,8 +9525,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 3,
-       "total": 761,
-       "pct": 0.39,
+       "total": 814,
+       "pct": 0.37,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9286,9 +9539,23 @@
        "name": "Warspite",
        "nameEn": "Warspite",
        "drops": 2,
-       "total": 710,
-       "pct": 0.28,
+       "total": 763,
+       "pct": 0.26,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 174,
+       "name": "Z1",
+       "nameEn": "Z1",
+       "drops": 2,
+       "total": 763,
+       "pct": 0.26,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -9300,8 +9567,8 @@
        "name": "Z3",
        "nameEn": "Z3",
        "drops": 2,
-       "total": 710,
-       "pct": 0.28,
+       "total": 763,
+       "pct": 0.26,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9314,8 +9581,8 @@
        "name": "Janus",
        "nameEn": "Janus",
        "drops": 1,
-       "total": 710,
-       "pct": 0.14,
+       "total": 763,
+       "pct": 0.13,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9343,15 +9610,15 @@
       "68",
       "76"
      ],
-     "samples": 835,
+     "samples": 883,
      "drops": [
       {
        "id": 465,
        "name": "鹿島",
        "nameEn": "Kashima",
-       "drops": 38,
-       "total": 828,
-       "pct": 4.59,
+       "drops": 41,
+       "total": 876,
+       "pct": 4.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9363,9 +9630,9 @@
        "id": 154,
        "name": "香取",
        "nameEn": "Katori",
-       "drops": 29,
-       "total": 828,
-       "pct": 3.5,
+       "drops": 30,
+       "total": 876,
+       "pct": 3.42,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9377,9 +9644,9 @@
        "id": 460,
        "name": "速吸",
        "nameEn": "Hayasui",
-       "drops": 24,
-       "total": 828,
-       "pct": 2.9,
+       "drops": 28,
+       "total": 876,
+       "pct": 3.2,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9392,8 +9659,8 @@
        "name": "長門",
        "nameEn": "Nagato",
        "drops": 23,
-       "total": 828,
-       "pct": 2.78,
+       "total": 876,
+       "pct": 2.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9406,8 +9673,8 @@
        "name": "三隈",
        "nameEn": "Mikuma",
        "drops": 20,
-       "total": 835,
-       "pct": 2.4,
+       "total": 883,
+       "pct": 2.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -9420,9 +9687,23 @@
        "name": "まるゆ",
        "nameEn": "Maruyu",
        "drops": 18,
-       "total": 828,
-       "pct": 2.17,
+       "total": 876,
+       "pct": 2.05,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 515,
+       "name": "Ark Royal",
+       "nameEn": "Ark Royal",
+       "drops": 15,
+       "total": 876,
+       "pct": 1.71,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -9434,22 +9715,8 @@
        "name": "神鷹",
        "nameEn": "Shinyou",
        "drops": 14,
-       "total": 828,
-       "pct": 1.69,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 515,
-       "name": "Ark Royal",
-       "nameEn": "Ark Royal",
-       "drops": 13,
-       "total": 828,
-       "pct": 1.57,
+       "total": 876,
+       "pct": 1.6,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9461,10 +9728,24 @@
        "id": 1065,
        "name": "日枝丸",
        "nameEn": "Hie Maru",
-       "drops": 12,
-       "total": 828,
-       "pct": 1.45,
+       "drops": 13,
+       "total": 876,
+       "pct": 1.48,
        "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 439,
+       "name": "Warspite",
+       "nameEn": "Warspite",
+       "drops": 12,
+       "total": 876,
+       "pct": 1.37,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -9476,22 +9757,8 @@
        "name": "Victorious",
        "nameEn": "Victorious",
        "drops": 11,
-       "total": 828,
-       "pct": 1.33,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 439,
-       "name": "Warspite",
-       "nameEn": "Warspite",
-       "drops": 11,
-       "total": 828,
-       "pct": 1.33,
+       "total": 876,
+       "pct": 1.26,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9503,23 +9770,9 @@
        "id": 572,
        "name": "Rodney",
        "nameEn": "Rodney",
-       "drops": 9,
-       "total": 828,
-       "pct": 1.09,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 1022,
-       "name": "Glorious",
-       "nameEn": "Glorious",
-       "drops": 8,
-       "total": 828,
-       "pct": 0.97,
+       "drops": 10,
+       "total": 876,
+       "pct": 1.14,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9531,9 +9784,9 @@
        "id": 571,
        "name": "Nelson",
        "nameEn": "Nelson",
-       "drops": 8,
-       "total": 828,
-       "pct": 0.97,
+       "drops": 9,
+       "total": 876,
+       "pct": 1.03,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9545,24 +9798,10 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 8,
-       "total": 828,
-       "pct": 0.97,
+       "drops": 9,
+       "total": 876,
+       "pct": 1.03,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 927,
-       "name": "Valiant",
-       "nameEn": "Valiant",
-       "drops": 8,
-       "total": 828,
-       "pct": 0.97,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -9573,9 +9812,9 @@
        "id": 1062,
        "name": "Visby",
        "nameEn": "Visby",
-       "drops": 8,
-       "total": 828,
-       "pct": 0.97,
+       "drops": 9,
+       "total": 876,
+       "pct": 1.03,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -9584,12 +9823,12 @@
        }
       },
       {
-       "id": 965,
-       "name": "Gloire",
-       "nameEn": "Gloire",
-       "drops": 7,
-       "total": 828,
-       "pct": 0.85,
+       "id": 1022,
+       "name": "Glorious",
+       "nameEn": "Glorious",
+       "drops": 8,
+       "total": 876,
+       "pct": 0.91,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9601,9 +9840,65 @@
        "id": 574,
        "name": "Gotland",
        "nameEn": "Gotland",
+       "drops": 8,
+       "total": 876,
+       "pct": 0.91,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 927,
+       "name": "Valiant",
+       "nameEn": "Valiant",
+       "drops": 8,
+       "total": 876,
+       "pct": 0.91,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 965,
+       "name": "Gloire",
+       "nameEn": "Gloire",
        "drops": 7,
-       "total": 828,
-       "pct": 0.85,
+       "total": 876,
+       "pct": 0.8,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 431,
+       "name": "U-511",
+       "nameEn": "U-511",
+       "drops": 7,
+       "total": 876,
+       "pct": 0.8,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 520,
+       "name": "Janus",
+       "nameEn": "Janus",
+       "drops": 6,
+       "total": 876,
+       "pct": 0.68,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9616,36 +9911,8 @@
        "name": "Javelin",
        "nameEn": "Javelin",
        "drops": 6,
-       "total": 828,
-       "pct": 0.72,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 431,
-       "name": "U-511",
-       "nameEn": "U-511",
-       "drops": 6,
-       "total": 828,
-       "pct": 0.72,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 520,
-       "name": "Janus",
-       "nameEn": "Janus",
-       "drops": 5,
-       "total": 828,
-       "pct": 0.6,
+       "total": 876,
+       "pct": 0.68,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9658,8 +9925,8 @@
        "name": "Jean Bart",
        "nameEn": "Jean Bart",
        "drops": 4,
-       "total": 828,
-       "pct": 0.48,
+       "total": 876,
+       "pct": 0.46,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9672,8 +9939,8 @@
        "name": "Sheffield",
        "nameEn": "Sheffield",
        "drops": 4,
-       "total": 828,
-       "pct": 0.48,
+       "total": 876,
+       "pct": 0.46,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -9686,8 +9953,8 @@
        "name": "Jervis",
        "nameEn": "Jervis",
        "drops": 3,
-       "total": 828,
-       "pct": 0.36,
+       "total": 876,
+       "pct": 0.34,
        "rarity": 2,
        "ranks": {
         "s": true,

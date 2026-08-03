@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import type {
+  DifficultyOption,
   DropEntry,
   DupeEntry,
   DupeSample,
   DupesData,
   IndexData,
   MapData,
+  MapKind,
   MasterShip,
   NodeData,
   ShipDupes,
@@ -16,6 +18,13 @@ import './App.css'
 
 const DATA_BASE = `${import.meta.env.BASE_URL}data/`
 const DIFF_STORAGE_KEY = 'kc-drop-srch:selectedDifficulties'
+
+// 海域の種別ごとの所持数別ドロップ率。イベントは初回に読み、
+// 通常はタブを開いたときに読む(件数が多く容量が大きいため)
+const DUPES_FILE: Record<MapKind, string> = {
+  event: 'dupes.json',
+  normal: 'dupes-normal.json',
+}
 
 function loadSavedDifficulties(): Record<string, number> {
   try {
@@ -30,7 +39,9 @@ function loadSavedDifficulties(): Record<string, number> {
 // フッタに表示するバージョン。package.json の version と揃える
 const APP_VERSION = 'v0.1.0'
 
-const DIFF_ORDER = ['甲', '乙', '丙', '丁']
+// 難易度の表示順。通常海域は難易度を持たないため末尾に置く(タブ内では
+// 全行が同じ値になるので順序に影響しないが、indexOf が -1 になるのを避ける)
+const DIFF_ORDER = ['甲', '乙', '丙', '丁', '通常']
 const RANK_ORDER = ['S', 'A', 'B']
 // 所持数の内訳。元データが持つのは 0/1/2隻ちょうどまでで、
 // それ以上は合計との差から求めるため最終バケットは「3隻以上」になる
@@ -193,25 +204,30 @@ function OwnedBucketHeaderCells({
   )
 }
 
-// 難度・海域・マス・勝利ランクの並び替え可能ヘッダー(DupesTable/RankDropsTable で共用)
+// 難易度・海域・マス・勝利ランクの並び替え可能ヘッダー。
+// showDifficulty=false のとき難易度列を出さない(通常海域は難易度を持たないため)
 function EntryHeaderCells({
   rowSpan,
+  showDifficulty = true,
   toggleSort,
   sortIndicator,
 }: {
   rowSpan?: number
+  showDifficulty?: boolean
   toggleSort: (key: 'difficulty' | 'map' | 'node' | 'rank', dir: SortDir) => void
   sortIndicator: (key: 'difficulty' | 'map' | 'node' | 'rank') => ReactNode
 }) {
   return (
     <>
-      <th
-        rowSpan={rowSpan}
-        className="dupes-sortable dupes-col-narrow"
-        onClick={() => toggleSort('difficulty', 'asc')}
-      >
-        難易度{sortIndicator('difficulty')}
-      </th>
+      {showDifficulty && (
+        <th
+          rowSpan={rowSpan}
+          className="dupes-sortable dupes-col-narrow"
+          onClick={() => toggleSort('difficulty', 'asc')}
+        >
+          難易度{sortIndicator('difficulty')}
+        </th>
+      )}
       <th
         rowSpan={rowSpan}
         className="dupes-sortable dupes-col-narrow"
@@ -237,23 +253,27 @@ function EntryHeaderCells({
   )
 }
 
-// 難度・海域・マス・勝利ランクの表示セル(DupesTable/RankDropsTable で共用)
+// 難易度・海域・マス・勝利ランクの表示セル。列構成は EntryHeaderCells と揃える
 function EntryBodyCells({
   entry,
   mapLabels,
+  showDifficulty = true,
+  clickableNode = true,
   onSelectNode,
 }: {
   entry: { map: string; difficulty: string; node: string; rank: string }
   mapLabels: Record<string, string>
+  showDifficulty?: boolean
+  clickableNode?: boolean
   onSelectNode: (mapId: string, node: string) => void
 }) {
   return (
     <>
-      <td className="dupes-col-narrow">{entry.difficulty}</td>
+      {showDifficulty && <td className="dupes-col-narrow">{entry.difficulty}</td>}
       <td className="dupes-col-narrow">{mapLabels[entry.map] ?? entry.map}</td>
       <td
-        className="dupes-col-narrow dupes-clickable"
-        onClick={() => onSelectNode(entry.map, entry.node)}
+        className={'dupes-col-narrow' + (clickableNode ? ' dupes-clickable' : '')}
+        onClick={clickableNode ? () => onSelectNode(entry.map, entry.node) : undefined}
       >
         {entry.node}
       </td>
@@ -350,11 +370,13 @@ function ScrollTable({
 // 内容依存(table-layout: auto)のままにすると、艦やマスを切り替えるたびに
 // 分母の桁数・艦名やマス名の長さで列幅が変わって表がずれる
 
-// 艦選択時: 難度・海域・マス・勝利 + 所持数4列
-function DupesColGroup() {
+// 艦選択時: 難易度・海域・マス・勝利 + 所持数4列。
+// 難易度列を出さない場合は左側の幅をその分だけ広げ、所持数の列位置を変えない
+// (タブや選択を切り替えても数値列が横にずれないようにするため)
+function DupesColGroup({ showDifficulty = true }: { showDifficulty?: boolean }) {
   return (
     <colgroup>
-      <col className="dupes-col-diff" />
+      {showDifficulty && <col className="dupes-col-diff" />}
       <col className="dupes-col-map" />
       <col className="dupes-col-node" />
       <col className="dupes-col-rank" />
@@ -389,6 +411,8 @@ function DupesTable({
   mapOrder,
   mapDiffName,
   showAll,
+  hasDifficulty = true,
+  emptyMessage,
   onToggleShowAll,
   onSelectNode,
 }: {
@@ -398,6 +422,9 @@ function DupesTable({
   mapOrder: (mapId: string) => number
   mapDiffName: Record<string, string>
   showAll: boolean
+  /** 難易度を持つ海域か。false なら難易度列・難易度の絞り込み・マス遷移を出さない */
+  hasDifficulty?: boolean
+  emptyMessage?: string
   onToggleShowAll: () => void
   onSelectNode: (mapId: string, node: string) => void
 }) {
@@ -411,11 +438,13 @@ function DupesTable({
     return compareBucket(a.dupes, b.dupes, key)
   }
 
-  const rows = sortWithFallback(
-    ship ? filterByDifficulty(ship.entries, showAll, mapDiffName) : [],
-    sort,
-    compareByKey,
-    (a, b) => compareEntryDefault(a, b, mapOrder),
+  const entries = ship
+    ? hasDifficulty
+      ? filterByDifficulty(ship.entries, showAll, mapDiffName)
+      : ship.entries
+    : []
+  const rows = sortWithFallback(entries, sort, compareByKey, (a, b) =>
+    compareEntryDefault(a, b, mapOrder),
   )
   return (
     <div className="dupes card">
@@ -426,27 +455,34 @@ function DupesTable({
           )}
           所持数別のドロップ率
         </div>
-        <button
-          type="button"
-          className={
-            'dupes-toggle' +
-            (showAll ? ' active' : '') +
-            (ship ? '' : ' hidden')
-          }
-          aria-pressed={showAll}
-          disabled={!ship}
-          onClick={onToggleShowAll}
-        >
-          全難易度のドロップ率を表示
-        </button>
+        {hasDifficulty && (
+          <button
+            type="button"
+            className={
+              'dupes-toggle' +
+              (showAll ? ' active' : '') +
+              (ship ? '' : ' hidden')
+            }
+            aria-pressed={showAll}
+            disabled={!ship}
+            onClick={onToggleShowAll}
+          >
+            全難易度のドロップ率を表示
+          </button>
+        )}
       </div>
       {ship ? (
         <>
           <ScrollTable className="dupes-table-fixed">
-            <DupesColGroup />
+            <DupesColGroup showDifficulty={hasDifficulty} />
             <thead>
               <tr>
-                <EntryHeaderCells rowSpan={2} toggleSort={toggleSort} sortIndicator={sortIndicator} />
+                <EntryHeaderCells
+                  rowSpan={2}
+                  showDifficulty={hasDifficulty}
+                  toggleSort={toggleSort}
+                  sortIndicator={sortIndicator}
+                />
                 <th colSpan={4} className="dupes-owned-head">
                   所持数
                 </th>
@@ -456,7 +492,13 @@ function DupesTable({
             <tbody>
               {rows.map((e, i) => (
                 <tr key={i}>
-                  <EntryBodyCells entry={e} mapLabels={mapLabels} onSelectNode={onSelectNode} />
+                  <EntryBodyCells
+                    entry={e}
+                    mapLabels={mapLabels}
+                    showDifficulty={hasDifficulty}
+                    clickableNode={hasDifficulty}
+                    onSelectNode={onSelectNode}
+                  />
                   <OwnedBucketCells dupes={e.dupes} />
                 </tr>
               ))}
@@ -472,7 +514,8 @@ function DupesTable({
         <p className="dupes-empty">
           {selectedShipName
             ? `${selectedShipName}の所持数別のドロップ率データはありません。`
-            : '艦または各海域のマスを選択すると、所持数別のドロップ率を表示します。'}
+            : (emptyMessage ??
+              '艦または各海域のマスを選択すると、所持数別のドロップ率を表示します。')}
         </p>
       )}
     </div>
@@ -743,12 +786,31 @@ function MapGrid({
   )
 }
 
+/** 種別ごとの難易度セット。kinds が無い古いデータでは全体の difficulties を使う */
+function kindDifficulties(idx: IndexData): Partial<Record<MapKind, DifficultyOption[]>> {
+  if (!idx.kinds?.length) return { event: idx.difficulties }
+  return Object.fromEntries(idx.kinds.map((k) => [k.id, k.difficulties]))
+}
+
+/** 海域が1つ以上ある種別。0件の種別はタブに出さない(イベント期間外など) */
+function kindsWithMaps(idx: IndexData): MapKind[] {
+  const order: MapKind[] = idx.kinds?.length
+    ? idx.kinds.map((k) => k.id)
+    : ['event', 'normal']
+  const has = new Set(idx.maps.map((m) => m.kind ?? 'event'))
+  return order.filter((k) => has.has(k))
+}
+
 function App() {
   const [index, setIndex] = useState<IndexData | null>(null)
   const [maps, setMaps] = useState<Record<string, MapData>>({})
   const [masterShips, setMasterShips] = useState<MasterShip[]>([])
   const [shipTypes, setShipTypes] = useState<ShipType[]>([])
-  const [dupes, setDupes] = useState<DupesData | null>(null)
+  const [dupesByKind, setDupesByKind] = useState<
+    Partial<Record<MapKind, DupesData | null>>
+  >({})
+  // 常にイベント海域を優先して開く(イベントが無ければ通常海域へ倒す)
+  const [tab, setTab] = useState<MapKind>('event')
   const [selectedDifficulties, setSelectedDifficulties] = useState<
     Record<string, number>
   >({})
@@ -767,30 +829,39 @@ function App() {
           fetch(`${DATA_BASE}index.json`).then((r) => r.json() as Promise<IndexData>),
           fetch(`${DATA_BASE}ships.json`).then((r) => r.json() as Promise<MasterShip[]>),
           fetch(`${DATA_BASE}ship-type.json`).then((r) => r.json() as Promise<ShipType[]>),
-          fetch(`${DATA_BASE}dupes.json`)
+          fetch(`${DATA_BASE}${DUPES_FILE.event}`)
             .then((r) => (r.ok ? (r.json() as Promise<DupesData>) : null))
             .catch(() => null),
         ])
         setIndex(idx)
         setMasterShips(master)
         setShipTypes(types)
-        setDupes(dupesData)
-        // 各海域とも最も高い難易度(甲)をデフォルト選択。保存済みの選択があれば復元する
-        const maxDiff = idx.difficulties.reduce(
-          (max, d) => (d.id > max ? d.id : max),
-          idx.difficulties[0]?.id ?? 4,
-        )
-        const validDiffIds = new Set(idx.difficulties.map((d) => d.id))
+        setDupesByKind({ event: dupesData })
+
+        // 難易度の初期値。種別ごとの難易度セットから最も高いものを既定にし、
+        // 保存済みの選択があれば復元する(通常海域は難易度が1つなのでそれを入れる)
+        const kindDiffs = kindDifficulties(idx)
         const saved = loadSavedDifficulties()
         const initialDiffs: Record<string, number> = {}
         idx.maps.forEach((m) => {
+          const options = kindDiffs[m.kind ?? 'event'] ?? idx.difficulties
+          const valid = new Set(options.map((d) => d.id))
+          const max = options.reduce((a, d) => (d.id > a ? d.id : a), options[0]?.id ?? 4)
           const savedDiff = saved[m.id]
           initialDiffs[m.id] =
-            savedDiff != null && validDiffIds.has(savedDiff) ? savedDiff : maxDiff
+            savedDiff != null && valid.has(savedDiff) ? savedDiff : max
         })
         setSelectedDifficulties(initialDiffs)
+
+        // 開くタブは常にイベント海域が第一候補。イベント期間外で海域が無ければ
+        // 存在する種別(通常海域)へ倒す
+        const available = kindsWithMaps(idx)
+        setTab(available.includes('event') ? 'event' : (available[0] ?? 'event'))
+
+        // マスグリッドを描くのはイベント海域だけなので、読むのもその分だけ
+        const gridMaps = idx.maps.filter((m) => (m.kind ?? 'event') === 'event')
         const mapEntries = await Promise.all(
-          idx.maps.map(
+          gridMaps.map(
             async (m) =>
               [m.id, await fetch(`${DATA_BASE}${m.id}.json`).then((r) => r.json())] as const,
           ),
@@ -802,30 +873,71 @@ function App() {
     })()
   }, [])
 
+  // 通常海域のドロップ率はタブを開いたときに読む(初回表示を軽くするため)
+  useEffect(() => {
+    if (tab === 'event' || dupesByKind[tab] !== undefined) return
+    let cancelled = false
+    ;(async () => {
+      const data = await fetch(`${DATA_BASE}${DUPES_FILE[tab]}`)
+        .then((r) => (r.ok ? (r.json() as Promise<DupesData>) : null))
+        .catch(() => null)
+      if (!cancelled) setDupesByKind((prev) => ({ ...prev, [tab]: data }))
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [tab, dupesByKind])
+
   // 難易度選択を localStorage に保存し、再読み込み後も引き継ぐ
   useEffect(() => {
     if (Object.keys(selectedDifficulties).length === 0) return
     localStorage.setItem(DIFF_STORAGE_KEY, JSON.stringify(selectedDifficulties))
   }, [selectedDifficulties])
 
-  // 海域ID -> E1/E2/... の対応(index.json の並び順から生成)
+  // 表示中のタブに属する海域(以降の集計はすべてこの範囲で行う)
+  const tabMaps = useMemo(
+    () => (index?.maps ?? []).filter((m) => (m.kind ?? 'event') === tab),
+    [index, tab],
+  )
+
+  // タブに出す種別。海域が0件の種別は出さない(イベント期間外など)
+  const availableKinds = useMemo(() => {
+    if (!index) return []
+    const labels = new Map(index.kinds?.map((k) => [k.id, k.label]) ?? [])
+    return kindsWithMaps(index).map((id) => ({
+      id,
+      label: labels.get(id) ?? (id === 'event' ? 'イベント海域' : '通常海域'),
+    }))
+  }, [index])
+
+  // 表示中のタブの難易度セット。1つ以下なら難易度UIを出さない
+  const tabDifficulties = useMemo(
+    () => (index ? (kindDifficulties(index)[tab] ?? index.difficulties) : []),
+    [index, tab],
+  )
+
+  // 海域ID -> 表示名。生成側が確定させた label をそのまま使う
   const mapLabels = useMemo(() => {
     const labels: Record<string, string> = {}
-    index?.maps.forEach((m, i) => {
-      labels[m.id] = `E${i + 1}`
+    index?.maps.forEach((m) => {
+      labels[m.id] = m.label ?? m.id
     })
     return labels
   }, [index])
 
-  // 海域IDの並び順(dupes 表の海域ソート用)
+  // 海域IDの並び順(dupes 表の海域ソート用)。タブ内の並びで判定する
   const mapOrder = useMemo(() => {
-    const idx = new Map(index?.maps.map((m, i) => [m.id, i]))
+    const idx = new Map(tabMaps.map((m, i) => [m.id, i]))
     return (mapId: string) => idx.get(mapId) ?? Number.MAX_SAFE_INTEGER
-  }, [index])
+  }, [tabMaps])
 
   // 海域ID -> 選択中の難易度名(dupes 表のフィルタ用)
+  // 種別をまたいで引けるよう、難易度IDの対応は kinds 全体から作る
   const mapDiffName = useMemo(() => {
     const byId = new Map(index?.difficulties.map((d) => [d.id, d.name]))
+    for (const k of index?.kinds ?? []) {
+      for (const d of k.difficulties) byId.set(d.id, d.name)
+    }
     const res: Record<string, string> = {}
     for (const [mapId, diffId] of Object.entries(selectedDifficulties)) {
       const name = byId.get(diffId)
@@ -870,9 +982,8 @@ function App() {
     return result
   }, [maps, selectedDifficulties])
 
-  // ドロップに登場する rarity 1 / 2 / null の艦一覧(全海域・全難易度から重複排除、艦種名を付与)
-  // 難易度タブを切り替えてもボタン構成自体は変わらない固定リスト
-  const ships = useMemo(() => {
+  // 艦種名の解決(装甲空母→正規空母 などの統合を含む)。艦リスト生成で共用する
+  const typeNameOf = useMemo(() => {
     const masterById = new Map(masterShips.map((m) => [m.id, m]))
     const typeNameMerge: Record<string, string> = {
       装甲空母: '正規空母',
@@ -881,41 +992,50 @@ function App() {
     const typeNameById = new Map(
       shipTypes.map((t) => [t.id, typeNameMerge[t.name] ?? t.name]),
     )
+    return (shipId: number) => {
+      const master = masterById.get(shipId)
+      return {
+        typeName: master ? typeNameById.get(master.shipType) ?? '艦種不明' : '艦種不明',
+        sortId: master?.sortId ?? Number.MAX_SAFE_INTEGER,
+      }
+    }
+  }, [masterShips, shipTypes])
+
+  // 表示中のタブに出す艦一覧(rarity 1 / 2 / null、艦種名を付与)。
+  // イベントタブはマスグリッドのデータから、通常タブはドロップ率データから組む
+  // (通常海域はグリッドを持たないため)。難易度を切り替えてもボタン構成は変わらない。
+  const ships = useMemo(() => {
     const byId = new Map<number, Ship>()
-    // Object.entries の順は index.maps の順と一致する保証がないため、
-    // 海域の早さは mapOrder で判定する
-    for (const [mapId, mapData] of Object.entries(maps)) {
-      const order = mapOrder(mapId)
-      // マスの早さはマスグリッドの列順(mapAllNodes)に合わせる
-      const nodeIdx = new Map(
-        (mapAllNodes[mapId] ?? []).map((n, i) => [n.node, i]),
-      )
-      for (const diffData of Object.values(mapData.difficulties)) {
-        for (const node of diffData.nodes) {
-          const nodeOrder = nodeIdx.get(node.node) ?? Number.MAX_SAFE_INTEGER
-          for (const d of node.drops) {
-            if (d.rarity === 1 || d.rarity === 2 || d.rarity == null) {
+    if (tab === 'event') {
+      // Object.entries の順は index.maps の順と一致する保証がないため、
+      // 海域の早さは mapOrder で判定する
+      for (const [mapId, mapData] of Object.entries(maps)) {
+        const order = mapOrder(mapId)
+        // マスの早さはマスグリッドの列順(mapAllNodes)に合わせる
+        const nodeIdx = new Map(
+          (mapAllNodes[mapId] ?? []).map((n, i) => [n.node, i]),
+        )
+        for (const diffData of Object.values(mapData.difficulties)) {
+          for (const node of diffData.nodes) {
+            const nodeOrder = nodeIdx.get(node.node) ?? Number.MAX_SAFE_INTEGER
+            for (const d of node.drops) {
+              if (d.rarity !== 1 && d.rarity !== 2 && d.rarity != null) continue
               const cur = byId.get(d.id)
               if (cur) {
                 if (
                   order < cur.firstMapOrder ||
-                  (order === cur.firstMapOrder &&
-                    nodeOrder < cur.firstNodeOrder)
+                  (order === cur.firstMapOrder && nodeOrder < cur.firstNodeOrder)
                 ) {
                   cur.firstMapOrder = order
                   cur.firstNodeOrder = nodeOrder
                 }
               } else {
-                const master = masterById.get(d.id)
                 byId.set(d.id, {
                   id: d.id,
                   name: d.name,
                   nameEn: d.nameEn,
                   rarity: d.rarity,
-                  typeName: master
-                    ? typeNameById.get(master.shipType) ?? '艦種不明'
-                    : '艦種不明',
-                  sortId: master?.sortId ?? Number.MAX_SAFE_INTEGER,
+                  ...typeNameOf(d.id),
                   firstMapOrder: order,
                   firstNodeOrder: nodeOrder,
                 })
@@ -924,14 +1044,42 @@ function App() {
           }
         }
       }
+    } else {
+      for (const ship of Object.values(dupesByKind[tab]?.ships ?? {})) {
+        const order = ship.entries.reduce(
+          (min, e) => Math.min(min, mapOrder(e.map)),
+          Number.MAX_SAFE_INTEGER,
+        )
+        byId.set(ship.id, {
+          id: ship.id,
+          name: ship.name,
+          nameEn: ship.nameEn ?? ship.name,
+          rarity: ship.rarity,
+          ...typeNameOf(ship.id),
+          firstMapOrder: order,
+          firstNodeOrder: 0, // グリッドが無いのでマスの早さは使わない
+        })
+      }
     }
     return [...byId.values()]
-  }, [maps, masterShips, shipTypes, mapOrder, mapAllNodes])
+  }, [tab, maps, dupesByKind, mapOrder, mapAllNodes, typeNameOf])
 
   // 艦ID -> 艦情報(rarity・sortId)の対応(マス選択時の表の並び順に使用)
   const shipInfoById = useMemo(() => new Map(ships.map((s) => [s.id, s])), [ships])
 
-  // マス選択時: そのマス(海域+マス)にドロップ実績がある新規実装・ユニーク艦の行一覧
+  // 表示中のタブのドロップ率データ
+  const dupes = dupesByKind[tab] ?? null
+
+  // 通常海域はメンテ以降の実績に限定しているため、集計期間を見出しの横に出す
+  // (イベント海域は期間＝イベント期間なので出さない)
+  const periodLabel = useMemo(() => {
+    if (tab !== 'normal' || !index?.start) return null
+    const d = new Date(index.start)
+    if (Number.isNaN(d.getTime())) return null
+    return `集計：${d.toLocaleDateString('ja-JP')}～`
+  }, [tab, index])
+
+  // マス選択時: そのマス(海域+マス)にドロップ実績がある艦の行一覧
   const selectedNodeRows = useMemo(() => {
     if (!selectedNode || !dupes) return []
     const rows: NodeDupeRow[] = []
@@ -954,16 +1102,23 @@ function App() {
     return rows
   }, [selectedNode, dupes, shipInfoById])
 
-  // 現在選択中の難易度の組み合わせでドロップ実績がある艦ID(非活性判定に使用)
+  // ドロップ実績がある艦ID(非活性判定に使用)。イベントタブは選択中の難易度の
+  // 組み合わせで判定する。通常タブは難易度が無いので、データを持つ艦がそのまま対象
   const availableShipIds = useMemo(() => {
     const ids = new Set<number>()
-    for (const nodes of Object.values(mapNodes)) {
-      for (const node of nodes) {
-        for (const d of node.drops) ids.add(d.id)
+    if (tab === 'event') {
+      for (const nodes of Object.values(mapNodes)) {
+        for (const node of nodes) {
+          for (const d of node.drops) ids.add(d.id)
+        }
+      }
+    } else {
+      for (const ship of Object.values(dupes?.ships ?? {})) {
+        if (ship.entries.length > 0) ids.add(ship.id)
       }
     }
     return ids
-  }, [mapNodes])
+  }, [tab, mapNodes, dupes])
 
   // 艦種グループ(新規実装艦を除く)。ship-type.json の定義順、同名艦種は統合。
   // レア度(1=レア/2=ユニーク)は表示上の区別がないため、並び順も艦これ本来の sortId のみ
@@ -1001,11 +1156,23 @@ function App() {
   )
 
   if (error) return <p className="no-data">{error}</p>
-  if (!index || Object.keys(selectedDifficulties).length === 0)
-    return <p className="no-data">読み込み中…</p>
+  // index が来れば難易度の初期値も同時に入る(同じ useEffect で set しているため)。
+  // 海域が0件でも表示は進める
+  if (!index) return <p className="no-data">読み込み中…</p>
+
+  // 表示中のタブのドロップ率データがまだ来ていない(通常海域は遅延ロード)
+  const tabLoading = dupesByKind[tab] === undefined
 
   const toggleShip = (id: number) => {
     setSelectedShipId(id === selectedShipId ? null : id)
+    setSelectedNode(null)
+  }
+
+  // タブを切り替えると対象の海域・艦が入れ替わるため、選択はいったん解除する
+  const selectTab = (kind: MapKind) => {
+    if (kind === tab) return
+    setTab(kind)
+    setSelectedShipId(null)
     setSelectedNode(null)
   }
 
@@ -1028,18 +1195,21 @@ function App() {
     setSelectedDifficulties((prev) => ({ ...prev, [mapId]: difficulty }))
   }
 
+  // 一括切替も一括判定も、対象は表示中のタブの海域だけにする
+  // (他タブの海域まで見ると選択表示が常に不一致になる)
   const selectAllDifficulties = (difficulty: number) => {
-    const next: Record<string, number> = {}
-    for (const mapId of Object.keys(selectedDifficulties)) {
-      next[mapId] = difficulty
-    }
-    setSelectedDifficulties(next)
+    setSelectedDifficulties((prev) => {
+      const next = { ...prev }
+      for (const m of tabMaps) next[m.id] = difficulty
+      return next
+    })
   }
 
-  const diffValues = Object.values(selectedDifficulties)
-  const allSameDifficulty = diffValues.every((d) => d === diffValues[0])
-    ? diffValues[0]
-    : null
+  const diffValues = tabMaps.map((m) => selectedDifficulties[m.id])
+  const allSameDifficulty =
+    diffValues.length > 0 && diffValues.every((d) => d === diffValues[0])
+      ? diffValues[0]
+      : null
 
   const shipButton = (s: Ship) => {
     const available = availableShipIds.has(s.id)
@@ -1064,16 +1234,49 @@ function App() {
     <div className="app">
       <header>
         <h1>艦これ　ドロップ検索ツール</h1>
-        <p className="description">艦ごと・マスごとの難易度によるドロップ率を表示します。</p>
+        {/* マス単位の表示はイベント海域だけなので、イベントが無い期間は触れない */}
+        <p className="description">
+          {availableKinds.some((k) => k.id === 'event')
+            ? '艦ごと・マスごとのドロップ率を表示します。'
+            : '艦ごとのドロップ率を表示します。'}
+        </p>
       </header>
 
-      <div className="ship-groups">
+      {availableKinds.length > 1 && (
+        <nav className="kind-tabs">
+          {availableKinds.map((k) => (
+            <button
+              key={k.id}
+              className={k.id === tab ? 'active' : ''}
+              aria-pressed={k.id === tab}
+              onClick={() => selectTab(k.id)}
+            >
+              {k.label}
+            </button>
+          ))}
+        </nav>
+      )}
+
+      <div className={'ship-groups' + (availableKinds.length > 1 ? ' has-tabs' : '')}>
         <div className="ship-groups-head">
-          <span className="ship-groups-title">艦または各海域のマスを選択してください</span>
-          <span className="ship-legend">
-            枠色：<span className="legend new-ship">新規実装</span>
+          <span className="ship-groups-title">
+            {tab === 'event'
+              ? '艦または各海域のマスを選択してください'
+              : '艦を選択してください'}
+            {periodLabel && (
+              <span className="ship-groups-period">{periodLabel}</span>
+            )}
           </span>
+          {/* 強調するのは新規実装艦だけなので、該当が無ければ凡例ごと出さない */}
+          {unknownRarityShips.length > 0 && (
+            <span className="ship-legend">
+              枠色：<span className="legend new-ship">新規実装</span>
+            </span>
+          )}
         </div>
+        {tabLoading && ships.length === 0 && (
+          <p className="ship-groups-empty">読み込み中…</p>
+        )}
         {unknownRarityShips.length > 0 && (
           <div className="ship-group new-ships">
             <span className="group-label">新規実装</span>
@@ -1091,20 +1294,23 @@ function App() {
       </div>
 
       <div className="board">
-        <MapGrid
-          mapLabels={mapLabels}
-          mapAllNodes={mapAllNodes}
-          mapNodes={mapNodes}
-          difficulties={index.difficulties}
-          selectedDifficulties={selectedDifficulties}
-          onSelectDifficulty={selectDifficulty}
-          selectedShipId={selectedShipId}
-          selectedShipName={selectedShipName}
-          allSameDifficulty={allSameDifficulty}
-          onSelectAllDifficulties={selectAllDifficulties}
-          selectedNode={selectedNode}
-          onSelectNode={selectNode}
-        />
+        {/* マスグリッドを描くのはイベント海域だけ(通常海域はマス単位の表を持たない) */}
+        {tab === 'event' && (
+          <MapGrid
+            mapLabels={mapLabels}
+            mapAllNodes={mapAllNodes}
+            mapNodes={mapNodes}
+            difficulties={tabDifficulties}
+            selectedDifficulties={selectedDifficulties}
+            onSelectDifficulty={selectDifficulty}
+            selectedShipId={selectedShipId}
+            selectedShipName={selectedShipName}
+            allSameDifficulty={allSameDifficulty}
+            onSelectAllDifficulties={selectAllDifficulties}
+            selectedNode={selectedNode}
+            onSelectNode={selectNode}
+          />
+        )}
 
         {selectedNode ? (
           <div className="node-tables">
@@ -1125,6 +1331,12 @@ function App() {
             mapOrder={mapOrder}
             mapDiffName={mapDiffName}
             showAll={showAllRates}
+            hasDifficulty={tabDifficulties.length > 1}
+            emptyMessage={
+              tab === 'event'
+                ? undefined
+                : '艦を選択すると、所持数別のドロップ率を表示します。'
+            }
             onToggleShowAll={() => setShowAllRates((v) => !v)}
             onSelectNode={selectNode}
           />

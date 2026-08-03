@@ -23,8 +23,15 @@ export interface DifficultyData {
   nodes: NodeData[]
 }
 
+/**
+ * 海域の種別。event は難易度(甲乙丙丁)を持ち、マスグリッドを描く。
+ * normal は難易度の概念がなく、所持数別ドロップ率だけを扱う。
+ */
+export type MapKind = 'event' | 'normal'
+
 export interface MapData {
   map: string
+  kind?: MapKind
   ranks: string
   difficulties: Record<string, DifficultyData>
 }
@@ -43,11 +50,33 @@ export interface ShipType {
   code: string
 }
 
+export interface DifficultyOption {
+  id: number
+  name: string
+}
+
+/** 種別ごとの表示名と難易度セット。難易度が1つだけの種別では難易度UIを出さない。 */
+export interface KindData {
+  id: MapKind
+  label: string
+  difficulties: DifficultyOption[]
+}
+
+export interface MapEntry {
+  id: string
+  kind?: MapKind
+  /** 表示名。event は E1/E2…、normal は海域IDそのもの */
+  label?: string
+}
+
 export interface IndexData {
   updated: string
-  difficulties: { id: number; name: string }[]
+  /** 集計期間の開始日(YYYY-MM-DD)。これより前の実績は含まない */
+  start?: string
+  difficulties: DifficultyOption[]
   ranks: string
-  maps: { id: string }[]
+  kinds?: KindData[]
+  maps: MapEntry[]
 }
 
 export interface DupeSample {
@@ -72,7 +101,8 @@ export interface DupeEntry {
 export interface ShipDupes {
   id: number
   name: string
-  start: string | null
+  nameEn: string | null
+  rarity: number | null
   entries: DupeEntry[]
 }
 
