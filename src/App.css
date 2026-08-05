@@ -1,7 +1,8 @@
 .app {
-  /* 所持数別ドロップ率の表(最大 517px)が横スクロールなしで収まる幅。
-     マス表カードは固定幅なので、広げた分はすべて右カラムに回る */
-  max-width: 1160px;
+  /* 左のマス表カードと右のドロップ率表が、どちらも横スクロールなしで並ぶ幅。
+     内訳は 左右padding 40 + マス表 556 + gap 10 + ドロップ率表 558(表520 + 余白38)。
+     2列に切り替える下限(1080px)もこの内訳から決めている(狭い側は圧縮した寸法で計算) */
+  max-width: 1220px;
   margin: 0 auto;
   padding: 16px 20px 28px;
   text-align: left;
@@ -492,6 +493,157 @@ header h1 {
   font-weight: 700;
 }
 
+/* --- 通常海域のマス一覧(グリッドの代わり) ---
+   実績マスが1〜2個の海域がほとんどなので、海域ごとに1行で並べる */
+
+/* 実績マスが1つだけの海域が多く、1列だと右側が空いたまま縦に伸びる。
+   段組みで高さを詰める。列数を固定せず column-width で幅に応じて決めるので、
+   狭い画面では自動的に1列に戻る(段の途中で行が割れないよう break-inside: avoid) */
+/* 1列表示のときだけ見出しが開閉ボタンになる。.grid-title の見た目はそのままに、
+   幅いっぱいへ広げて右端にキャレットを置く(ボタン既定の枠線・背景は消す) */
+.node-chips-toggle {
+  align-self: stretch;
+  /* space-between だと艦名ラベルが入ったとき3要素に分散して見出しが中央寄せに
+     見えるため、左詰め + キャレットだけ右端に送る */
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.node-chips-caret {
+  margin-left: auto;
+  padding-left: 8px;
+  font-size: var(--fs-xs);
+  font-weight: 400;
+  color: var(--text);
+}
+
+/* 2列レイアウトでのマス一覧カードの幅。中身の max-content は「行の最大幅 × 段数」に
+   なり、カード幅としては広すぎる。段組みの設計値そのもの(段 250px × 2 + 段間 18 +
+   カード左右余白 36 + 枠線 2)を幅にする。イベント側のマスグリッドがマス表の実寸で
+   決まるのと同じで、幅は中身の寸法から導く。1px でも足りないと 1 段に落ちる */
+@media (min-width: 1080px) {
+  .node-chip-card {
+    width: calc(250px * 2 + 18px + 36px + 2px);
+  }
+}
+
+.node-chips {
+  /* .map-grid は align-items: flex-start の flex なので、
+     明示的に伸ばさないと内容幅に縮んで段組みが効かない */
+  align-self: stretch;
+  /* 段数の上限は 2。狭い画面では column-width が効いて自動的に1段へ戻る */
+  columns: 250px 2;
+  column-gap: 18px;
+}
+
+.node-chip-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--border);
+  break-inside: avoid;
+}
+
+.node-chip-map {
+  flex: 0 0 44px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.node-chip-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.node-chip-buttons button {
+  min-width: 34px;
+  padding: 2px 9px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: 1.35;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-h);
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.node-chip-buttons button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* 艦を選択したとき、その艦が落ちるマスを勝利ランクで塗る(マスグリッドのランク行と同じ配色)。
+   :hover / .active と詳細度が同じなので記述順で決まる。
+   塗りの上でホバーの文字色に変わると読めなくなるため :hover より後ろに置き、
+   ホバーの手応えは明度だけで示す */
+.node-chip-buttons button.rank-S {
+  background: var(--rank-s-bg);
+  border-color: var(--rank-s-bg);
+  color: var(--rank-s-fg);
+}
+
+.node-chip-buttons button.rank-A {
+  background: var(--rank-a-bg);
+  border-color: var(--rank-a-bg);
+  color: var(--rank-a-fg);
+}
+
+.node-chip-buttons button.rank-B {
+  background: var(--rank-b-bg);
+  border-color: var(--rank-b-bg);
+  color: var(--rank-b-fg);
+}
+
+.node-chip-buttons button[class*='rank-']:hover {
+  filter: brightness(1.08);
+}
+
+/* 注記内の色見本。マスのボタンと同じ塗りを小さく再現する */
+.node-chip-legend {
+  display: inline-block;
+  min-width: 15px;
+  margin: 0 1px;
+  padding: 0 3px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  text-align: center;
+}
+
+.node-chip-legend.rank-S {
+  background: var(--rank-s-bg);
+  color: var(--rank-s-fg);
+}
+
+.node-chip-legend.rank-A {
+  background: var(--rank-a-bg);
+  color: var(--rank-a-fg);
+}
+
+.node-chip-legend.rank-B {
+  background: var(--rank-b-bg);
+  color: var(--rank-b-fg);
+}
+
+.node-chip-buttons button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-fg);
+}
+
 /* --- マスグリッド + dupes の横並び --- */
 
 .board {
@@ -504,7 +656,7 @@ header h1 {
   flex: 0 0 auto;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
   .board {
     flex-direction: row;
     flex-wrap: wrap;
@@ -519,7 +671,7 @@ header h1 {
   padding: 12px 18px 10px;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
   .dupes {
     flex: 1 1 320px;
     min-width: 0;
@@ -535,7 +687,7 @@ header h1 {
   align-self: stretch;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
   .node-tables {
     flex: 1 1 320px;
     min-width: 0;
@@ -850,6 +1002,14 @@ header h1 {
   margin: 8px 0 0;
 }
 
+/* マス表カードの幅は中身(表・マス一覧)の max-content で決まる。注記も 1 行の長さで
+   幅の決定に参加してしまい、文言を足すたびカードが横へ広がって右のドロップ率表を
+   圧迫する。width:0 + min-width:100% で幅決定から外し、確定後の幅で折り返させる */
+.map-grid .dupes-note {
+  width: 0;
+  min-width: 100%;
+}
+
 .dupes-empty {
   font-size: var(--fs-md);
   color: var(--text);
@@ -866,6 +1026,110 @@ header h1 {
 
 .unreliable-note {
   opacity: 0.55;
+}
+
+/* --- 表が入りきらない幅での圧縮 ---
+   判断はビューポート幅ではなくカード自身の幅(コンテナクエリ)で行う。2列レイアウトでは
+   同じビューポートでも表に使える幅が変わるため、ビューポート基準だと
+   「画面は広いのに表だけ横スクロール」が起きる。
+   しきい値 519px は素の表の min-width(520px)を下回った時点、
+   圧縮後の min-width 430px は「この文字サイズ・余白で全列が潰れずに収まる下限」(実測値。
+   難易度列を持つイベント表が最大で 421px) */
+
+.dupes {
+  container-type: inline-size;
+}
+
+@container (max-width: 519px) {
+  .dupes-table {
+    font-size: var(--fs-sm);
+  }
+
+  .dupes-table th,
+  .dupes-table td {
+    padding: 3px 5px;
+  }
+
+  .dupes-table th.dupes-col-narrow,
+  .dupes-table td.dupes-col-narrow {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .dupes-table-fixed,
+  .node-dupes-table-fixed {
+    min-width: 470px;
+  }
+
+  /* 圧縮すると列幅も縮むので、見出しが入りきらない列(難易度・勝利)へ配分を寄せる。
+     左側の合計(38.5%)は変えないため、所持数4列の位置は圧縮前後で動かない */
+  .dupes-col-diff {
+    width: 11%;
+  }
+
+  .dupes-col-map {
+    width: 9%;
+  }
+
+  .dupes-table-fixed .dupes-col-rank,
+  .node-dupes-table-fixed .dupes-col-rank {
+    width: 10%;
+  }
+
+  .node-dupes-table-fixed .dupes-col-ship {
+    width: 28.5%;
+  }
+}
+
+/* --- マス表側の圧縮 ---
+   横に並べる余裕がない帯域(2列レイアウトの 960〜1140px)と、マス表がカード内に
+   収まらないモバイル(〜560px)で、マスのセルと段組みを一回り小さくする。
+   コンテナクエリではなくビューポート幅で判定するのは、このカードの幅が中身の
+   max-content で決まるため。container-type を付けると幅が中身から切り離されて
+   カードが潰れてしまう */
+
+@media (min-width: 1080px) and (max-width: 1140px), (max-width: 590px) {
+  .map-grid-node,
+  .map-grid-rank {
+    width: 25px;
+    height: 21px;
+  }
+
+  .map-grid-node {
+    font-size: var(--fs-sm);
+    padding: 0 2px;
+  }
+
+  .map-grid-rank {
+    font-size: var(--fs-xs);
+  }
+
+  .map-grid-map {
+    width: 50px;
+    padding-right: 8px;
+  }
+
+  .map-grid-map-inner span {
+    font-size: var(--fs-md);
+  }
+
+  .map-grid-map-inner select {
+    width: 36px;
+  }
+
+  /* 段幅を詰めるぶんカードも細くする(幅の内訳は非圧縮時と同じ考え方) */
+  .node-chips {
+    columns: 210px 2;
+  }
+
+  .node-chip-card {
+    width: calc(210px * 2 + 18px + 36px + 2px);
+  }
+
+  .node-chip-buttons button {
+    min-width: 30px;
+    padding: 2px 6px;
+  }
 }
 
 /* --- モバイル(狭幅)調整 --- */

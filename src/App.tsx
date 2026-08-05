@@ -496,7 +496,6 @@ function DupesTable({
                     entry={e}
                     mapLabels={mapLabels}
                     showDifficulty={hasDifficulty}
-                    clickableNode={hasDifficulty}
                     onSelectNode={onSelectNode}
                   />
                   <OwnedBucketCells dupes={e.dupes} />
@@ -543,6 +542,7 @@ function NodeDupesTable({
   difficultyName,
   mapLabels,
   rows,
+  showDifficulty = true,
   onSelectShip,
 }: {
   mapId: string
@@ -550,6 +550,8 @@ function NodeDupesTable({
   difficultyName: string
   mapLabels: Record<string, string>
   rows: NodeDupeRow[]
+  /** 難易度を持つ海域か。false ならタイトルに難易度名を出さない */
+  showDifficulty?: boolean
   onSelectShip: (shipId: number) => void
 }) {
   const { sort, toggleSort, sortIndicator } = useSortState<NodeSortKey>()
@@ -582,7 +584,10 @@ function NodeDupesTable({
       <div className="dupes-head">
         <div className="dupes-title">
           <span className="title-ship">
-            {mapLabels[mapId] ?? mapId}-{node} {difficultyName}
+            {/* 通常海域は難易度を持たないため、マス名だけを出す */}
+            {[`${mapLabels[mapId] ?? mapId}-${node}`, showDifficulty ? difficultyName : '']
+              .filter(Boolean)
+              .join(' ')}
           </span>
           所持数別のドロップ率
         </div>
@@ -780,8 +785,116 @@ function MapGrid({
         )
       })}
       <p className="dupes-note">
-        ランク表記は「その勝利ランク以上でドロップ確認済み」。赤字のマスはボスマス。
+        ランク表記は「その勝利ランク以上でドロップ確認済み」。赤字のマスはボスマス。マスを選ぶとそのマスに落ちる艦の一覧に切り替わります。
       </p>
+    </div>
+  )
+}
+
+// .board がマス一覧とドロップ率表を横に並べる幅。App.css のブレークポイントと揃える
+const WIDE_LAYOUT_QUERY = '(min-width: 960px)'
+
+function useWideLayout() {
+  const [wide, setWide] = useState(() => window.matchMedia(WIDE_LAYOUT_QUERY).matches)
+  useEffect(() => {
+    const mq = window.matchMedia(WIDE_LAYOUT_QUERY)
+    const onChange = (e: MediaQueryListEvent) => setWide(e.matches)
+    setWide(mq.matches)
+    mq.addEventListener('change', onChange)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
+  return wide
+}
+
+// 通常海域のマス一覧。マスグリッドの代わりに、ドロップ実績のあるマスだけを
+// 海域ごとに並べる。通常海域は実績マスが1〜2個の海域がほとんどで、
+// イベントのようなグリッド形式にすると間延びするため。
+function NodeChips({
+  groups,
+  nodeRanks,
+  selectedShipName,
+  selectedNode,
+  onSelectNode,
+}: {
+  groups: { mapId: string; label: string; nodes: string[] }[]
+  /** `"<海域> <マス>"` -> 選択中の艦がドロップする最も緩い勝利ランク */
+  nodeRanks: Record<string, string>
+  selectedShipName: string | null
+  selectedNode: { map: string; node: string } | null
+  onSelectNode: (mapId: string, node: string) => void
+}) {
+  const wide = useWideLayout()
+  const [open, setOpen] = useState(false)
+  // 1列表示ではマス一覧がドロップ率表を大きく押し下げるため既定で閉じ、
+  // 見出しをクリックしたときだけ開く。2列表示では横に並ぶので常に開く
+  const expanded = wide || open
+
+  const title = (
+    <>
+      {selectedShipName && <span className="title-ship">{selectedShipName}</span>}
+      海域・マス別のドロップ状況
+    </>
+  )
+
+  return (
+    <div className="map-grid node-chip-card">
+      {wide ? (
+        <div className="grid-title">{title}</div>
+      ) : (
+        <button
+          type="button"
+          className="grid-title node-chips-toggle"
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
+          {title}
+          <span className="node-chips-caret" aria-hidden="true">
+            {open ? '▲' : '▼'}
+          </span>
+        </button>
+      )}
+      {expanded &&
+        (groups.length > 0 ? (
+          <>
+            <div className="node-chips">
+              {groups.map((g) => (
+                <div key={g.mapId} className="node-chip-row">
+                  <span className="node-chip-map">{g.label}</span>
+                  <div className="node-chip-buttons">
+                    {g.nodes.map((n) => {
+                      const rank = nodeRanks[`${g.mapId} ${n}`]
+                      return (
+                        <button
+                          key={n}
+                          type="button"
+                          className={
+                            (rank ? `rank-${rank}` : '') +
+                            (selectedNode?.map === g.mapId && selectedNode.node === n
+                              ? ' active'
+                              : '')
+                          }
+                          title={rank ? `${rank}以上でドロップ` : undefined}
+                          onClick={() => onSelectNode(g.mapId, n)}
+                        >
+                          {n}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="dupes-note">
+              色の付いたマスは「
+              <span className="node-chip-legend rank-S">S</span>
+              <span className="node-chip-legend rank-A">A</span>
+              <span className="node-chip-legend rank-B">B</span>
+              の勝利ランク以上でドロップ確認済み」。マスを選ぶとそのマスに落ちる艦の一覧に切り替わります。
+            </p>
+          </>
+        ) : (
+          <p className="dupes-empty">表示できるマスがありません。</p>
+        ))}
     </div>
   )
 }
@@ -981,6 +1094,27 @@ function App() {
     }
     return result
   }, [maps, selectedDifficulties])
+
+  // 通常海域はマスグリッドを持たないため、ドロップ実績のあるマスだけを
+  // 海域ごとに並べて選べるようにする(海域の並びは index.json の順)
+  const nodeGroups = useMemo(() => {
+    if (tab === 'event') return []
+    const byMap = new Map<string, Set<string>>()
+    for (const ship of Object.values(dupesByKind[tab]?.ships ?? {})) {
+      for (const e of ship.entries) {
+        const set = byMap.get(e.map) ?? new Set<string>()
+        set.add(e.node)
+        byMap.set(e.map, set)
+      }
+    }
+    return tabMaps
+      .filter((m) => byMap.has(m.id))
+      .map((m) => ({
+        mapId: m.id,
+        label: m.label ?? m.id,
+        nodes: [...(byMap.get(m.id) ?? [])].sort((a, b) => a.localeCompare(b)),
+      }))
+  }, [tab, dupesByKind, tabMaps])
 
   // 艦種名の解決(装甲空母→正規空母 などの統合を含む)。艦リスト生成で共用する
   const typeNameOf = useMemo(() => {
@@ -1191,6 +1325,17 @@ function App() {
       ? (ships.find((s) => s.id === selectedShipId)?.name ?? null)
       : null
 
+  // 通常海域のマス一覧を、選択中の艦がドロップするマスだけ勝利ランクで塗るための対応表。
+  // マスグリッドの「その勝利ランク以上でドロップ確認済み」と同じ扱いで、
+  // 同じマスに複数ランクの実績があれば最も緩いランク(B > A > S)を採る。
+  // ここは早期 return より後ろなので useMemo は使えない(フックの数が変わる)
+  const selectedNodeRanks: Record<string, string> = {}
+  for (const e of selectedDupesShip?.entries ?? []) {
+    const key = `${e.map} ${e.node}`
+    const prev = selectedNodeRanks[key]
+    if (prev == null || compareRank(e.rank, prev) > 0) selectedNodeRanks[key] = e.rank
+  }
+
   const selectDifficulty = (mapId: string, difficulty: number) => {
     setSelectedDifficulties((prev) => ({ ...prev, [mapId]: difficulty }))
   }
@@ -1294,8 +1439,8 @@ function App() {
       </div>
 
       <div className="board">
-        {/* マスグリッドを描くのはイベント海域だけ(通常海域はマス単位の表を持たない) */}
-        {tab === 'event' && (
+        {/* イベント海域はマスグリッド、通常海域は実績のあるマスの一覧 */}
+        {tab === 'event' ? (
           <MapGrid
             mapLabels={mapLabels}
             mapAllNodes={mapAllNodes}
@@ -1310,6 +1455,14 @@ function App() {
             selectedNode={selectedNode}
             onSelectNode={selectNode}
           />
+        ) : (
+          <NodeChips
+            groups={nodeGroups}
+            nodeRanks={selectedNodeRanks}
+            selectedShipName={selectedShipName}
+            selectedNode={selectedNode}
+            onSelectNode={selectNode}
+          />
         )}
 
         {selectedNode ? (
@@ -1320,6 +1473,7 @@ function App() {
               difficultyName={mapDiffName[selectedNode.map] ?? ''}
               mapLabels={mapLabels}
               rows={selectedNodeRows}
+              showDifficulty={tabDifficulties.length > 1}
               onSelectShip={toggleShip}
             />
           </div>
