@@ -1527,6 +1527,7 @@ function App() {
           >
             GitHub
           </a>
+          <span>/</span>
           <span className="footer-version">{APP_VERSION}</span>
         </div>
       </footer>
