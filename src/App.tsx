@@ -1513,6 +1513,11 @@ function App() {
           >
             マシュマロ（匿名メッセージ）
           </a>
+          <br />
+          他のツール：
+          <a href="https://iora339.github.io/" target="_blank" rel="noreferrer">
+            iora339.github.io
+          </a>
         </div>
         <div className="footer-meta">
           <a
