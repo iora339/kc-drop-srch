@@ -55,17 +55,22 @@ const compareDifficulty = (a: string, b: string) =>
   DIFF_ORDER.indexOf(a) - DIFF_ORDER.indexOf(b)
 const compareRank = (a: string, b: string) => RANK_ORDER.indexOf(a) - RANK_ORDER.indexOf(b)
 
-// 海域・マス・難度・ランクが揃うエントリの既定並び順(難度→海域→マス→勝利ランク)
+// 海域・マス・難度・ランクが揃うエントリの既定並び順。
+// 通常は 海域→マス→勝利ランク→難度。全難易度表示のときは難度ごとにまとめたいので
+// 難度→海域→マス→勝利ランク に切り替える(difficultyFirst)。
 function compareEntryDefault(
   a: { difficulty: string; map: string; node: string; rank: string },
   b: { difficulty: string; map: string; node: string; rank: string },
   mapOrder: (mapId: string) => number,
+  difficultyFirst: boolean,
 ): number {
+  const byDifficulty = compareDifficulty(a.difficulty, b.difficulty)
+  if (difficultyFirst && byDifficulty) return byDifficulty
   return (
-    compareDifficulty(a.difficulty, b.difficulty) ||
     mapOrder(a.map) - mapOrder(b.map) ||
     a.node.localeCompare(b.node) ||
-    compareRank(a.rank, b.rank)
+    compareRank(a.rank, b.rank) ||
+    byDifficulty
   )
 }
 
@@ -443,8 +448,9 @@ function DupesTable({
       ? filterByDifficulty(ship.entries, showAll, mapDiffName)
       : ship.entries
     : []
+  // 全難易度表示のときだけ難度を第1キーにする(difficultyFirst = showAll)
   const rows = sortWithFallback(entries, sort, compareByKey, (a, b) =>
-    compareEntryDefault(a, b, mapOrder),
+    compareEntryDefault(a, b, mapOrder, showAll),
   )
   return (
     <div className="dupes card">
