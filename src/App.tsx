@@ -93,7 +93,7 @@ function bucketPct(
   const title = total === 0 ? '' : `${drops}/${total}`
   const value = total === 0 ? -1 : (drops / total) * 100
   if (total === 0 || drops === 0) return { text: '-', title, value }
-  return { text: `${value.toFixed(1)}%`, title, value }
+  return { text: `${value.toFixed(2)}%`, title, value }
 }
 
 type SortDir = 'asc' | 'desc'
