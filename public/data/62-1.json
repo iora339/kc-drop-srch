@@ -106,29 +106,15 @@
      "edges": [
       "18"
      ],
-     "samples": 2159,
+     "samples": 2303,
      "drops": [
       {
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 25,
-       "total": 2159,
-       "pct": 1.16,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 898,
-       "name": "第二十二号海防艦",
-       "nameEn": "Kaiboukan No.22",
-       "drops": 20,
-       "total": 2159,
-       "pct": 0.93,
+       "drops": 26,
+       "total": 2303,
+       "pct": 1.13,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -140,9 +126,37 @@
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
-       "drops": 20,
-       "total": 2159,
-       "pct": 0.93,
+       "drops": 24,
+       "total": 2303,
+       "pct": 1.04,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 898,
+       "name": "第二十二号海防艦",
+       "nameEn": "Kaiboukan No.22",
+       "drops": 21,
+       "total": 2303,
+       "pct": 0.91,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 140,
+       "name": "酒匂",
+       "nameEn": "Sakawa",
+       "drops": 16,
+       "total": 2303,
+       "pct": 0.69,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -155,23 +169,9 @@
        "name": "桃",
        "nameEn": "Momo",
        "drops": 14,
-       "total": 2159,
-       "pct": 0.65,
+       "total": 2303,
+       "pct": 0.61,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 140,
-       "name": "酒匂",
-       "nameEn": "Sakawa",
-       "drops": 14,
-       "total": 2159,
-       "pct": 0.65,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -182,9 +182,9 @@
        "id": 642,
        "name": "竹",
        "nameEn": "Take",
-       "drops": 10,
-       "total": 2159,
-       "pct": 0.46,
+       "drops": 11,
+       "total": 2303,
+       "pct": 0.48,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -307,15 +307,15 @@
      "edges": [
       "32"
      ],
-     "samples": 4359,
+     "samples": 4710,
      "drops": [
       {
        "id": 643,
        "name": "梅",
        "nameEn": "Ume",
-       "drops": 75,
-       "total": 4359,
-       "pct": 1.72,
+       "drops": 79,
+       "total": 4710,
+       "pct": 1.68,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -327,9 +327,9 @@
        "id": 642,
        "name": "竹",
        "nameEn": "Take",
-       "drops": 70,
-       "total": 4359,
-       "pct": 1.61,
+       "drops": 74,
+       "total": 4710,
+       "pct": 1.57,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -341,9 +341,9 @@
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 59,
-       "total": 4358,
-       "pct": 1.35,
+       "drops": 64,
+       "total": 4710,
+       "pct": 1.36,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -355,9 +355,9 @@
        "id": 644,
        "name": "桃",
        "nameEn": "Momo",
-       "drops": 51,
-       "total": 4358,
-       "pct": 1.17,
+       "drops": 53,
+       "total": 4710,
+       "pct": 1.13,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -369,9 +369,9 @@
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
-       "drops": 44,
-       "total": 4358,
-       "pct": 1.01,
+       "drops": 49,
+       "total": 4710,
+       "pct": 1.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -383,9 +383,9 @@
        "id": 1044,
        "name": "桐",
        "nameEn": "Kiri",
-       "drops": 42,
-       "total": 4358,
-       "pct": 0.96,
+       "drops": 43,
+       "total": 4710,
+       "pct": 0.91,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -397,9 +397,9 @@
        "id": 140,
        "name": "酒匂",
        "nameEn": "Sakawa",
-       "drops": 37,
-       "total": 4359,
-       "pct": 0.85,
+       "drops": 42,
+       "total": 4710,
+       "pct": 0.89,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -411,9 +411,9 @@
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
-       "drops": 36,
-       "total": 4359,
-       "pct": 0.83,
+       "drops": 40,
+       "total": 4710,
+       "pct": 0.85,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -441,15 +441,15 @@
       "44",
       "47"
      ],
-     "samples": 3985,
+     "samples": 5056,
      "drops": [
       {
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 40,
-       "total": 3844,
-       "pct": 1.04,
+       "drops": 55,
+       "total": 4908,
+       "pct": 1.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -461,9 +461,9 @@
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
-       "drops": 32,
-       "total": 3985,
-       "pct": 0.8,
+       "drops": 40,
+       "total": 5056,
+       "pct": 0.79,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -480,15 +480,15 @@
      "edges": [
       "46"
      ],
-     "samples": 17214,
+     "samples": 20827,
      "drops": [
       {
        "id": 1041,
        "name": "花月",
        "nameEn": "Hanazuki",
-       "drops": 467,
-       "total": 17192,
-       "pct": 2.72,
+       "drops": 543,
+       "total": 20820,
+       "pct": 2.61,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -500,9 +500,9 @@
        "id": 1044,
        "name": "桐",
        "nameEn": "Kiri",
-       "drops": 428,
-       "total": 17192,
-       "pct": 2.49,
+       "drops": 509,
+       "total": 20827,
+       "pct": 2.44,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -514,9 +514,23 @@
        "id": 635,
        "name": "長鯨",
        "nameEn": "Chougei",
-       "drops": 284,
-       "total": 14212,
+       "drops": 348,
+       "total": 17385,
        "pct": 2.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 634,
+       "name": "迅鯨",
+       "nameEn": "Jingei",
+       "drops": 332,
+       "total": 17392,
+       "pct": 1.91,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -528,24 +542,10 @@
        "id": 167,
        "name": "磯風",
        "nameEn": "Isokaze",
-       "drops": 271,
-       "total": 14212,
-       "pct": 1.91,
+       "drops": 331,
+       "total": 17392,
+       "pct": 1.9,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 634,
-       "name": "迅鯨",
-       "nameEn": "Jingei",
-       "drops": 272,
-       "total": 14212,
-       "pct": 1.91,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -556,9 +556,9 @@
        "id": 445,
        "name": "秋津洲",
        "nameEn": "Akitsushima",
-       "drops": 260,
-       "total": 14212,
-       "pct": 1.83,
+       "drops": 321,
+       "total": 17385,
+       "pct": 1.85,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -570,23 +570,9 @@
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
-       "drops": 275,
-       "total": 17192,
-       "pct": 1.6,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 994,
-       "name": "榧",
-       "nameEn": "Kaya",
-       "drops": 261,
-       "total": 17192,
-       "pct": 1.52,
+       "drops": 343,
+       "total": 20827,
+       "pct": 1.65,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -598,9 +584,23 @@
        "id": 551,
        "name": "日振",
        "nameEn": "Hiburi",
-       "drops": 260,
-       "total": 17192,
-       "pct": 1.51,
+       "drops": 327,
+       "total": 20820,
+       "pct": 1.57,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 994,
+       "name": "榧",
+       "nameEn": "Kaya",
+       "drops": 311,
+       "total": 20827,
+       "pct": 1.49,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -612,9 +612,9 @@
        "id": 552,
        "name": "大東",
        "nameEn": "Daitou",
-       "drops": 257,
-       "total": 17192,
-       "pct": 1.49,
+       "drops": 309,
+       "total": 20820,
+       "pct": 1.48,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -626,9 +626,9 @@
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 251,
-       "total": 17192,
-       "pct": 1.46,
+       "drops": 303,
+       "total": 20827,
+       "pct": 1.45,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -640,9 +640,9 @@
        "id": 533,
        "name": "冬月",
        "nameEn": "Fuyutsuki",
-       "drops": 186,
-       "total": 17192,
-       "pct": 1.08,
+       "drops": 234,
+       "total": 20820,
+       "pct": 1.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -654,9 +654,9 @@
        "id": 532,
        "name": "涼月",
        "nameEn": "Suzutsuki",
-       "drops": 170,
-       "total": 17214,
-       "pct": 0.99,
+       "drops": 212,
+       "total": 20827,
+       "pct": 1.02,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -668,9 +668,9 @@
        "id": 992,
        "name": "杉",
        "nameEn": "Sugi",
-       "drops": 131,
-       "total": 17214,
-       "pct": 0.76,
+       "drops": 150,
+       "total": 20827,
+       "pct": 0.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -682,9 +682,9 @@
        "id": 140,
        "name": "酒匂",
        "nameEn": "Sakawa",
-       "drops": 93,
-       "total": 17214,
-       "pct": 0.54,
+       "drops": 117,
+       "total": 20827,
+       "pct": 0.56,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -696,9 +696,9 @@
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
-       "drops": 68,
-       "total": 14231,
-       "pct": 0.48,
+       "drops": 79,
+       "total": 17392,
+       "pct": 0.45,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -710,8 +710,8 @@
        "id": 182,
        "name": "明石",
        "nameEn": "Akashi",
-       "drops": 24,
-       "total": 17192,
+       "drops": 30,
+       "total": 20820,
        "pct": 0.14,
        "rarity": 1,
        "ranks": {
@@ -827,15 +827,15 @@
      "edges": [
       "18"
      ],
-     "samples": 394,
+     "samples": 415,
      "drops": [
       {
-       "id": 638,
-       "name": "第三〇号海防艦",
-       "nameEn": "Kaiboukan No.30",
+       "id": 898,
+       "name": "第二十二号海防艦",
+       "nameEn": "Kaiboukan No.22",
        "drops": 7,
-       "total": 394,
-       "pct": 1.78,
+       "total": 415,
+       "pct": 1.69,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -844,12 +844,12 @@
        }
       },
       {
-       "id": 898,
-       "name": "第二十二号海防艦",
-       "nameEn": "Kaiboukan No.22",
-       "drops": 5,
-       "total": 394,
-       "pct": 1.27,
+       "id": 638,
+       "name": "第三〇号海防艦",
+       "nameEn": "Kaiboukan No.30",
+       "drops": 7,
+       "total": 415,
+       "pct": 1.69,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -862,9 +862,23 @@
        "name": "桃",
        "nameEn": "Momo",
        "drops": 4,
-       "total": 394,
-       "pct": 1.02,
+       "total": 415,
+       "pct": 0.96,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 140,
+       "name": "酒匂",
+       "nameEn": "Sakawa",
+       "drops": 1,
+       "total": 415,
+       "pct": 0.24,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -986,15 +1000,15 @@
      "edges": [
       "32"
      ],
-     "samples": 817,
+     "samples": 847,
      "drops": [
       {
        "id": 643,
        "name": "梅",
        "nameEn": "Ume",
-       "drops": 17,
-       "total": 817,
-       "pct": 2.08,
+       "drops": 18,
+       "total": 847,
+       "pct": 2.13,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1006,9 +1020,9 @@
        "id": 644,
        "name": "桃",
        "nameEn": "Momo",
-       "drops": 15,
-       "total": 816,
-       "pct": 1.84,
+       "drops": 17,
+       "total": 847,
+       "pct": 2.01,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1020,9 +1034,9 @@
        "id": 642,
        "name": "竹",
        "nameEn": "Take",
-       "drops": 13,
-       "total": 817,
-       "pct": 1.59,
+       "drops": 14,
+       "total": 847,
+       "pct": 1.65,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1035,8 +1049,8 @@
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
        "drops": 12,
-       "total": 816,
-       "pct": 1.47,
+       "total": 847,
+       "pct": 1.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1048,9 +1062,9 @@
        "id": 140,
        "name": "酒匂",
        "nameEn": "Sakawa",
-       "drops": 10,
-       "total": 817,
-       "pct": 1.22,
+       "drops": 11,
+       "total": 847,
+       "pct": 1.3,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1063,8 +1077,8 @@
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
        "drops": 9,
-       "total": 816,
-       "pct": 1.1,
+       "total": 847,
+       "pct": 1.06,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1077,8 +1091,8 @@
        "name": "矢矧",
        "nameEn": "Yahagi",
        "drops": 8,
-       "total": 817,
-       "pct": 0.98,
+       "total": 847,
+       "pct": 0.94,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1106,15 +1120,15 @@
       "44",
       "47"
      ],
-     "samples": 815,
+     "samples": 1054,
      "drops": [
       {
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 4,
-       "total": 815,
-       "pct": 0.49,
+       "drops": 11,
+       "total": 1054,
+       "pct": 1.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1131,15 +1145,15 @@
      "edges": [
       "46"
      ],
-     "samples": 1871,
+     "samples": 2208,
      "drops": [
       {
        "id": 1041,
        "name": "花月",
        "nameEn": "Hanazuki",
-       "drops": 54,
-       "total": 1737,
-       "pct": 3.11,
+       "drops": 60,
+       "total": 2067,
+       "pct": 2.9,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1151,9 +1165,9 @@
        "id": 167,
        "name": "磯風",
        "nameEn": "Isokaze",
-       "drops": 44,
-       "total": 1737,
-       "pct": 2.53,
+       "drops": 52,
+       "total": 2067,
+       "pct": 2.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1162,26 +1176,12 @@
        }
       },
       {
-       "id": 532,
-       "name": "涼月",
-       "nameEn": "Suzutsuki",
-       "drops": 43,
-       "total": 1871,
-       "pct": 2.3,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
        "id": 634,
        "name": "迅鯨",
        "nameEn": "Jingei",
-       "drops": 39,
-       "total": 1737,
-       "pct": 2.25,
+       "drops": 45,
+       "total": 2067,
+       "pct": 2.18,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1193,9 +1193,9 @@
        "id": 1044,
        "name": "桐",
        "nameEn": "Kiri",
-       "drops": 38,
-       "total": 1737,
-       "pct": 2.19,
+       "drops": 44,
+       "total": 2067,
+       "pct": 2.13,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1204,26 +1204,12 @@
        }
       },
       {
-       "id": 551,
-       "name": "日振",
-       "nameEn": "Hiburi",
-       "drops": 37,
-       "total": 1737,
-       "pct": 2.13,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 994,
-       "name": "榧",
-       "nameEn": "Kaya",
-       "drops": 39,
-       "total": 1871,
-       "pct": 2.08,
+       "id": 532,
+       "name": "涼月",
+       "nameEn": "Suzutsuki",
+       "drops": 45,
+       "total": 2208,
+       "pct": 2.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1232,12 +1218,40 @@
        }
       },
       {
+       "id": 551,
+       "name": "日振",
+       "nameEn": "Hiburi",
+       "drops": 40,
+       "total": 2067,
+       "pct": 1.94,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
        "id": 533,
        "name": "冬月",
        "nameEn": "Fuyutsuki",
-       "drops": 38,
-       "total": 1871,
-       "pct": 2.03,
+       "drops": 42,
+       "total": 2208,
+       "pct": 1.9,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 994,
+       "name": "榧",
+       "nameEn": "Kaya",
+       "drops": 42,
+       "total": 2208,
+       "pct": 1.9,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1249,9 +1263,9 @@
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 34,
-       "total": 1871,
-       "pct": 1.82,
+       "drops": 39,
+       "total": 2208,
+       "pct": 1.77,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1263,9 +1277,9 @@
        "id": 552,
        "name": "大東",
        "nameEn": "Daitou",
-       "drops": 33,
-       "total": 1871,
-       "pct": 1.76,
+       "drops": 37,
+       "total": 2208,
+       "pct": 1.68,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1277,9 +1291,9 @@
        "id": 445,
        "name": "秋津洲",
        "nameEn": "Akitsushima",
-       "drops": 26,
-       "total": 1737,
-       "pct": 1.5,
+       "drops": 32,
+       "total": 2067,
+       "pct": 1.55,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1291,9 +1305,9 @@
        "id": 992,
        "name": "杉",
        "nameEn": "Sugi",
-       "drops": 26,
-       "total": 1871,
-       "pct": 1.39,
+       "drops": 32,
+       "total": 2208,
+       "pct": 1.45,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1305,9 +1319,9 @@
        "id": 635,
        "name": "長鯨",
        "nameEn": "Chougei",
-       "drops": 24,
-       "total": 1737,
-       "pct": 1.38,
+       "drops": 29,
+       "total": 2067,
+       "pct": 1.4,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1319,9 +1333,9 @@
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
-       "drops": 25,
-       "total": 1871,
-       "pct": 1.34,
+       "drops": 30,
+       "total": 2208,
+       "pct": 1.36,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1333,9 +1347,9 @@
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
-       "drops": 17,
-       "total": 1737,
-       "pct": 0.98,
+       "drops": 20,
+       "total": 2067,
+       "pct": 0.97,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1347,9 +1361,9 @@
        "id": 140,
        "name": "酒匂",
        "nameEn": "Sakawa",
-       "drops": 14,
-       "total": 1737,
-       "pct": 0.81,
+       "drops": 17,
+       "total": 2067,
+       "pct": 0.82,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1361,9 +1375,9 @@
        "id": 182,
        "name": "明石",
        "nameEn": "Akashi",
-       "drops": 4,
-       "total": 1737,
-       "pct": 0.23,
+       "drops": 5,
+       "total": 2067,
+       "pct": 0.24,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1478,15 +1492,15 @@
      "edges": [
       "18"
      ],
-     "samples": 354,
+     "samples": 376,
      "drops": [
       {
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
-       "drops": 4,
-       "total": 354,
-       "pct": 1.13,
+       "drops": 5,
+       "total": 376,
+       "pct": 1.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1499,8 +1513,8 @@
        "name": "酒匂",
        "nameEn": "Sakawa",
        "drops": 4,
-       "total": 354,
-       "pct": 1.13,
+       "total": 376,
+       "pct": 1.06,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1513,8 +1527,8 @@
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
        "drops": 3,
-       "total": 354,
-       "pct": 0.85,
+       "total": 376,
+       "pct": 0.8,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1527,8 +1541,8 @@
        "name": "矢矧",
        "nameEn": "Yahagi",
        "drops": 2,
-       "total": 354,
-       "pct": 0.56,
+       "total": 376,
+       "pct": 0.53,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1651,15 +1665,15 @@
      "edges": [
       "32"
      ],
-     "samples": 669,
+     "samples": 699,
      "drops": [
       {
        "id": 644,
        "name": "桃",
        "nameEn": "Momo",
-       "drops": 19,
-       "total": 669,
-       "pct": 2.84,
+       "drops": 21,
+       "total": 699,
+       "pct": 3.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1671,9 +1685,9 @@
        "id": 642,
        "name": "竹",
        "nameEn": "Take",
-       "drops": 11,
-       "total": 669,
-       "pct": 1.64,
+       "drops": 12,
+       "total": 699,
+       "pct": 1.72,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1686,8 +1700,8 @@
        "name": "梅",
        "nameEn": "Ume",
        "drops": 11,
-       "total": 669,
-       "pct": 1.64,
+       "total": 699,
+       "pct": 1.57,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1699,9 +1713,9 @@
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 8,
-       "total": 669,
-       "pct": 1.2,
+       "drops": 9,
+       "total": 699,
+       "pct": 1.29,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1713,9 +1727,9 @@
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
-       "drops": 7,
-       "total": 669,
-       "pct": 1.05,
+       "drops": 8,
+       "total": 699,
+       "pct": 1.14,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1728,8 +1742,8 @@
        "name": "矢矧",
        "nameEn": "Yahagi",
        "drops": 7,
-       "total": 669,
-       "pct": 1.05,
+       "total": 699,
+       "pct": 1.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1742,8 +1756,8 @@
        "name": "酒匂",
        "nameEn": "Sakawa",
        "drops": 2,
-       "total": 669,
-       "pct": 0.3,
+       "total": 699,
+       "pct": 0.29,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1781,15 +1795,29 @@
      "edges": [
       "46"
      ],
-     "samples": 2586,
+     "samples": 2887,
      "drops": [
+      {
+       "id": 635,
+       "name": "長鯨",
+       "nameEn": "Chougei",
+       "drops": 63,
+       "total": 2819,
+       "pct": 2.23,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
       {
        "id": 167,
        "name": "磯風",
        "nameEn": "Isokaze",
-       "drops": 58,
-       "total": 2521,
-       "pct": 2.3,
+       "drops": 63,
+       "total": 2821,
+       "pct": 2.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1801,9 +1829,9 @@
        "id": 994,
        "name": "榧",
        "nameEn": "Kaya",
-       "drops": 58,
-       "total": 2583,
-       "pct": 2.25,
+       "drops": 64,
+       "total": 2887,
+       "pct": 2.22,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1812,26 +1840,12 @@
        }
       },
       {
-       "id": 635,
-       "name": "長鯨",
-       "nameEn": "Chougei",
-       "drops": 54,
-       "total": 2521,
-       "pct": 2.14,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
        "id": 533,
        "name": "冬月",
        "nameEn": "Fuyutsuki",
-       "drops": 52,
-       "total": 2583,
-       "pct": 2.01,
+       "drops": 60,
+       "total": 2885,
+       "pct": 2.08,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1843,9 +1857,9 @@
        "id": 445,
        "name": "秋津洲",
        "nameEn": "Akitsushima",
-       "drops": 49,
-       "total": 2521,
-       "pct": 1.94,
+       "drops": 56,
+       "total": 2819,
+       "pct": 1.99,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1854,12 +1868,26 @@
        }
       },
       {
+       "id": 898,
+       "name": "第二十二号海防艦",
+       "nameEn": "Kaiboukan No.22",
+       "drops": 53,
+       "total": 2887,
+       "pct": 1.84,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
        "id": 552,
        "name": "大東",
        "nameEn": "Daitou",
-       "drops": 49,
-       "total": 2521,
-       "pct": 1.94,
+       "drops": 50,
+       "total": 2819,
+       "pct": 1.77,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1871,9 +1899,9 @@
        "id": 1044,
        "name": "桐",
        "nameEn": "Kiri",
-       "drops": 45,
-       "total": 2521,
-       "pct": 1.79,
+       "drops": 49,
+       "total": 2821,
+       "pct": 1.74,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1882,26 +1910,12 @@
        }
       },
       {
-       "id": 634,
-       "name": "迅鯨",
-       "nameEn": "Jingei",
-       "drops": 44,
-       "total": 2521,
-       "pct": 1.75,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 898,
-       "name": "第二十二号海防艦",
-       "nameEn": "Kaiboukan No.22",
-       "drops": 45,
-       "total": 2583,
-       "pct": 1.74,
+       "id": 638,
+       "name": "第三〇号海防艦",
+       "nameEn": "Kaiboukan No.30",
+       "drops": 48,
+       "total": 2887,
+       "pct": 1.66,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1910,12 +1924,26 @@
        }
       },
       {
+       "id": 634,
+       "name": "迅鯨",
+       "nameEn": "Jingei",
+       "drops": 45,
+       "total": 2821,
+       "pct": 1.6,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
        "id": 532,
        "name": "涼月",
        "nameEn": "Suzutsuki",
-       "drops": 44,
-       "total": 2586,
-       "pct": 1.7,
+       "drops": 46,
+       "total": 2887,
+       "pct": 1.59,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1927,9 +1955,9 @@
        "id": 551,
        "name": "日振",
        "nameEn": "Hiburi",
-       "drops": 42,
-       "total": 2521,
-       "pct": 1.67,
+       "drops": 44,
+       "total": 2819,
+       "pct": 1.56,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1938,26 +1966,12 @@
        }
       },
       {
-       "id": 638,
-       "name": "第三〇号海防艦",
-       "nameEn": "Kaiboukan No.30",
-       "drops": 42,
-       "total": 2583,
-       "pct": 1.63,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
        "id": 1041,
        "name": "花月",
        "nameEn": "Hanazuki",
-       "drops": 37,
-       "total": 2521,
-       "pct": 1.47,
+       "drops": 42,
+       "total": 2819,
+       "pct": 1.49,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1969,9 +1983,9 @@
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
-       "drops": 23,
-       "total": 2524,
-       "pct": 0.91,
+       "drops": 26,
+       "total": 2821,
+       "pct": 0.92,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1983,9 +1997,9 @@
        "id": 992,
        "name": "杉",
        "nameEn": "Sugi",
-       "drops": 22,
-       "total": 2586,
-       "pct": 0.85,
+       "drops": 25,
+       "total": 2887,
+       "pct": 0.87,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1997,8 +2011,8 @@
        "id": 140,
        "name": "酒匂",
        "nameEn": "Sakawa",
-       "drops": 19,
-       "total": 2586,
+       "drops": 21,
+       "total": 2887,
        "pct": 0.73,
        "rarity": 1,
        "ranks": {
@@ -2012,8 +2026,8 @@
        "name": "明石",
        "nameEn": "Akashi",
        "drops": 9,
-       "total": 2521,
-       "pct": 0.36,
+       "total": 2819,
+       "pct": 0.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2128,15 +2142,15 @@
      "edges": [
       "18"
      ],
-     "samples": 227,
+     "samples": 236,
      "drops": [
       {
        "id": 898,
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
        "drops": 5,
-       "total": 227,
-       "pct": 2.2,
+       "total": 236,
+       "pct": 2.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2149,8 +2163,8 @@
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
        "drops": 5,
-       "total": 227,
-       "pct": 2.2,
+       "total": 236,
+       "pct": 2.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2163,8 +2177,8 @@
        "name": "酒匂",
        "nameEn": "Sakawa",
        "drops": 3,
-       "total": 227,
-       "pct": 1.32,
+       "total": 236,
+       "pct": 1.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2287,15 +2301,15 @@
      "edges": [
       "32"
      ],
-     "samples": 434,
+     "samples": 456,
      "drops": [
       {
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
        "drops": 11,
-       "total": 434,
-       "pct": 2.53,
+       "total": 456,
+       "pct": 2.41,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2308,8 +2322,8 @@
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
        "drops": 10,
-       "total": 434,
-       "pct": 2.3,
+       "total": 456,
+       "pct": 2.19,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2321,9 +2335,9 @@
        "id": 644,
        "name": "桃",
        "nameEn": "Momo",
-       "drops": 9,
-       "total": 434,
-       "pct": 2.07,
+       "drops": 10,
+       "total": 456,
+       "pct": 2.19,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2336,8 +2350,8 @@
        "name": "酒匂",
        "nameEn": "Sakawa",
        "drops": 5,
-       "total": 434,
-       "pct": 1.15,
+       "total": 456,
+       "pct": 1.1,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2350,8 +2364,22 @@
        "name": "竹",
        "nameEn": "Take",
        "drops": 5,
-       "total": 434,
-       "pct": 1.15,
+       "total": 456,
+       "pct": 1.1,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 643,
+       "name": "梅",
+       "nameEn": "Ume",
+       "drops": 5,
+       "total": 456,
+       "pct": 1.1,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2364,22 +2392,8 @@
        "name": "第二十二号海防艦",
        "nameEn": "Kaiboukan No.22",
        "drops": 4,
-       "total": 434,
-       "pct": 0.92,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 643,
-       "name": "梅",
-       "nameEn": "Ume",
-       "drops": 4,
-       "total": 434,
-       "pct": 0.92,
+       "total": 456,
+       "pct": 0.88,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2417,15 +2431,15 @@
      "edges": [
       "46"
      ],
-     "samples": 2167,
+     "samples": 2462,
      "drops": [
       {
        "id": 635,
        "name": "長鯨",
        "nameEn": "Chougei",
-       "drops": 58,
-       "total": 2133,
-       "pct": 2.72,
+       "drops": 64,
+       "total": 2420,
+       "pct": 2.64,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2437,8 +2451,8 @@
        "id": 634,
        "name": "迅鯨",
        "nameEn": "Jingei",
-       "drops": 52,
-       "total": 2133,
+       "drops": 59,
+       "total": 2420,
        "pct": 2.44,
        "rarity": 2,
        "ranks": {
@@ -2451,9 +2465,9 @@
        "id": 551,
        "name": "日振",
        "nameEn": "Hiburi",
-       "drops": 42,
-       "total": 2133,
-       "pct": 1.97,
+       "drops": 46,
+       "total": 2420,
+       "pct": 1.9,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2465,65 +2479,9 @@
        "id": 533,
        "name": "冬月",
        "nameEn": "Fuyutsuki",
-       "drops": 40,
-       "total": 2133,
-       "pct": 1.88,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 898,
-       "name": "第二十二号海防艦",
-       "nameEn": "Kaiboukan No.22",
-       "drops": 37,
-       "total": 2167,
-       "pct": 1.71,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 445,
-       "name": "秋津洲",
-       "nameEn": "Akitsushima",
-       "drops": 36,
-       "total": 2133,
-       "pct": 1.69,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 167,
-       "name": "磯風",
-       "nameEn": "Isokaze",
-       "drops": 36,
-       "total": 2133,
-       "pct": 1.69,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 994,
-       "name": "榧",
-       "nameEn": "Kaya",
-       "drops": 36,
-       "total": 2133,
-       "pct": 1.69,
+       "drops": 44,
+       "total": 2420,
+       "pct": 1.82,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2535,10 +2493,66 @@
        "id": 532,
        "name": "涼月",
        "nameEn": "Suzutsuki",
-       "drops": 36,
-       "total": 2138,
-       "pct": 1.68,
+       "drops": 44,
+       "total": 2462,
+       "pct": 1.79,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 898,
+       "name": "第二十二号海防艦",
+       "nameEn": "Kaiboukan No.22",
+       "drops": 43,
+       "total": 2462,
+       "pct": 1.75,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 994,
+       "name": "榧",
+       "nameEn": "Kaya",
+       "drops": 41,
+       "total": 2420,
+       "pct": 1.69,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 167,
+       "name": "磯風",
+       "nameEn": "Isokaze",
+       "drops": 40,
+       "total": 2420,
+       "pct": 1.65,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 445,
+       "name": "秋津洲",
+       "nameEn": "Akitsushima",
+       "drops": 39,
+       "total": 2420,
+       "pct": 1.61,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -2549,9 +2563,9 @@
        "id": 552,
        "name": "大東",
        "nameEn": "Daitou",
-       "drops": 31,
-       "total": 2133,
-       "pct": 1.45,
+       "drops": 38,
+       "total": 2420,
+       "pct": 1.57,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2563,9 +2577,9 @@
        "id": 638,
        "name": "第三〇号海防艦",
        "nameEn": "Kaiboukan No.30",
-       "drops": 29,
-       "total": 2167,
-       "pct": 1.34,
+       "drops": 34,
+       "total": 2462,
+       "pct": 1.38,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2577,9 +2591,9 @@
        "id": 139,
        "name": "矢矧",
        "nameEn": "Yahagi",
-       "drops": 25,
-       "total": 2138,
-       "pct": 1.17,
+       "drops": 26,
+       "total": 2420,
+       "pct": 1.07,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2591,9 +2605,9 @@
        "id": 1041,
        "name": "花月",
        "nameEn": "Hanazuki",
-       "drops": 18,
-       "total": 2133,
-       "pct": 0.84,
+       "drops": 19,
+       "total": 2420,
+       "pct": 0.79,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -2605,9 +2619,9 @@
        "id": 140,
        "name": "酒匂",
        "nameEn": "Sakawa",
-       "drops": 16,
-       "total": 2138,
-       "pct": 0.75,
+       "drops": 19,
+       "total": 2420,
+       "pct": 0.79,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2619,9 +2633,9 @@
        "id": 992,
        "name": "杉",
        "nameEn": "Sugi",
-       "drops": 15,
-       "total": 2138,
-       "pct": 0.7,
+       "drops": 19,
+       "total": 2420,
+       "pct": 0.79,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2633,13 +2647,13 @@
        "id": 182,
        "name": "明石",
        "nameEn": "Akashi",
-       "drops": 13,
-       "total": 2133,
-       "pct": 0.61,
+       "drops": 17,
+       "total": 2462,
+       "pct": 0.69,
        "rarity": 1,
        "ranks": {
         "s": true,
-        "a": false,
+        "a": true,
         "b": false
        }
       },
@@ -2647,9 +2661,9 @@
        "id": 1044,
        "name": "桐",
        "nameEn": "Kiri",
-       "drops": 13,
-       "total": 2133,
-       "pct": 0.61,
+       "drops": 16,
+       "total": 2420,
+       "pct": 0.66,
        "rarity": null,
        "ranks": {
         "s": true,
