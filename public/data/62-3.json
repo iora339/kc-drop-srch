@@ -78,15 +78,15 @@
       "9",
       "40"
      ],
-     "samples": 971,
+     "samples": 1094,
      "drops": [
       {
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
        "drops": 15,
-       "total": 971,
-       "pct": 1.54,
+       "total": 1094,
+       "pct": 1.37,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -166,15 +166,15 @@
      "edges": [
       "24"
      ],
-     "samples": 8265,
+     "samples": 9863,
      "drops": [
       {
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 134,
-       "total": 8265,
-       "pct": 1.62,
+       "drops": 161,
+       "total": 9863,
+       "pct": 1.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -186,37 +186,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 134,
-       "total": 8265,
-       "pct": 1.62,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 131,
-       "total": 8265,
+       "drops": 156,
+       "total": 9863,
        "pct": 1.58,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 130,
-       "total": 8265,
-       "pct": 1.57,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -228,9 +200,37 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 125,
-       "total": 8265,
+       "drops": 152,
+       "total": 9863,
+       "pct": 1.54,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 149,
+       "total": 9857,
        "pct": 1.51,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 146,
+       "total": 9863,
+       "pct": 1.48,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -242,9 +242,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 120,
-       "total": 8265,
-       "pct": 1.45,
+       "drops": 144,
+       "total": 9863,
+       "pct": 1.46,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -256,8 +256,8 @@
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 118,
-       "total": 8265,
+       "drops": 141,
+       "total": 9863,
        "pct": 1.43,
        "rarity": 2,
        "ranks": {
@@ -297,15 +297,15 @@
       "34",
       "35"
      ],
-     "samples": 7491,
+     "samples": 8865,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 165,
-       "total": 7491,
-       "pct": 2.2,
+       "drops": 207,
+       "total": 8865,
+       "pct": 2.34,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -317,9 +317,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 127,
-       "total": 7436,
-       "pct": 1.71,
+       "drops": 157,
+       "total": 8794,
+       "pct": 1.79,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -331,37 +331,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 117,
-       "total": 7436,
-       "pct": 1.57,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 113,
-       "total": 7436,
-       "pct": 1.52,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 113,
-       "total": 7436,
-       "pct": 1.52,
+       "drops": 145,
+       "total": 8865,
+       "pct": 1.64,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -373,9 +345,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 112,
-       "total": 7436,
-       "pct": 1.51,
+       "drops": 135,
+       "total": 8794,
+       "pct": 1.54,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -384,26 +356,12 @@
        }
       },
       {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 109,
-       "total": 7436,
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 129,
+       "total": 8794,
        "pct": 1.47,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 107,
-       "total": 7436,
-       "pct": 1.44,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -415,9 +373,51 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 108,
-       "total": 7491,
-       "pct": 1.44,
+       "drops": 129,
+       "total": 8865,
+       "pct": 1.46,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 128,
+       "total": 8794,
+       "pct": 1.46,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 126,
+       "total": 8794,
+       "pct": 1.43,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 125,
+       "total": 8789,
+       "pct": 1.42,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -429,37 +429,9 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 64,
-       "total": 7436,
+       "drops": 76,
+       "total": 8865,
        "pct": 0.86,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 45,
-       "total": 7436,
-       "pct": 0.61,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 44,
-       "total": 7491,
-       "pct": 0.59,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -471,9 +443,37 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 43,
-       "total": 7436,
-       "pct": 0.58,
+       "drops": 56,
+       "total": 8794,
+       "pct": 0.64,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 56,
+       "total": 8794,
+       "pct": 0.64,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 52,
+       "total": 8865,
+       "pct": 0.59,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -485,9 +485,9 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 40,
-       "total": 7436,
-       "pct": 0.54,
+       "drops": 51,
+       "total": 8794,
+       "pct": 0.58,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -499,9 +499,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 22,
-       "total": 6993,
-       "pct": 0.31,
+       "drops": 31,
+       "total": 8279,
+       "pct": 0.37,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -540,15 +540,15 @@
       "31",
       "54"
      ],
-     "samples": 22,
+     "samples": 136,
      "drops": [
       {
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 2,
-       "total": 22,
-       "pct": 9.09,
+       "drops": 3,
+       "total": 136,
+       "pct": 2.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -565,15 +565,15 @@
      "edges": [
       "32"
      ],
-     "samples": 6013,
+     "samples": 7092,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 118,
-       "total": 3670,
-       "pct": 3.22,
+       "drops": 135,
+       "total": 4236,
+       "pct": 3.19,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -585,9 +585,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 82,
-       "total": 3670,
-       "pct": 2.23,
+       "drops": 104,
+       "total": 4236,
+       "pct": 2.46,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -599,23 +599,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 94,
-       "total": 6013,
-       "pct": 1.56,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 94,
-       "total": 6013,
-       "pct": 1.56,
+       "drops": 111,
+       "total": 7092,
+       "pct": 1.57,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -627,9 +613,37 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 54,
-       "total": 3670,
-       "pct": 1.47,
+       "drops": 65,
+       "total": 4236,
+       "pct": 1.53,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 107,
+       "total": 7092,
+       "pct": 1.51,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 64,
+       "total": 4236,
+       "pct": 1.51,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -641,9 +655,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 86,
-       "total": 6013,
-       "pct": 1.43,
+       "drops": 99,
+       "total": 7090,
+       "pct": 1.4,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -655,8 +669,8 @@
        "id": 892,
        "name": "Drum",
        "nameEn": "Drum",
-       "drops": 51,
-       "total": 3670,
+       "drops": 59,
+       "total": 4236,
        "pct": 1.39,
        "rarity": 2,
        "ranks": {
@@ -669,24 +683,10 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 50,
-       "total": 3670,
-       "pct": 1.36,
+       "drops": 57,
+       "total": 4236,
+       "pct": 1.35,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 50,
-       "total": 3670,
-       "pct": 1.36,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -697,9 +697,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 50,
-       "total": 3670,
-       "pct": 1.36,
+       "drops": 56,
+       "total": 4236,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -711,24 +711,10 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 47,
-       "total": 3670,
-       "pct": 1.28,
+       "drops": 54,
+       "total": 4236,
+       "pct": 1.27,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 153,
-       "name": "大鳳",
-       "nameEn": "Taihou",
-       "drops": 39,
-       "total": 3670,
-       "pct": 1.06,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -739,9 +725,23 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 37,
-       "total": 3670,
-       "pct": 1.01,
+       "drops": 44,
+       "total": 4236,
+       "pct": 1.04,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 153,
+       "name": "大鳳",
+       "nameEn": "Taihou",
+       "drops": 44,
+       "total": 4236,
+       "pct": 1.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -753,9 +753,9 @@
        "id": 945,
        "name": "第百一号輸送艦",
        "nameEn": "No.101 Transport Ship",
-       "drops": 30,
-       "total": 3670,
-       "pct": 0.82,
+       "drops": 38,
+       "total": 4236,
+       "pct": 0.9,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -767,8 +767,8 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 28,
-       "total": 3670,
+       "drops": 32,
+       "total": 4236,
        "pct": 0.76,
        "rarity": 2,
        "ranks": {
@@ -781,9 +781,9 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 22,
-       "total": 3670,
-       "pct": 0.6,
+       "drops": 25,
+       "total": 4236,
+       "pct": 0.59,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -795,9 +795,9 @@
        "id": 581,
        "name": "日進",
        "nameEn": "Nisshin",
-       "drops": 20,
-       "total": 3670,
-       "pct": 0.54,
+       "drops": 22,
+       "total": 4236,
+       "pct": 0.52,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -809,9 +809,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 12,
-       "total": 3670,
-       "pct": 0.33,
+       "drops": 13,
+       "total": 4236,
+       "pct": 0.31,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -828,15 +828,15 @@
      "edges": [
       "39"
      ],
-     "samples": 8917,
+     "samples": 10405,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 139,
-       "total": 4717,
-       "pct": 2.95,
+       "drops": 160,
+       "total": 5598,
+       "pct": 2.86,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -848,23 +848,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 106,
-       "total": 4722,
-       "pct": 2.24,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 892,
-       "name": "Drum",
-       "nameEn": "Drum",
-       "drops": 78,
-       "total": 4717,
-       "pct": 1.65,
+       "drops": 123,
+       "total": 5598,
+       "pct": 2.2,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -876,10 +862,24 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 74,
-       "total": 4722,
-       "pct": 1.57,
+       "drops": 95,
+       "total": 5598,
+       "pct": 1.7,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 892,
+       "name": "Drum",
+       "nameEn": "Drum",
+       "drops": 91,
+       "total": 5598,
+       "pct": 1.63,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -890,9 +890,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 73,
-       "total": 4722,
-       "pct": 1.55,
+       "drops": 90,
+       "total": 5598,
+       "pct": 1.61,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -904,9 +904,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 72,
-       "total": 4722,
-       "pct": 1.52,
+       "drops": 87,
+       "total": 5598,
+       "pct": 1.55,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -918,9 +918,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 134,
-       "total": 8909,
-       "pct": 1.5,
+       "drops": 149,
+       "total": 10405,
+       "pct": 1.43,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -932,9 +932,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 58,
-       "total": 4722,
-       "pct": 1.23,
+       "drops": 72,
+       "total": 5598,
+       "pct": 1.29,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -943,12 +943,26 @@
        }
       },
       {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 126,
+       "total": 10405,
+       "pct": 1.21,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 58,
-       "total": 4722,
-       "pct": 1.23,
+       "drops": 68,
+       "total": 5598,
+       "pct": 1.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -960,27 +974,13 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 54,
-       "total": 4722,
-       "pct": 1.14,
+       "drops": 67,
+       "total": 5598,
+       "pct": 1.2,
        "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 101,
-       "total": 8917,
-       "pct": 1.13,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
         "b": false
        }
       },
@@ -988,37 +988,9 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 37,
-       "total": 4722,
-       "pct": 0.78,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 35,
-       "total": 4722,
-       "pct": 0.74,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 945,
-       "name": "第百一号輸送艦",
-       "nameEn": "No.101 Transport Ship",
-       "drops": 35,
-       "total": 4722,
-       "pct": 0.74,
+       "drops": 52,
+       "total": 5598,
+       "pct": 0.93,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1030,9 +1002,37 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 34,
-       "total": 4722,
-       "pct": 0.72,
+       "drops": 43,
+       "total": 5598,
+       "pct": 0.77,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 42,
+       "total": 5598,
+       "pct": 0.75,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 945,
+       "name": "第百一号輸送艦",
+       "nameEn": "No.101 Transport Ship",
+       "drops": 39,
+       "total": 5598,
+       "pct": 0.7,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1044,9 +1044,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 22,
-       "total": 4717,
-       "pct": 0.47,
+       "drops": 25,
+       "total": 5598,
+       "pct": 0.45,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1058,9 +1058,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 15,
-       "total": 4722,
-       "pct": 0.32,
+       "drops": 19,
+       "total": 5598,
+       "pct": 0.34,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1110,15 +1110,15 @@
       "48",
       "52"
      ],
-     "samples": 7360,
+     "samples": 11424,
      "drops": [
       {
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 126,
-       "total": 7360,
-       "pct": 1.71,
+       "drops": 189,
+       "total": 11424,
+       "pct": 1.65,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1130,9 +1130,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 117,
-       "total": 7360,
-       "pct": 1.59,
+       "drops": 177,
+       "total": 11424,
+       "pct": 1.55,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1144,9 +1144,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 102,
-       "total": 7360,
-       "pct": 1.39,
+       "drops": 168,
+       "total": 11424,
+       "pct": 1.47,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1158,9 +1158,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 100,
-       "total": 7354,
-       "pct": 1.36,
+       "drops": 151,
+       "total": 11419,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1172,9 +1172,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 89,
-       "total": 7360,
-       "pct": 1.21,
+       "drops": 140,
+       "total": 11424,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1186,9 +1186,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 40,
-       "total": 7360,
-       "pct": 0.54,
+       "drops": 59,
+       "total": 11424,
+       "pct": 0.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1205,15 +1205,29 @@
      "edges": [
       "49"
      ],
-     "samples": 390,
+     "samples": 477,
      "drops": [
       {
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 11,
-       "total": 390,
-       "pct": 2.82,
+       "drops": 13,
+       "total": 477,
+       "pct": 2.73,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 10,
+       "total": 477,
+       "pct": 2.1,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1226,8 +1240,8 @@
        "name": "伊26",
        "nameEn": "I-26",
        "drops": 9,
-       "total": 390,
-       "pct": 2.31,
+       "total": 477,
+       "pct": 1.89,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1236,12 +1250,26 @@
        }
       },
       {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
        "drops": 8,
-       "total": 390,
-       "pct": 2.05,
+       "total": 477,
+       "pct": 1.68,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 7,
+       "total": 477,
+       "pct": 1.47,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1254,8 +1282,8 @@
        "name": "時津風",
        "nameEn": "Tokitsukaze",
        "drops": 6,
-       "total": 390,
-       "pct": 1.54,
+       "total": 477,
+       "pct": 1.26,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1268,8 +1296,8 @@
        "name": "浦波",
        "nameEn": "Uranami",
        "drops": 6,
-       "total": 390,
-       "pct": 1.54,
+       "total": 477,
+       "pct": 1.26,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1278,27 +1306,13 @@
        }
       },
       {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 5,
-       "total": 390,
-       "pct": 1.28,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 4,
-       "total": 390,
-       "pct": 1.03,
-       "rarity": 1,
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 2,
+       "total": 477,
+       "pct": 0.42,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -1310,22 +1324,8 @@
        "name": "伊401",
        "nameEn": "I-401",
        "drops": 2,
-       "total": 390,
-       "pct": 0.51,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 1,
-       "total": 390,
-       "pct": 0.26,
+       "total": 477,
+       "pct": 0.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1338,8 +1338,22 @@
        "name": "伊400",
        "nameEn": "I-400",
        "drops": 1,
-       "total": 390,
-       "pct": 0.26,
+       "total": 477,
+       "pct": 0.21,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 1,
+       "total": 477,
+       "pct": 0.21,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1357,15 +1371,15 @@
       "50",
       "53"
      ],
-     "samples": 11074,
+     "samples": 16803,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 450,
-       "total": 11067,
-       "pct": 4.07,
+       "drops": 707,
+       "total": 16803,
+       "pct": 4.21,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1377,10 +1391,24 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 246,
-       "total": 8990,
-       "pct": 2.74,
+       "drops": 357,
+       "total": 14061,
+       "pct": 2.54,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 225,
+       "total": 14061,
+       "pct": 1.6,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -1391,9 +1419,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 188,
-       "total": 11074,
-       "pct": 1.7,
+       "drops": 266,
+       "total": 16803,
+       "pct": 1.58,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1405,9 +1433,37 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 178,
-       "total": 11074,
-       "pct": 1.61,
+       "drops": 257,
+       "total": 16803,
+       "pct": 1.53,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 256,
+       "total": 16803,
+       "pct": 1.52,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 245,
+       "total": 16803,
+       "pct": 1.46,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1419,79 +1475,9 @@
        "id": 892,
        "name": "Drum",
        "nameEn": "Drum",
-       "drops": 139,
-       "total": 8984,
-       "pct": 1.55,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 165,
-       "total": 10963,
-       "pct": 1.51,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 134,
-       "total": 8990,
-       "pct": 1.49,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 163,
-       "total": 11074,
-       "pct": 1.47,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 152,
-       "total": 11067,
-       "pct": 1.37,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 155,
-       "name": "伊401",
-       "nameEn": "I-401",
-       "drops": 118,
-       "total": 8990,
-       "pct": 1.31,
+       "drops": 201,
+       "total": 14061,
+       "pct": 1.43,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1503,9 +1489,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 133,
-       "total": 10889,
-       "pct": 1.22,
+       "drops": 224,
+       "total": 16702,
+       "pct": 1.34,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1514,12 +1500,40 @@
        }
       },
       {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 224,
+       "total": 16790,
+       "pct": 1.33,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 178,
+       "total": 14061,
+       "pct": 1.27,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
        "id": 932,
        "name": "Indiana",
        "nameEn": "Indiana",
-       "drops": 108,
-       "total": 8990,
-       "pct": 1.2,
+       "drops": 159,
+       "total": 14061,
+       "pct": 1.13,
        "rarity": null,
        "ranks": {
         "s": true,
@@ -1531,23 +1545,9 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 83,
-       "total": 8879,
-       "pct": 0.93,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 72,
-       "total": 8984,
-       "pct": 0.8,
+       "drops": 137,
+       "total": 14061,
+       "pct": 0.97,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1559,10 +1559,24 @@
        "id": 80,
        "name": "長門",
        "nameEn": "Nagato",
-       "drops": 69,
-       "total": 8990,
-       "pct": 0.77,
+       "drops": 115,
+       "total": 14061,
+       "pct": 0.82,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 112,
+       "total": 14061,
+       "pct": 0.8,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -1573,23 +1587,9 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 65,
-       "total": 8879,
-       "pct": 0.73,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 48,
-       "total": 8879,
-       "pct": 0.54,
+       "drops": 93,
+       "total": 13905,
+       "pct": 0.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1601,9 +1601,9 @@
        "id": 945,
        "name": "第百一号輸送艦",
        "nameEn": "No.101 Transport Ship",
-       "drops": 47,
-       "total": 8879,
-       "pct": 0.53,
+       "drops": 73,
+       "total": 13905,
+       "pct": 0.52,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1615,9 +1615,23 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 46,
-       "total": 8879,
+       "drops": 73,
+       "total": 13905,
        "pct": 0.52,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 59,
+       "total": 13905,
+       "pct": 0.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1629,8 +1643,8 @@
        "id": 581,
        "name": "日進",
        "nameEn": "Nisshin",
-       "drops": 30,
-       "total": 8990,
+       "drops": 46,
+       "total": 14061,
        "pct": 0.33,
        "rarity": 2,
        "ranks": {
@@ -1650,30 +1664,16 @@
       "63",
       "64"
      ],
-     "samples": 11219,
+     "samples": 15517,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 261,
-       "total": 11160,
-       "pct": 2.34,
+       "drops": 367,
+       "total": 15517,
+       "pct": 2.37,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 173,
-       "total": 11219,
-       "pct": 1.54,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -1684,9 +1684,23 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 170,
-       "total": 11163,
-       "pct": 1.52,
+       "drops": 239,
+       "total": 15434,
+       "pct": 1.55,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 237,
+       "total": 15517,
+       "pct": 1.53,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1698,23 +1712,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 166,
-       "total": 11163,
-       "pct": 1.49,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 165,
-       "total": 11219,
-       "pct": 1.47,
+       "drops": 221,
+       "total": 15517,
+       "pct": 1.42,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1726,23 +1726,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 163,
-       "total": 11216,
-       "pct": 1.45,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 156,
-       "total": 11163,
-       "pct": 1.4,
+       "drops": 218,
+       "total": 15501,
+       "pct": 1.41,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1754,9 +1740,37 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 157,
-       "total": 11219,
-       "pct": 1.4,
+       "drops": 219,
+       "total": 15517,
+       "pct": 1.41,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 216,
+       "total": 15517,
+       "pct": 1.39,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 208,
+       "total": 15434,
+       "pct": 1.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1768,8 +1782,8 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 83,
-       "total": 11163,
+       "drops": 114,
+       "total": 15434,
        "pct": 0.74,
        "rarity": 2,
        "ranks": {
@@ -1782,9 +1796,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 57,
-       "total": 11163,
-       "pct": 0.51,
+       "drops": 80,
+       "total": 15434,
+       "pct": 0.52,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1796,23 +1810,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 53,
-       "total": 11160,
+       "drops": 73,
+       "total": 15434,
        "pct": 0.47,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 43,
-       "total": 10929,
-       "pct": 0.39,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1824,9 +1824,23 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 42,
-       "total": 11219,
-       "pct": 0.37,
+       "drops": 64,
+       "total": 15517,
+       "pct": 0.41,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 54,
+       "total": 15059,
+       "pct": 0.36,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1838,9 +1852,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 31,
-       "total": 11163,
-       "pct": 0.28,
+       "drops": 41,
+       "total": 15517,
+       "pct": 0.26,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -1888,16 +1902,16 @@
      "edges": [
       "62"
      ],
-     "samples": 8278,
+     "samples": 11566,
      "drops": [
       {
-       "id": 932,
-       "name": "Indiana",
-       "nameEn": "Indiana",
-       "drops": 251,
-       "total": 8278,
-       "pct": 3.03,
-       "rarity": null,
+       "id": 80,
+       "name": "長門",
+       "nameEn": "Nagato",
+       "drops": 377,
+       "total": 11566,
+       "pct": 3.26,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
@@ -1905,13 +1919,13 @@
        }
       },
       {
-       "id": 80,
-       "name": "長門",
-       "nameEn": "Nagato",
-       "drops": 244,
-       "total": 8278,
-       "pct": 2.95,
-       "rarity": 1,
+       "id": 932,
+       "name": "Indiana",
+       "nameEn": "Indiana",
+       "drops": 334,
+       "total": 11566,
+       "pct": 2.89,
+       "rarity": null,
        "ranks": {
         "s": true,
         "a": true,
@@ -1922,9 +1936,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 208,
-       "total": 8278,
-       "pct": 2.51,
+       "drops": 289,
+       "total": 11566,
+       "pct": 2.5,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1936,9 +1950,9 @@
        "id": 460,
        "name": "速吸",
        "nameEn": "Hayasui",
-       "drops": 180,
-       "total": 8277,
-       "pct": 2.17,
+       "drops": 258,
+       "total": 11566,
+       "pct": 2.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1950,23 +1964,9 @@
        "id": 524,
        "name": "択捉",
        "nameEn": "Etorofu",
-       "drops": 173,
-       "total": 8277,
+       "drops": 242,
+       "total": 11566,
        "pct": 2.09,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 120,
-       "name": "三隈",
-       "nameEn": "Mikuma",
-       "drops": 172,
-       "total": 8278,
-       "pct": 2.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -1978,23 +1978,9 @@
        "id": 565,
        "name": "福江",
        "nameEn": "Fukae",
-       "drops": 168,
-       "total": 8277,
-       "pct": 2.03,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 153,
-       "total": 8278,
-       "pct": 1.85,
+       "drops": 241,
+       "total": 11566,
+       "pct": 2.08,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2006,9 +1992,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 78,
-       "total": 4419,
-       "pct": 1.77,
+       "drops": 123,
+       "total": 6290,
+       "pct": 1.96,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2017,12 +2003,40 @@
        }
       },
       {
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 225,
+       "total": 11566,
+       "pct": 1.95,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 218,
+       "total": 11566,
+       "pct": 1.88,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
        "id": 966,
        "name": "Lexington",
        "nameEn": "Lexington",
-       "drops": 123,
-       "total": 8278,
-       "pct": 1.49,
+       "drops": 183,
+       "total": 11566,
+       "pct": 1.58,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2034,9 +2048,9 @@
        "id": 1025,
        "name": "Wasp",
        "nameEn": "Wasp",
-       "drops": 101,
-       "total": 8278,
-       "pct": 1.22,
+       "drops": 145,
+       "total": 11566,
+       "pct": 1.25,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2048,23 +2062,9 @@
        "id": 495,
        "name": "伊14",
        "nameEn": "I-14",
-       "drops": 92,
-       "total": 8277,
-       "pct": 1.11,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 494,
-       "name": "伊13",
-       "nameEn": "I-13",
-       "drops": 89,
-       "total": 8277,
-       "pct": 1.08,
+       "drops": 137,
+       "total": 11566,
+       "pct": 1.18,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2076,9 +2076,9 @@
        "id": 549,
        "name": "Intrepid",
        "nameEn": "Intrepid",
-       "drops": 87,
-       "total": 8278,
-       "pct": 1.05,
+       "drops": 120,
+       "total": 11566,
+       "pct": 1.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2087,12 +2087,12 @@
        }
       },
       {
-       "id": 433,
-       "name": "Saratoga",
-       "nameEn": "Saratoga",
-       "drops": 57,
-       "total": 8278,
-       "pct": 0.69,
+       "id": 494,
+       "name": "伊13",
+       "nameEn": "I-13",
+       "drops": 115,
+       "total": 11566,
+       "pct": 0.99,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2104,9 +2104,9 @@
        "id": 440,
        "name": "Iowa",
        "nameEn": "Iowa",
-       "drops": 54,
-       "total": 8278,
-       "pct": 0.65,
+       "drops": 86,
+       "total": 11566,
+       "pct": 0.74,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2115,12 +2115,12 @@
        }
       },
       {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 47,
-       "total": 8278,
-       "pct": 0.57,
+       "id": 433,
+       "name": "Saratoga",
+       "nameEn": "Saratoga",
+       "drops": 84,
+       "total": 11566,
+       "pct": 0.73,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2132,9 +2132,23 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 41,
-       "total": 8277,
-       "pct": 0.5,
+       "drops": 62,
+       "total": 11566,
+       "pct": 0.54,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 60,
+       "total": 11566,
+       "pct": 0.52,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2146,9 +2160,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 14,
-       "total": 4419,
-       "pct": 0.32,
+       "drops": 18,
+       "total": 6290,
+       "pct": 0.29,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2308,29 +2322,15 @@
      "edges": [
       "24"
      ],
-     "samples": 927,
+     "samples": 1382,
      "drops": [
       {
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 16,
-       "total": 927,
-       "pct": 1.73,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 15,
-       "total": 927,
-       "pct": 1.62,
+       "drops": 24,
+       "total": 1382,
+       "pct": 1.74,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2342,9 +2342,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 15,
-       "total": 927,
-       "pct": 1.62,
+       "drops": 23,
+       "total": 1382,
+       "pct": 1.66,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2356,9 +2356,23 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 13,
-       "total": 927,
-       "pct": 1.4,
+       "drops": 20,
+       "total": 1382,
+       "pct": 1.45,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 19,
+       "total": 1382,
+       "pct": 1.37,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2370,9 +2384,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 12,
-       "total": 927,
-       "pct": 1.29,
+       "drops": 17,
+       "total": 1382,
+       "pct": 1.23,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2384,8 +2398,8 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 6,
-       "total": 927,
+       "drops": 9,
+       "total": 1382,
        "pct": 0.65,
        "rarity": 1,
        "ranks": {
@@ -2425,16 +2439,16 @@
       "34",
       "35"
      ],
-     "samples": 831,
+     "samples": 1221,
      "drops": [
       {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 16,
-       "total": 825,
-       "pct": 1.94,
-       "rarity": 1,
+       "id": 483,
+       "name": "伊26",
+       "nameEn": "I-26",
+       "drops": 22,
+       "total": 1211,
+       "pct": 1.82,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -2445,24 +2459,10 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 16,
-       "total": 825,
-       "pct": 1.94,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 483,
-       "name": "伊26",
-       "nameEn": "I-26",
-       "drops": 15,
-       "total": 825,
+       "drops": 22,
+       "total": 1211,
        "pct": 1.82,
-       "rarity": 2,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -2473,9 +2473,37 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 13,
-       "total": 825,
-       "pct": 1.58,
+       "drops": 20,
+       "total": 1211,
+       "pct": 1.65,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 19,
+       "total": 1211,
+       "pct": 1.57,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 17,
+       "total": 1211,
+       "pct": 1.4,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2487,51 +2515,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 11,
-       "total": 825,
-       "pct": 1.33,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 11,
-       "total": 825,
-       "pct": 1.33,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 11,
-       "total": 831,
+       "drops": 16,
+       "total": 1211,
        "pct": 1.32,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 10,
-       "total": 825,
-       "pct": 1.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2543,9 +2529,37 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 10,
-       "total": 825,
-       "pct": 1.21,
+       "drops": 16,
+       "total": 1211,
+       "pct": 1.32,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 15,
+       "total": 1221,
+       "pct": 1.23,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 14,
+       "total": 1211,
+       "pct": 1.16,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2557,23 +2571,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 8,
-       "total": 825,
-       "pct": 0.97,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 153,
-       "name": "大鳳",
-       "nameEn": "Taihou",
-       "drops": 8,
-       "total": 825,
-       "pct": 0.97,
+       "drops": 10,
+       "total": 1211,
+       "pct": 0.83,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2585,9 +2585,23 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 6,
-       "total": 680,
-       "pct": 0.88,
+       "drops": 9,
+       "total": 1211,
+       "pct": 0.74,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 153,
+       "name": "大鳳",
+       "nameEn": "Taihou",
+       "drops": 9,
+       "total": 1211,
+       "pct": 0.74,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2599,9 +2613,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 6,
-       "total": 825,
-       "pct": 0.73,
+       "drops": 8,
+       "total": 1211,
+       "pct": 0.66,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2614,8 +2628,8 @@
        "name": "平安丸",
        "nameEn": "Heian Maru",
        "drops": 3,
-       "total": 680,
-       "pct": 0.44,
+       "total": 1031,
+       "pct": 0.29,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2664,15 +2678,15 @@
      "edges": [
       "32"
      ],
-     "samples": 745,
+     "samples": 1056,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 16,
-       "total": 448,
-       "pct": 3.57,
+       "drops": 20,
+       "total": 591,
+       "pct": 3.38,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2684,9 +2698,9 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 10,
-       "total": 448,
-       "pct": 2.23,
+       "drops": 12,
+       "total": 591,
+       "pct": 2.03,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2698,38 +2712,10 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 8,
-       "total": 448,
-       "pct": 1.79,
+       "drops": 11,
+       "total": 591,
+       "pct": 1.86,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 8,
-       "total": 448,
-       "pct": 1.79,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 155,
-       "name": "伊401",
-       "nameEn": "I-401",
-       "drops": 7,
-       "total": 448,
-       "pct": 1.56,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -2740,9 +2726,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 7,
-       "total": 448,
-       "pct": 1.56,
+       "drops": 9,
+       "total": 591,
+       "pct": 1.52,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2754,9 +2740,107 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
+       "drops": 9,
+       "total": 591,
+       "pct": 1.52,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 9,
+       "total": 591,
+       "pct": 1.52,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 8,
+       "total": 591,
+       "pct": 1.35,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 13,
+       "total": 1056,
+       "pct": 1.23,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
        "drops": 7,
-       "total": 448,
-       "pct": 1.56,
+       "total": 591,
+       "pct": 1.18,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 11,
+       "total": 1056,
+       "pct": 1.04,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 892,
+       "name": "Drum",
+       "nameEn": "Drum",
+       "drops": 6,
+       "total": 591,
+       "pct": 1.02,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 945,
+       "name": "第百一号輸送艦",
+       "nameEn": "No.101 Transport Ship",
+       "drops": 6,
+       "total": 591,
+       "pct": 1.02,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2769,65 +2853,9 @@
        "name": "大淀",
        "nameEn": "Ooyodo",
        "drops": 6,
-       "total": 448,
-       "pct": 1.34,
+       "total": 591,
+       "pct": 1.02,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 10,
-       "total": 745,
-       "pct": 1.34,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 9,
-       "total": 745,
-       "pct": 1.21,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 945,
-       "name": "第百一号輸送艦",
-       "nameEn": "No.101 Transport Ship",
-       "drops": 5,
-       "total": 448,
-       "pct": 1.12,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 892,
-       "name": "Drum",
-       "nameEn": "Drum",
-       "drops": 4,
-       "total": 448,
-       "pct": 0.89,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -2838,23 +2866,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 4,
-       "total": 448,
-       "pct": 0.89,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 4,
-       "total": 448,
-       "pct": 0.89,
+       "drops": 5,
+       "total": 591,
+       "pct": 0.85,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2866,9 +2880,23 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 2,
-       "total": 448,
-       "pct": 0.45,
+       "drops": 5,
+       "total": 591,
+       "pct": 0.85,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 3,
+       "total": 591,
+       "pct": 0.51,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2881,23 +2909,9 @@
        "name": "South Dakota",
        "nameEn": "South Dakota",
        "drops": 2,
-       "total": 448,
-       "pct": 0.45,
+       "total": 591,
+       "pct": 0.34,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 2,
-       "total": 448,
-       "pct": 0.45,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -2913,29 +2927,15 @@
      "edges": [
       "39"
      ],
-     "samples": 921,
+     "samples": 1267,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 18,
-       "total": 541,
-       "pct": 3.33,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 964,
-       "name": "白雲",
-       "nameEn": "Shirakumo",
-       "drops": 9,
-       "total": 541,
-       "pct": 1.66,
+       "drops": 19,
+       "total": 730,
+       "pct": 2.6,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2947,9 +2947,9 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 9,
-       "total": 541,
-       "pct": 1.66,
+       "drops": 13,
+       "total": 730,
+       "pct": 1.78,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -2961,9 +2961,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 14,
-       "total": 921,
-       "pct": 1.52,
+       "drops": 22,
+       "total": 1267,
+       "pct": 1.74,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -2972,13 +2972,13 @@
        }
       },
       {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 8,
-       "total": 541,
-       "pct": 1.48,
-       "rarity": 1,
+       "id": 964,
+       "name": "白雲",
+       "nameEn": "Shirakumo",
+       "drops": 12,
+       "total": 730,
+       "pct": 1.64,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -2989,9 +2989,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 8,
-       "total": 541,
-       "pct": 1.48,
+       "drops": 10,
+       "total": 730,
+       "pct": 1.37,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3003,9 +3003,23 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 7,
-       "total": 541,
-       "pct": 1.29,
+       "drops": 9,
+       "total": 730,
+       "pct": 1.23,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 8,
+       "total": 730,
+       "pct": 1.1,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3017,52 +3031,10 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 6,
-       "total": 541,
-       "pct": 1.11,
+       "drops": 8,
+       "total": 730,
+       "pct": 1.1,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 155,
-       "name": "伊401",
-       "nameEn": "I-401",
-       "drops": 5,
-       "total": 541,
-       "pct": 0.92,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 5,
-       "total": 541,
-       "pct": 0.92,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 602,
-       "name": "South Dakota",
-       "nameEn": "South Dakota",
-       "drops": 5,
-       "total": 541,
-       "pct": 0.92,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -3073,9 +3045,23 @@
        "id": 892,
        "name": "Drum",
        "nameEn": "Drum",
-       "drops": 4,
-       "total": 541,
-       "pct": 0.74,
+       "drops": 7,
+       "total": 730,
+       "pct": 0.96,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 602,
+       "name": "South Dakota",
+       "nameEn": "South Dakota",
+       "drops": 7,
+       "total": 730,
+       "pct": 0.96,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3087,9 +3073,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 6,
-       "total": 921,
-       "pct": 0.65,
+       "drops": 11,
+       "total": 1267,
+       "pct": 0.87,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3101,8 +3087,50 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 3,
-       "total": 541,
+       "drops": 6,
+       "total": 730,
+       "pct": 0.82,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 6,
+       "total": 730,
+       "pct": 0.82,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 6,
+       "total": 730,
+       "pct": 0.82,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 945,
+       "name": "第百一号輸送艦",
+       "nameEn": "No.101 Transport Ship",
+       "drops": 4,
+       "total": 730,
        "pct": 0.55,
        "rarity": 2,
        "ranks": {
@@ -3116,8 +3144,8 @@
        "name": "Langley",
        "nameEn": "Langley",
        "drops": 3,
-       "total": 541,
-       "pct": 0.55,
+       "total": 730,
+       "pct": 0.41,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3126,12 +3154,12 @@
        }
       },
       {
-       "id": 945,
-       "name": "第百一号輸送艦",
-       "nameEn": "No.101 Transport Ship",
-       "drops": 3,
-       "total": 541,
-       "pct": 0.55,
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 2,
+       "total": 730,
+       "pct": 0.27,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3181,29 +3209,15 @@
       "48",
       "52"
      ],
-     "samples": 1020,
+     "samples": 1778,
      "drops": [
       {
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 14,
-       "total": 1020,
-       "pct": 1.37,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 9,
-       "total": 1018,
-       "pct": 0.88,
+       "drops": 27,
+       "total": 1778,
+       "pct": 1.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3215,9 +3229,23 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 9,
-       "total": 1020,
-       "pct": 0.88,
+       "drops": 22,
+       "total": 1718,
+       "pct": 1.28,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 21,
+       "total": 1777,
+       "pct": 1.18,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3229,9 +3257,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 3,
-       "total": 1020,
-       "pct": 0.29,
+       "drops": 6,
+       "total": 1718,
+       "pct": 0.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3248,16 +3276,44 @@
      "edges": [
       "49"
      ],
-     "samples": 32,
+     "samples": 45,
      "drops": [
       {
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
        "drops": 2,
-       "total": 32,
-       "pct": 6.25,
+       "total": 45,
+       "pct": 4.44,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 1,
+       "total": 45,
+       "pct": 2.22,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -3274,15 +3330,15 @@
       "50",
       "53"
      ],
-     "samples": 1416,
+     "samples": 2320,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 35,
-       "total": 1091,
-       "pct": 3.21,
+       "drops": 62,
+       "total": 1810,
+       "pct": 3.43,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3294,9 +3350,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 26,
-       "total": 1094,
-       "pct": 2.38,
+       "drops": 47,
+       "total": 1810,
+       "pct": 2.6,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3308,9 +3364,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 23,
-       "total": 1413,
-       "pct": 1.63,
+       "drops": 34,
+       "total": 2310,
+       "pct": 1.47,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3319,16 +3375,16 @@
        }
       },
       {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 17,
-       "total": 1094,
-       "pct": 1.55,
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 34,
+       "total": 2311,
+       "pct": 1.47,
        "rarity": 1,
        "ranks": {
         "s": true,
-        "a": false,
+        "a": true,
         "b": false
        }
       },
@@ -3336,9 +3392,23 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 21,
-       "total": 1416,
-       "pct": 1.48,
+       "drops": 34,
+       "total": 2311,
+       "pct": 1.47,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 32,
+       "total": 2320,
+       "pct": 1.38,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3350,9 +3420,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 16,
-       "total": 1094,
-       "pct": 1.46,
+       "drops": 24,
+       "total": 1810,
+       "pct": 1.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3361,12 +3431,26 @@
        }
       },
       {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 20,
-       "total": 1416,
-       "pct": 1.41,
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 23,
+       "total": 1810,
+       "pct": 1.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 28,
+       "total": 2311,
+       "pct": 1.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3378,9 +3462,23 @@
        "id": 892,
        "name": "Drum",
        "nameEn": "Drum",
-       "drops": 15,
-       "total": 1091,
-       "pct": 1.37,
+       "drops": 21,
+       "total": 1810,
+       "pct": 1.16,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 21,
+       "total": 1810,
+       "pct": 1.16,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3392,83 +3490,13 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 19,
-       "total": 1416,
-       "pct": 1.34,
+       "drops": 24,
+       "total": 2311,
+       "pct": 1.04,
        "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 14,
-       "total": 1094,
-       "pct": 1.28,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 18,
-       "total": 1416,
-       "pct": 1.27,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 153,
-       "name": "大鳳",
-       "nameEn": "Taihou",
-       "drops": 11,
-       "total": 1094,
-       "pct": 1.01,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 13,
-       "total": 1416,
-       "pct": 0.92,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 581,
-       "name": "日進",
-       "nameEn": "Nisshin",
-       "drops": 10,
-       "total": 1094,
-       "pct": 0.91,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
         "b": false
        }
       },
@@ -3476,9 +3504,23 @@
        "id": 945,
        "name": "第百一号輸送艦",
        "nameEn": "No.101 Transport Ship",
-       "drops": 9,
-       "total": 1094,
-       "pct": 0.82,
+       "drops": 18,
+       "total": 1810,
+       "pct": 0.99,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 581,
+       "name": "日進",
+       "nameEn": "Nisshin",
+       "drops": 16,
+       "total": 1810,
+       "pct": 0.88,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3490,9 +3532,23 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 8,
-       "total": 1091,
-       "pct": 0.73,
+       "drops": 15,
+       "total": 1810,
+       "pct": 0.83,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 153,
+       "name": "大鳳",
+       "nameEn": "Taihou",
+       "drops": 15,
+       "total": 1810,
+       "pct": 0.83,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3504,23 +3560,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 6,
-       "total": 1094,
-       "pct": 0.55,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 602,
-       "name": "South Dakota",
-       "nameEn": "South Dakota",
-       "drops": 5,
-       "total": 1094,
-       "pct": 0.46,
+       "drops": 12,
+       "total": 1810,
+       "pct": 0.66,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3532,10 +3574,24 @@
        "id": 932,
        "name": "Indiana",
        "nameEn": "Indiana",
-       "drops": 4,
-       "total": 1094,
-       "pct": 0.37,
+       "drops": 6,
+       "total": 1810,
+       "pct": 0.33,
        "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 602,
+       "name": "South Dakota",
+       "nameEn": "South Dakota",
+       "drops": 6,
+       "total": 1810,
+       "pct": 0.33,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -3553,15 +3609,15 @@
       "63",
       "64"
      ],
-     "samples": 905,
+     "samples": 1645,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 29,
-       "total": 900,
-       "pct": 3.22,
+       "drops": 44,
+       "total": 1645,
+       "pct": 2.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3573,9 +3629,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 16,
-       "total": 900,
-       "pct": 1.78,
+       "drops": 27,
+       "total": 1609,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3587,9 +3643,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 14,
-       "total": 900,
-       "pct": 1.56,
+       "drops": 25,
+       "total": 1611,
+       "pct": 1.55,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3601,9 +3657,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 13,
-       "total": 905,
-       "pct": 1.44,
+       "drops": 21,
+       "total": 1645,
+       "pct": 1.28,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3615,9 +3671,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 12,
-       "total": 900,
-       "pct": 1.33,
+       "drops": 20,
+       "total": 1645,
+       "pct": 1.22,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3629,9 +3685,37 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 11,
-       "total": 900,
-       "pct": 1.22,
+       "drops": 18,
+       "total": 1645,
+       "pct": 1.09,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 16,
+       "total": 1611,
+       "pct": 0.99,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 16,
+       "total": 1611,
+       "pct": 0.99,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3643,65 +3727,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 9,
-       "total": 900,
-       "pct": 1.0,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 9,
-       "total": 900,
-       "pct": 1.0,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 8,
-       "total": 900,
-       "pct": 0.89,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 8,
-       "total": 900,
-       "pct": 0.89,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 153,
-       "name": "大鳳",
-       "nameEn": "Taihou",
-       "drops": 6,
-       "total": 900,
-       "pct": 0.67,
+       "drops": 15,
+       "total": 1611,
+       "pct": 0.93,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3713,9 +3741,37 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 4,
-       "total": 900,
-       "pct": 0.44,
+       "drops": 11,
+       "total": 1611,
+       "pct": 0.68,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 153,
+       "name": "大鳳",
+       "nameEn": "Taihou",
+       "drops": 11,
+       "total": 1645,
+       "pct": 0.67,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 10,
+       "total": 1611,
+       "pct": 0.62,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3727,9 +3783,9 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 3,
-       "total": 900,
-       "pct": 0.33,
+       "drops": 9,
+       "total": 1611,
+       "pct": 0.56,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3777,29 +3833,15 @@
      "edges": [
       "62"
      ],
-     "samples": 807,
+     "samples": 1462,
      "drops": [
-      {
-       "id": 932,
-       "name": "Indiana",
-       "nameEn": "Indiana",
-       "drops": 23,
-       "total": 807,
-       "pct": 2.85,
-       "rarity": null,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
       {
        "id": 80,
        "name": "長門",
        "nameEn": "Nagato",
-       "drops": 12,
-       "total": 444,
-       "pct": 2.7,
+       "drops": 27,
+       "total": 867,
+       "pct": 3.11,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3808,40 +3850,12 @@
        }
       },
       {
-       "id": 120,
-       "name": "三隈",
-       "nameEn": "Mikuma",
-       "drops": 21,
-       "total": 807,
-       "pct": 2.6,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 549,
-       "name": "Intrepid",
-       "nameEn": "Intrepid",
-       "drops": 19,
-       "total": 807,
-       "pct": 2.35,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 18,
-       "total": 807,
-       "pct": 2.23,
+       "drops": 34,
+       "total": 1462,
+       "pct": 2.33,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3850,13 +3864,13 @@
        }
       },
       {
-       "id": 565,
-       "name": "福江",
-       "nameEn": "Fukae",
-       "drops": 17,
-       "total": 807,
-       "pct": 2.11,
-       "rarity": 1,
+       "id": 932,
+       "name": "Indiana",
+       "nameEn": "Indiana",
+       "drops": 33,
+       "total": 1462,
+       "pct": 2.26,
+       "rarity": null,
        "ranks": {
         "s": true,
         "a": true,
@@ -3864,12 +3878,12 @@
        }
       },
       {
-       "id": 460,
-       "name": "速吸",
-       "nameEn": "Hayasui",
-       "drops": 17,
-       "total": 807,
-       "pct": 2.11,
+       "id": 120,
+       "name": "三隈",
+       "nameEn": "Mikuma",
+       "drops": 32,
+       "total": 1462,
+       "pct": 2.19,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -3881,79 +3895,9 @@
        "id": 966,
        "name": "Lexington",
        "nameEn": "Lexington",
-       "drops": 15,
-       "total": 807,
-       "pct": 1.86,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 494,
-       "name": "伊13",
-       "nameEn": "I-13",
-       "drops": 14,
-       "total": 807,
-       "pct": 1.73,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 524,
-       "name": "択捉",
-       "nameEn": "Etorofu",
-       "drops": 12,
-       "total": 807,
-       "pct": 1.49,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 433,
-       "name": "Saratoga",
-       "nameEn": "Saratoga",
-       "drops": 11,
-       "total": 807,
-       "pct": 1.36,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 495,
-       "name": "伊14",
-       "nameEn": "I-14",
-       "drops": 10,
-       "total": 807,
-       "pct": 1.24,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 1025,
-       "name": "Wasp",
-       "nameEn": "Wasp",
-       "drops": 10,
-       "total": 807,
-       "pct": 1.24,
+       "drops": 31,
+       "total": 1462,
+       "pct": 2.12,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3965,9 +3909,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 5,
-       "total": 444,
-       "pct": 1.13,
+       "drops": 18,
+       "total": 867,
+       "pct": 2.08,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3976,12 +3920,82 @@
        }
       },
       {
-       "id": 440,
-       "name": "Iowa",
-       "nameEn": "Iowa",
-       "drops": 9,
-       "total": 807,
-       "pct": 1.12,
+       "id": 565,
+       "name": "福江",
+       "nameEn": "Fukae",
+       "drops": 29,
+       "total": 1462,
+       "pct": 1.98,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 494,
+       "name": "伊13",
+       "nameEn": "I-13",
+       "drops": 25,
+       "total": 1462,
+       "pct": 1.71,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 495,
+       "name": "伊14",
+       "nameEn": "I-14",
+       "drops": 25,
+       "total": 1462,
+       "pct": 1.71,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 549,
+       "name": "Intrepid",
+       "nameEn": "Intrepid",
+       "drops": 25,
+       "total": 1462,
+       "pct": 1.71,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 460,
+       "name": "速吸",
+       "nameEn": "Hayasui",
+       "drops": 22,
+       "total": 1462,
+       "pct": 1.5,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 433,
+       "name": "Saratoga",
+       "nameEn": "Saratoga",
+       "drops": 22,
+       "total": 1462,
+       "pct": 1.5,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -3993,10 +4007,52 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 9,
-       "total": 807,
-       "pct": 1.12,
+       "drops": 22,
+       "total": 1462,
+       "pct": 1.5,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 524,
+       "name": "択捉",
+       "nameEn": "Etorofu",
+       "drops": 21,
+       "total": 1462,
+       "pct": 1.44,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 1025,
+       "name": "Wasp",
+       "nameEn": "Wasp",
+       "drops": 21,
+       "total": 1462,
+       "pct": 1.44,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 440,
+       "name": "Iowa",
+       "nameEn": "Iowa",
+       "drops": 17,
+       "total": 1462,
+       "pct": 1.16,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": true,
@@ -4007,9 +4063,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 7,
-       "total": 807,
-       "pct": 0.87,
+       "drops": 14,
+       "total": 1462,
+       "pct": 0.96,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4021,9 +4077,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 3,
-       "total": 444,
-       "pct": 0.68,
+       "drops": 7,
+       "total": 867,
+       "pct": 0.81,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4035,8 +4091,8 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 5,
-       "total": 807,
+       "drops": 9,
+       "total": 1462,
        "pct": 0.62,
        "rarity": 2,
        "ranks": {
@@ -4197,29 +4253,15 @@
      "edges": [
       "24"
      ],
-     "samples": 630,
+     "samples": 909,
      "drops": [
       {
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 14,
-       "total": 630,
-       "pct": 2.22,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 13,
-       "total": 630,
-       "pct": 2.06,
+       "drops": 19,
+       "total": 909,
+       "pct": 2.09,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4231,9 +4273,23 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 12,
-       "total": 629,
-       "pct": 1.91,
+       "drops": 18,
+       "total": 909,
+       "pct": 1.98,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 18,
+       "total": 909,
+       "pct": 1.98,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4245,9 +4301,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 11,
-       "total": 630,
-       "pct": 1.75,
+       "drops": 14,
+       "total": 909,
+       "pct": 1.54,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4259,9 +4315,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 7,
-       "total": 630,
-       "pct": 1.11,
+       "drops": 12,
+       "total": 909,
+       "pct": 1.32,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4273,9 +4329,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 7,
-       "total": 630,
-       "pct": 1.11,
+       "drops": 11,
+       "total": 909,
+       "pct": 1.21,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4314,15 +4370,29 @@
       "34",
       "35"
      ],
-     "samples": 554,
+     "samples": 799,
      "drops": [
+      {
+       "id": 483,
+       "name": "伊26",
+       "nameEn": "I-26",
+       "drops": 18,
+       "total": 799,
+       "pct": 2.25,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
       {
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 13,
-       "total": 536,
-       "pct": 2.43,
+       "drops": 17,
+       "total": 777,
+       "pct": 2.19,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4334,51 +4404,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 13,
-       "total": 536,
-       "pct": 2.43,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 483,
-       "name": "伊26",
-       "nameEn": "I-26",
-       "drops": 9,
-       "total": 381,
-       "pct": 2.36,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 10,
-       "total": 536,
-       "pct": 1.87,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 10,
-       "total": 536,
-       "pct": 1.87,
+       "drops": 16,
+       "total": 777,
+       "pct": 2.06,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4390,9 +4418,9 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 9,
-       "total": 536,
-       "pct": 1.68,
+       "drops": 13,
+       "total": 777,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4401,12 +4429,12 @@
        }
       },
       {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 7,
-       "total": 536,
-       "pct": 1.31,
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 13,
+       "total": 777,
+       "pct": 1.67,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4418,10 +4446,52 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 7,
-       "total": 554,
-       "pct": 1.26,
+       "drops": 12,
+       "total": 799,
+       "pct": 1.5,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 11,
+       "total": 777,
+       "pct": 1.42,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 11,
+       "total": 777,
+       "pct": 1.42,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 10,
+       "total": 777,
+       "pct": 1.29,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -4433,21 +4503,7 @@
        "name": "大鳳",
        "nameEn": "Taihou",
        "drops": 2,
-       "total": 173,
-       "pct": 1.16,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 5,
-       "total": 536,
+       "total": 216,
        "pct": 0.93,
        "rarity": 2,
        "ranks": {
@@ -4460,9 +4516,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 4,
-       "total": 536,
-       "pct": 0.75,
+       "drops": 6,
+       "total": 777,
+       "pct": 0.77,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4474,9 +4530,23 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 4,
-       "total": 536,
-       "pct": 0.75,
+       "drops": 5,
+       "total": 777,
+       "pct": 0.64,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 1,
+       "total": 216,
+       "pct": 0.46,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4525,15 +4595,15 @@
      "edges": [
       "32"
      ],
-     "samples": 493,
+     "samples": 705,
      "drops": [
       {
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 6,
-       "total": 290,
-       "pct": 2.07,
+       "drops": 8,
+       "total": 393,
+       "pct": 2.04,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4542,26 +4612,12 @@
        }
       },
       {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 5,
-       "total": 290,
-       "pct": 1.72,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 892,
-       "name": "Drum",
-       "nameEn": "Drum",
-       "drops": 4,
-       "total": 290,
-       "pct": 1.38,
+       "id": 153,
+       "name": "大鳳",
+       "nameEn": "Taihou",
+       "drops": 8,
+       "total": 393,
+       "pct": 2.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4573,9 +4629,65 @@
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
+       "drops": 6,
+       "total": 393,
+       "pct": 1.53,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 5,
+       "total": 393,
+       "pct": 1.27,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 5,
+       "total": 393,
+       "pct": 1.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 892,
+       "name": "Drum",
+       "nameEn": "Drum",
        "drops": 4,
-       "total": 290,
-       "pct": 1.38,
+       "total": 393,
+       "pct": 1.02,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 4,
+       "total": 393,
+       "pct": 1.02,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4588,9 +4700,37 @@
        "name": "江風",
        "nameEn": "Kawakaze",
        "drops": 4,
-       "total": 290,
-       "pct": 1.38,
+       "total": 393,
+       "pct": 1.02,
        "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 945,
+       "name": "第百一号輸送艦",
+       "nameEn": "No.101 Transport Ship",
+       "drops": 4,
+       "total": 393,
+       "pct": 1.02,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 964,
+       "name": "白雲",
+       "nameEn": "Shirakumo",
+       "drops": 4,
+       "total": 393,
+       "pct": 1.02,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -4602,8 +4742,8 @@
        "name": "浦波",
        "nameEn": "Uranami",
        "drops": 4,
-       "total": 290,
-       "pct": 1.38,
+       "total": 393,
+       "pct": 1.02,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4615,41 +4755,13 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 6,
-       "total": 493,
-       "pct": 1.22,
+       "drops": 7,
+       "total": 705,
+       "pct": 0.99,
        "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 964,
-       "name": "白雲",
-       "nameEn": "Shirakumo",
-       "drops": 3,
-       "total": 290,
-       "pct": 1.03,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 153,
-       "name": "大鳳",
-       "nameEn": "Taihou",
-       "drops": 3,
-       "total": 290,
-       "pct": 1.03,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
         "b": false
        }
       },
@@ -4657,27 +4769,13 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 4,
-       "total": 493,
-       "pct": 0.81,
+       "drops": 6,
+       "total": 705,
+       "pct": 0.85,
        "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 2,
-       "total": 290,
-       "pct": 0.69,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
         "b": false
        }
       },
@@ -4686,8 +4784,8 @@
        "name": "伊401",
        "nameEn": "I-401",
        "drops": 2,
-       "total": 290,
-       "pct": 0.69,
+       "total": 393,
+       "pct": 0.51,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4700,8 +4798,8 @@
        "name": "Langley",
        "nameEn": "Langley",
        "drops": 2,
-       "total": 290,
-       "pct": 0.69,
+       "total": 393,
+       "pct": 0.51,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4714,36 +4812,8 @@
        "name": "South Dakota",
        "nameEn": "South Dakota",
        "drops": 2,
-       "total": 290,
-       "pct": 0.69,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 2,
-       "total": 290,
-       "pct": 0.69,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 945,
-       "name": "第百一号輸送艦",
-       "nameEn": "No.101 Transport Ship",
-       "drops": 1,
-       "total": 290,
-       "pct": 0.34,
+       "total": 393,
+       "pct": 0.51,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4756,8 +4826,8 @@
        "name": "海風",
        "nameEn": "Umikaze",
        "drops": 1,
-       "total": 290,
-       "pct": 0.34,
+       "total": 393,
+       "pct": 0.25,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4774,15 +4844,29 @@
      "edges": [
       "39"
      ],
-     "samples": 304,
+     "samples": 383,
      "drops": [
+      {
+       "id": 483,
+       "name": "伊26",
+       "nameEn": "I-26",
+       "drops": 10,
+       "total": 383,
+       "pct": 2.61,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
       {
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 8,
-       "total": 304,
-       "pct": 2.63,
+       "drops": 9,
+       "total": 383,
+       "pct": 2.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4791,12 +4875,12 @@
        }
       },
       {
-       "id": 483,
-       "name": "伊26",
-       "nameEn": "I-26",
-       "drops": 7,
-       "total": 304,
-       "pct": 2.3,
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 6,
+       "total": 383,
+       "pct": 1.57,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4809,8 +4893,22 @@
        "name": "Langley",
        "nameEn": "Langley",
        "drops": 6,
-       "total": 304,
-       "pct": 1.97,
+       "total": 383,
+       "pct": 1.57,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 964,
+       "name": "白雲",
+       "nameEn": "Shirakumo",
+       "drops": 6,
+       "total": 383,
+       "pct": 1.57,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4823,8 +4921,8 @@
        "name": "大鳳",
        "nameEn": "Taihou",
        "drops": 6,
-       "total": 304,
-       "pct": 1.97,
+       "total": 383,
+       "pct": 1.57,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4833,27 +4931,13 @@
        }
       },
       {
-       "id": 964,
-       "name": "白雲",
-       "nameEn": "Shirakumo",
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
        "drops": 5,
-       "total": 304,
-       "pct": 1.64,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 4,
-       "total": 304,
-       "pct": 1.32,
-       "rarity": 2,
+       "total": 383,
+       "pct": 1.31,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -4865,8 +4949,8 @@
        "name": "伊401",
        "nameEn": "I-401",
        "drops": 4,
-       "total": 304,
-       "pct": 1.32,
+       "total": 383,
+       "pct": 1.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4879,8 +4963,8 @@
        "name": "大淀",
        "nameEn": "Ooyodo",
        "drops": 4,
-       "total": 304,
-       "pct": 1.32,
+       "total": 383,
+       "pct": 1.04,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4893,8 +4977,8 @@
        "name": "South Dakota",
        "nameEn": "South Dakota",
        "drops": 4,
-       "total": 304,
-       "pct": 1.32,
+       "total": 383,
+       "pct": 1.04,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -4903,12 +4987,12 @@
        }
       },
       {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 3,
-       "total": 304,
-       "pct": 0.99,
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 4,
+       "total": 383,
+       "pct": 1.04,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4921,9 +5005,23 @@
        "name": "平安丸",
        "nameEn": "Heian Maru",
        "drops": 3,
-       "total": 304,
-       "pct": 0.99,
+       "total": 383,
+       "pct": 0.78,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 3,
+       "total": 383,
+       "pct": 0.78,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -4935,22 +5033,8 @@
        "name": "狭霧",
        "nameEn": "Sagiri",
        "drops": 3,
-       "total": 304,
-       "pct": 0.99,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 3,
-       "total": 304,
-       "pct": 0.99,
+       "total": 383,
+       "pct": 0.78,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -4962,23 +5046,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 2,
-       "total": 304,
-       "pct": 0.66,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 1,
-       "total": 304,
-       "pct": 0.33,
+       "drops": 3,
+       "total": 383,
+       "pct": 0.78,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5028,15 +5098,15 @@
       "48",
       "52"
      ],
-     "samples": 626,
+     "samples": 817,
      "drops": [
       {
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 10,
-       "total": 626,
-       "pct": 1.6,
+       "drops": 12,
+       "total": 817,
+       "pct": 1.47,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5048,9 +5118,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 8,
-       "total": 626,
-       "pct": 1.28,
+       "drops": 9,
+       "total": 817,
+       "pct": 1.1,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5063,8 +5133,8 @@
        "name": "江風",
        "nameEn": "Kawakaze",
        "drops": 1,
-       "total": 544,
-       "pct": 0.18,
+       "total": 712,
+       "pct": 0.14,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5081,15 +5151,15 @@
      "edges": [
       "49"
      ],
-     "samples": 48,
+     "samples": 53,
      "drops": [
       {
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
        "drops": 1,
-       "total": 48,
-       "pct": 2.08,
+       "total": 53,
+       "pct": 1.89,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5102,8 +5172,8 @@
        "name": "伊401",
        "nameEn": "I-401",
        "drops": 1,
-       "total": 48,
-       "pct": 2.08,
+       "total": 53,
+       "pct": 1.89,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5116,8 +5186,8 @@
        "name": "狭霧",
        "nameEn": "Sagiri",
        "drops": 1,
-       "total": 48,
-       "pct": 2.08,
+       "total": 53,
+       "pct": 1.89,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5130,8 +5200,8 @@
        "name": "浦波",
        "nameEn": "Uranami",
        "drops": 1,
-       "total": 48,
-       "pct": 2.08,
+       "total": 53,
+       "pct": 1.89,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5149,15 +5219,15 @@
       "50",
       "53"
      ],
-     "samples": 783,
+     "samples": 1032,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 20,
-       "total": 471,
-       "pct": 4.25,
+       "drops": 24,
+       "total": 600,
+       "pct": 4.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5166,26 +5236,12 @@
        }
       },
       {
-       "id": 892,
-       "name": "Drum",
-       "nameEn": "Drum",
-       "drops": 9,
-       "total": 471,
-       "pct": 1.91,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 9,
-       "total": 471,
-       "pct": 1.91,
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 12,
+       "total": 600,
+       "pct": 2.0,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5197,9 +5253,9 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 9,
-       "total": 471,
-       "pct": 1.91,
+       "drops": 12,
+       "total": 600,
+       "pct": 2.0,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5208,12 +5264,12 @@
        }
       },
       {
-       "id": 945,
-       "name": "第百一号輸送艦",
-       "nameEn": "No.101 Transport Ship",
-       "drops": 8,
-       "total": 471,
-       "pct": 1.7,
+       "id": 892,
+       "name": "Drum",
+       "nameEn": "Drum",
+       "drops": 10,
+       "total": 600,
+       "pct": 1.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5222,12 +5278,12 @@
        }
       },
       {
-       "id": 155,
-       "name": "伊401",
-       "nameEn": "I-401",
-       "drops": 7,
-       "total": 471,
-       "pct": 1.49,
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 10,
+       "total": 600,
+       "pct": 1.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5239,9 +5295,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 11,
-       "total": 764,
-       "pct": 1.44,
+       "drops": 16,
+       "total": 1012,
+       "pct": 1.58,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5253,9 +5309,9 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 10,
-       "total": 738,
-       "pct": 1.36,
+       "drops": 15,
+       "total": 986,
+       "pct": 1.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5264,12 +5320,26 @@
        }
       },
       {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 6,
-       "total": 471,
-       "pct": 1.27,
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 9,
+       "total": 600,
+       "pct": 1.5,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 945,
+       "name": "第百一号輸送艦",
+       "nameEn": "No.101 Transport Ship",
+       "drops": 9,
+       "total": 600,
+       "pct": 1.5,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5281,9 +5351,9 @@
        "id": 581,
        "name": "日進",
        "nameEn": "Nisshin",
-       "drops": 6,
-       "total": 497,
-       "pct": 1.21,
+       "drops": 9,
+       "total": 626,
+       "pct": 1.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5295,9 +5365,23 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 6,
-       "total": 497,
-       "pct": 1.21,
+       "drops": 9,
+       "total": 626,
+       "pct": 1.44,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 8,
+       "total": 600,
+       "pct": 1.33,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5309,9 +5393,37 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 8,
-       "total": 738,
-       "pct": 1.08,
+       "drops": 10,
+       "total": 986,
+       "pct": 1.01,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 602,
+       "name": "South Dakota",
+       "nameEn": "South Dakota",
+       "drops": 6,
+       "total": 600,
+       "pct": 1.0,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 10,
+       "total": 1032,
+       "pct": 0.97,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5324,8 +5436,8 @@
        "name": "時津風",
        "nameEn": "Tokitsukaze",
        "drops": 5,
-       "total": 471,
-       "pct": 1.06,
+       "total": 600,
+       "pct": 0.83,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5338,37 +5450,9 @@
        "name": "浦波",
        "nameEn": "Uranami",
        "drops": 5,
-       "total": 471,
-       "pct": 1.06,
+       "total": 600,
+       "pct": 0.83,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 7,
-       "total": 783,
-       "pct": 0.89,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 4,
-       "total": 471,
-       "pct": 0.85,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -5380,22 +5464,8 @@
        "name": "白雲",
        "nameEn": "Shirakumo",
        "drops": 4,
-       "total": 471,
-       "pct": 0.85,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 602,
-       "name": "South Dakota",
-       "nameEn": "South Dakota",
-       "drops": 4,
-       "total": 471,
-       "pct": 0.85,
+       "total": 600,
+       "pct": 0.67,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5414,15 +5484,29 @@
       "63",
       "64"
      ],
-     "samples": 657,
+     "samples": 987,
      "drops": [
       {
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 21,
-       "total": 655,
-       "pct": 3.21,
+       "drops": 25,
+       "total": 986,
+       "pct": 2.54,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 22,
+       "total": 968,
+       "pct": 2.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5434,9 +5518,9 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 19,
-       "total": 638,
-       "pct": 2.98,
+       "drops": 20,
+       "total": 968,
+       "pct": 2.07,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5448,24 +5532,10 @@
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 12,
-       "total": 636,
-       "pct": 1.89,
+       "drops": 17,
+       "total": 968,
+       "pct": 1.76,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 12,
-       "total": 638,
-       "pct": 1.88,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -5476,23 +5546,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 11,
-       "total": 657,
-       "pct": 1.67,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 10,
-       "total": 638,
-       "pct": 1.57,
+       "drops": 17,
+       "total": 987,
+       "pct": 1.72,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5504,9 +5560,23 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 9,
-       "total": 638,
-       "pct": 1.41,
+       "drops": 14,
+       "total": 968,
+       "pct": 1.45,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 13,
+       "total": 968,
+       "pct": 1.34,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5518,37 +5588,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 6,
-       "total": 657,
-       "pct": 0.91,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 4,
-       "total": 638,
-       "pct": 0.63,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 3,
-       "total": 636,
-       "pct": 0.47,
+       "drops": 11,
+       "total": 987,
+       "pct": 1.11,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5560,9 +5602,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 3,
-       "total": 638,
-       "pct": 0.47,
+       "drops": 7,
+       "total": 968,
+       "pct": 0.72,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5574,9 +5616,37 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 3,
-       "total": 657,
-       "pct": 0.46,
+       "drops": 6,
+       "total": 987,
+       "pct": 0.61,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 5,
+       "total": 968,
+       "pct": 0.52,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 4,
+       "total": 968,
+       "pct": 0.41,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5624,29 +5694,15 @@
      "edges": [
       "62"
      ],
-     "samples": 607,
+     "samples": 921,
      "drops": [
-      {
-       "id": 524,
-       "name": "択捉",
-       "nameEn": "Etorofu",
-       "drops": 21,
-       "total": 607,
-       "pct": 3.46,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
       {
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 11,
-       "total": 364,
-       "pct": 3.02,
+       "drops": 18,
+       "total": 562,
+       "pct": 3.2,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5655,12 +5711,12 @@
        }
       },
       {
-       "id": 565,
-       "name": "福江",
-       "nameEn": "Fukae",
-       "drops": 18,
-       "total": 607,
-       "pct": 2.97,
+       "id": 524,
+       "name": "択捉",
+       "nameEn": "Etorofu",
+       "drops": 27,
+       "total": 921,
+       "pct": 2.93,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5672,10 +5728,24 @@
        "id": 932,
        "name": "Indiana",
        "nameEn": "Indiana",
-       "drops": 18,
-       "total": 607,
-       "pct": 2.97,
+       "drops": 27,
+       "total": 921,
+       "pct": 2.93,
        "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 565,
+       "name": "福江",
+       "nameEn": "Fukae",
+       "drops": 25,
+       "total": 921,
+       "pct": 2.71,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
@@ -5686,9 +5756,9 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 15,
-       "total": 607,
-       "pct": 2.47,
+       "drops": 23,
+       "total": 921,
+       "pct": 2.5,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -5700,52 +5770,10 @@
        "id": 495,
        "name": "伊14",
        "nameEn": "I-14",
-       "drops": 13,
-       "total": 607,
-       "pct": 2.14,
+       "drops": 22,
+       "total": 921,
+       "pct": 2.39,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 460,
-       "name": "速吸",
-       "nameEn": "Hayasui",
-       "drops": 12,
-       "total": 607,
-       "pct": 1.98,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 964,
-       "name": "白雲",
-       "nameEn": "Shirakumo",
-       "drops": 7,
-       "total": 364,
-       "pct": 1.92,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 11,
-       "total": 607,
-       "pct": 1.81,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
@@ -5756,9 +5784,51 @@
        "id": 440,
        "name": "Iowa",
        "nameEn": "Iowa",
-       "drops": 6,
-       "total": 364,
-       "pct": 1.65,
+       "drops": 11,
+       "total": 562,
+       "pct": 1.96,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 460,
+       "name": "速吸",
+       "nameEn": "Hayasui",
+       "drops": 18,
+       "total": 921,
+       "pct": 1.95,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 494,
+       "name": "伊13",
+       "nameEn": "I-13",
+       "drops": 18,
+       "total": 921,
+       "pct": 1.95,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 964,
+       "name": "白雲",
+       "nameEn": "Shirakumo",
+       "drops": 10,
+       "total": 562,
+       "pct": 1.78,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5770,9 +5840,9 @@
        "id": 966,
        "name": "Lexington",
        "nameEn": "Lexington",
-       "drops": 9,
-       "total": 607,
-       "pct": 1.48,
+       "drops": 16,
+       "total": 921,
+       "pct": 1.74,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5781,16 +5851,30 @@
        }
       },
       {
-       "id": 494,
-       "name": "伊13",
-       "nameEn": "I-13",
-       "drops": 8,
-       "total": 607,
-       "pct": 1.32,
-       "rarity": 2,
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 15,
+       "total": 921,
+       "pct": 1.63,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 80,
+       "name": "長門",
+       "nameEn": "Nagato",
+       "drops": 9,
+       "total": 562,
+       "pct": 1.6,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
         "b": false
        }
       },
@@ -5798,37 +5882,9 @@
        "id": 549,
        "name": "Intrepid",
        "nameEn": "Intrepid",
-       "drops": 8,
-       "total": 607,
-       "pct": 1.32,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 1025,
-       "name": "Wasp",
-       "nameEn": "Wasp",
-       "drops": 8,
-       "total": 607,
-       "pct": 1.32,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 925,
-       "name": "Langley",
-       "nameEn": "Langley",
-       "drops": 7,
-       "total": 607,
-       "pct": 1.15,
+       "drops": 12,
+       "total": 921,
+       "pct": 1.3,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5840,9 +5896,9 @@
        "id": 433,
        "name": "Saratoga",
        "nameEn": "Saratoga",
-       "drops": 7,
-       "total": 607,
-       "pct": 1.15,
+       "drops": 11,
+       "total": 921,
+       "pct": 1.19,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5851,16 +5907,30 @@
        }
       },
       {
-       "id": 80,
-       "name": "長門",
-       "nameEn": "Nagato",
-       "drops": 3,
-       "total": 364,
-       "pct": 0.82,
-       "rarity": 1,
+       "id": 1025,
+       "name": "Wasp",
+       "nameEn": "Wasp",
+       "drops": 10,
+       "total": 921,
+       "pct": 1.09,
+       "rarity": 2,
        "ranks": {
         "s": true,
-        "a": false,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 925,
+       "name": "Langley",
+       "nameEn": "Langley",
+       "drops": 9,
+       "total": 921,
+       "pct": 0.98,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
         "b": false
        }
       },
@@ -5868,9 +5938,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 3,
-       "total": 364,
-       "pct": 0.82,
+       "drops": 5,
+       "total": 562,
+       "pct": 0.89,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -5882,9 +5952,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 3,
-       "total": 607,
-       "pct": 0.49,
+       "drops": 4,
+       "total": 921,
+       "pct": 0.43,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6044,29 +6114,15 @@
      "edges": [
       "24"
      ],
-     "samples": 814,
+     "samples": 1119,
      "drops": [
       {
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 15,
-       "total": 814,
-       "pct": 1.84,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 13,
-       "total": 813,
-       "pct": 1.6,
+       "drops": 19,
+       "total": 1119,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6078,9 +6134,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 13,
-       "total": 814,
-       "pct": 1.6,
+       "drops": 19,
+       "total": 1119,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6092,9 +6148,23 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 12,
-       "total": 814,
-       "pct": 1.47,
+       "drops": 17,
+       "total": 1119,
+       "pct": 1.52,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 15,
+       "total": 1119,
+       "pct": 1.34,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6106,9 +6176,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 2,
-       "total": 814,
-       "pct": 0.25,
+       "drops": 6,
+       "total": 1119,
+       "pct": 0.54,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6147,15 +6217,15 @@
       "34",
       "35"
      ],
-     "samples": 777,
+     "samples": 1067,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 19,
-       "total": 776,
-       "pct": 2.45,
+       "drops": 26,
+       "total": 1067,
+       "pct": 2.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6167,23 +6237,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 17,
-       "total": 755,
-       "pct": 2.25,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 13,
-       "total": 755,
-       "pct": 1.72,
+       "drops": 20,
+       "total": 1045,
+       "pct": 1.91,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6195,9 +6251,23 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 12,
-       "total": 754,
-       "pct": 1.59,
+       "drops": 19,
+       "total": 1045,
+       "pct": 1.82,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 17,
+       "total": 1045,
+       "pct": 1.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6209,23 +6279,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 12,
-       "total": 755,
-       "pct": 1.59,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 11,
-       "total": 777,
-       "pct": 1.42,
+       "drops": 17,
+       "total": 1045,
+       "pct": 1.63,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6237,9 +6293,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 11,
-       "total": 777,
-       "pct": 1.42,
+       "drops": 16,
+       "total": 1067,
+       "pct": 1.5,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6248,13 +6304,13 @@
        }
       },
       {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 9,
-       "total": 754,
-       "pct": 1.19,
-       "rarity": 2,
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 14,
+       "total": 1067,
+       "pct": 1.31,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6265,9 +6321,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 9,
-       "total": 755,
-       "pct": 1.19,
+       "drops": 13,
+       "total": 1045,
+       "pct": 1.24,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6279,9 +6335,23 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 7,
-       "total": 755,
-       "pct": 0.93,
+       "drops": 10,
+       "total": 1045,
+       "pct": 0.96,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 9,
+       "total": 1045,
+       "pct": 0.86,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6293,9 +6363,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 6,
-       "total": 755,
-       "pct": 0.79,
+       "drops": 9,
+       "total": 1045,
+       "pct": 0.86,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6344,15 +6414,29 @@
      "edges": [
       "32"
      ],
-     "samples": 702,
+     "samples": 959,
      "drops": [
       {
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 21,
-       "total": 702,
-       "pct": 2.99,
+       "drops": 25,
+       "total": 959,
+       "pct": 2.61,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 20,
+       "total": 959,
+       "pct": 2.09,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6364,9 +6448,9 @@
        "id": 183,
        "name": "大淀",
        "nameEn": "Ooyodo",
-       "drops": 12,
-       "total": 702,
-       "pct": 1.71,
+       "drops": 18,
+       "total": 959,
+       "pct": 1.88,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6378,65 +6462,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 11,
-       "total": 702,
-       "pct": 1.57,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 11,
-       "total": 702,
-       "pct": 1.57,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 9,
-       "total": 701,
-       "pct": 1.28,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 155,
-       "name": "伊401",
-       "nameEn": "I-401",
-       "drops": 9,
-       "total": 702,
-       "pct": 1.28,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 9,
-       "total": 702,
-       "pct": 1.28,
+       "drops": 15,
+       "total": 959,
+       "pct": 1.56,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6448,9 +6476,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 9,
-       "total": 702,
-       "pct": 1.28,
+       "drops": 15,
+       "total": 959,
+       "pct": 1.56,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6459,13 +6487,13 @@
        }
       },
       {
-       "id": 964,
-       "name": "白雲",
-       "nameEn": "Shirakumo",
-       "drops": 8,
-       "total": 702,
-       "pct": 1.14,
-       "rarity": 2,
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 13,
+       "total": 959,
+       "pct": 1.36,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6473,12 +6501,12 @@
        }
       },
       {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 8,
-       "total": 702,
-       "pct": 1.14,
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 13,
+       "total": 959,
+       "pct": 1.36,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6490,9 +6518,65 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 7,
-       "total": 701,
-       "pct": 1.0,
+       "drops": 12,
+       "total": 959,
+       "pct": 1.25,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 12,
+       "total": 959,
+       "pct": 1.25,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 11,
+       "total": 959,
+       "pct": 1.15,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 493,
+       "name": "伊400",
+       "nameEn": "I-400",
+       "drops": 11,
+       "total": 959,
+       "pct": 1.15,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 964,
+       "name": "白雲",
+       "nameEn": "Shirakumo",
+       "drops": 11,
+       "total": 959,
+       "pct": 1.15,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6504,23 +6588,9 @@
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 7,
-       "total": 701,
-       "pct": 1.0,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 493,
-       "name": "伊400",
-       "nameEn": "I-400",
-       "drops": 5,
-       "total": 702,
-       "pct": 0.71,
+       "drops": 9,
+       "total": 959,
+       "pct": 0.94,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6532,9 +6602,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 4,
-       "total": 702,
-       "pct": 0.57,
+       "drops": 7,
+       "total": 959,
+       "pct": 0.73,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6546,9 +6616,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 4,
-       "total": 702,
-       "pct": 0.57,
+       "drops": 6,
+       "total": 959,
+       "pct": 0.63,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6565,15 +6635,15 @@
      "edges": [
       "39"
      ],
-     "samples": 876,
+     "samples": 1185,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 19,
-       "total": 876,
-       "pct": 2.17,
+       "drops": 24,
+       "total": 1185,
+       "pct": 2.03,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6585,8 +6655,8 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 17,
-       "total": 876,
+       "drops": 23,
+       "total": 1185,
        "pct": 1.94,
        "rarity": 1,
        "ranks": {
@@ -6599,9 +6669,9 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 16,
-       "total": 876,
-       "pct": 1.83,
+       "drops": 20,
+       "total": 1185,
+       "pct": 1.69,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6610,12 +6680,12 @@
        }
       },
       {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 12,
-       "total": 876,
-       "pct": 1.37,
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 18,
+       "total": 1185,
+       "pct": 1.52,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6627,10 +6697,24 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 12,
-       "total": 876,
-       "pct": 1.37,
+       "drops": 16,
+       "total": 1185,
+       "pct": 1.35,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 15,
+       "total": 1184,
+       "pct": 1.27,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -6641,51 +6725,9 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 12,
-       "total": 876,
-       "pct": 1.37,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 12,
-       "total": 876,
-       "pct": 1.37,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 11,
-       "total": 876,
-       "pct": 1.26,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 9,
-       "total": 876,
-       "pct": 1.03,
+       "drops": 15,
+       "total": 1185,
+       "pct": 1.27,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6697,9 +6739,37 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 9,
-       "total": 876,
-       "pct": 1.03,
+       "drops": 15,
+       "total": 1185,
+       "pct": 1.27,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 14,
+       "total": 1185,
+       "pct": 1.18,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 14,
+       "total": 1185,
+       "pct": 1.18,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6711,9 +6781,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 8,
-       "total": 876,
-       "pct": 0.91,
+       "drops": 12,
+       "total": 1185,
+       "pct": 1.01,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6725,9 +6795,9 @@
        "id": 153,
        "name": "大鳳",
        "nameEn": "Taihou",
-       "drops": 7,
-       "total": 876,
-       "pct": 0.8,
+       "drops": 9,
+       "total": 1185,
+       "pct": 0.76,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6739,9 +6809,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 5,
-       "total": 876,
-       "pct": 0.57,
+       "drops": 8,
+       "total": 1185,
+       "pct": 0.68,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6753,9 +6823,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 4,
-       "total": 876,
-       "pct": 0.46,
+       "drops": 5,
+       "total": 1185,
+       "pct": 0.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6805,15 +6875,15 @@
       "48",
       "52"
      ],
-     "samples": 2815,
+     "samples": 3944,
      "drops": [
       {
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 46,
-       "total": 2815,
-       "pct": 1.63,
+       "drops": 53,
+       "total": 3942,
+       "pct": 1.34,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6825,9 +6895,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 34,
-       "total": 2815,
-       "pct": 1.21,
+       "drops": 50,
+       "total": 3944,
+       "pct": 1.27,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6844,15 +6914,29 @@
      "edges": [
       "49"
      ],
-     "samples": 35,
+     "samples": 47,
      "drops": [
       {
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
        "drops": 1,
-       "total": 35,
-       "pct": 2.86,
+       "total": 47,
+       "pct": 2.13,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 1,
+       "total": 47,
+       "pct": 2.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6865,8 +6949,8 @@
        "name": "浦波",
        "nameEn": "Uranami",
        "drops": 1,
-       "total": 35,
-       "pct": 2.86,
+       "total": 47,
+       "pct": 2.13,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6884,15 +6968,15 @@
       "50",
       "53"
      ],
-     "samples": 3396,
+     "samples": 4844,
      "drops": [
       {
        "id": 483,
        "name": "伊26",
        "nameEn": "I-26",
-       "drops": 92,
-       "total": 2981,
-       "pct": 3.09,
+       "drops": 129,
+       "total": 4167,
+       "pct": 3.1,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6904,9 +6988,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 60,
-       "total": 2981,
-       "pct": 2.01,
+       "drops": 90,
+       "total": 4167,
+       "pct": 2.16,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -6918,38 +7002,10 @@
        "id": 459,
        "name": "江風",
        "nameEn": "Kawakaze",
-       "drops": 46,
-       "total": 2981,
-       "pct": 1.54,
+       "drops": 70,
+       "total": 4167,
+       "pct": 1.68,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 479,
-       "name": "天霧",
-       "nameEn": "Amagiri",
-       "drops": 52,
-       "total": 3396,
-       "pct": 1.53,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 153,
-       "name": "大鳳",
-       "nameEn": "Taihou",
-       "drops": 45,
-       "total": 2981,
-       "pct": 1.51,
-       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -6960,9 +7016,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 43,
-       "total": 2839,
-       "pct": 1.51,
+       "drops": 60,
+       "total": 3996,
+       "pct": 1.5,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6974,9 +7030,9 @@
        "id": 480,
        "name": "狭霧",
        "nameEn": "Sagiri",
-       "drops": 50,
-       "total": 3396,
-       "pct": 1.47,
+       "drops": 72,
+       "total": 4844,
+       "pct": 1.49,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -6985,40 +7041,12 @@
        }
       },
       {
-       "id": 486,
-       "name": "浦波",
-       "nameEn": "Uranami",
-       "drops": 43,
-       "total": 2981,
-       "pct": 1.44,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 38,
-       "total": 2839,
-       "pct": 1.34,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 39,
-       "total": 2981,
-       "pct": 1.31,
+       "drops": 60,
+       "total": 4167,
+       "pct": 1.44,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7030,9 +7058,9 @@
        "id": 458,
        "name": "海風",
        "nameEn": "Umikaze",
-       "drops": 38,
-       "total": 2981,
-       "pct": 1.27,
+       "drops": 58,
+       "total": 4167,
+       "pct": 1.39,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7041,13 +7069,55 @@
        }
       },
       {
-       "id": 155,
-       "name": "伊401",
-       "nameEn": "I-401",
-       "drops": 37,
-       "total": 2981,
-       "pct": 1.24,
+       "id": 479,
+       "name": "天霧",
+       "nameEn": "Amagiri",
+       "drops": 67,
+       "total": 4843,
+       "pct": 1.38,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 56,
+       "total": 4167,
+       "pct": 1.34,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 153,
+       "name": "大鳳",
+       "nameEn": "Taihou",
+       "drops": 54,
+       "total": 4167,
+       "pct": 1.3,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 486,
+       "name": "浦波",
+       "nameEn": "Uranami",
+       "drops": 53,
+       "total": 4167,
+       "pct": 1.27,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -7058,9 +7128,9 @@
        "id": 892,
        "name": "Drum",
        "nameEn": "Drum",
-       "drops": 34,
-       "total": 2981,
-       "pct": 1.14,
+       "drops": 50,
+       "total": 4167,
+       "pct": 1.2,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7069,12 +7139,12 @@
        }
       },
       {
-       "id": 945,
-       "name": "第百一号輸送艦",
-       "nameEn": "No.101 Transport Ship",
-       "drops": 33,
-       "total": 2981,
-       "pct": 1.11,
+       "id": 155,
+       "name": "伊401",
+       "nameEn": "I-401",
+       "drops": 47,
+       "total": 4167,
+       "pct": 1.13,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7086,9 +7156,9 @@
        "id": 581,
        "name": "日進",
        "nameEn": "Nisshin",
-       "drops": 30,
-       "total": 2981,
-       "pct": 1.01,
+       "drops": 45,
+       "total": 4167,
+       "pct": 1.08,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7097,12 +7167,12 @@
        }
       },
       {
-       "id": 944,
-       "name": "平安丸",
-       "nameEn": "Heian Maru",
-       "drops": 20,
-       "total": 2981,
-       "pct": 0.67,
+       "id": 945,
+       "name": "第百一号輸送艦",
+       "nameEn": "No.101 Transport Ship",
+       "drops": 42,
+       "total": 4167,
+       "pct": 1.01,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7114,9 +7184,23 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 18,
-       "total": 2839,
-       "pct": 0.63,
+       "drops": 27,
+       "total": 4167,
+       "pct": 0.65,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 944,
+       "name": "平安丸",
+       "nameEn": "Heian Maru",
+       "drops": 25,
+       "total": 4167,
+       "pct": 0.6,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7128,9 +7212,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 18,
-       "total": 2981,
-       "pct": 0.6,
+       "drops": 24,
+       "total": 4167,
+       "pct": 0.58,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7149,16 +7233,16 @@
       "63",
       "64"
      ],
-     "samples": 2202,
+     "samples": 3031,
      "drops": [
       {
-       "id": 458,
-       "name": "海風",
-       "nameEn": "Umikaze",
-       "drops": 46,
-       "total": 2202,
-       "pct": 2.09,
-       "rarity": 1,
+       "id": 483,
+       "name": "伊26",
+       "nameEn": "I-26",
+       "drops": 65,
+       "total": 3031,
+       "pct": 2.14,
+       "rarity": 2,
        "ranks": {
         "s": true,
         "a": false,
@@ -7166,13 +7250,13 @@
        }
       },
       {
-       "id": 483,
-       "name": "伊26",
-       "nameEn": "I-26",
-       "drops": 41,
-       "total": 2202,
-       "pct": 1.86,
-       "rarity": 2,
+       "id": 458,
+       "name": "海風",
+       "nameEn": "Umikaze",
+       "drops": 57,
+       "total": 3031,
+       "pct": 1.88,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -7183,23 +7267,9 @@
        "id": 486,
        "name": "浦波",
        "nameEn": "Uranami",
-       "drops": 38,
-       "total": 2202,
-       "pct": 1.73,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 480,
-       "name": "狭霧",
-       "nameEn": "Sagiri",
-       "drops": 31,
-       "total": 2202,
-       "pct": 1.41,
+       "drops": 51,
+       "total": 3031,
+       "pct": 1.68,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7211,9 +7281,23 @@
        "id": 479,
        "name": "天霧",
        "nameEn": "Amagiri",
-       "drops": 28,
-       "total": 2202,
-       "pct": 1.27,
+       "drops": 44,
+       "total": 3029,
+       "pct": 1.45,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 480,
+       "name": "狭霧",
+       "nameEn": "Sagiri",
+       "drops": 41,
+       "total": 3031,
+       "pct": 1.35,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7225,23 +7309,9 @@
        "id": 186,
        "name": "時津風",
        "nameEn": "Tokitsukaze",
-       "drops": 28,
-       "total": 2202,
-       "pct": 1.27,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 459,
-       "name": "江風",
-       "nameEn": "Kawakaze",
-       "drops": 24,
-       "total": 2202,
-       "pct": 1.09,
+       "drops": 37,
+       "total": 3031,
+       "pct": 1.22,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7253,10 +7323,24 @@
        "id": 155,
        "name": "伊401",
        "nameEn": "I-401",
-       "drops": 22,
-       "total": 2202,
-       "pct": 1.0,
+       "drops": 32,
+       "total": 3031,
+       "pct": 1.06,
        "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 459,
+       "name": "江風",
+       "nameEn": "Kawakaze",
+       "drops": 32,
+       "total": 3031,
+       "pct": 1.06,
+       "rarity": 1,
        "ranks": {
         "s": true,
         "a": false,
@@ -7267,9 +7351,9 @@
        "id": 493,
        "name": "伊400",
        "nameEn": "I-400",
-       "drops": 20,
-       "total": 2202,
-       "pct": 0.91,
+       "drops": 22,
+       "total": 3031,
+       "pct": 0.73,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7281,9 +7365,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 14,
-       "total": 2202,
-       "pct": 0.64,
+       "drops": 18,
+       "total": 3031,
+       "pct": 0.59,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7295,9 +7379,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 12,
-       "total": 1884,
-       "pct": 0.64,
+       "drops": 14,
+       "total": 2604,
+       "pct": 0.54,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7345,15 +7429,15 @@
      "edges": [
       "62"
      ],
-     "samples": 2235,
+     "samples": 3054,
      "drops": [
       {
        "id": 495,
        "name": "伊14",
        "nameEn": "I-14",
-       "drops": 70,
-       "total": 2235,
-       "pct": 3.13,
+       "drops": 102,
+       "total": 3054,
+       "pct": 3.34,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7365,9 +7449,23 @@
        "id": 440,
        "name": "Iowa",
        "nameEn": "Iowa",
-       "drops": 60,
-       "total": 2094,
-       "pct": 2.87,
+       "drops": 81,
+       "total": 2882,
+       "pct": 2.81,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": false,
+        "b": false
+       }
+      },
+      {
+       "id": 549,
+       "name": "Intrepid",
+       "nameEn": "Intrepid",
+       "drops": 80,
+       "total": 2882,
+       "pct": 2.78,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7379,38 +7477,10 @@
        "id": 494,
        "name": "伊13",
        "nameEn": "I-13",
-       "drops": 60,
-       "total": 2235,
-       "pct": 2.68,
+       "drops": 83,
+       "total": 3054,
+       "pct": 2.72,
        "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 549,
-       "name": "Intrepid",
-       "nameEn": "Intrepid",
-       "drops": 54,
-       "total": 2094,
-       "pct": 2.58,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 183,
-       "name": "大淀",
-       "nameEn": "Ooyodo",
-       "drops": 51,
-       "total": 2235,
-       "pct": 2.28,
-       "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
@@ -7421,9 +7491,51 @@
        "id": 966,
        "name": "Lexington",
        "nameEn": "Lexington",
-       "drops": 47,
-       "total": 2235,
-       "pct": 2.1,
+       "drops": 70,
+       "total": 3054,
+       "pct": 2.29,
+       "rarity": 2,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 183,
+       "name": "大淀",
+       "nameEn": "Ooyodo",
+       "drops": 63,
+       "total": 3054,
+       "pct": 2.06,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 932,
+       "name": "Indiana",
+       "nameEn": "Indiana",
+       "drops": 62,
+       "total": 3054,
+       "pct": 2.03,
+       "rarity": null,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 433,
+       "name": "Saratoga",
+       "nameEn": "Saratoga",
+       "drops": 59,
+       "total": 3054,
+       "pct": 1.93,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7435,38 +7547,10 @@
        "id": 120,
        "name": "三隈",
        "nameEn": "Mikuma",
-       "drops": 45,
-       "total": 2235,
-       "pct": 2.01,
+       "drops": 58,
+       "total": 3054,
+       "pct": 1.9,
        "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 186,
-       "name": "時津風",
-       "nameEn": "Tokitsukaze",
-       "drops": 41,
-       "total": 2094,
-       "pct": 1.96,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": false,
-        "b": false
-       }
-      },
-      {
-       "id": 932,
-       "name": "Indiana",
-       "nameEn": "Indiana",
-       "drops": 43,
-       "total": 2235,
-       "pct": 1.92,
-       "rarity": null,
        "ranks": {
         "s": true,
         "a": true,
@@ -7477,9 +7561,9 @@
        "id": 460,
        "name": "速吸",
        "nameEn": "Hayasui",
-       "drops": 42,
-       "total": 2235,
-       "pct": 1.88,
+       "drops": 57,
+       "total": 3054,
+       "pct": 1.87,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7491,9 +7575,9 @@
        "id": 964,
        "name": "白雲",
        "nameEn": "Shirakumo",
-       "drops": 39,
-       "total": 2094,
-       "pct": 1.86,
+       "drops": 52,
+       "total": 2882,
+       "pct": 1.8,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7505,9 +7589,9 @@
        "id": 80,
        "name": "長門",
        "nameEn": "Nagato",
-       "drops": 38,
-       "total": 2094,
-       "pct": 1.81,
+       "drops": 51,
+       "total": 2882,
+       "pct": 1.77,
        "rarity": 1,
        "ranks": {
         "s": true,
@@ -7516,44 +7600,44 @@
        }
       },
       {
-       "id": 524,
-       "name": "択捉",
-       "nameEn": "Etorofu",
-       "drops": 40,
-       "total": 2235,
-       "pct": 1.79,
-       "rarity": 1,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
-       "id": 433,
-       "name": "Saratoga",
-       "nameEn": "Saratoga",
-       "drops": 40,
-       "total": 2235,
-       "pct": 1.79,
-       "rarity": 2,
-       "ranks": {
-        "s": true,
-        "a": true,
-        "b": false
-       }
-      },
-      {
        "id": 565,
        "name": "福江",
        "nameEn": "Fukae",
-       "drops": 32,
-       "total": 2235,
-       "pct": 1.43,
+       "drops": 52,
+       "total": 3054,
+       "pct": 1.7,
        "rarity": 1,
        "ranks": {
         "s": true,
         "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 524,
+       "name": "択捉",
+       "nameEn": "Etorofu",
+       "drops": 49,
+       "total": 3054,
+       "pct": 1.6,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": true,
+        "b": false
+       }
+      },
+      {
+       "id": 186,
+       "name": "時津風",
+       "nameEn": "Tokitsukaze",
+       "drops": 44,
+       "total": 2882,
+       "pct": 1.53,
+       "rarity": 1,
+       "ranks": {
+        "s": true,
+        "a": false,
         "b": false
        }
       },
@@ -7561,9 +7645,9 @@
        "id": 1025,
        "name": "Wasp",
        "nameEn": "Wasp",
-       "drops": 30,
-       "total": 2094,
-       "pct": 1.43,
+       "drops": 41,
+       "total": 2882,
+       "pct": 1.42,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7575,9 +7659,9 @@
        "id": 925,
        "name": "Langley",
        "nameEn": "Langley",
-       "drops": 26,
-       "total": 2235,
-       "pct": 1.16,
+       "drops": 36,
+       "total": 3054,
+       "pct": 1.18,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7589,9 +7673,9 @@
        "id": 944,
        "name": "平安丸",
        "nameEn": "Heian Maru",
-       "drops": 15,
-       "total": 2094,
-       "pct": 0.72,
+       "drops": 21,
+       "total": 2882,
+       "pct": 0.73,
        "rarity": 2,
        "ranks": {
         "s": true,
@@ -7603,9 +7687,9 @@
        "id": 602,
        "name": "South Dakota",
        "nameEn": "South Dakota",
-       "drops": 14,
-       "total": 2094,
-       "pct": 0.67,
+       "drops": 18,
+       "total": 2882,
+       "pct": 0.62,
        "rarity": 2,
        "ranks": {
         "s": true,
