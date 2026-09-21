@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-29T08:12:26.787174+00:00",
- "start": "2026-07-09",
+ "updated": "2026-09-21T11:38:01.277537+00:00",
+ "start": "2026-09-11",
  "difficulties": [
   {
    "id": 4,
@@ -55,31 +55,6 @@
   }
  ],
  "maps": [
-  {
-   "id": "62-1",
-   "kind": "event",
-   "label": "E1"
-  },
-  {
-   "id": "62-2",
-   "kind": "event",
-   "label": "E2"
-  },
-  {
-   "id": "62-3",
-   "kind": "event",
-   "label": "E3"
-  },
-  {
-   "id": "62-4",
-   "kind": "event",
-   "label": "E4"
-  },
-  {
-   "id": "62-5",
-   "kind": "event",
-   "label": "E5"
-  },
   {
    "id": "1-1",
    "kind": "normal",
@@ -159,11 +134,6 @@
    "id": "3-5",
    "kind": "normal",
    "label": "3-5"
-  },
-  {
-   "id": "4-1",
-   "kind": "normal",
-   "label": "4-1"
   },
   {
    "id": "4-3",
